@@ -1,0 +1,377 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md \n# WordCount\n## Purpose\n- to test Zeppelin installation and configuration\n- to exercise the textFile read to create RDD and transformation\n- to try out print\n\n## Requirements\n- a image link or file\n- a textFile for wordCounts",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "tableHide": false,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1433152506669_-1687173739",
+      "id": "20150601-175506_130464069",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch1\u003eWordCount\u003c/h1\u003e\n\u003ch2\u003ePurpose\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eto test Zeppelin installation and configuration\u003c/li\u003e\n\u003cli\u003eto exercise the textFile read to create RDD and transformation\u003c/li\u003e\n\u003cli\u003eto try out print\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eRequirements\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003ea image link or file\u003c/li\u003e\n\u003cli\u003ea textFile for wordCounts\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Jun 1, 2015 5:55:06 PM",
+      "dateStarted": "Jun 12, 2015 5:41:29 AM",
+      "dateFinished": "Jun 12, 2015 5:41:29 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "// create a SC to test Spark is available\nsc",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorHide": false,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1433148943610_659318455",
+      "id": "20150601-165543_1356262276",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "res31: org.apache.spark.SparkContext \u003d org.apache.spark.SparkContext@93f0fe9\n"
+      },
+      "dateCreated": "Jun 1, 2015 4:55:43 PM",
+      "dateStarted": "Jun 12, 2015 5:41:29 AM",
+      "dateFinished": "Jun 12, 2015 5:41:29 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md create a word count testing file:2bon2b in notebook directory, e.g. 2APATFRRK.\n```\nto be or\nnot to be\n```",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "tableHide": false,
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1433148991139_1149381285",
+      "id": "20150601-165631_2147442787",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003ecreate a word count testing file:2bon2b in notebook directory, e.g. 2APATFRRK.\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eto be or\nnot to be\n\u003c/code\u003e\u003c/pre\u003e\n"
+      },
+      "dateCreated": "Jun 1, 2015 4:56:31 PM",
+      "dateStarted": "Jun 12, 2015 5:41:29 AM",
+      "dateFinished": "Jun 12, 2015 5:41:29 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md We will read a textFile in to create a RDD, transform it, finally we will count the words.\n![create RDD, transform it, then take action on RDD](https://www.evernote.com/l/AS72fzlNah1DyaU4Deimnm_fogjzkc_3ixwB/image.png)",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1433151123589_-114300501",
+      "id": "20150601-173203_859730561",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eWe will read a textFile in to create a RDD, transform it, finally we will count the words.\n\u003cbr  /\u003e\u003cimg src\u003d\"https://www.evernote.com/l/AS72fzlNah1DyaU4Deimnm_fogjzkc_3ixwB/image.png\" alt\u003d\"create RDD, transform it, then take action on RDD\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 1, 2015 5:32:03 PM",
+      "dateStarted": "Jun 12, 2015 5:41:29 AM",
+      "dateFinished": "Jun 12, 2015 5:41:29 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "// read textfile from notebook directory\nval lines \u003d sc.textFile(\"../notebook/2APATFRRK/2bon2b\") ",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorHide": false,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1433149615925_1857224027",
+      "id": "20150601-170655_1843221980",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "lines: org.apache.spark.rdd.RDD[String] \u003d MapPartitionsRDD[16] at textFile at \u003cconsole\u003e:24\n"
+      },
+      "dateCreated": "Jun 1, 2015 5:06:55 PM",
+      "dateStarted": "Jun 13, 2015 10:16:16 AM",
+      "dateFinished": "Jun 13, 2015 10:16:16 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "val words \u003d lines.flatMap(line \u003d\u003e line.split(\" \"))",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1433150631734_-1848649496",
+      "id": "20150601-172351_322068277",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "words: org.apache.spark.rdd.RDD[String] \u003d MapPartitionsRDD[17] at flatMap at \u003cconsole\u003e:25\n"
+      },
+      "dateCreated": "Jun 1, 2015 5:23:51 PM",
+      "dateStarted": "Jun 13, 2015 10:16:18 AM",
+      "dateFinished": "Jun 13, 2015 10:16:19 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "val pairs \u003d words.map(word \u003d\u003e (word, 1))",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1433150819617_-602960608",
+      "id": "20150601-172659_1028464406",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "pairs: org.apache.spark.rdd.RDD[(String, Int)] \u003d MapPartitionsRDD[18] at map at \u003cconsole\u003e:27\n"
+      },
+      "dateCreated": "Jun 1, 2015 5:26:59 PM",
+      "dateStarted": "Jun 13, 2015 10:16:20 AM",
+      "dateFinished": "Jun 13, 2015 10:16:20 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "val wordCounts \u003d pairs.reduceByKey((a, b) \u003d\u003e a + b)",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1433152003080_783915205",
+      "id": "20150601-174643_327571225",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "wordCounts: org.apache.spark.rdd.RDD[(String, Int)] \u003d ShuffledRDD[19] at reduceByKey at \u003cconsole\u003e:29\n"
+      },
+      "dateCreated": "Jun 1, 2015 5:46:43 PM",
+      "dateStarted": "Jun 13, 2015 10:16:22 AM",
+      "dateFinished": "Jun 13, 2015 10:16:23 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "wordCounts.collect().foreach(print)",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1433152127234_2101511622",
+      "id": "20150601-174847_306997675",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "(or,1)(not,1)(be,2)(to,2)"
+      },
+      "dateCreated": "Jun 1, 2015 5:48:47 PM",
+      "dateStarted": "Jun 13, 2015 10:16:24 AM",
+      "dateFinished": "Jun 13, 2015 10:16:25 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "wordCounts.saveAsTextFile(\"../notebook/2APATFRRK/wc_out.txt\")",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1433152375688_-513890452",
+      "id": "20150601-175255_1194094939",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
+      "dateCreated": "Jun 1, 2015 5:52:55 PM",
+      "dateStarted": "Jun 13, 2015 10:18:55 AM",
+      "dateFinished": "Jun 13, 2015 10:18:55 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\nThis produces a output directory `wc_out.txt` with data distributed across multiple files.\n\n\n```\n➜  2APATFRRK  tree .\n.\n├── 2bon2b\n├── note.json\n└── wc_out.txt\n    ├── _SUCCESS\n    ├── part-00000\n    ├── part-00001\n    └── part-00002\n\n1 directory, 6 files\n```\nTo see the content of the output file.\n\n```\n➜  2APATFRRK  more wc_out.txt/part-00000\n(or,1)\n➜  2APATFRRK  more wc_out.txt/part-00001\n(not,1)\n(be,2)\n➜  2APATFRRK  more wc_out.txt/part-00002\n(to,2)\n➜  2APATFRRK\n```\nor \n\n```\n➜  2APATFRRK  grep be wc_out.txt/part-*\nwc_out.txt/part-00001:(be,2)\n```",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1434215763514_1927137918",
+      "id": "20150613-101603_1131046914",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eThis produces a output directory \u003ccode\u003ewc_out.txt\u003c/code\u003e\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e➜  2APATFRRK  tree .\n.\n├── 2bon2b\n├── note.json\n└── wc_out.txt\n    ├── _SUCCESS\n    ├── part-00000\n    ├── part-00001\n    └── part-00002\n\n1 directory, 6 files\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eTo see the content of the output file.\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e➜  2APATFRRK  more wc_out.txt/part-00000\n(or,1)\n➜  2APATFRRK  more wc_out.txt/part-00001\n(not,1)\n(be,2)\n➜  2APATFRRK  more wc_out.txt/part-00002\n(to,2)\n➜  2APATFRRK\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eor\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e➜  2APATFRRK  grep be wc_out.txt/part-*\nwc_out.txt/part-00001:(be,2)\n\u003c/code\u003e\u003c/pre\u003e\n"
+      },
+      "dateCreated": "Jun 13, 2015 10:16:03 AM",
+      "dateStarted": "Jun 13, 2015 3:13:28 PM",
+      "dateFinished": "Jun 13, 2015 3:13:28 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1434216413552_1628856829",
+      "id": "20150613-102653_1137632400",
+      "dateCreated": "Jun 13, 2015 10:26:53 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "WordCount",
+  "id": "2APATFRRK",
+  "angularObjects": {},
+  "config": {
+    "looknfeel": "default"
+  },
+  "info": {}
+}

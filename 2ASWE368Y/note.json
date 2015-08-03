@@ -1,0 +1,118 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md \n# Spark and Macine Learning\nFrom Spark East 2015, [video] and [slides]\n\n[video]:https://www.youtube.com/watch?v\u003doTOgaMZkBKQ\n[slides]:http://www.slideshare.net/ksankar/data-science-with-spark\n\n## Terms\n[L1 and L2 regularization](http://www.quora.com/What-is-the-difference-between-L1-and-L2-regularization)\n[RandomForestModel](http://www.quora.com/Random-Forests/How-do-random-forests-work-in-laymans-terms)\n[Eigenvector and Eigenvalues](http://math.stackexchange.com/questions/23312/what-is-the-importance-of-eigenvalues-eigenvectors)\nEigenvectors make understanding linear transformations easy. They are the \"axes\" (directions) along which a linear transformation acts simply by \"stretching/compressing\" and/or \"flipping\"; eigenvalues give you the factors by which this compression occurs.\n\nThe more directions you have along which you understand the behavior of a linear transformation, the easier it is to understand the linear transformation; so you want to have as many linearly independent eigenvectors as possible associated to a single linear transformation. ... click above link for more.",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1434745462604_-1831784392",
+      "id": "20150619-132422_448530334",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch1\u003eSpark and Macine Learning\u003c/h1\u003e\n\u003cp\u003eFrom Spark East 2015, \u003ca href\u003d\"https://www.youtube.com/watch?v\u003doTOgaMZkBKQ\"\u003evideo\u003c/a\u003e and \u003ca href\u003d\"http://www.slideshare.net/ksankar/data-science-with-spark\"\u003eslides\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003eTerms\u003c/h2\u003e\n\u003cp\u003e\u003ca href\u003d\"http://www.quora.com/What-is-the-difference-between-L1-and-L2-regularization\"\u003eL1 and L2 regularization\u003c/a\u003e\n\u003cbr  /\u003e\u003ca href\u003d\"http://www.quora.com/Random-Forests/How-do-random-forests-work-in-laymans-terms\"\u003eRandomForestModel\u003c/a\u003e\n\u003cbr  /\u003e\u003ca href\u003d\"http://math.stackexchange.com/questions/23312/what-is-the-importance-of-eigenvalues-eigenvectors\"\u003eEigenvector and Eigenvalues\u003c/a\u003e\n\u003cbr  /\u003eEigenvectors make understanding linear transformations easy. They are the \u0026ldquo;axes\u0026rdquo; (directions) along which a linear transformation acts simply by \u0026ldquo;stretching/compressing\u0026rdquo; and/or \u0026ldquo;flipping\u0026rdquo;; eigenvalues give you the factors by which this compression occurs.\u003c/p\u003e\n\u003cp\u003eThe more directions you have along which you understand the behavior of a linear transformation, the easier it is to understand the linear transformation; so you want to have as many linearly independent eigenvectors as possible associated to a single linear transformation. \u0026hellip; click above link for more.\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 19, 2015 1:24:22 PM",
+      "dateStarted": "Jun 20, 2015 11:49:13 AM",
+      "dateFinished": "Jun 20, 2015 11:49:13 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n##Linear Regression\n[wikipedia]:https://en.wikipedia.org/wiki/Linear_regression\n\n### Difference between Linear Regression and Logistic Regression\n\nFrom [quora]: \n* Linear regression uses the general linear equation Y\u003db0+∑(biXi)+ϵ where Y is a continuous dependent variable and independent variables Xi are usually continuous (but can also be binary, e.g. when the linear model is used in a t-test) or other discrete domains. ϵ is a term for the variance that is not explained by the model and is usually just called \"error\". Individual dependent values denoted by Yj can be solved by modifying the equation a little: Yj\u003db0+∑(biXij)+ϵj\n\n* Logistic regression is another generalized linear model (GLM) procedure using the same basic formula, but instead of the continuous Y, it is regressing for the probability of a categorical outcome. In simplest form, this means that we\u0027re considering just one outcome variable and two states of that variable- either 0 or 1.\n\n\n[stackexchange]:http://stats.stackexchange.com/questions/29325/what-is-the-difference-between-linear-regression-and-logistic-regression)\n[quora]:http://www.quora.com/Whats-the-relationship-between-linear-and-logistic-regression",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1434760362358_1627055751",
+      "id": "20150619-173242_1582405125",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch2\u003eLinear Regression\u003c/h2\u003e\n\u003ch3\u003eDifference between Linear Regression and Logistic Regression\u003c/h3\u003e\n\u003cp\u003eFrom \u003ca href\u003d\"http://www.quora.com/Whats-the-relationship-between-linear-and-logistic-regression\"\u003equora\u003c/a\u003e:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cp\u003eLinear regression uses the general linear equation Y\u003db0+∑(biXi)+ϵ where Y is a continuous dependent variable and independent variables Xi are usually continuous (but can also be binary, e.g. when the linear model is used in a t-test) or other discrete domains. ϵ is a term for the variance that is not explained by the model and is usually just called \u0026ldquo;error\u0026rdquo;. Individual dependent values denoted by Yj can be solved by modifying the equation a little: Yj\u003db0+∑(biXij)+ϵj\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eLogistic regression is another generalized linear model (GLM) procedure using the same basic formula, but instead of the continuous Y, it is regressing for the probability of a categorical outcome. In simplest form, this means that we\u0027re considering just one outcome variable and two states of that variable- either 0 or 1.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Jun 19, 2015 5:32:42 PM",
+      "dateStarted": "Jun 19, 2015 10:16:13 PM",
+      "dateFinished": "Jun 19, 2015 10:16:13 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "val df \u003d Seq((\"richard\", 1), (\"smith\",2)).toDF(\"name\",\"id\")\ndf.show()",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1434745607046_-250481213",
+      "id": "20150619-132647_448583907",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "df: org.apache.spark.sql.DataFrame \u003d [name: string, id: int]\n+-------+--+\n|   name|id|\n+-------+--+\n|richard| 1|\n|  smith| 2|\n+-------+--+\n\n"
+      },
+      "dateCreated": "Jun 19, 2015 1:26:47 PM",
+      "dateStarted": "Jun 20, 2015 11:25:19 AM",
+      "dateFinished": "Jun 20, 2015 11:25:40 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1434823179163_1919694189",
+      "id": "20150620-105939_959949803",
+      "dateCreated": "Jun 20, 2015 10:59:39 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "MachineLearning",
+  "id": "2ASWE368Y",
+  "angularObjects": {},
+  "config": {
+    "looknfeel": "default"
+  },
+  "info": {}
+}

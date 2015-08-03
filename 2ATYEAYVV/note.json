@@ -1,0 +1,356 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md \n## Statistical and Mathematical Functions with DataFrames in Spark\n[original blog post - Statistical and Mathematical Functions with DataFrames in Spark]\n\nIn this blog post, we walk through some of the important functions, including:\n\n1. Random data generation\n2. Summary and descriptive statistics\n3. Sample covariance and correlation\n4. Cross tabulation (a.k.a. contingency table)\n5. Frequent items\n6. Mathematical functions\n\n[original blog post - Statistical and Mathematical Functions with DataFrames in Spark]:https://databricks.com/blog/2015/06/02/statistical-and-mathematical-functions-with-dataframes-in-spark.html\n",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1436860288049_-1876409950",
+      "id": "20150714-005128_1583491488",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch2\u003eStatistical and Mathematical Functions with DataFrames in Spark\u003c/h2\u003e\n\u003cp\u003e\u003ca href\u003d\"https://databricks.com/blog/2015/06/02/statistical-and-mathematical-functions-with-dataframes-in-spark.html\"\u003eoriginal blog post - Statistical and Mathematical Functions with DataFrames in Spark\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eIn this blog post, we walk through some of the important functions, including:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eRandom data generation\u003c/li\u003e\n\u003cli\u003eSummary and descriptive statistics\u003c/li\u003e\n\u003cli\u003eSample covariance and correlation\u003c/li\u003e\n\u003cli\u003eCross tabulation (a.k.a. contingency table)\u003c/li\u003e\n\u003cli\u003eFrequent items\u003c/li\u003e\n\u003cli\u003eMathematical functions\u003c/li\u003e\n\u003c/ol\u003e\n"
+      },
+      "dateCreated": "Jul 14, 2015 12:51:28 AM",
+      "dateStarted": "Jul 14, 2015 1:26:56 AM",
+      "dateFinished": "Jul 14, 2015 1:26:56 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### 1. Random Data Generation\nFor \n* testing of existing algorithms \n* implementing randomized algorithms",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1436861413972_182788065",
+      "id": "20150714-011013_1573413532",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003e1. Random Data Generation\u003c/h3\u003e\n\u003cp\u003eFor\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003etesting of existing algorithms\u003c/li\u003e\n\u003cli\u003eimplementing randomized algorithms\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Jul 14, 2015 1:10:13 AM",
+      "dateStarted": "Jul 14, 2015 1:31:08 AM",
+      "dateFinished": "Jul 14, 2015 1:31:08 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\nfrom pyspark.sql.functions import rand, randn\n\n# Need to create a sqlConext, sc is default\nfrom pyspark.sql import SQLContext\nsqlContext \u003d SQLContext(sc)\n\n# Create a DataFrame with one int column and 10 rows.\ndf \u003d sqlContext.range(0, 10)\nprint(type(df))\ndf.show()",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1436863394410_-1090679364",
+      "id": "20150714-014314_1556677551",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "\u003cclass \u0027pyspark.sql.dataframe.DataFrame\u0027\u003e\n+--+\n|id|\n+--+\n| 0|\n| 1|\n| 2|\n| 3|\n| 4|\n| 5|\n| 6|\n| 7|\n| 8|\n| 9|\n+--+\n\n"
+      },
+      "dateCreated": "Jul 14, 2015 1:43:14 AM",
+      "dateStarted": "Jul 14, 2015 2:16:26 PM",
+      "dateFinished": "Jul 14, 2015 2:16:26 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\n# Generate two other columns using\n# uniform distribution \u003d rand(seed\u003d10).alias(\"uniform\")\n# normal distribution \u003d randn(seed\u003d27).alias(\"normal\")\n# there is a problem, see http://mail-archives.apache.org/mod_mbox/incubator-zeppelin-commits/201506.mbox/%3Ccc4060745fc64ffda5712912814bd8e4@git.apache.org%3E\n# df.select(\"id\", rand(seed\u003d10).alias(\"uniform\")).show()",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "tableHide": true,
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1436881034033_168041210",
+      "id": "20150714-063714_1576835594",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
+      "dateCreated": "Jul 14, 2015 6:37:14 AM",
+      "dateStarted": "Jul 14, 2015 11:31:40 PM",
+      "dateFinished": "Jul 14, 2015 11:31:40 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### 2. Summary and descriptive statistics\n",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1436861405820_-975706197",
+      "id": "20150714-011005_124751323",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003e2. Summary and descriptive statistics\u003c/h3\u003e\n"
+      },
+      "dateCreated": "Jul 14, 2015 1:10:05 AM",
+      "dateStarted": "Jul 14, 2015 4:28:04 AM",
+      "dateFinished": "Jul 14, 2015 4:28:04 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\nfrom pyspark.sql.functions import rand, randn\n# A slightly different way to generate the two random columns\n# df \u003d sqlContext.range(0, 10).withColumn(\u0027uniform\u0027, rand(seed\u003d10)).withColumn(\u0027normal\u0027, randn(seed\u003d27))\n",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1436942026610_1576711445",
+      "id": "20150714-233346_1705704236",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
+      "dateCreated": "Jul 14, 2015 11:33:46 PM",
+      "dateStarted": "Jul 15, 2015 2:29:15 AM",
+      "dateFinished": "Jul 15, 2015 2:29:15 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n3. Sample covariance and correlation\n",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1436861402194_1564036617",
+      "id": "20150714-011002_1888718019",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003col\u003e\n\u003cli\u003eSample covariance and correlation\u003c/li\u003e\n\u003c/ol\u003e\n"
+      },
+      "dateCreated": "Jul 14, 2015 1:10:02 AM",
+      "dateStarted": "Jul 14, 2015 1:20:54 AM",
+      "dateFinished": "Jul 14, 2015 1:20:54 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n4. Cross tabulation (a.k.a. contingency table)\n",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1436861395230_-1463783985",
+      "id": "20150714-010955_1064537508",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003col\u003e\n\u003cli\u003eCross tabulation (a.k.a. contingency table)\u003c/li\u003e\n\u003c/ol\u003e\n"
+      },
+      "dateCreated": "Jul 14, 2015 1:09:55 AM",
+      "dateStarted": "Jul 14, 2015 1:20:54 AM",
+      "dateFinished": "Jul 14, 2015 1:20:54 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n5. Frequent items",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1436861391331_1265640036",
+      "id": "20150714-010951_955011640",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003col\u003e\n\u003cli\u003eFrequent items\u003c/li\u003e\n\u003c/ol\u003e\n"
+      },
+      "dateCreated": "Jul 14, 2015 1:09:51 AM",
+      "dateStarted": "Jul 14, 2015 1:20:54 AM",
+      "dateFinished": "Jul 14, 2015 1:20:54 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n6. Mathematical functi",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1436860450800_724754770",
+      "id": "20150714-005410_673965086",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003col\u003e\n\u003cli\u003eMathematical functi\u003c/li\u003e\n\u003c/ol\u003e\n"
+      },
+      "dateCreated": "Jul 14, 2015 12:54:10 AM",
+      "dateStarted": "Jul 14, 2015 1:20:54 AM",
+      "dateFinished": "Jul 14, 2015 1:20:54 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1436861804193_-43842193",
+      "id": "20150714-011644_2121648684",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT"
+      },
+      "dateCreated": "Jul 14, 2015 1:16:44 AM",
+      "dateStarted": "Jul 14, 2015 1:20:54 AM",
+      "dateFinished": "Jul 14, 2015 1:20:54 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "DF-statistic",
+  "id": "2ATYEAYVV",
+  "angularObjects": {},
+  "config": {
+    "looknfeel": "default"
+  },
+  "info": {}
+}

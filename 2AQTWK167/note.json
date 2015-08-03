@@ -1,0 +1,58 @@
+{
+  "paragraphs": [
+    {
+      "title": "Stack Options",
+      "text": "%md\n### Stack Options\nhttps://github.com/GoogleCloudPlatform/kubernetes/tree/master/docs/getting-started-guides\n\n![options](https://www.evernote.com/l/AS5jf9h0JD1CCZWwPsxep7PjmyUeKHCSE_0B/image.png)",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorHide": false,
+        "tableHide": false,
+        "title": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1433853086565_74060917",
+      "id": "20150609-053126_949397526",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eStack Options\u003c/h3\u003e\n\u003cp\u003ehttps://github.com/GoogleCloudPlatform/kubernetes/tree/master/docs/getting-started-guides\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://www.evernote.com/l/AS5jf9h0JD1CCZWwPsxep7PjmyUeKHCSE_0B/image.png\" alt\u003d\"options\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 9, 2015 5:31:26 AM",
+      "dateStarted": "Jun 9, 2015 5:55:43 AM",
+      "dateFinished": "Jun 9, 2015 5:55:43 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1433853108965_1556360511",
+      "id": "20150609-053148_1988697256",
+      "dateCreated": "Jun 9, 2015 5:31:48 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "Kuberetes",
+  "id": "2AQTWK167",
+  "angularObjects": {},
+  "config": {
+    "looknfeel": "default"
+  },
+  "info": {}
+}

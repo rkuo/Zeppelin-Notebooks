@@ -1,0 +1,219 @@
+{
+  "paragraphs": [
+    {
+      "title": "Spark Notebook - Streaming",
+      "text": "%md # Streaming\nFollow the \n[AMPLab example-1 use NC](https://spark.apache.org/docs/1.2.0/streaming-programming-guide.html) \n[AMPLab example-2 use Twitter](http://ampcamp.berkeley.edu/3/exercises/realtime-processing-with-spark-streaming.html)",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorHide": false,
+        "title": false,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1433154318779_-1421522975",
+      "id": "20150601-182518_1940601213",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch1\u003eStreaming\u003c/h1\u003e\n\u003cp\u003eFollow the\n\u003cbr  /\u003e\u003ca href\u003d\"https://spark.apache.org/docs/1.2.0/streaming-programming-guide.html\"\u003eAMPLab example-1 use NC\u003c/a\u003e\n\u003cbr  /\u003e\u003ca href\u003d\"http://ampcamp.berkeley.edu/3/exercises/realtime-processing-with-spark-streaming.html\"\u003eAMPLab example-2 use Twitter\u003c/a\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 1, 2015 6:25:18 PM",
+      "dateStarted": "Jun 8, 2015 9:05:45 AM",
+      "dateFinished": "Jun 8, 2015 9:05:45 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n## Setup\nSee instruction [setup pysparm](http://www.makedatauseful.com/apache-zeppelin-on-osx-ultra-quick-start/)",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "tableHide": false,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1433766388128_-741805385",
+      "id": "20150608-052628_1358625309",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch2\u003eSetup\u003c/h2\u003e\n\u003cp\u003eSee instruction \u003ca href\u003d\"http://www.makedatauseful.com/apache-zeppelin-on-osx-ultra-quick-start/\"\u003esetup pysparm\u003c/a\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 8, 2015 5:26:28 AM",
+      "dateStarted": "Jun 8, 2015 7:02:04 AM",
+      "dateFinished": "Jun 8, 2015 7:02:04 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\nprint \"Hello Zeppelin!\"\n\nns \u003d [1,2,3,4]\nns.remove(2)\nprint ns",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1433154395691_-645995074",
+      "id": "20150601-182635_1091939036",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "Hello Zeppelin!\n[1, 3, 4]\n"
+      },
+      "dateCreated": "Jun 1, 2015 6:26:35 PM",
+      "dateStarted": "Jun 8, 2015 7:01:03 AM",
+      "dateFinished": "Jun 8, 2015 7:01:03 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n## Purpose\n### Streaming from twitter as input\n* to learn how to setup real time streaming with twitter streaming.\n\n### Preparation\n* get [twitter application credential](https://apps.twitter.com/) and copy Keys and Access Tokens to Scala/Python code.\n",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1433765541470_1994514589",
+      "id": "20150608-051221_306916319",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch2\u003ePurpose\u003c/h2\u003e\n\u003ch3\u003eStreaming from twitter as input\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eto learn how to setup real time streaming with twitter streaming.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003ePreparation\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eget \u003ca href\u003d\"https://apps.twitter.com/\"\u003etwitter application credential\u003c/a\u003e and copy Keys and Access Tokens to Scala/Python code.\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Jun 8, 2015 5:12:21 AM",
+      "dateStarted": "Jun 8, 2015 11:19:04 AM",
+      "dateFinished": "Jun 8, 2015 11:19:04 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "import org.apache.spark.streaming._\nimport org.apache.spark.streaming.twitter._\nimport scala.collection.mutable.HashMap\n\n/** Configures the Oauth Credentials for accessing Twitter */\ndef configureTwitterCredentials(apiKey: String, apiSecret: String, accessToken: String, accessTokenSecret: String) {\n  val configs \u003d new HashMap[String, String] ++\u003d Seq(\n    \"apiKey\" -\u003e apiKey, \"apiSecret\" -\u003e apiSecret, \"accessToken\" -\u003e accessToken, \"accessTokenSecret\" -\u003e accessTokenSecret)\n  println(\"Configuring Twitter OAuth\")\n  \n  configs.foreach{ case(key, value) \u003d\u003e\n    if (value.trim.isEmpty) {\n      throw new Exception(\"Error setting authentication - value for \" + key + \" not set\")\n    }\n    val fullKey \u003d \"twitter4j.oauth.\" + key.replace(\"api\", \"consumer\")\n    System.setProperty(fullKey, value.trim)\n    println(\"\\tProperty \" + fullKey + \" set as [\" + value.trim + \"]\")\n  }\n  println()\n}\n\n// Configure Twitter credentials from \nval apiKey \u003d \"ArtFrOwiiN5cx81KpHYzEEH9Lx\"\nval apiSecret \u003d \"TKRKGIuF9bipl0mtmN0dokKyleFdCHFDtPjSSzroHoSeK97xEXx\"\nval accessToken \u003d \"17385535-itgD9XOlSpy0J8R1u3xoSPr2JIlUCe49gUGZdJT2Y\"\nval accessTokenSecret \u003d \"pnGWrMkm4jaG6TuwVD6z53jL2eu6ufvZB7Lz6SIhn1vlt\"\n\nconfigureTwitterCredentials(apiKey, apiSecret, accessToken, accessTokenSecret)\n",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1433780342502_-1268980447",
+      "id": "20150608-091902_1038197538",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "import org.apache.spark.streaming._\nimport org.apache.spark.streaming.twitter._\nimport scala.collection.mutable.HashMap\nconfigureTwitterCredentials: (apiKey: String, apiSecret: String, accessToken: String, accessTokenSecret: String)Unit\napiKey: String \u003d ArtFrOwiiN5cx81KpHYzEEH9Lx\napiSecret: String \u003d TKRKGIuF9bipl0mtmN0dokKyleFdCHFDtPjSSzroHoSeK97xEXx\naccessToken: String \u003d 17385535-itgD9XOlSpy0J8R1u3xoSPr2JIlUCe49gUGZdJT2Y\naccessTokenSecret: String \u003d pnGWrMkm4jaG6TuwVD6z53jL2eu6ufvZB7Lz6SIhn1vlt\nConfiguring Twitter OAuth\n\tProperty twitter4j.oauth.consumerKey set as [ArtFrOwiiN5cx81KpHYzEEH9Lx]\n\tProperty twitter4j.oauth.accessToken set as [17385535-itgD9XOlSpy0J8R1u3xoSPr2JIlUCe49gUGZdJT2Y]\n\tProperty twitter4j.oauth.consumerSecret set as [TKRKGIuF9bipl0mtmN0dokKyleFdCHFDtPjSSzroHoSeK97xEXx]\n\tProperty twitter4j.oauth.accessTokenSecret set as [pnGWrMkm4jaG6TuwVD6z53jL2eu6ufvZB7Lz6SIhn1vlt]\n\n"
+      },
+      "dateCreated": "Jun 8, 2015 9:19:02 AM",
+      "dateStarted": "Jun 8, 2015 12:04:47 PM",
+      "dateFinished": "Jun 8, 2015 12:04:52 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "import org.apache.spark.streaming._\nimport org.apache.spark.streaming.twitter._\nimport org.apache.spark.storage.StorageLevel\nimport scala.io.Source\nimport scala.collection.mutable.HashMap\nimport java.io.File\nimport org.apache.log4j.Logger\nimport org.apache.log4j.Level\nimport sys.process.stringSeqToProcess\n\nval ssc \u003d new StreamingContext(sc, Seconds(2))\nval tweets \u003d TwitterUtils.createStream(ssc, None)\nval twt \u003d tweets.window(Seconds(60))\n\ncase class Tweet(createdAt:Long, text:String)\ntwt.map(status\u003d\u003e\n  Tweet(status.getCreatedAt().getTime()/1000, status.getText())\n).foreachRDD(rdd\u003d\u003e\n  rdd.registerTempTable(\"tweets\")\n)\n\ntwt.print\n\n// ssc.start()",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "tableHide": false,
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1433780641335_1819579575",
+      "id": "20150608-092401_970858566",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "import org.apache.spark.streaming._\nimport org.apache.spark.streaming.twitter._\nimport org.apache.spark.storage.StorageLevel\nimport scala.io.Source\nimport scala.collection.mutable.HashMap\nimport java.io.File\nimport org.apache.log4j.Logger\nimport org.apache.log4j.Level\nimport sys.process.stringSeqToProcess\nssc: org.apache.spark.streaming.StreamingContext \u003d org.apache.spark.streaming.StreamingContext@c9948c6\ntweets: org.apache.spark.streaming.dstream.ReceiverInputDStream[twitter4j.Status] \u003d org.apache.spark.streaming.twitter.TwitterInputDStream@4afcae82\ntwt: org.apache.spark.streaming.dstream.DStream[twitter4j.Status] \u003d org.apache.spark.streaming.dstream.WindowedDStream@1ab083fc\ndefined class Tweet\n\u003cconsole\u003e:129: error: value registerTempTable is not a member of org.apache.spark.rdd.RDD[Tweet]\n                rdd.registerTempTable(\"tweets\")\n                    ^\n"
+      },
+      "dateCreated": "Jun 8, 2015 9:24:01 AM",
+      "dateStarted": "Jun 11, 2015 1:45:42 PM",
+      "dateFinished": "Jun 11, 2015 1:45:45 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1433787767572_500332115",
+      "id": "20150608-112247_2094835993",
+      "dateCreated": "Jun 8, 2015 11:22:47 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "Streaming",
+  "id": "2AR9Y9WKE",
+  "angularObjects": {},
+  "config": {
+    "looknfeel": "default"
+  },
+  "info": {}
+}

@@ -1,0 +1,54 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md \n# Apache Flink\n\n## Reference\nFrom Bay Area Apache Flink Meetup 17.06.15:\nFirst Meetup:\n* Henry S., [the video of the first meetup](https://youtu.be/BJjGD8ijJcg)\n* Kostas T., [Introduction to Flink slides](http://www.slideshare.net/KostasTzoumas/first-flink-bay-area-meetup)\n* Stephan E., Here is a link to [the code used for the demo](https://github.com/StephanEwen/flink-demos/tree/master/streaming-state-machine)\n\nFrom Apache Flink meetup Berlin 23.06.15\n* [Data flow vs. procedural programming: How to put your algorithms into Flink by Mikio Braun 23.06.15](https://www.youtube.com/watch?v\u003d6BjoW2Vs2C0), [slides](http://de.slideshare.net/mikiobraun/flink-meetup2015)",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1438166746777_550584805",
+      "id": "20150729-034546_1096725681",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch1\u003eApache Flink\u003c/h1\u003e\n\u003ch2\u003eReference\u003c/h2\u003e\n\u003cp\u003eFrom Bay Area Apache Flink Meetup 17.06.15:\n\u003cbr  /\u003eFirst Meetup:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eHenry S., \u003ca href\u003d\"https://youtu.be/BJjGD8ijJcg\"\u003ethe video of the first meetup\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eKostas T., \u003ca href\u003d\"http://www.slideshare.net/KostasTzoumas/first-flink-bay-area-meetup\"\u003eIntroduction to Flink slides\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eStephan E., Here is a link to \u003ca href\u003d\"https://github.com/StephanEwen/flink-demos/tree/master/streaming-state-machine\"\u003ethe code used for the demo\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eFrom Apache Flink meetup Berlin 23.06.15\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"https://www.youtube.com/watch?v\u003d6BjoW2Vs2C0\"\u003eData flow vs. procedural programming: How to put your algorithms into Flink by Mikio Braun 23.06.15\u003c/a\u003e, \u003ca href\u003d\"http://de.slideshare.net/mikiobraun/flink-meetup2015\"\u003eslides\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Jul 29, 2015 3:45:46 AM",
+      "dateStarted": "Jul 29, 2015 4:40:24 AM",
+      "dateFinished": "Jul 29, 2015 4:40:24 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1438167063092_-557847772",
+      "id": "20150729-035103_534677402",
+      "dateCreated": "Jul 29, 2015 3:51:03 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "Apache Flink",
+  "id": "2AV6GVZFG",
+  "angularObjects": {},
+  "config": {
+    "looknfeel": "default"
+  },
+  "info": {}
+}
