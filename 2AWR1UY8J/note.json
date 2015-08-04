@@ -1,6 +1,39 @@
 {
   "paragraphs": [
     {
+      "text": "%md\n## Microservices with Docker",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1438318527448_-1292855395",
+      "id": "20150730-215527_1930571653",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch2\u003eMicroservices with Docker\u003c/h2\u003e\n"
+      },
+      "dateCreated": "Jul 30, 2015 9:55:27 PM",
+      "dateStarted": "Aug 3, 2015 10:19:08 AM",
+      "dateFinished": "Aug 3, 2015 10:19:08 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
       "title": "Reference",
       "text": "%md\n# **Microservices**\n\n## Reference\n\n* [Martin Fowler blog][1], [Managing Microservices Effectively video][2]\n* [A Microservices Reference Architecture video][3], [notes][4]\n* [Docker Workshop Tel-Aviv workshop requirements][5], [cheat sheet][6], [video][7], [slides][8].\n* [Practical Considerations For Microservice Architectures video][9], [book][10] by Sam Newma.\n* [Agile Australia 2014: Workshop - Design and Implementation of Microservices][11]\n\n[1]:http://martinfowler.com/articles/microservices.html \"Martin Fowler blog\"\n[2]:https://www.youtube.com/watch?v\u003dipHaHuKlLLc \"Managing Microservices Effectively video\"\n\n[3]:https://www.youtube.com/watch?v\u003dKHqMPRA6jVI\u0026list\u003dLL5wCy3trg9aNEBcarsIWUEg\u0026index\u003d1 \"A Microservices Reference Architecture video\"\n[4]:http://www.bencode.net/blog/2015/04/26/microservices/ \"A Microservices Reference Architecture notes\"\n\n[5]:http://dvps.me/docker-workshop-req \"Docker Workshop Tel-Aviv workshop requirements\"\n[6]:https://gist.github.com/kesor/4118731206087dea4239 \"Docker Workshop Tel-Aviv workshop cheat sheet\"\n[7]:https://www.youtube.com/watch?v\u003dOXhp8NAaofI \"Docker Workshop Tel-Aviv workshop video\"\n[8]:https://speakerdeck.com/devops/docker-workshop-microservices \"Docker Workshop Tel-Aviv workshop slides\"\n\n[9]:https://vimeo.com/105751281 \"Practical Considerations For Microservice Architectures - Sam Newman\"\n[10]:http://www.slideshare.net/pallavs20/building-microservices?qid\u003dd9c4884e-5841-49ce-af43-e7f23e05e1f4\u0026v\u003ddefault\u0026b\u003d\u0026from_search\u003d9 \"Building Microservics book - Sam Newma\"\n\n[11]:http://www.slideshare.net/AgileAustralia/agile-australia2014workshopmicroservices?qid\u003dd9c4884e-5841-49ce-af43-e7f23e05e1f4\u0026v\u003ddefault\u0026b\u003d\u0026from_search\u003d8 \"Agile Australia 2014: Workshop - Design and Implementation of Microservices\"\n\n[12]:http://yobriefca.se/blog/2013/04/29/micro-service-architecture/ \"Microservices Architecture\"\n[Architecture]:http://www.slideshare.net/eduardsi/micro-service-architecture",
       "config": {
@@ -32,38 +65,6 @@
       "dateCreated": "Jul 29, 2015 8:01:19 AM",
       "dateStarted": "Aug 3, 2015 3:21:33 PM",
       "dateFinished": "Aug 3, 2015 3:21:33 PM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "text": "%md\n## Microservices with Docker",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "editorHide": true
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1438318527448_-1292855395",
-      "id": "20150730-215527_1930571653",
-      "result": {
-        "code": "SUCCESS",
-        "type": "HTML",
-        "msg": "\u003ch2\u003eMicroservices with Docker\u003c/h2\u003e\n"
-      },
-      "dateCreated": "Jul 30, 2015 9:55:27 PM",
-      "dateStarted": "Aug 3, 2015 10:19:08 AM",
-      "dateFinished": "Aug 3, 2015 10:19:08 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -221,8 +222,9 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": false,
-        "title": true
+        "editorHide": true,
+        "title": true,
+        "tableHide": true
       },
       "settings": {
         "params": {},
@@ -242,6 +244,7 @@
       "progressUpdateIntervalMs": 500
     },
     {
+      "title": "What is Microservices?",
       "text": "%md \n## What is Microservices?\n* Loosely coupled service oriented architecture with bounded contexts.\n\n    Loosely coupled -\u003e uses different technology stacks, has separate development and deployment schedules, responsibled by different teams.\n    Bounded context -\u003e minimal knowledge of own environment, dynamic, responsive.\n\n* Microservices is a software architecture style, in which complex applications are composed of small, independent processes communicating with each other using language-agnostic APIs. These services are small, highly decoupled and focus on doing a small task. From https://en.wikipedia.org/wiki/Microservices",
       "config": {
         "colWidth": 12.0,
@@ -254,7 +257,9 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": false
+        "editorHide": true,
+        "title": true,
+        "tableHide": true
       },
       "settings": {
         "params": {},
@@ -274,7 +279,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n## Why Microservices\n\n* smaller code easier to understand and to change\n* speedier deployments\n* separate of concerns \n* independent scaling\n* better fit with infrastructure \n* scaling development teams\n* fault isolation\n* flexibility in choosing a technology stack",
+      "title": "Why Microservices?",
+      "text": "%md\n## Why Microservices?\n\n* smaller code easier to understand and to change\n* speedier deployments\n* separate of concerns \n* independent scaling\n* better fit with infrastructure \n* scaling development teams\n* fault isolation\n* flexibility in choosing a technology stack",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -286,7 +292,9 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": true
+        "editorHide": true,
+        "title": true,
+        "tableHide": true
       },
       "settings": {
         "params": {},
@@ -306,7 +314,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n## Why **Not** Microservices\n* developing distributed system complexity\n* implement inter-process communication\n* transactions are more difficult to track\n* integration automated tests a challenge\n* operational complexity - multiple moving parts\n* coordination between teams about dependencies",
+      "title": "Why Not Microservices?",
+      "text": "%md\n## Why **Not** Microservices?\n* developing distributed system complexity\n* implement inter-process communication\n* transactions are more difficult to track\n* integration automated tests a challenge\n* operational complexity - multiple moving parts\n* coordination between teams about dependencies",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -318,7 +327,9 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": true
+        "editorHide": true,
+        "title": true,
+        "tableHide": true
       },
       "settings": {
         "params": {},
@@ -338,7 +349,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n## What is Monolithic?\n### Meaning\n1. formed of a single large block of stone.\n2. (of an organization or system) large, powerful, and intractably indivisible and uniform.\n\"rejecting any move toward a monolithic European superstate\"\n\nsynonyms:\tinflexible, rigid, unbending, unchanging, fossilized\n\"a monolithic organization\"\n\n### Death Star\n![Death Star][0a]\n\n### Unbuild Building\n![Palace of Russia][0b]\n\n## Monolithic vs Microservices\n![Monolithic vs Microservices][1]\n\nTrend\n![From monolithic to multi-cloud architecture][2]\n\n[0a]:http://s.hswstatic.com/gif/death-star-1.jpg\n[0b]:http://adlhochcreative.com/blog/wp-content/uploads/2009/11/Palace-of-Soviets.jpg\n[0c]:https://www.evernote.com/l/AS563n7V4l9O-7jMZVaYBmgEsyV48Qv4dr4B/image.png\n[1]:https://yobriefca.se/images/blog/micro-service-architecture.png\n[2]:http://www.pwc.com/en_US/us/technology-forecast/2014/cloud-computing/features/assets/monolithic_multi_cloud_architectures_556.png \"From monolithic to multi-cloud architecture\"",
+      "title": "Monolithic",
+      "text": "%md\n## What is Monolithic?\n### Meaning\n1. formed of a single large block of stone.\n2. (of an organization or system) large, powerful, and intractably indivisible and uniform.\n\"rejecting any move toward a monolithic European superstate\"\n\nsynonyms: inflexible, rigid, unbending, unchanging, fossilized\n\"a monolithic organization\"\n\n### Death Star\n![Death Star][0a]\n\n### Unbuild Building\n![Palace of Russia][0b]\n\n[0a]:http://s.hswstatic.com/gif/death-star-1.jpg\n[0b]:http://adlhochcreative.com/blog/wp-content/uploads/2009/11/Palace-of-Soviets.jpg\n[0c]:https://www.evernote.com/l/AS563n7V4l9O-7jMZVaYBmgEsyV48Qv4dr4B/image.png\n",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -350,7 +362,9 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": true
+        "editorHide": true,
+        "title": true,
+        "tableHide": true
       },
       "settings": {
         "params": {},
@@ -361,15 +375,51 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch2\u003eWhat is Monolithic?\u003c/h2\u003e\n\u003ch3\u003eMeaning\u003c/h3\u003e\n\u003col\u003e\n\u003cli\u003eformed of a single large block of stone.\u003c/li\u003e\n\u003cli\u003e(of an organization or system) large, powerful, and intractably indivisible and uniform.\n\u003cbr  /\u003e\u0026ldquo;rejecting any move toward a monolithic European superstate\u0026rdquo;\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003esynonyms:   inflexible, rigid, unbending, unchanging, fossilized\n\u003cbr  /\u003e\u0026ldquo;a monolithic organization\u0026rdquo;\u003c/p\u003e\n\u003ch3\u003eDeath Star\u003c/h3\u003e\n\u003cp\u003e\u003cimg src\u003d\"http://s.hswstatic.com/gif/death-star-1.jpg\" alt\u003d\"Death Star\" /\u003e\u003c/p\u003e\n\u003ch3\u003eUnbuild Building\u003c/h3\u003e\n\u003cp\u003e\u003cimg src\u003d\"http://adlhochcreative.com/blog/wp-content/uploads/2009/11/Palace-of-Soviets.jpg\" alt\u003d\"Palace of Russia\" /\u003e\u003c/p\u003e\n\u003ch2\u003eMonolithic vs Microservices\u003c/h2\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://yobriefca.se/images/blog/micro-service-architecture.png\" alt\u003d\"Monolithic vs Microservices\" /\u003e\u003c/p\u003e\n\u003cp\u003eTrend\n\u003cbr  /\u003e\u003cimg src\u003d\"http://www.pwc.com/en_US/us/technology-forecast/2014/cloud-computing/features/assets/monolithic_multi_cloud_architectures_556.png\" alt\u003d\"From monolithic to multi-cloud architecture\" title\u003d\"From monolithic to multi-cloud architecture\" /\u003e\u003c/p\u003e\n"
+        "msg": "\u003ch2\u003eWhat is Monolithic?\u003c/h2\u003e\n\u003ch3\u003eMeaning\u003c/h3\u003e\n\u003col\u003e\n\u003cli\u003eformed of a single large block of stone.\u003c/li\u003e\n\u003cli\u003e(of an organization or system) large, powerful, and intractably indivisible and uniform.\n\u003cbr  /\u003e\u0026ldquo;rejecting any move toward a monolithic European superstate\u0026rdquo;\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003esynonyms: inflexible, rigid, unbending, unchanging, fossilized\n\u003cbr  /\u003e\u0026ldquo;a monolithic organization\u0026rdquo;\u003c/p\u003e\n\u003ch3\u003eDeath Star\u003c/h3\u003e\n\u003cp\u003e\u003cimg src\u003d\"http://s.hswstatic.com/gif/death-star-1.jpg\" alt\u003d\"Death Star\" /\u003e\u003c/p\u003e\n\u003ch3\u003eUnbuild Building\u003c/h3\u003e\n\u003cp\u003e\u003cimg src\u003d\"http://adlhochcreative.com/blog/wp-content/uploads/2009/11/Palace-of-Soviets.jpg\" alt\u003d\"Palace of Russia\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Jul 30, 2015 8:21:50 AM",
-      "dateStarted": "Aug 3, 2015 2:19:49 PM",
-      "dateFinished": "Aug 3, 2015 2:19:49 PM",
+      "dateStarted": "Aug 3, 2015 11:57:07 PM",
+      "dateFinished": "Aug 3, 2015 11:57:07 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
+      "title": "Monolithic vs Microservices",
+      "text": "%md\n### Monolithic vs Microservices\n![Monolithic vs Microservices][1]\n\n### Trend\n![From monolithic to multi-cloud architecture][2]\n\n[1]:https://yobriefca.se/images/blog/micro-service-architecture.png\n[2]:http://www.pwc.com/en_US/us/technology-forecast/2014/cloud-computing/features/assets/monolithic_multi_cloud_architectures_556.png \"From monolithic to multi-cloud architecture\"",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "title": true,
+        "editorHide": true,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1438671361128_681148107",
+      "id": "20150803-235601_605951676",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eMonolithic vs Microservices\u003c/h3\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://yobriefca.se/images/blog/micro-service-architecture.png\" alt\u003d\"Monolithic vs Microservices\" /\u003e\u003c/p\u003e\n\u003ch3\u003eTrend\u003c/h3\u003e\n\u003cp\u003e\u003cimg src\u003d\"http://www.pwc.com/en_US/us/technology-forecast/2014/cloud-computing/features/assets/monolithic_multi_cloud_architectures_556.png\" alt\u003d\"From monolithic to multi-cloud architecture\" title\u003d\"From monolithic to multi-cloud architecture\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Aug 3, 2015 11:56:01 PM",
+      "dateStarted": "Aug 3, 2015 11:56:54 PM",
+      "dateFinished": "Aug 3, 2015 11:56:54 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Separate concerns",
       "text": "%md\n## Separate concerns along these dimensions:\n\n* Each single-function microservice has one action.\n* A small set of data and UI elements is involved.\n* One developer, or a small team, independently produces a microservice.\n* Each microservice is its own build, to avoid trunk conflict.\n* The business logic is stateless.\n* The data access layer is statefully cached.\n* New functions are added swiftly, but old ones are retired slowly.\n\nFrom [Agile coding in enterprise IT: Code small and local](http://www.pwc.com/us/en/technology-forecast/2014/cloud-computing/features/microservices.jhtml)\n",
       "config": {
         "colWidth": 12.0,
@@ -382,7 +432,9 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": true
+        "editorHide": true,
+        "title": true,
+        "tableHide": true
       },
       "settings": {
         "params": {},
@@ -402,6 +454,7 @@
       "progressUpdateIntervalMs": 500
     },
     {
+      "title": "Monolithic Application Example in Ruby",
       "text": "%md\nThe reference indicates the following diagrams are from http://microservices.io/patterns/monolithic.html, but no longer there.\n\n![Monolithic Application](https://www.evernote.com/l/AS5JrmYNr6BErLqgoZSJGiRiJp9XwfHWfn4B/image.png)\n![Ruby on Rail Components](https://www.evernote.com/l/AS7iC-08B1ZJ84fNA8WDAvrsQwwvDjgiE00B/image.png)\n![Micro Services](https://www.evernote.com/l/AS6J55X8dihB8JAu9qiiYPWV4Q30p4KP8FQB/image.png)",
       "config": {
         "colWidth": 12.0,
@@ -414,7 +467,9 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": true
+        "editorHide": true,
+        "title": true,
+        "tableHide": true
       },
       "settings": {
         "params": {},
@@ -434,6 +489,7 @@
       "progressUpdateIntervalMs": 500
     },
     {
+      "title": "Services Types",
       "text": "%md\n## Services Types\n* sync, in-path request/response\n* async “enrich” workers\n* databases\n* event handlers\n* encapsulate private database\n* sharing a database",
       "config": {
         "colWidth": 12.0,
@@ -446,7 +502,9 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": true
+        "editorHide": true,
+        "title": true,
+        "tableHide": true
       },
       "settings": {
         "params": {},
@@ -466,7 +524,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\nFrom [Open-Source Service Discovery]:\n\n## Service Discovery\n* Service Registration - The process of a service registering its location in a central registry. It usually register its host and port and sometimes authentication credentials, protocols, versions numbers, and/or environment details.\n* Service Discovery - The process of a client application querying the central registry to learn of the location of services.\n\nOther development and operational aspects to consider:\n\n* Monitoring - What happens when a registered service fails? Sometimes it is unregistered immediately, after a timeout, or by another process. Services are usually required to implement a heartbeating mechanism to ensure liveness and clients typically need to be able to handle failed services reliably.\n* Load Balancing - If multiple services are registered, how do all the clients balance the load across the services? If there is a master, can it be deteremined by a client correctly?\n* Integration Style - Does the registry only provide a few language bindings, for example, only Java? Does integrating require embedding registration and discovery code into your application or is a sidekick process an option?\n* Runtime Dependencies - Does it require the JVM, Ruby or something that is not compatible with your environment?\n* Availability Concerns - Can you lose a node and still function? Can it be upgraded without incurring an outage? The registry will grow to be a central part of your architecture and could be a single point of failure.\n\nWith a live system, service locations can change quite frequently due to \n* auto or manual scaling, \n* new deployments of services, \n* as well as hosts failing or being replaced.\n\nDynamic service registration and discovery becomes much more important.\n\n### Service Discovery Tools\n\n* [Zookeeper] is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services.  \n* [Doozer] is a highly-available, completely consistent store for small amounts of extremely important data. When the data changes, it can notify connected clients immediately (no polling), making it ideal for infrequently-updated data for which clients want real-time updates. Doozer is good for name service, database master elections, and configuration data shared between several machines. \n* [Etcd] is a distributed, consistent key-value store for shared configuration and service discovery, with a focus on being:\n    * Simple: curl\u0027able user facing API (HTTP+JSON)\n    * Secure: optional SSL client cert authentication\n    * Fast: benchmarked 1000s of writes/s per instance\n    * Reliable: properly distributed using Raft\n\n    etcd is written in Go and uses the Raft consensus algorithm to manage a highly-available replicated log. \n* [Consul]\n\n* Airbnb’s SmartStack \n* Netflix’s Eureka \n* Bitly’s NSQ \n* Serf \n* Spotify\n* DNS and SkyDNS\n\n\n[Zookeeper]:http://zookeeper.apache.org/  \n[Doozer]:https://github.com/ha/doozerd\n[Etcd]:https://github.com/coreos/etcdaft\n[Consul]:https://www.consul.io/intro/index.html\n[Open-Source Service Discovery]:http://jasonwilder.com/blog/2014/02/04/service-discovery-in-the-cloud/\n",
+      "title": "Service Discovery",
+      "text": "%md\nFrom [Open-Source Service Discovery]:\n\n## Service Discovery\n* Service Registration - The process of a service registering its location in a central registry. It usually register its host and port and sometimes authentication credentials, protocols, versions numbers, and/or environment details.\n* Service Discovery - The process of a client application querying the central registry to learn of the location of services.\n\nOther development and operational aspects to consider:\n\n* Monitoring - What happens when a registered service fails? Sometimes it is unregistered immediately, after a timeout, or by another process. Services are usually required to implement a heartbeating mechanism to ensure liveness and clients typically need to be able to handle failed services reliably.\n* Load Balancing - If multiple services are registered, how do all the clients balance the load across the services? If there is a master, can it be deteremined by a client correctly?\n* Integration Style - Does the registry only provide a few language bindings, for example, only Java? Does integrating require embedding registration and discovery code into your application or is a sidekick process an option?\n* Runtime Dependencies - Does it require the JVM, Ruby or something that is not compatible with your environment?\n* Availability Concerns - Can you lose a node and still function? Can it be upgraded without incurring an outage? The registry will grow to be a central part of your architecture and could be a single point of failure.\n\nWith a live system, service locations can change quite frequently due to \n* auto or manual scaling, \n* new deployments of services, \n* as well as hosts failing or being replaced.\n\nDynamic service registration and discovery becomes much more important.\n\n[Open-Source Service Discovery]:http://jasonwilder.com/blog/2014/02/04/service-discovery-in-the-cloud/\n",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -478,7 +537,9 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": true
+        "editorHide": true,
+        "title": true,
+        "tableHide": true
       },
       "settings": {
         "params": {},
@@ -489,15 +550,51 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003cp\u003eFrom \u003ca href\u003d\"http://jasonwilder.com/blog/2014/02/04/service-discovery-in-the-cloud/\"\u003eOpen-Source Service Discovery\u003c/a\u003e:\u003c/p\u003e\n\u003ch2\u003eService Discovery\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eService Registration - The process of a service registering its location in a central registry. It usually register its host and port and sometimes authentication credentials, protocols, versions numbers, and/or environment details.\u003c/li\u003e\n\u003cli\u003eService Discovery - The process of a client application querying the central registry to learn of the location of services.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eOther development and operational aspects to consider:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eMonitoring - What happens when a registered service fails? Sometimes it is unregistered immediately, after a timeout, or by another process. Services are usually required to implement a heartbeating mechanism to ensure liveness and clients typically need to be able to handle failed services reliably.\u003c/li\u003e\n\u003cli\u003eLoad Balancing - If multiple services are registered, how do all the clients balance the load across the services? If there is a master, can it be deteremined by a client correctly?\u003c/li\u003e\n\u003cli\u003eIntegration Style - Does the registry only provide a few language bindings, for example, only Java? Does integrating require embedding registration and discovery code into your application or is a sidekick process an option?\u003c/li\u003e\n\u003cli\u003eRuntime Dependencies - Does it require the JVM, Ruby or something that is not compatible with your environment?\u003c/li\u003e\n\u003cli\u003eAvailability Concerns - Can you lose a node and still function? Can it be upgraded without incurring an outage? The registry will grow to be a central part of your architecture and could be a single point of failure.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eWith a live system, service locations can change quite frequently due to\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eauto or manual scaling,\u003c/li\u003e\n\u003cli\u003enew deployments of services,\u003c/li\u003e\n\u003cli\u003eas well as hosts failing or being replaced.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eDynamic service registration and discovery becomes much more important.\u003c/p\u003e\n\u003ch3\u003eService Discovery Tools\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cp\u003e\u003ca href\u003d\"http://zookeeper.apache.org/\"\u003eZookeeper\u003c/a\u003e is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003e\u003ca href\u003d\"https://github.com/ha/doozerd\"\u003eDoozer\u003c/a\u003e is a highly-available, completely consistent store for small amounts of extremely important data. When the data changes, it can notify connected clients immediately (no polling), making it ideal for infrequently-updated data for which clients want real-time updates. Doozer is good for name service, database master elections, and configuration data shared between several machines.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003e\u003ca href\u003d\"https://github.com/coreos/etcdaft\"\u003eEtcd\u003c/a\u003e is a distributed, consistent key-value store for shared configuration and service discovery, with a focus on being:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eSimple: curl\u0027able user facing API (HTTP+JSON)\u003c/li\u003e\n\u003cli\u003eSecure: optional SSL client cert authentication\u003c/li\u003e\n\u003cli\u003eFast: benchmarked 1000s of writes/s per instance\u003c/li\u003e\n\u003cli\u003eReliable: properly distributed using Raft\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eetcd is written in Go and uses the Raft consensus algorithm to manage a highly-available replicated log.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003e\u003ca href\u003d\"https://www.consul.io/intro/index.html\"\u003eConsul\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eAirbnb’s SmartStack\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eNetflix’s Eureka\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eBitly’s NSQ\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eSerf\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eSpotify\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eDNS and SkyDNS\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n"
+        "msg": "\u003cp\u003eFrom \u003ca href\u003d\"http://jasonwilder.com/blog/2014/02/04/service-discovery-in-the-cloud/\"\u003eOpen-Source Service Discovery\u003c/a\u003e:\u003c/p\u003e\n\u003ch2\u003eService Discovery\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eService Registration - The process of a service registering its location in a central registry. It usually register its host and port and sometimes authentication credentials, protocols, versions numbers, and/or environment details.\u003c/li\u003e\n\u003cli\u003eService Discovery - The process of a client application querying the central registry to learn of the location of services.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eOther development and operational aspects to consider:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eMonitoring - What happens when a registered service fails? Sometimes it is unregistered immediately, after a timeout, or by another process. Services are usually required to implement a heartbeating mechanism to ensure liveness and clients typically need to be able to handle failed services reliably.\u003c/li\u003e\n\u003cli\u003eLoad Balancing - If multiple services are registered, how do all the clients balance the load across the services? If there is a master, can it be deteremined by a client correctly?\u003c/li\u003e\n\u003cli\u003eIntegration Style - Does the registry only provide a few language bindings, for example, only Java? Does integrating require embedding registration and discovery code into your application or is a sidekick process an option?\u003c/li\u003e\n\u003cli\u003eRuntime Dependencies - Does it require the JVM, Ruby or something that is not compatible with your environment?\u003c/li\u003e\n\u003cli\u003eAvailability Concerns - Can you lose a node and still function? Can it be upgraded without incurring an outage? The registry will grow to be a central part of your architecture and could be a single point of failure.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eWith a live system, service locations can change quite frequently due to\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eauto or manual scaling,\u003c/li\u003e\n\u003cli\u003enew deployments of services,\u003c/li\u003e\n\u003cli\u003eas well as hosts failing or being replaced.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eDynamic service registration and discovery becomes much more important.\u003c/p\u003e\n"
       },
       "dateCreated": "Jul 30, 2015 10:46:04 AM",
-      "dateStarted": "Aug 2, 2015 12:29:46 AM",
-      "dateFinished": "Aug 2, 2015 12:29:46 AM",
+      "dateStarted": "Aug 4, 2015 12:47:15 AM",
+      "dateFinished": "Aug 4, 2015 12:47:15 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
+      "title": "Service Discovery Tools",
+      "text": "%md\n### Service Discovery Tools\n\n* [Zookeeper] is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services.  \n* [Doozer] is a highly-available, completely consistent store for small amounts of extremely important data. When the data changes, it can notify connected clients immediately (no polling), making it ideal for infrequently-updated data for which clients want real-time updates. Doozer is good for name service, database master elections, and configuration data shared between several machines. \n* [Etcd] is a distributed, consistent key-value store for shared configuration and service discovery, with a focus on being:\n    * Simple: curl\u0027able user facing API (HTTP+JSON)\n    * Secure: optional SSL client cert authentication\n    * Fast: benchmarked 1000s of writes/s per instance\n    * Reliable: properly distributed using Raft\n\n    etcd is written in Go and uses the Raft consensus algorithm to manage a highly-available replicated log. \n* [Consul]\n\n* Airbnb’s SmartStack \n* Netflix’s Eureka \n* Bitly’s NSQ \n* Serf \n* Spotify\n* DNS and SkyDNS\n\n[Zookeeper]:http://zookeeper.apache.org/  \n[Doozer]:https://github.com/ha/doozerd\n[Etcd]:https://github.com/coreos/etcdaft\n[Consul]:https://www.consul.io/intro/index.html\n",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "title": true,
+        "tableHide": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1438674111386_614294791",
+      "id": "20150804-004151_2082652455",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eService Discovery Tools\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cp\u003e\u003ca href\u003d\"http://zookeeper.apache.org/\"\u003eZookeeper\u003c/a\u003e is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003e\u003ca href\u003d\"https://github.com/ha/doozerd\"\u003eDoozer\u003c/a\u003e is a highly-available, completely consistent store for small amounts of extremely important data. When the data changes, it can notify connected clients immediately (no polling), making it ideal for infrequently-updated data for which clients want real-time updates. Doozer is good for name service, database master elections, and configuration data shared between several machines.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003e\u003ca href\u003d\"https://github.com/coreos/etcdaft\"\u003eEtcd\u003c/a\u003e is a distributed, consistent key-value store for shared configuration and service discovery, with a focus on being:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eSimple: curl\u0027able user facing API (HTTP+JSON)\u003c/li\u003e\n\u003cli\u003eSecure: optional SSL client cert authentication\u003c/li\u003e\n\u003cli\u003eFast: benchmarked 1000s of writes/s per instance\u003c/li\u003e\n\u003cli\u003eReliable: properly distributed using Raft\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eetcd is written in Go and uses the Raft consensus algorithm to manage a highly-available replicated log.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003e\u003ca href\u003d\"https://www.consul.io/intro/index.html\"\u003eConsul\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eAirbnb’s SmartStack\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eNetflix’s Eureka\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eBitly’s NSQ\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eSerf\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eSpotify\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eDNS and SkyDNS\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Aug 4, 2015 12:41:51 AM",
+      "dateStarted": "Aug 4, 2015 12:47:38 AM",
+      "dateFinished": "Aug 4, 2015 12:47:38 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Consul",
       "text": "%md \n###[Consul][1]\nFrom https://consul.io/\n\n![Consul Features][2]\n![Consul Query][3]\n![Consul Storage][4]\n\n[1]:https://www.consul.io/intro/index.html\n[2]:https://www.evernote.com/l/AS7ne5Z27vBB3oxfXsHYW-SIFid27_eX_WgB/image.png \"Consul Features\"\n[3]:https://www.evernote.com/l/AS7mX2jWnIdM_pDq3BP9H9mMbZihH0NCTT4B/image.png \"Consul DNS\"\n[4]:https://www.evernote.com/l/AS4l-67oxN5Hw6mP4eiHIikCvUEQulOeD3AB/image.png \"Consul Storage\"\n\n[dotScale 2014 - Mitchell Hashimoto - Building Robust Systems With Consul]:https://www.youtube.com/watch?v\u003dtQ99V7QjEHc\n[Consul Demo]:https://www.youtube.com/watch?v\u003dhuvBEB3suoo\n[Orchestrating Docker with Terraform and Consul by Mitchell Hashimoto]:https://www.youtube.com/watch?v\u003dzi89DZiWfqg\n\n[Bay Area Mesos Meetup video - Mesos +Consul]:https://www.youtube.com/watch?v\u003dk5KNkvxkk_Y\n[Bay Area Mesos Meetup slides - Mesos +Consul]:https://speakerdeck.com/stevendborrelli/mesos-plus-consul",
       "config": {
         "colWidth": 12.0,
@@ -511,7 +608,8 @@
           "scatter": {}
         },
         "editorHide": true,
-        "tableHide": false
+        "tableHide": true,
+        "title": true
       },
       "settings": {
         "params": {},
@@ -531,7 +629,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n### Set Docker DNS\n\nDocker default gateway IP address,\n```\ndocker@boot2docker:~$ ifconfig -a\ndocker0   Link encap:Ethernet  HWaddr 56:84:7A:FE:97:99\n          inet addr:172.17.42.1  Bcast:0.0.0.0  Mask:255.255.0.0\n          UP BROADCAST MULTICAST  MTU:1500  Metric:1\n          RX packets:0 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:0\n          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)\n\ndummy0    Link encap:Ethernet  HWaddr AA:36:F8:94:72:96\n          BROADCAST NOARP  MTU:1500  Metric:1\n          RX packets:0 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:0\n          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)\n\neth0      Link encap:Ethernet  HWaddr 08:00:27:17:9C:13\n          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0\n          inet6 addr: fe80::a00:27ff:fe17:9c13/64 Scope:Link\n          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1\n          RX packets:719007 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:327411 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:1000\n          RX bytes:568076244 (541.7 MiB)  TX bytes:17905724 (17.0 MiB)\n\nlo        Link encap:Local Loopback\n          inet addr:127.0.0.1  Mask:255.0.0.0\n          inet6 addr: ::1/128 Scope:Host\n          UP LOOPBACK RUNNING  MTU:65536  Metric:1\n          RX packets:50 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:50 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:0\n          RX bytes:3596 (3.5 KiB)  TX bytes:3596 (3.5 KiB)\n\ndocker@boot2docker:~$\n```\nModify existing nameserver config, from \n```\ndocker@boot2docker:~$ cat /etc/resolv.conf\nnameserver 10.0.2.3\n```\n\nAdd boot2docker profile, and restart docker.\n```\nsudo vi /var/lib/boot2docker/profile\nEXTRA_ARGS\u003d\"\\\n  --dns 172.17.42.1 \\\n  --dns 8.8.8.8 \\\n  --dns-search service.consul \\\n\"\nsudo /etc/init.d/docker stop\nsudo /etc/init.d/docker start\n```\n\nCheck it again,\n```\n/ # cat /etc/resolv.conf\nnameserver 172.17.42.1\nnameserver 8.8.8.8\nsearch service.consul\n```\nThis makes Consul responsible for service discovery.  \n",
+      "title": "Set Docker DNS",
+      "text": "%md\n### Set Docker DNS\n\nDocker default gateway IP address,\n```\ndocker@boot2docker:~$ ifconfig -a\ndocker0   Link encap:Ethernet  HWaddr 56:84:7A:FE:97:99\n          inet addr:172.17.42.1  Bcast:0.0.0.0  Mask:255.255.0.0\n          UP BROADCAST MULTICAST  MTU:1500  Metric:1\n          RX packets:0 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:0\n          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)\n\ndummy0    Link encap:Ethernet  HWaddr AA:36:F8:94:72:96\n          BROADCAST NOARP  MTU:1500  Metric:1\n          RX packets:0 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:0\n          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)\n\neth0      Link encap:Ethernet  HWaddr 08:00:27:17:9C:13\n          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0\n          inet6 addr: fe80::a00:27ff:fe17:9c13/64 Scope:Link\n          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1\n          RX packets:719007 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:327411 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:1000\n          RX bytes:568076244 (541.7 MiB)  TX bytes:17905724 (17.0 MiB)\n\nlo        Link encap:Local Loopback\n          inet addr:127.0.0.1  Mask:255.0.0.0\n          inet6 addr: ::1/128 Scope:Host\n          UP LOOPBACK RUNNING  MTU:65536  Metric:1\n          RX packets:50 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:50 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:0\n          RX bytes:3596 (3.5 KiB)  TX bytes:3596 (3.5 KiB)\n\ndocker@boot2docker:~$\n```\nModify existing nameserver config, from \n```\ndocker@boot2docker:~$ cat /etc/resolv.conf\nnameserver 10.0.2.3\n```\n\nAdd boot2docker profile, and restart docker.\n```\nsudo vi /var/lib/boot2docker/profile\nEXTRA_ARGS\u003d\"\\\n  --dns 172.17.42.1 \\\n  --dns 8.8.8.8 \\\n  --dns-search service.consul \\\n\"\nsudo /etc/init.d/docker stop\nsudo /etc/init.d/docker start\n```\n\nCheck it again,\n```\n/ # cat /etc/resolv.conf\nnameserver 172.17.42.1\nnameserver 8.8.8.8\nsearch service.consul\n```\n** don\u0027t know why I cannot get this, manually modified file**\n\nThis makes Consul responsible for service discovery, see example below:\n\n```\ndocker@boot2docker:~$ docker run -ti busybox /bin/sh\nUnable to find image \u0027busybox:latest\u0027 locally\nPulling repository busybox\n8c2e06607696: Download complete\ncf2616975b4a: Download complete\n6ce2e90b0bc7: Download complete\nStatus: Downloaded newer image for busybox:latest\n/ # cat /etc/resolv.conf\nnameserver 172.17.42.1\nnameserver 8.8.8.8\nsearch service.consul\n/ #\n```",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -543,7 +642,9 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": false
+        "editorHide": true,
+        "title": true,
+        "tableHide": true
       },
       "settings": {
         "params": {},
@@ -554,16 +655,17 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch3\u003eSet Docker DNS\u003c/h3\u003e\n\u003cp\u003eDocker default gateway IP address,\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edocker@boot2docker:~$ ifconfig -a\ndocker0   Link encap:Ethernet  HWaddr 56:84:7A:FE:97:99\n          inet addr:172.17.42.1  Bcast:0.0.0.0  Mask:255.255.0.0\n          UP BROADCAST MULTICAST  MTU:1500  Metric:1\n          RX packets:0 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:0\n          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)\n\ndummy0    Link encap:Ethernet  HWaddr AA:36:F8:94:72:96\n          BROADCAST NOARP  MTU:1500  Metric:1\n          RX packets:0 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:0\n          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)\n\neth0      Link encap:Ethernet  HWaddr 08:00:27:17:9C:13\n          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0\n          inet6 addr: fe80::a00:27ff:fe17:9c13/64 Scope:Link\n          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1\n          RX packets:719007 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:327411 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:1000\n          RX bytes:568076244 (541.7 MiB)  TX bytes:17905724 (17.0 MiB)\n\nlo        Link encap:Local Loopback\n          inet addr:127.0.0.1  Mask:255.0.0.0\n          inet6 addr: ::1/128 Scope:Host\n          UP LOOPBACK RUNNING  MTU:65536  Metric:1\n          RX packets:50 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:50 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:0\n          RX bytes:3596 (3.5 KiB)  TX bytes:3596 (3.5 KiB)\n\ndocker@boot2docker:~$\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eModify existing nameserver config, from\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edocker@boot2docker:~$ cat /etc/resolv.conf\nnameserver 10.0.2.3\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eAdd boot2docker profile, and restart docker.\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003esudo vi /var/lib/boot2docker/profile\nEXTRA_ARGS\u003d\"\\\n  --dns 172.17.42.1 \\\n  --dns 8.8.8.8 \\\n  --dns-search service.consul \\\n\"\nsudo /etc/init.d/docker stop\nsudo /etc/init.d/docker start\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eCheck it again,\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e/ # cat /etc/resolv.conf\nnameserver 172.17.42.1\nnameserver 8.8.8.8\nsearch service.consul\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eThis makes Consul responsible for service discovery.\u003c/p\u003e\n"
+        "msg": "\u003ch3\u003eSet Docker DNS\u003c/h3\u003e\n\u003cp\u003eDocker default gateway IP address,\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edocker@boot2docker:~$ ifconfig -a\ndocker0   Link encap:Ethernet  HWaddr 56:84:7A:FE:97:99\n          inet addr:172.17.42.1  Bcast:0.0.0.0  Mask:255.255.0.0\n          UP BROADCAST MULTICAST  MTU:1500  Metric:1\n          RX packets:0 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:0\n          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)\n\ndummy0    Link encap:Ethernet  HWaddr AA:36:F8:94:72:96\n          BROADCAST NOARP  MTU:1500  Metric:1\n          RX packets:0 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:0\n          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)\n\neth0      Link encap:Ethernet  HWaddr 08:00:27:17:9C:13\n          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0\n          inet6 addr: fe80::a00:27ff:fe17:9c13/64 Scope:Link\n          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1\n          RX packets:719007 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:327411 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:1000\n          RX bytes:568076244 (541.7 MiB)  TX bytes:17905724 (17.0 MiB)\n\nlo        Link encap:Local Loopback\n          inet addr:127.0.0.1  Mask:255.0.0.0\n          inet6 addr: ::1/128 Scope:Host\n          UP LOOPBACK RUNNING  MTU:65536  Metric:1\n          RX packets:50 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:50 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:0\n          RX bytes:3596 (3.5 KiB)  TX bytes:3596 (3.5 KiB)\n\ndocker@boot2docker:~$\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eModify existing nameserver config, from\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edocker@boot2docker:~$ cat /etc/resolv.conf\nnameserver 10.0.2.3\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eAdd boot2docker profile, and restart docker.\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003esudo vi /var/lib/boot2docker/profile\nEXTRA_ARGS\u003d\"\\\n  --dns 172.17.42.1 \\\n  --dns 8.8.8.8 \\\n  --dns-search service.consul \\\n\"\nsudo /etc/init.d/docker stop\nsudo /etc/init.d/docker start\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eCheck it again,\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e/ # cat /etc/resolv.conf\nnameserver 172.17.42.1\nnameserver 8.8.8.8\nsearch service.consul\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e\u003cem\u003e\u003c/em\u003e don\u0027t know why I cannot get this, manually modified file**\u003c/p\u003e\n\u003cp\u003eThis makes Consul responsible for service discovery, see example below:\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edocker@boot2docker:~$ docker run -ti busybox /bin/sh\nUnable to find image \u0027busybox:latest\u0027 locally\nPulling repository busybox\n8c2e06607696: Download complete\ncf2616975b4a: Download complete\n6ce2e90b0bc7: Download complete\nStatus: Downloaded newer image for busybox:latest\n/ # cat /etc/resolv.conf\nnameserver 172.17.42.1\nnameserver 8.8.8.8\nsearch service.consul\n/ #\n\u003c/code\u003e\u003c/pre\u003e\n"
       },
       "dateCreated": "Aug 2, 2015 5:33:32 AM",
-      "dateStarted": "Aug 3, 2015 10:45:04 PM",
-      "dateFinished": "Aug 3, 2015 10:45:04 PM",
+      "dateStarted": "Aug 4, 2015 2:40:16 AM",
+      "dateFinished": "Aug 4, 2015 2:40:16 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n### Run Consul container\n\nin Docker vm, map host port 8600 to DNS port 53 docker.\n```\ndocker run -d \\\n   -p 8400:8400 \\\n   -p 8500:8500 \\\n   -p 8600:53/udp \\\n   -h node1 --name consul \\\n   progrium/consul \\\n   -server -bootstrap \\\n   -advertise 172.17.42.1\n```\nAny DNS client asks IP will get answer from Consul, advertise on default gateway.\n\nNote: See port list https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers\n",
+      "title": "Run Consul container",
+      "text": "%md\n### Run Consul container\n\nin Docker vm, map host port 8600 to DNS port 53 docker.\n```\ndocker run -d \\\n   -p 8400:8400 \\\n   -p 8500:8500 \\\n   -p 8600:53/udp \\\n   -h node1 --name consul \\\n   progrium/consul \\\n   -server -bootstrap \\\n   -advertise 172.17.42.1\n```\nAny DNS client asks IP will get answer from Consul, advertise on default gateway.\n\n```\nnable to find image \u0027progrium/consul:latest\u0027 locally\nPulling repository progrium/consul\ne66fb6787628: Download complete\n31f630c65071: Download complete\ncadd1fc80511: Download complete\n617a0e174acf: Download complete\n8142b9305a34: Download complete\n8e614066f6a6: Download complete\n8ba0a056d1e3: Download complete\nd79f17b5cf8f: Download complete\n1222ac49a0eb: Download complete\n8d3315362a90: Download complete\n8359e65c65c1: Download complete\n53d68e7edf50: Download complete\ne57fb0e987c9: Download complete\n39dd286a1371: Download complete\n0ed95048b811: Download complete\nd9333eedb08a: Download complete\n18d2154179cc: Download complete\nff1cf6216ab6: Download complete\nStatus: Downloaded newer image for progrium/consul:latest\n83241c492f08854a24032c040b0c5d6b30f511a3c9e96c76567700a4ac133746\ndocker@boot2docker:~$ docker ps\nCONTAINER ID        IMAGE                    COMMAND                CREATED             STATUS              PORTS                                                                                                                            NAMES\n83241c492f08        progrium/consul:latest   \"/bin/start -server    45 seconds ago      Up 44 seconds       8302/tcp, 53/tcp, 8302/udp, 8300/tcp, 8301/tcp, 8301/udp, 0.0.0.0:8400-\u003e8400/tcp, 0.0.0.0:8500-\u003e8500/tcp, 0.0.0.0:8600-\u003e53/udp   consul\ndocker@boot2docker:~$\n```\n\nNote: See port list https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers\n[Consul web ui](http://localhost:60085/ui/) can be viewed, Consul register itself.\n\n![Consul](https://www.evernote.com/l/AS6eakhOZjRIH6NT8EV43YCdkHaz77jttaMB/image.png)\n",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -575,7 +677,9 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": false
+        "editorHide": true,
+        "title": true,
+        "tableHide": true
       },
       "settings": {
         "params": {},
@@ -586,16 +690,17 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch3\u003eRun Consul container\u003c/h3\u003e\n\u003cp\u003ein Docker vm, map host port 8600 to DNS port 53 docker.\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edocker run -d \\\n   -p 8400:8400 \\\n   -p 8500:8500 \\\n   -p 8600:53/udp \\\n   -h node1 --name consul \\\n   progrium/consul \\\n   -server -bootstrap \\\n   -advertise 172.17.42.1\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eAny DNS client asks IP will get answer from Consul, advertise on default gateway.\u003c/p\u003e\n\u003cp\u003eNote: See port list https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers\u003c/p\u003e\n"
+        "msg": "\u003ch3\u003eRun Consul container\u003c/h3\u003e\n\u003cp\u003ein Docker vm, map host port 8600 to DNS port 53 docker.\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edocker run -d \\\n   -p 8400:8400 \\\n   -p 8500:8500 \\\n   -p 8600:53/udp \\\n   -h node1 --name consul \\\n   progrium/consul \\\n   -server -bootstrap \\\n   -advertise 172.17.42.1\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eAny DNS client asks IP will get answer from Consul, advertise on default gateway.\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003enable to find image \u0027progrium/consul:latest\u0027 locally\nPulling repository progrium/consul\ne66fb6787628: Download complete\n31f630c65071: Download complete\ncadd1fc80511: Download complete\n617a0e174acf: Download complete\n8142b9305a34: Download complete\n8e614066f6a6: Download complete\n8ba0a056d1e3: Download complete\nd79f17b5cf8f: Download complete\n1222ac49a0eb: Download complete\n8d3315362a90: Download complete\n8359e65c65c1: Download complete\n53d68e7edf50: Download complete\ne57fb0e987c9: Download complete\n39dd286a1371: Download complete\n0ed95048b811: Download complete\nd9333eedb08a: Download complete\n18d2154179cc: Download complete\nff1cf6216ab6: Download complete\nStatus: Downloaded newer image for progrium/consul:latest\n83241c492f08854a24032c040b0c5d6b30f511a3c9e96c76567700a4ac133746\ndocker@boot2docker:~$ docker ps\nCONTAINER ID        IMAGE                    COMMAND                CREATED             STATUS              PORTS                                                                                                                            NAMES\n83241c492f08        progrium/consul:latest   \"/bin/start -server    45 seconds ago      Up 44 seconds       8302/tcp, 53/tcp, 8302/udp, 8300/tcp, 8301/tcp, 8301/udp, 0.0.0.0:8400-\u0026gt;8400/tcp, 0.0.0.0:8500-\u0026gt;8500/tcp, 0.0.0.0:8600-\u0026gt;53/udp   consul\ndocker@boot2docker:~$\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eNote: See port list https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers\n\u003cbr  /\u003e\u003ca href\u003d\"http://localhost:60085/ui/\"\u003eConsul web ui\u003c/a\u003e can be viewed, Consul register itself.\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://www.evernote.com/l/AS6eakhOZjRIH6NT8EV43YCdkHaz77jttaMB/image.png\" alt\u003d\"Consul\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Aug 2, 2015 5:36:30 AM",
-      "dateStarted": "Aug 3, 2015 10:54:15 PM",
-      "dateFinished": "Aug 3, 2015 10:54:15 PM",
+      "dateStarted": "Aug 4, 2015 1:37:33 AM",
+      "dateFinished": "Aug 4, 2015 1:37:33 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\nin boot2docker vm,\n\n```\ndocker@boot2docker:~$ docker run -ti --rm \\\n\u003e   -p 9000:9000 \\\n\u003e   -e SERVICE_NAME\u003d\"webserver\" \\\n\u003e   -e SERVICE_TAGS\u003d\"master\" \\\n\u003e   -h web1 --name webserver \\\n\u003e   busybox \\\n\u003e   /bin/sh\nUnable to find image \u0027busybox:latest\u0027 locally\nPulling repository busybox\n8c2e06607696: Download complete\ncf2616975b4a: Download complete\n6ce2e90b0bc7: Download complete\nStatus: Downloaded newer image for busybox:latest\n```",
+      "title": "Run Registrator Container",
+      "text": "%md\n### Run Registrator Container\nRegistrator observaes docker deaman, whenever there is an server event that updates Registrator.  \n\n```\ndocker run -d \\\n  -e DOCKER_HOST\u003dtcp://172.17.42.1:2375 \\\n  -h registrator --name registrator \\\n  progrium/registrator \\\n  consul://172.17.42.1:8500\n```\n\nConsul registered more services\n![after registrator](https://www.evernote.com/l/AS5xuW9_2hpDoKUO3Nehnseu-K68p6iJRR0B/image.png)",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -607,90 +712,29 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": false
+        "title": true,
+        "editorHide": true,
+        "tableHide": true
       },
       "settings": {
         "params": {},
         "forms": {}
       },
-      "jobName": "paragraph_1438512847222_1125747682",
-      "id": "20150802-035407_1856186602",
+      "jobName": "paragraph_1438683349183_-203781906",
+      "id": "20150804-031549_1159601878",
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003cp\u003ein boot2docker vm,\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edocker@boot2docker:~$ docker run -ti --rm \\\n\u0026gt;   -p 9000:9000 \\\n\u0026gt;   -e SERVICE_NAME\u003d\"webserver\" \\\n\u0026gt;   -e SERVICE_TAGS\u003d\"master\" \\\n\u0026gt;   -h web1 --name webserver \\\n\u0026gt;   busybox \\\n\u0026gt;   /bin/sh\nUnable to find image \u0027busybox:latest\u0027 locally\nPulling repository busybox\n8c2e06607696: Download complete\ncf2616975b4a: Download complete\n6ce2e90b0bc7: Download complete\nStatus: Downloaded newer image for busybox:latest\n\u003c/code\u003e\u003c/pre\u003e\n"
+        "msg": "\u003ch3\u003eRun Registrator Container\u003c/h3\u003e\n\u003cp\u003eRegistrator observaes docker deaman, whenever there is an server event that updates Registrator.\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edocker run -d \\\n  -e DOCKER_HOST\u003dtcp://172.17.42.1:2375 \\\n  -h registrator --name registrator \\\n  progrium/registrator \\\n  consul://172.17.42.1:8500\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eConsul registered more services\n\u003cbr  /\u003e\u003cimg src\u003d\"https://www.evernote.com/l/AS5xuW9_2hpDoKUO3Nehnseu-K68p6iJRR0B/image.png\" alt\u003d\"after registrator\" /\u003e\u003c/p\u003e\n"
       },
-      "dateCreated": "Aug 2, 2015 3:54:07 AM",
-      "dateStarted": "Aug 3, 2015 4:17:57 PM",
-      "dateFinished": "Aug 3, 2015 4:17:57 PM",
+      "dateCreated": "Aug 4, 2015 3:15:49 AM",
+      "dateStarted": "Aug 4, 2015 3:28:38 AM",
+      "dateFinished": "Aug 4, 2015 3:28:38 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n![run consul for this workshop](https://www.evernote.com/l/AS7-w2LziHZK-552PcUuAUtx-ZcOwRi5IXgB/image.png)",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "editorHide": true
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1438320028629_1027480902",
-      "id": "20150730-222028_1338585646",
-      "result": {
-        "code": "SUCCESS",
-        "type": "HTML",
-        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://www.evernote.com/l/AS7-w2LziHZK-552PcUuAUtx-ZcOwRi5IXgB/image.png\" alt\u003d\"run consul for this workshop\" /\u003e\u003c/p\u003e\n"
-      },
-      "dateCreated": "Jul 30, 2015 10:20:28 PM",
-      "dateStarted": "Aug 2, 2015 1:39:18 AM",
-      "dateFinished": "Aug 2, 2015 1:39:18 AM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "text": "%md\n## Registrator\nRegistrator observaes docker deaman, whenever there is an server event that updates Registrator.  \n\n```\ndocker run -d \\\n  -e DOCKER_HOST\u003dtcp://172.17.42.1:2375 \\\n  -h registrator --name registrator \\\n  progrium/registrator \\\n  consul://172.17.42.1:8500\n```\nIf container already exists, do `docker start registrator`. ",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "editorHide": true
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1438461833080_151108364",
-      "id": "20150801-134353_2145999133",
-      "result": {
-        "code": "SUCCESS",
-        "type": "HTML",
-        "msg": "\u003ch2\u003eRegistrator\u003c/h2\u003e\n\u003cp\u003eRegistrator observaes docker deaman, whenever there is an server event that updates Registrator.\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edocker run -d \\\n  -e DOCKER_HOST\u003dtcp://172.17.42.1:2375 \\\n  -h registrator --name registrator \\\n  progrium/registrator \\\n  consul://172.17.42.1:8500\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eIf container already exists, do \u003ccode\u003edocker start registrator\u003c/code\u003e.\u003c/p\u003e\n"
-      },
-      "dateCreated": "Aug 1, 2015 1:43:53 PM",
-      "dateStarted": "Aug 2, 2015 11:02:57 AM",
-      "dateFinished": "Aug 2, 2015 11:02:57 AM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
+      "title": "Consul in operation",
       "text": "%md \nTo view Consul in operation.\n\n```\ndocker@boot2docker:~$ docker logs -f registrator\n2015/08/01 20:34:40 registrator: Using consul registry backend at consul://172.17.42.1:8500\n2015/08/01 20:34:40 registrator v5 listening for Docker events...\n2015/08/01 20:34:40 registrator: ignored: d131ceee227e no published ports\n2015/08/01 20:34:40 registrator: ignored 0688feda09a9 port 8300 not published on host\n2015/08/01 20:34:40 registrator: ignored 0688feda09a9 port 8302 not published on host\n2015/08/01 20:34:40 registrator: ignored 0688feda09a9 port 8302 not published on host\n2015/08/01 20:34:40 registrator: added: 0688feda09a9 registrator:consul:8500\n2015/08/01 20:34:40 registrator: ignored 0688feda09a9 port 53 not published on host\n2015/08/01 20:34:40 registrator: added: 0688feda09a9 registrator:consul:53:udp\n2015/08/01 20:34:40 registrator: ignored 0688feda09a9 port 8301 not published on host\n2015/08/01 20:34:40 registrator: ignored 0688feda09a9 port 8301 not published on host\n2015/08/01 20:34:40 registrator: added: 0688feda09a9 registrator:consul:8400\n2015/08/01 20:40:01 registrator: added: 6d4ce3c4b219 registrator:webserver:9000\n2015/08/02 12:53:49 registrator: removed: 6d4ce3c4b219 registrator:webserver:9000\n2015/08/02 16:14:36 registrator: removed: 0688feda09a9 registrator:consul:8500\n2015/08/02 16:14:36 registrator: removed: 0688feda09a9 registrator:consul:53:udp\n2015/08/02 16:14:36 registrator: removed: 0688feda09a9 registrator:consul:8400\n2015/08/02 16:14:36 registrator: ignored 9016952a2d98 port 8301 not published on host\n2015/08/02 16:14:36 registrator: added: 9016952a2d98 registrator:consul:8400\n...\n```",
       "config": {
         "colWidth": 12.0,
@@ -703,7 +747,9 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": true
+        "editorHide": true,
+        "title": true,
+        "tableHide": true
       },
       "settings": {
         "params": {},
@@ -723,7 +769,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md \n### Services\nAdd a web service (use busybox to hold the place for now)\n\n```\ndocker run -ti --rm \\\n  -p 9000:9000 \\\n  -e SERVICE_NAME\u003d\"webserver\" \\\n  -e SERVICE_TAGS\u003d\"master\" \\\n  -h web1 --name webserver \\\n  busybox \\\n  /bin/sh\n```\nWe will see this in log file,\nUse `cntl-R` in terminal to start reverse search, type `lo` -\u003e `docker logs -f registrator`, we can see webservice has registered.\n\n```\n2015/08/03 05:39:50 registrator: added: a05390f1ebde registrator:webserver:9000\n2015/08/03 06:20:55 registrator: removed: a05390f1ebde registrator:webserver:9000\n```\nWe can also see this in web ui, http://localhost:60085/ui/",
+      "title": "Add Web Services",
+      "text": "%md\n### Add Web Services\nAdd a web service (use busybox to hold the place for now), in boot2docker vm,\n\n```\ndocker run -ti --rm \\\n  -p 9000:9000 \\\n  -e SERVICE_NAME\u003d\"webserver\" \\\n  -e SERVICE_TAGS\u003d\"master\" \\\n  -h web1 --name webserver \\\n  busybox \\\n  /bin/sh\n``` \n```\nUnable to find image \u0027busybox:latest\u0027 locally\nPulling repository busybox\n8c2e06607696: Download complete\ncf2616975b4a: Download complete\n6ce2e90b0bc7: Download complete\nStatus: Downloaded newer image for busybox:latest\n```\n\nWe will see this in log file,\nUse `cntl-R` in terminal to start reverse search, type `lo` -\u003e `docker logs -f registrator`, we can see webservice has registered.\n\n```\n2015/08/03 05:39:50 registrator: added: a05390f1ebde registrator:webserver:9000\n2015/08/03 06:20:55 registrator: removed: a05390f1ebde registrator:webserver:9000\n```\nWe can also see this in web ui, http://localhost:60085/ui/\n\n![run consul for this workshop](https://www.evernote.com/l/AS7-w2LziHZK-552PcUuAUtx-ZcOwRi5IXgB/image.png)",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -735,27 +782,30 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": true
+        "editorHide": true,
+        "title": true,
+        "tableHide": true
       },
       "settings": {
         "params": {},
         "forms": {}
       },
-      "jobName": "paragraph_1438539745925_920809576",
-      "id": "20150802-112225_526543027",
+      "jobName": "paragraph_1438512847222_1125747682",
+      "id": "20150802-035407_1856186602",
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch3\u003eServices\u003c/h3\u003e\n\u003cp\u003eAdd a web service (use busybox to hold the place for now)\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edocker run -ti --rm \\\n  -p 9000:9000 \\\n  -e SERVICE_NAME\u003d\"webserver\" \\\n  -e SERVICE_TAGS\u003d\"master\" \\\n  -h web1 --name webserver \\\n  busybox \\\n  /bin/sh\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eWe will see this in log file,\n\u003cbr  /\u003eUse \u003ccode\u003ecntl-R\u003c/code\u003e in terminal to start reverse search, type \u003ccode\u003elo\u003c/code\u003e -\u003e \u003ccode\u003edocker logs -f registrator\u003c/code\u003e, we can see webservice has registered.\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e2015/08/03 05:39:50 registrator: added: a05390f1ebde registrator:webserver:9000\n2015/08/03 06:20:55 registrator: removed: a05390f1ebde registrator:webserver:9000\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eWe can also see this in web ui, http://localhost:60085/ui/\u003c/p\u003e\n"
+        "msg": "\u003ch3\u003eAdd Web Services\u003c/h3\u003e\n\u003cp\u003eAdd a web service (use busybox to hold the place for now), in boot2docker vm,\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edocker run -ti --rm \\\n  -p 9000:9000 \\\n  -e SERVICE_NAME\u003d\"webserver\" \\\n  -e SERVICE_TAGS\u003d\"master\" \\\n  -h web1 --name webserver \\\n  busybox \\\n  /bin/sh\n\u003c/code\u003e\u003c/pre\u003e\n\u003cpre\u003e\u003ccode\u003eUnable to find image \u0027busybox:latest\u0027 locally\nPulling repository busybox\n8c2e06607696: Download complete\ncf2616975b4a: Download complete\n6ce2e90b0bc7: Download complete\nStatus: Downloaded newer image for busybox:latest\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eWe will see this in log file,\n\u003cbr  /\u003eUse \u003ccode\u003ecntl-R\u003c/code\u003e in terminal to start reverse search, type \u003ccode\u003elo\u003c/code\u003e -\u003e \u003ccode\u003edocker logs -f registrator\u003c/code\u003e, we can see webservice has registered.\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e2015/08/03 05:39:50 registrator: added: a05390f1ebde registrator:webserver:9000\n2015/08/03 06:20:55 registrator: removed: a05390f1ebde registrator:webserver:9000\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eWe can also see this in web ui, http://localhost:60085/ui/\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://www.evernote.com/l/AS7-w2LziHZK-552PcUuAUtx-ZcOwRi5IXgB/image.png\" alt\u003d\"run consul for this workshop\" /\u003e\u003c/p\u003e\n"
       },
-      "dateCreated": "Aug 2, 2015 11:22:25 AM",
-      "dateStarted": "Aug 3, 2015 1:55:53 AM",
-      "dateFinished": "Aug 3, 2015 1:55:53 AM",
+      "dateCreated": "Aug 2, 2015 3:54:07 AM",
+      "dateStarted": "Aug 4, 2015 3:37:54 AM",
+      "dateFinished": "Aug 4, 2015 3:37:54 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n## How Services Communicate among themselves\n* [Protocol buffers] are a language-neutral, platform-neutral extensible mechanism for serializing structured data.\n* [Thrift] is an interface definition language and binary communication protocol that is used to define and create services for numerous languages.\n* [RESTful] api\n\n![communication](https://yobriefca.se/images/blog/micro-service-architecture-comms.png)\n\n[Protocol buffers]:https://developers.google.com/protocol-buffers/?hl\u003den\n[Thrift]:https://en.wikipedia.org/wiki/Apache_Thrift\n[RESTful]:https://en.wikipedia.org/w/index.php?title\u003dRepresentational_state_transfer\u0026redirect\u003dno",
+      "title": "Services Communication",
+      "text": "%md\n## How Services Communicate among themselves\n* [Protocol buffers][1] are a language-neutral, platform-neutral extensible mechanism for serializing structured data.\n* [Thrift][2] is an interface definition language and binary communication protocol that is used to define and create services for numerous languages.\n* [RESTful][3] api\n\n![communication](https://yobriefca.se/images/blog/micro-service-architecture-comms.png)\n\n[1]:https://developers.google.com/protocol-buffers/?hl\u003den \"Protocol buffers\"\n[2]:https://en.wikipedia.org/wiki/Apache_Thrift \"Thrift\"\n[3]:https://en.wikipedia.org/w/index.php?title\u003dRepresentational_state_transfer\u0026redirect\u003dno \"RESTful\"",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -767,7 +817,9 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": true
+        "editorHide": true,
+        "title": true,
+        "tableHide": true
       },
       "settings": {
         "params": {},
@@ -778,16 +830,17 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch2\u003eHow Services Communicate among themselves\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"https://developers.google.com/protocol-buffers/?hl\u003den\"\u003eProtocol buffers\u003c/a\u003e are a language-neutral, platform-neutral extensible mechanism for serializing structured data.\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://en.wikipedia.org/wiki/Apache_Thrift\"\u003eThrift\u003c/a\u003e is an interface definition language and binary communication protocol that is used to define and create services for numerous languages.\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://en.wikipedia.org/w/index.php?title\u003dRepresentational_state_transfer\u0026amp;redirect\u003dno\"\u003eRESTful\u003c/a\u003e api\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://yobriefca.se/images/blog/micro-service-architecture-comms.png\" alt\u003d\"communication\" /\u003e\u003c/p\u003e\n"
+        "msg": "\u003ch2\u003eHow Services Communicate among themselves\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"https://developers.google.com/protocol-buffers/?hl\u003den\" title\u003d\"Protocol buffers\"\u003eProtocol buffers\u003c/a\u003e are a language-neutral, platform-neutral extensible mechanism for serializing structured data.\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://en.wikipedia.org/wiki/Apache_Thrift\" title\u003d\"Thrift\"\u003eThrift\u003c/a\u003e is an interface definition language and binary communication protocol that is used to define and create services for numerous languages.\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://en.wikipedia.org/w/index.php?title\u003dRepresentational_state_transfer\u0026amp;redirect\u003dno\" title\u003d\"RESTful\"\u003eRESTful\u003c/a\u003e api\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://yobriefca.se/images/blog/micro-service-architecture-comms.png\" alt\u003d\"communication\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Aug 2, 2015 8:16:50 PM",
-      "dateStarted": "Aug 3, 2015 2:16:51 AM",
-      "dateFinished": "Aug 3, 2015 2:16:51 AM",
+      "dateStarted": "Aug 4, 2015 3:46:08 AM",
+      "dateFinished": "Aug 4, 2015 3:46:08 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md \n## RESTful \nDifferent actions ![actions of RESTful request]\nReduce Chattiness from [Optimizing the Netflix API]\n\n[actions of RESTful request]:https://blog.apigee.com/sites/blog/files/Prag_REST_CRUD_thumb.png\n[RESTful api design]:http://maxoffsky.com/word/wp-content/uploads/2012/11/RESTful-API-design-1014x457.jpg\n[Optimizing the Netflix API]:http://techblog.netflix.com/2013/01/optimizing-netflix-api.html\n:\n:http://2.bp.blogspot.com/-8p4--m73yYc/UO4HsUo8HDI/AAAAAAAAAgE/0hRXr-lL6c4/s1600/request-single_1252.png",
+      "title": "REST",
+      "text": "%md \n## REST \nDifferent actions ![actions of RESTful request][1]\n\n[1]:https://blog.apigee.com/sites/blog/files/Prag_REST_CRUD_thumb.png\n\n[RESTful api design]:http://maxoffsky.com/word/wp-content/uploads/2012/11/RESTful-API-design-1014x457.jpg\n[Optimizing the Netflix API]:http://techblog.netflix.com/2013/01/optimizing-netflix-api.html\n[netflix single request]:http://2.bp.blogspot.com/-8p4--m73yYc/UO4HsUo8HDI/AAAAAAAAAgE/0hRXr-lL6c4/s1600/request-single_1252.png",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -798,7 +851,10 @@
           "values": [],
           "groups": [],
           "scatter": {}
-        }
+        },
+        "title": true,
+        "editorHide": true,
+        "tableHide": true
       },
       "settings": {
         "params": {},
@@ -809,11 +865,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch2\u003eRESTful\u003c/h2\u003e\n\u003cp\u003eDifferent actions \u003cimg src\u003d\"https://blog.apigee.com/sites/blog/files/Prag_REST_CRUD_thumb.png\" alt\u003d\"actions of RESTful request\" /\u003e\n\u003cbr  /\u003eReduce Chattiness from \u003ca href\u003d\"http://techblog.netflix.com/2013/01/optimizing-netflix-api.html\"\u003eOptimizing the Netflix API\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e:\n\u003cbr  /\u003e:http://2.bp.blogspot.com/-8p4\u0026ndash;m73yYc/UO4HsUo8HDI/AAAAAAAAAgE/0hRXr-lL6c4/s1600/request-single_1252.png\u003c/p\u003e\n"
+        "msg": "\u003ch2\u003eREST\u003c/h2\u003e\n\u003cp\u003eDifferent actions \u003cimg src\u003d\"https://blog.apigee.com/sites/blog/files/Prag_REST_CRUD_thumb.png\" alt\u003d\"actions of RESTful request\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Aug 3, 2015 2:01:29 AM",
-      "dateStarted": "Aug 3, 2015 3:30:54 AM",
-      "dateFinished": "Aug 3, 2015 3:30:54 AM",
+      "dateStarted": "Aug 4, 2015 3:53:43 AM",
+      "dateFinished": "Aug 4, 2015 3:53:43 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
