@@ -1,7 +1,8 @@
 {
   "paragraphs": [
     {
-      "text": "%md\n# Microservices\n\n## Reference\n\n* [Martin Fowler blog][1], [Managing Microservices Effectively video][2]\n* [A Microservices Reference Architecture video][3], [notes][4]\n* [Docker Workshop Tel-Aviv workshop requirements][5], [cheat sheet][6], [video][7], [slides][8].\n* [Practical Considerations For Microservice Architectures video][9], [book][10] by Sam Newma.\n* [Agile Australia 2014: Workshop - Design and Implementation of Microservices][11]\n\n[1]:http://martinfowler.com/articles/microservices.html \"Martin Fowler blog\"\n[2]:https://www.youtube.com/watch?v\u003dipHaHuKlLLc \"Managing Microservices Effectively video\"\n\n[3]:https://www.youtube.com/watch?v\u003dKHqMPRA6jVI\u0026list\u003dLL5wCy3trg9aNEBcarsIWUEg\u0026index\u003d1 \"A Microservices Reference Architecture video\"\n[4]:http://www.bencode.net/blog/2015/04/26/microservices/ \"A Microservices Reference Architecture notes\"\n\n[5]:http://dvps.me/docker-workshop-req \"Docker Workshop Tel-Aviv workshop requirements\"\n[6]:https://gist.github.com/kesor/4118731206087dea4239 \"Docker Workshop Tel-Aviv workshop cheat sheet\"\n[7]:https://www.youtube.com/watch?v\u003dOXhp8NAaofI \"Docker Workshop Tel-Aviv workshop video\"\n[8]:https://speakerdeck.com/devops/docker-workshop-microservices \"Docker Workshop Tel-Aviv workshop slides\"\n\n[9]:https://vimeo.com/105751281 \"Practical Considerations For Microservice Architectures - Sam Newman\"\n[10]:http://www.slideshare.net/pallavs20/building-microservices?qid\u003dd9c4884e-5841-49ce-af43-e7f23e05e1f4\u0026v\u003ddefault\u0026b\u003d\u0026from_search\u003d9 \"Building Microservics book - Sam Newma\"\n\n[11]:http://www.slideshare.net/AgileAustralia/agile-australia2014workshopmicroservices?qid\u003dd9c4884e-5841-49ce-af43-e7f23e05e1f4\u0026v\u003ddefault\u0026b\u003d\u0026from_search\u003d8 \"Agile Australia 2014: Workshop - Design and Implementation of Microservices\"\n\n[12]:http://yobriefca.se/blog/2013/04/29/micro-service-architecture/ \"Microservices Architecture\"\n[Architecture]:http://www.slideshare.net/eduardsi/micro-service-architecture",
+      "title": "Reference",
+      "text": "%md\n# **Microservices**\n\n## Reference\n\n* [Martin Fowler blog][1], [Managing Microservices Effectively video][2]\n* [A Microservices Reference Architecture video][3], [notes][4]\n* [Docker Workshop Tel-Aviv workshop requirements][5], [cheat sheet][6], [video][7], [slides][8].\n* [Practical Considerations For Microservice Architectures video][9], [book][10] by Sam Newma.\n* [Agile Australia 2014: Workshop - Design and Implementation of Microservices][11]\n\n[1]:http://martinfowler.com/articles/microservices.html \"Martin Fowler blog\"\n[2]:https://www.youtube.com/watch?v\u003dipHaHuKlLLc \"Managing Microservices Effectively video\"\n\n[3]:https://www.youtube.com/watch?v\u003dKHqMPRA6jVI\u0026list\u003dLL5wCy3trg9aNEBcarsIWUEg\u0026index\u003d1 \"A Microservices Reference Architecture video\"\n[4]:http://www.bencode.net/blog/2015/04/26/microservices/ \"A Microservices Reference Architecture notes\"\n\n[5]:http://dvps.me/docker-workshop-req \"Docker Workshop Tel-Aviv workshop requirements\"\n[6]:https://gist.github.com/kesor/4118731206087dea4239 \"Docker Workshop Tel-Aviv workshop cheat sheet\"\n[7]:https://www.youtube.com/watch?v\u003dOXhp8NAaofI \"Docker Workshop Tel-Aviv workshop video\"\n[8]:https://speakerdeck.com/devops/docker-workshop-microservices \"Docker Workshop Tel-Aviv workshop slides\"\n\n[9]:https://vimeo.com/105751281 \"Practical Considerations For Microservice Architectures - Sam Newman\"\n[10]:http://www.slideshare.net/pallavs20/building-microservices?qid\u003dd9c4884e-5841-49ce-af43-e7f23e05e1f4\u0026v\u003ddefault\u0026b\u003d\u0026from_search\u003d9 \"Building Microservics book - Sam Newma\"\n\n[11]:http://www.slideshare.net/AgileAustralia/agile-australia2014workshopmicroservices?qid\u003dd9c4884e-5841-49ce-af43-e7f23e05e1f4\u0026v\u003ddefault\u0026b\u003d\u0026from_search\u003d8 \"Agile Australia 2014: Workshop - Design and Implementation of Microservices\"\n\n[12]:http://yobriefca.se/blog/2013/04/29/micro-service-architecture/ \"Microservices Architecture\"\n[Architecture]:http://www.slideshare.net/eduardsi/micro-service-architecture",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -12,7 +13,10 @@
           "values": [],
           "groups": [],
           "scatter": {}
-        }
+        },
+        "title": true,
+        "tableHide": true,
+        "editorHide": true
       },
       "settings": {
         "params": {},
@@ -23,11 +27,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch1\u003eMicroservices\u003c/h1\u003e\n\u003ch2\u003eReference\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"http://martinfowler.com/articles/microservices.html\" title\u003d\"Martin Fowler blog\"\u003eMartin Fowler blog\u003c/a\u003e, \u003ca href\u003d\"https://www.youtube.com/watch?v\u003dipHaHuKlLLc\" title\u003d\"Managing Microservices Effectively video\"\u003eManaging Microservices Effectively video\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://www.youtube.com/watch?v\u003dKHqMPRA6jVI\u0026amp;list\u003dLL5wCy3trg9aNEBcarsIWUEg\u0026amp;index\u003d1\" title\u003d\"A Microservices Reference Architecture video\"\u003eA Microservices Reference Architecture video\u003c/a\u003e, \u003ca href\u003d\"http://www.bencode.net/blog/2015/04/26/microservices/\" title\u003d\"A Microservices Reference Architecture notes\"\u003enotes\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://dvps.me/docker-workshop-req\" title\u003d\"Docker Workshop Tel-Aviv workshop requirements\"\u003eDocker Workshop Tel-Aviv workshop requirements\u003c/a\u003e, \u003ca href\u003d\"https://gist.github.com/kesor/4118731206087dea4239\" title\u003d\"Docker Workshop Tel-Aviv workshop cheat sheet\"\u003echeat sheet\u003c/a\u003e, \u003ca href\u003d\"https://www.youtube.com/watch?v\u003dOXhp8NAaofI\" title\u003d\"Docker Workshop Tel-Aviv workshop video\"\u003evideo\u003c/a\u003e, \u003ca href\u003d\"https://speakerdeck.com/devops/docker-workshop-microservices\" title\u003d\"Docker Workshop Tel-Aviv workshop slides\"\u003eslides\u003c/a\u003e.\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://vimeo.com/105751281\" title\u003d\"Practical Considerations For Microservice Architectures - Sam Newman\"\u003ePractical Considerations For Microservice Architectures video\u003c/a\u003e, \u003ca href\u003d\"http://www.slideshare.net/pallavs20/building-microservices?qid\u003dd9c4884e-5841-49ce-af43-e7f23e05e1f4\u0026amp;v\u003ddefault\u0026amp;b\u003d\u0026amp;from_search\u003d9\" title\u003d\"Building Microservics book - Sam Newma\"\u003ebook\u003c/a\u003e by Sam Newma.\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://www.slideshare.net/AgileAustralia/agile-australia2014workshopmicroservices?qid\u003dd9c4884e-5841-49ce-af43-e7f23e05e1f4\u0026amp;v\u003ddefault\u0026amp;b\u003d\u0026amp;from_search\u003d8\" title\u003d\"Agile Australia 2014: Workshop - Design and Implementation of Microservices\"\u003eAgile Australia 2014: Workshop - Design and Implementation of Microservices\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n"
+        "msg": "\u003ch1\u003e\u003cstrong\u003eMicroservices\u003c/strong\u003e\u003c/h1\u003e\n\u003ch2\u003eReference\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"http://martinfowler.com/articles/microservices.html\" title\u003d\"Martin Fowler blog\"\u003eMartin Fowler blog\u003c/a\u003e, \u003ca href\u003d\"https://www.youtube.com/watch?v\u003dipHaHuKlLLc\" title\u003d\"Managing Microservices Effectively video\"\u003eManaging Microservices Effectively video\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://www.youtube.com/watch?v\u003dKHqMPRA6jVI\u0026amp;list\u003dLL5wCy3trg9aNEBcarsIWUEg\u0026amp;index\u003d1\" title\u003d\"A Microservices Reference Architecture video\"\u003eA Microservices Reference Architecture video\u003c/a\u003e, \u003ca href\u003d\"http://www.bencode.net/blog/2015/04/26/microservices/\" title\u003d\"A Microservices Reference Architecture notes\"\u003enotes\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://dvps.me/docker-workshop-req\" title\u003d\"Docker Workshop Tel-Aviv workshop requirements\"\u003eDocker Workshop Tel-Aviv workshop requirements\u003c/a\u003e, \u003ca href\u003d\"https://gist.github.com/kesor/4118731206087dea4239\" title\u003d\"Docker Workshop Tel-Aviv workshop cheat sheet\"\u003echeat sheet\u003c/a\u003e, \u003ca href\u003d\"https://www.youtube.com/watch?v\u003dOXhp8NAaofI\" title\u003d\"Docker Workshop Tel-Aviv workshop video\"\u003evideo\u003c/a\u003e, \u003ca href\u003d\"https://speakerdeck.com/devops/docker-workshop-microservices\" title\u003d\"Docker Workshop Tel-Aviv workshop slides\"\u003eslides\u003c/a\u003e.\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://vimeo.com/105751281\" title\u003d\"Practical Considerations For Microservice Architectures - Sam Newman\"\u003ePractical Considerations For Microservice Architectures video\u003c/a\u003e, \u003ca href\u003d\"http://www.slideshare.net/pallavs20/building-microservices?qid\u003dd9c4884e-5841-49ce-af43-e7f23e05e1f4\u0026amp;v\u003ddefault\u0026amp;b\u003d\u0026amp;from_search\u003d9\" title\u003d\"Building Microservics book - Sam Newma\"\u003ebook\u003c/a\u003e by Sam Newma.\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://www.slideshare.net/AgileAustralia/agile-australia2014workshopmicroservices?qid\u003dd9c4884e-5841-49ce-af43-e7f23e05e1f4\u0026amp;v\u003ddefault\u0026amp;b\u003d\u0026amp;from_search\u003d8\" title\u003d\"Agile Australia 2014: Workshop - Design and Implementation of Microservices\"\u003eAgile Australia 2014: Workshop - Design and Implementation of Microservices\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Jul 29, 2015 8:01:19 AM",
-      "dateStarted": "Aug 3, 2015 1:15:39 PM",
-      "dateFinished": "Aug 3, 2015 1:15:39 PM",
+      "dateStarted": "Aug 3, 2015 3:21:33 PM",
+      "dateFinished": "Aug 3, 2015 3:21:33 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -44,7 +48,7 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": false
+        "editorHide": true
       },
       "settings": {
         "params": {},
@@ -64,6 +68,7 @@
       "progressUpdateIntervalMs": 500
     },
     {
+      "title": "Clone",
       "text": "%sh\n# move to work directory\ncd ~/Projects/microservices\npwd\ngit clone https://gist.github.com/dfece549c22ddd3eccad workshop\n",
       "config": {
         "colWidth": 12.0,
@@ -75,7 +80,10 @@
           "values": [],
           "groups": [],
           "scatter": {}
-        }
+        },
+        "tableHide": true,
+        "editorHide": true,
+        "title": true
       },
       "settings": {
         "params": {},
@@ -95,7 +103,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sh \n# Start and login vm\ncd workshop\nvagrant up \u0026\u0026 vagrant ssh\n",
+      "title": "vagrantfile",
+      "text": "%md\n\nUse boot2docker vm, or\nCreate a vagrant box with update Docker box called vivid64, restarts vm\n\n```\nENV[\u0027VAGRANT_NO_PLUGINS\u0027] \u003d \u0027true\u0027\n\nVagrant.configure(\"2\") do |v|\n#  v.vm.box         \u003d \"vivid64\"\n  v.vm.box         \u003d \"yungsang/boot2docker\"\n  v.vm.box_check_update \u003d false\n\n  v.vm.network :forwarded_port, guest: 5000, host: 60050\n  v.vm.network :forwarded_port, guest: 8500, host: 60085\n  v.vm.network :forwarded_port, guest: 8080, host: 60080\n\n  v.vm.provider \"virtualbox\" do |vb|\n    vb.gui                   \u003d true\n    vb.memory                \u003d ENV.fetch \u0027BOX_MEMORY\u0027, \u00271024\u0027\n    vb.cpus                  \u003d ENV.fetch \u0027BOX_CPUS\u0027, \u00271\u0027\n    vb.functional_vboxsf     \u003d false\n    vb.check_guest_additions \u003d false\n  end\nend\n\nclass Vagrant::Action::Builtin::WaitForCommunicator\n  def call(env); end # do nothing!\nend\n\n```",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -107,70 +116,9 @@
           "groups": [],
           "scatter": {}
         },
+        "editorHide": true,
+        "title": true,
         "tableHide": true
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1438189444022_-1324075460",
-      "id": "20150729-100404_1508757224",
-      "result": {
-        "code": "SUCCESS",
-        "type": "TEXT",
-        "msg": "bash: line 0: cd: workshop: No such file or directory\nBringing machine \u0027default\u0027 up with \u0027virtualbox\u0027 provider...\n\u003d\u003d\u003e default: Clearing any previously set forwarded ports...\n\u003d\u003d\u003e default: Fixed port collision for 22 \u003d\u003e 2222. Now on port 2201.\n\u003d\u003d\u003e default: Clearing any previously set network interfaces...\n\u003d\u003d\u003e default: Preparing network interfaces based on configuration...\n    default: Adapter 1: nat\n\u003d\u003d\u003e default: Forwarding ports...\n    default: 22 \u003d\u003e 2201 (adapter 1)\n\u003d\u003d\u003e default: Running \u0027pre-boot\u0027 VM customizations...\n\u003d\u003d\u003e default: Booting VM...\n\u003d\u003d\u003e default: Waiting for machine to boot. This may take a few minutes...\n    default: SSH address: 127.0.0.1:2201\n    default: SSH username: vagrant\n    default: SSH auth method: private key\n    default: Warning: Connection timeout. Retrying...\n\u003d\u003d\u003e default: Machine booted and ready!\n\u003d\u003d\u003e default: Checking for guest additions in VM...\n\u003d\u003d\u003e default: Mounting shared folders...\n    default: /vagrant \u003d\u003e /Users/rkuo/Projects/zeppelin\n\u003d\u003d\u003e default: Machine already provisioned. Run `vagrant provision` or use the `--provision`\n\u003d\u003d\u003e default: to force provisioning. Provisioners marked to run always will still run.\nWelcome to Ubuntu 14.04 LTS (GNU/Linux 3.13.0-24-generic x86_64)\n\n * Documentation:  https://help.ubuntu.com/\n\n542 packages can be updated.\n185 updates are security updates.\n\n"
-      },
-      "dateCreated": "Jul 29, 2015 10:04:04 AM",
-      "dateStarted": "Jul 29, 2015 10:18:20 AM",
-      "dateFinished": "Jul 29, 2015 10:18:44 AM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "text": "%sh\n# verify Docker installation\ndocker --version",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        }
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1438190300316_-811920479",
-      "id": "20150729-101820_2107097676",
-      "result": {
-        "code": "SUCCESS",
-        "type": "TEXT",
-        "msg": "Docker version 1.7.0, build 0baf609\n"
-      },
-      "dateCreated": "Jul 29, 2015 10:18:20 AM",
-      "dateStarted": "Jul 29, 2015 10:24:53 AM",
-      "dateFinished": "Jul 29, 2015 10:24:53 AM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "text": "%md\nCreate a vagrant box with update Docker box called vivid64, restarts vm\n\n```\nENV[\u0027VAGRANT_NO_PLUGINS\u0027] \u003d \u0027true\u0027\n\nVagrant.configure(\"2\") do |v|\n#  v.vm.box         \u003d \"vivid64\"\n  v.vm.box         \u003d \"yungsang/boot2docker\"\n  v.vm.box_check_update \u003d false\n\n  v.vm.network :forwarded_port, guest: 5000, host: 60050\n  v.vm.network :forwarded_port, guest: 8500, host: 60085\n  v.vm.network :forwarded_port, guest: 8080, host: 60080\n\n  v.vm.provider \"virtualbox\" do |vb|\n    vb.gui                   \u003d true\n    vb.memory                \u003d ENV.fetch \u0027BOX_MEMORY\u0027, \u00271024\u0027\n    vb.cpus                  \u003d ENV.fetch \u0027BOX_CPUS\u0027, \u00271\u0027\n    vb.functional_vboxsf     \u003d false\n    vb.check_guest_additions \u003d false\n  end\nend\n\nclass Vagrant::Action::Builtin::WaitForCommunicator\n  def call(env); end # do nothing!\nend\n\n```",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "editorHide": true
       },
       "settings": {
         "params": {},
@@ -181,15 +129,16 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003cp\u003eCreate a vagrant box with update Docker box called vivid64, restarts vm\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eENV[\u0027VAGRANT_NO_PLUGINS\u0027] \u003d \u0027true\u0027\n\nVagrant.configure(\"2\") do |v|\n#  v.vm.box         \u003d \"vivid64\"\n  v.vm.box         \u003d \"yungsang/boot2docker\"\n  v.vm.box_check_update \u003d false\n\n  v.vm.network :forwarded_port, guest: 5000, host: 60050\n  v.vm.network :forwarded_port, guest: 8500, host: 60085\n  v.vm.network :forwarded_port, guest: 8080, host: 60080\n\n  v.vm.provider \"virtualbox\" do |vb|\n    vb.gui                   \u003d true\n    vb.memory                \u003d ENV.fetch \u0027BOX_MEMORY\u0027, \u00271024\u0027\n    vb.cpus                  \u003d ENV.fetch \u0027BOX_CPUS\u0027, \u00271\u0027\n    vb.functional_vboxsf     \u003d false\n    vb.check_guest_additions \u003d false\n  end\nend\n\nclass Vagrant::Action::Builtin::WaitForCommunicator\n  def call(env); end # do nothing!\nend\n\u003c/code\u003e\u003c/pre\u003e\n"
+        "msg": "\u003cp\u003eUse boot2docker vm, or\n\u003cbr  /\u003eCreate a vagrant box with update Docker box called vivid64, restarts vm\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eENV[\u0027VAGRANT_NO_PLUGINS\u0027] \u003d \u0027true\u0027\n\nVagrant.configure(\"2\") do |v|\n#  v.vm.box         \u003d \"vivid64\"\n  v.vm.box         \u003d \"yungsang/boot2docker\"\n  v.vm.box_check_update \u003d false\n\n  v.vm.network :forwarded_port, guest: 5000, host: 60050\n  v.vm.network :forwarded_port, guest: 8500, host: 60085\n  v.vm.network :forwarded_port, guest: 8080, host: 60080\n\n  v.vm.provider \"virtualbox\" do |vb|\n    vb.gui                   \u003d true\n    vb.memory                \u003d ENV.fetch \u0027BOX_MEMORY\u0027, \u00271024\u0027\n    vb.cpus                  \u003d ENV.fetch \u0027BOX_CPUS\u0027, \u00271\u0027\n    vb.functional_vboxsf     \u003d false\n    vb.check_guest_additions \u003d false\n  end\nend\n\nclass Vagrant::Action::Builtin::WaitForCommunicator\n  def call(env); end # do nothing!\nend\n\u003c/code\u003e\u003c/pre\u003e\n"
       },
       "dateCreated": "Jul 29, 2015 10:24:53 AM",
-      "dateStarted": "Aug 1, 2015 2:07:10 PM",
-      "dateFinished": "Aug 1, 2015 2:07:10 PM",
+      "dateStarted": "Aug 3, 2015 3:25:58 PM",
+      "dateFinished": "Aug 3, 2015 3:25:58 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
+      "title": "Start and login vM",
       "text": "%sh\ncd ~/Projects/microservices/workshop\nvagrant up\nvagrant ssh\nls",
       "config": {
         "colWidth": 12.0,
@@ -201,7 +150,10 @@
           "values": [],
           "groups": [],
           "scatter": {}
-        }
+        },
+        "title": true,
+        "tableHide": true,
+        "editorHide": true
       },
       "settings": {
         "params": {},
@@ -221,7 +173,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\nGet images:\n\n```\ndocker@boot2docker:~$ for image in registry pragrium/consul pragrium/registrator \\\n\u003e              golang python ruby scratch; do\n\u003e     docker pull $image\n\u003e done\n```\nResults\n\n```\ndocker@boot2docker:~$ docker images\nREPOSITORY             TAG                 IMAGE ID            CREATED              VIRTUAL SIZE\nruby                   2                   eeb85dfaa855        8 days ago           705.4 MB\nruby                   2.2                 eeb85dfaa855        8 days ago           705.4 MB\nruby                   2.2.2               eeb85dfaa855        8 days ago           705.4 MB\nruby                   latest              eeb85dfaa855        8 days ago           705.4 MB\npython                 3.4                 545faa5764ae        2 weeks ago          684.8 MB\npython                 3.4.3               545faa5764ae        2 weeks ago          684.8 MB\npython                 latest              545faa5764ae        2 weeks ago          684.8 MB\npython                 3                   545faa5764ae        2 weeks ago          684.8 MB\nregistry               latest              ddfbba49d0b6        2 weeks ago          423.6 MB\ngolang                 latest              124e2127157f        2 weeks ago          517.3 MB\ngolang                 1                   124e2127157f        2 weeks ago          517.3 MB\ngolang                 1.4                 124e2127157f        2 weeks ago          517.3 MB\ngolang                 1.4.2               124e2127157f        2 weeks ago          517.3 MB\nprogrium/consul        latest              e66fb6787628        4 weeks ago          69.43 MB\nprogrium/registrator   latest              6084f839101b        5 months ago         13.75 MB\nscratch                latest              511136ea3c5a        2.134200 years ago   0 B\n```",
+      "title": "Verify Docker Version",
+      "text": "%md\nverify Docker installation\n\n```\ndocker@boot2docker:~$ docker --version\nDocker version 1.4.1, build 5bc2ff8\n```",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -233,7 +186,43 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": true
+        "editorHide": true,
+        "title": true,
+        "tableHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1438190300316_-811920479",
+      "id": "20150729-101820_2107097676",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003everify Docker installation\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edocker@boot2docker:~$ docker --version\nDocker version 1.4.1, build 5bc2ff8\n\u003c/code\u003e\u003c/pre\u003e\n"
+      },
+      "dateCreated": "Jul 29, 2015 10:18:20 AM",
+      "dateStarted": "Aug 3, 2015 3:31:48 PM",
+      "dateFinished": "Aug 3, 2015 3:31:48 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Get Language Images",
+      "text": "%md\nGet images:\nin boot2docker\n\n```\nfor image in registry pragrium/consul pragrium/registrator \\\n            golang python ruby scratch; do\n    docker pull $image\ndone\n```\nResults\n\n```\ndocker@boot2docker:~$ docker images\nREPOSITORY          TAG                 IMAGE ID            CREATED              VIRTUAL SIZE\nruby                2                   eeb85dfaa855        10 days ago          705.4 MB\nruby                2.2                 eeb85dfaa855        10 days ago          705.4 MB\nruby                2.2.2               eeb85dfaa855        10 days ago          705.4 MB\nruby                latest              eeb85dfaa855        10 days ago          705.4 MB\npython              3                   545faa5764ae        2 weeks ago          684.8 MB\npython              3.4                 545faa5764ae        2 weeks ago          684.8 MB\npython              3.4.3               545faa5764ae        2 weeks ago          684.8 MB\npython              latest              545faa5764ae        2 weeks ago          684.8 MB\nregistry            latest              ddfbba49d0b6        2 weeks ago          423.6 MB\ngolang              latest              124e2127157f        2 weeks ago          517.3 MB\ngolang              1                   124e2127157f        2 weeks ago          517.3 MB\ngolang              1.4                 124e2127157f        2 weeks ago          517.3 MB\ngolang              1.4.2               124e2127157f        2 weeks ago          517.3 MB\nscratch             latest              511136ea3c5a        2.139927 years ago   0 B\ndocker@boot2docker:~$\n```",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorHide": false,
+        "title": true
       },
       "settings": {
         "params": {},
@@ -244,16 +233,16 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003cp\u003eGet images:\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edocker@boot2docker:~$ for image in registry pragrium/consul pragrium/registrator \\\n\u0026gt;              golang python ruby scratch; do\n\u0026gt;     docker pull $image\n\u0026gt; done\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eResults\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edocker@boot2docker:~$ docker images\nREPOSITORY             TAG                 IMAGE ID            CREATED              VIRTUAL SIZE\nruby                   2                   eeb85dfaa855        8 days ago           705.4 MB\nruby                   2.2                 eeb85dfaa855        8 days ago           705.4 MB\nruby                   2.2.2               eeb85dfaa855        8 days ago           705.4 MB\nruby                   latest              eeb85dfaa855        8 days ago           705.4 MB\npython                 3.4                 545faa5764ae        2 weeks ago          684.8 MB\npython                 3.4.3               545faa5764ae        2 weeks ago          684.8 MB\npython                 latest              545faa5764ae        2 weeks ago          684.8 MB\npython                 3                   545faa5764ae        2 weeks ago          684.8 MB\nregistry               latest              ddfbba49d0b6        2 weeks ago          423.6 MB\ngolang                 latest              124e2127157f        2 weeks ago          517.3 MB\ngolang                 1                   124e2127157f        2 weeks ago          517.3 MB\ngolang                 1.4                 124e2127157f        2 weeks ago          517.3 MB\ngolang                 1.4.2               124e2127157f        2 weeks ago          517.3 MB\nprogrium/consul        latest              e66fb6787628        4 weeks ago          69.43 MB\nprogrium/registrator   latest              6084f839101b        5 months ago         13.75 MB\nscratch                latest              511136ea3c5a        2.134200 years ago   0 B\n\u003c/code\u003e\u003c/pre\u003e\n"
+        "msg": "\u003cp\u003eGet images:\n\u003cbr  /\u003ein boot2docker\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003efor image in registry pragrium/consul pragrium/registrator \\\n            golang python ruby scratch; do\n    docker pull $image\ndone\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eResults\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edocker@boot2docker:~$ docker images\nREPOSITORY          TAG                 IMAGE ID            CREATED              VIRTUAL SIZE\nruby                2                   eeb85dfaa855        10 days ago          705.4 MB\nruby                2.2                 eeb85dfaa855        10 days ago          705.4 MB\nruby                2.2.2               eeb85dfaa855        10 days ago          705.4 MB\nruby                latest              eeb85dfaa855        10 days ago          705.4 MB\npython              3                   545faa5764ae        2 weeks ago          684.8 MB\npython              3.4                 545faa5764ae        2 weeks ago          684.8 MB\npython              3.4.3               545faa5764ae        2 weeks ago          684.8 MB\npython              latest              545faa5764ae        2 weeks ago          684.8 MB\nregistry            latest              ddfbba49d0b6        2 weeks ago          423.6 MB\ngolang              latest              124e2127157f        2 weeks ago          517.3 MB\ngolang              1                   124e2127157f        2 weeks ago          517.3 MB\ngolang              1.4                 124e2127157f        2 weeks ago          517.3 MB\ngolang              1.4.2               124e2127157f        2 weeks ago          517.3 MB\nscratch             latest              511136ea3c5a        2.139927 years ago   0 B\ndocker@boot2docker:~$\n\u003c/code\u003e\u003c/pre\u003e\n"
       },
       "dateCreated": "Aug 1, 2015 1:48:09 PM",
-      "dateStarted": "Aug 1, 2015 1:54:14 PM",
-      "dateFinished": "Aug 1, 2015 1:54:14 PM",
+      "dateStarted": "Aug 3, 2015 3:52:00 PM",
+      "dateFinished": "Aug 3, 2015 3:52:00 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md \n## Microservice\n### Loosely coupled service oriented architecture with bounded contexts.\n\nLoosely coupled -\u003e uses different technology stacks, has separate development and deployment schedules, responsibled by different teams.\nbounded context -\u003e minimal knowledge of own environment, dynamic, responsive.",
+      "text": "%md \n## What is Microservices?\n* Loosely coupled service oriented architecture with bounded contexts.\n\n    Loosely coupled -\u003e uses different technology stacks, has separate development and deployment schedules, responsibled by different teams.\n    Bounded context -\u003e minimal knowledge of own environment, dynamic, responsive.\n\n* Microservices is a software architecture style, in which complex applications are composed of small, independent processes communicating with each other using language-agnostic APIs. These services are small, highly decoupled and focus on doing a small task. From https://en.wikipedia.org/wiki/Microservices",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -276,11 +265,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch2\u003eMicroservice\u003c/h2\u003e\n\u003ch3\u003eLoosely coupled service oriented architecture with bounded contexts.\u003c/h3\u003e\n\u003cp\u003eLoosely coupled -\u003e uses different technology stacks, has separate development and deployment schedules, responsibled by different teams.\n\u003cbr  /\u003ebounded context -\u003e minimal knowledge of own environment, dynamic, responsive.\u003c/p\u003e\n"
+        "msg": "\u003ch2\u003eWhat is Microservices?\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cp\u003eLoosely coupled service oriented architecture with bounded contexts.\u003c/p\u003e\n\u003cp\u003eLoosely coupled -\u003e uses different technology stacks, has separate development and deployment schedules, responsibled by different teams.\n\u003cbr  /\u003eBounded context -\u003e minimal knowledge of own environment, dynamic, responsive.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eMicroservices is a software architecture style, in which complex applications are composed of small, independent processes communicating with each other using language-agnostic APIs. These services are small, highly decoupled and focus on doing a small task. From https://en.wikipedia.org/wiki/Microservices\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Jul 30, 2015 3:51:09 AM",
-      "dateStarted": "Jul 30, 2015 5:29:18 AM",
-      "dateFinished": "Jul 30, 2015 5:29:18 AM",
+      "dateStarted": "Aug 3, 2015 4:14:09 PM",
+      "dateFinished": "Aug 3, 2015 4:14:09 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -349,7 +338,7 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n## What is Monolithic?\n### Meaning\n1. formed of a single large block of stone.\n2. (of an organization or system) large, powerful, and intractably indivisible and uniform.\n\"rejecting any move toward a monolithic European superstate\"\n\nsynonyms:\tinflexible, rigid, unbending, unchanging, fossilized\n\"a monolithic organization\"\n\n### Death Star\n![Death Star][0a]\n\n### Unbuild Building\n![Palace of Russia][0b]\n\n## Monolithic vs Microservices\n![Monolithic vs Microservices][1]\n\nTrend\n![From monolithic to multi-cloud architecture][2]\n\n[0a]:http://i.telegraph.co.uk/multimedia/archive/02724/death-star-cut-awa_2724991c.jpg\n[0b]:http://adlhochcreative.com/blog/wp-content/uploads/2009/11/Palace-of-Soviets.jpg\n[0c]:https://www.evernote.com/l/AS563n7V4l9O-7jMZVaYBmgEsyV48Qv4dr4B/image.png\n[1]:https://yobriefca.se/images/blog/micro-service-architecture.png\n[2]:http://www.pwc.com/en_US/us/technology-forecast/2014/cloud-computing/features/assets/monolithic_multi_cloud_architectures_556.png \"From monolithic to multi-cloud architecture\"",
+      "text": "%md\n## What is Monolithic?\n### Meaning\n1. formed of a single large block of stone.\n2. (of an organization or system) large, powerful, and intractably indivisible and uniform.\n\"rejecting any move toward a monolithic European superstate\"\n\nsynonyms:\tinflexible, rigid, unbending, unchanging, fossilized\n\"a monolithic organization\"\n\n### Death Star\n![Death Star][0a]\n\n### Unbuild Building\n![Palace of Russia][0b]\n\n## Monolithic vs Microservices\n![Monolithic vs Microservices][1]\n\nTrend\n![From monolithic to multi-cloud architecture][2]\n\n[0a]:http://s.hswstatic.com/gif/death-star-1.jpg\n[0b]:http://adlhochcreative.com/blog/wp-content/uploads/2009/11/Palace-of-Soviets.jpg\n[0c]:https://www.evernote.com/l/AS563n7V4l9O-7jMZVaYBmgEsyV48Qv4dr4B/image.png\n[1]:https://yobriefca.se/images/blog/micro-service-architecture.png\n[2]:http://www.pwc.com/en_US/us/technology-forecast/2014/cloud-computing/features/assets/monolithic_multi_cloud_architectures_556.png \"From monolithic to multi-cloud architecture\"",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -361,7 +350,7 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": false
+        "editorHide": true
       },
       "settings": {
         "params": {},
@@ -372,11 +361,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch2\u003eWhat is Monolithic?\u003c/h2\u003e\n\u003ch3\u003eMeaning\u003c/h3\u003e\n\u003col\u003e\n\u003cli\u003eformed of a single large block of stone.\u003c/li\u003e\n\u003cli\u003e(of an organization or system) large, powerful, and intractably indivisible and uniform.\n\u003cbr  /\u003e\u0026ldquo;rejecting any move toward a monolithic European superstate\u0026rdquo;\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003esynonyms:   inflexible, rigid, unbending, unchanging, fossilized\n\u003cbr  /\u003e\u0026ldquo;a monolithic organization\u0026rdquo;\u003c/p\u003e\n\u003ch3\u003eDeath Star\u003c/h3\u003e\n\u003cp\u003e\u003cimg src\u003d\"http://i.telegraph.co.uk/multimedia/archive/02724/death-star-cut-awa_2724991c.jpg\" alt\u003d\"Death Star\" /\u003e\u003c/p\u003e\n\u003ch3\u003eUnbuild Building\u003c/h3\u003e\n\u003cp\u003e\u003cimg src\u003d\"http://adlhochcreative.com/blog/wp-content/uploads/2009/11/Palace-of-Soviets.jpg\" alt\u003d\"Palace of Russia\" /\u003e\u003c/p\u003e\n\u003ch2\u003eMonolithic vs Microservices\u003c/h2\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://yobriefca.se/images/blog/micro-service-architecture.png\" alt\u003d\"Monolithic vs Microservices\" /\u003e\u003c/p\u003e\n\u003cp\u003eTrend\n\u003cbr  /\u003e\u003cimg src\u003d\"http://www.pwc.com/en_US/us/technology-forecast/2014/cloud-computing/features/assets/monolithic_multi_cloud_architectures_556.png\" alt\u003d\"From monolithic to multi-cloud architecture\" title\u003d\"From monolithic to multi-cloud architecture\" /\u003e\u003c/p\u003e\n"
+        "msg": "\u003ch2\u003eWhat is Monolithic?\u003c/h2\u003e\n\u003ch3\u003eMeaning\u003c/h3\u003e\n\u003col\u003e\n\u003cli\u003eformed of a single large block of stone.\u003c/li\u003e\n\u003cli\u003e(of an organization or system) large, powerful, and intractably indivisible and uniform.\n\u003cbr  /\u003e\u0026ldquo;rejecting any move toward a monolithic European superstate\u0026rdquo;\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003esynonyms:   inflexible, rigid, unbending, unchanging, fossilized\n\u003cbr  /\u003e\u0026ldquo;a monolithic organization\u0026rdquo;\u003c/p\u003e\n\u003ch3\u003eDeath Star\u003c/h3\u003e\n\u003cp\u003e\u003cimg src\u003d\"http://s.hswstatic.com/gif/death-star-1.jpg\" alt\u003d\"Death Star\" /\u003e\u003c/p\u003e\n\u003ch3\u003eUnbuild Building\u003c/h3\u003e\n\u003cp\u003e\u003cimg src\u003d\"http://adlhochcreative.com/blog/wp-content/uploads/2009/11/Palace-of-Soviets.jpg\" alt\u003d\"Palace of Russia\" /\u003e\u003c/p\u003e\n\u003ch2\u003eMonolithic vs Microservices\u003c/h2\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://yobriefca.se/images/blog/micro-service-architecture.png\" alt\u003d\"Monolithic vs Microservices\" /\u003e\u003c/p\u003e\n\u003cp\u003eTrend\n\u003cbr  /\u003e\u003cimg src\u003d\"http://www.pwc.com/en_US/us/technology-forecast/2014/cloud-computing/features/assets/monolithic_multi_cloud_architectures_556.png\" alt\u003d\"From monolithic to multi-cloud architecture\" title\u003d\"From monolithic to multi-cloud architecture\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Jul 30, 2015 8:21:50 AM",
-      "dateStarted": "Aug 3, 2015 12:45:33 PM",
-      "dateFinished": "Aug 3, 2015 12:45:33 PM",
+      "dateStarted": "Aug 3, 2015 2:19:49 PM",
+      "dateFinished": "Aug 3, 2015 2:19:49 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -509,7 +498,7 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md \n###[Consul]\nFrom https://consul.io/\n\n![Consul Features][3]\n![Consul DNS]\n![Consul Storage]\n\n[Consul]:https://www.consul.io/intro/index.html\n[3]:https://www.evernote.com/l/AS7ne5Z27vBB3oxfXsHYW-SIFid27_eX_WgB/image.png \"Consul Features\"\n[Consul DNS]:https://www.evernote.com/l/AS7mX2jWnIdM_pDq3BP9H9mMbZihH0NCTT4B/image.png\n[Consul Storage]:https://www.evernote.com/l/AS4l-67oxN5Hw6mP4eiHIikCvUEQulOeD3AB/image.png\n\n[dotScale 2014 - Mitchell Hashimoto - Building Robust Systems With Consul]:https://www.youtube.com/watch?v\u003dtQ99V7QjEHc\n[Consul Demo]:https://www.youtube.com/watch?v\u003dhuvBEB3suoo\n[Orchestrating Docker with Terraform and Consul by Mitchell Hashimoto]:https://www.youtube.com/watch?v\u003dzi89DZiWfqg\n\n[Bay Area Mesos Meetup video - Mesos +Consul]:https://www.youtube.com/watch?v\u003dk5KNkvxkk_Y\n[Bay Area Mesos Meetup slides - Mesos +Consul]:https://speakerdeck.com/stevendborrelli/mesos-plus-consul",
+      "text": "%md \n###[Consul][1]\nFrom https://consul.io/\n\n![Consul Features][2]\n![Consul Query][3]\n![Consul Storage][4]\n\n[1]:https://www.consul.io/intro/index.html\n[2]:https://www.evernote.com/l/AS7ne5Z27vBB3oxfXsHYW-SIFid27_eX_WgB/image.png \"Consul Features\"\n[3]:https://www.evernote.com/l/AS7mX2jWnIdM_pDq3BP9H9mMbZihH0NCTT4B/image.png \"Consul DNS\"\n[4]:https://www.evernote.com/l/AS4l-67oxN5Hw6mP4eiHIikCvUEQulOeD3AB/image.png \"Consul Storage\"\n\n[dotScale 2014 - Mitchell Hashimoto - Building Robust Systems With Consul]:https://www.youtube.com/watch?v\u003dtQ99V7QjEHc\n[Consul Demo]:https://www.youtube.com/watch?v\u003dhuvBEB3suoo\n[Orchestrating Docker with Terraform and Consul by Mitchell Hashimoto]:https://www.youtube.com/watch?v\u003dzi89DZiWfqg\n\n[Bay Area Mesos Meetup video - Mesos +Consul]:https://www.youtube.com/watch?v\u003dk5KNkvxkk_Y\n[Bay Area Mesos Meetup slides - Mesos +Consul]:https://speakerdeck.com/stevendborrelli/mesos-plus-consul",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -520,7 +509,9 @@
           "values": [],
           "groups": [],
           "scatter": {}
-        }
+        },
+        "editorHide": true,
+        "tableHide": false
       },
       "settings": {
         "params": {},
@@ -531,16 +522,16 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch3\u003e\u003ca href\u003d\"https://www.consul.io/intro/index.html\"\u003eConsul\u003c/a\u003e\u003c/h3\u003e\n\u003cp\u003eFrom https://consul.io/\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://www.evernote.com/l/AS7ne5Z27vBB3oxfXsHYW-SIFid27_eX_WgB/image.png\" alt\u003d\"Consul Features\" title\u003d\"Consul Features\" /\u003e\n\u003cbr  /\u003e\u003cimg src\u003d\"https://www.evernote.com/l/AS7mX2jWnIdM_pDq3BP9H9mMbZihH0NCTT4B/image.png\" alt\u003d\"Consul DNS\" /\u003e\n\u003cbr  /\u003e\u003cimg src\u003d\"https://www.evernote.com/l/AS4l-67oxN5Hw6mP4eiHIikCvUEQulOeD3AB/image.png\" alt\u003d\"Consul Storage\" /\u003e\u003c/p\u003e\n"
+        "msg": "\u003ch3\u003e\u003ca href\u003d\"https://www.consul.io/intro/index.html\"\u003eConsul\u003c/a\u003e\u003c/h3\u003e\n\u003cp\u003eFrom https://consul.io/\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://www.evernote.com/l/AS7ne5Z27vBB3oxfXsHYW-SIFid27_eX_WgB/image.png\" alt\u003d\"Consul Features\" title\u003d\"Consul Features\" /\u003e\n\u003cbr  /\u003e\u003cimg src\u003d\"https://www.evernote.com/l/AS7mX2jWnIdM_pDq3BP9H9mMbZihH0NCTT4B/image.png\" alt\u003d\"Consul Query\" title\u003d\"Consul DNS\" /\u003e\n\u003cbr  /\u003e\u003cimg src\u003d\"https://www.evernote.com/l/AS4l-67oxN5Hw6mP4eiHIikCvUEQulOeD3AB/image.png\" alt\u003d\"Consul Storage\" title\u003d\"Consul Storage\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Aug 2, 2015 12:14:37 AM",
-      "dateStarted": "Aug 3, 2015 10:22:57 AM",
-      "dateFinished": "Aug 3, 2015 10:22:57 AM",
+      "dateStarted": "Aug 3, 2015 3:59:33 PM",
+      "dateFinished": "Aug 3, 2015 3:59:33 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\nin boot2docker vm,\n\n```\ndocker@boot2docker:~$ docker run -ti --rm \\\n\u003e   -p 9000:9000 \\\n\u003e   -e SERVICE_NAME\u003d\"webserver\" \\\n\u003e   -e SERVICE_TAGS\u003d\"master\" \\\n\u003e   -h web1 --name webserver \\\n\u003e   busybox \\\n\u003e   /bin/sh\nUnable to find image \u0027busybox:latest\u0027 locally\nPulling repository busybox\n8c2e06607696: Download complete\ncf2616975b4a: Download complete\n6ce2e90b0bc7: Download complete\nStatus: Downloaded newer image for busybox:latest\n\n```\n this makes Consul responsible for service discovery.  The first one is Docker default router.\n",
+      "text": "%md\n### Set Docker DNS\n\nDocker default gateway IP address,\n```\ndocker@boot2docker:~$ ifconfig -a\ndocker0   Link encap:Ethernet  HWaddr 56:84:7A:FE:97:99\n          inet addr:172.17.42.1  Bcast:0.0.0.0  Mask:255.255.0.0\n          UP BROADCAST MULTICAST  MTU:1500  Metric:1\n          RX packets:0 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:0\n          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)\n\ndummy0    Link encap:Ethernet  HWaddr AA:36:F8:94:72:96\n          BROADCAST NOARP  MTU:1500  Metric:1\n          RX packets:0 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:0\n          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)\n\neth0      Link encap:Ethernet  HWaddr 08:00:27:17:9C:13\n          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0\n          inet6 addr: fe80::a00:27ff:fe17:9c13/64 Scope:Link\n          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1\n          RX packets:719007 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:327411 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:1000\n          RX bytes:568076244 (541.7 MiB)  TX bytes:17905724 (17.0 MiB)\n\nlo        Link encap:Local Loopback\n          inet addr:127.0.0.1  Mask:255.0.0.0\n          inet6 addr: ::1/128 Scope:Host\n          UP LOOPBACK RUNNING  MTU:65536  Metric:1\n          RX packets:50 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:50 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:0\n          RX bytes:3596 (3.5 KiB)  TX bytes:3596 (3.5 KiB)\n\ndocker@boot2docker:~$\n```\nModify existing nameserver config, from \n```\ndocker@boot2docker:~$ cat /etc/resolv.conf\nnameserver 10.0.2.3\n```\n\nAdd boot2docker profile, and restart docker.\n```\nsudo vi /var/lib/boot2docker/profile\nEXTRA_ARGS\u003d\"\\\n  --dns 172.17.42.1 \\\n  --dns 8.8.8.8 \\\n  --dns-search service.consul \\\n\"\nsudo /etc/init.d/docker stop\nsudo /etc/init.d/docker start\n```\n\nCheck it again,\n```\n/ # cat /etc/resolv.conf\nnameserver 172.17.42.1\nnameserver 8.8.8.8\nsearch service.consul\n```\nThis makes Consul responsible for service discovery.  \n",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -552,39 +543,7 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": true
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1438512847222_1125747682",
-      "id": "20150802-035407_1856186602",
-      "result": {
-        "code": "SUCCESS",
-        "type": "HTML",
-        "msg": "\u003cp\u003ein boot2docker vm,\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edocker@boot2docker:~$ docker run -ti --rm \\\n\u0026gt;   -p 9000:9000 \\\n\u0026gt;   -e SERVICE_NAME\u003d\"webserver\" \\\n\u0026gt;   -e SERVICE_TAGS\u003d\"master\" \\\n\u0026gt;   -h web1 --name webserver \\\n\u0026gt;   busybox \\\n\u0026gt;   /bin/sh\nUnable to find image \u0027busybox:latest\u0027 locally\nPulling repository busybox\n8c2e06607696: Download complete\ncf2616975b4a: Download complete\n6ce2e90b0bc7: Download complete\nStatus: Downloaded newer image for busybox:latest\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003ethis makes Consul responsible for service discovery.  The first one is Docker default router.\u003c/p\u003e\n"
-      },
-      "dateCreated": "Aug 2, 2015 3:54:07 AM",
-      "dateStarted": "Aug 2, 2015 5:35:56 AM",
-      "dateFinished": "Aug 2, 2015 5:35:56 AM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "text": "%md\n### Docker DNS\n\n```\n/ # cat /etc/resolv.conf\nnameserver 172.17.42.1\nnameserver 8.8.8.8\nsearch service.consul\n/ # ifconfig\neth0      Link encap:Ethernet  HWaddr 02:42:AC:11:00:04\n          inet addr:172.17.0.4  Bcast:0.0.0.0  Mask:255.255.0.0\n          UP BROADCAST RUNNING  MTU:1500  Metric:1\n          RX packets:8 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:8 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:0\n          RX bytes:648 (648.0 B)  TX bytes:648 (648.0 B)\n\nlo        Link encap:Local Loopback\n          inet addr:127.0.0.1  Mask:255.0.0.0\n          UP LOOPBACK RUNNING  MTU:65536  Metric:1\n          RX packets:0 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:0\n          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)\n\n/ #\n```",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "editorHide": true
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -595,16 +554,16 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch3\u003eDocker DNS\u003c/h3\u003e\n\u003cpre\u003e\u003ccode\u003e/ # cat /etc/resolv.conf\nnameserver 172.17.42.1\nnameserver 8.8.8.8\nsearch service.consul\n/ # ifconfig\neth0      Link encap:Ethernet  HWaddr 02:42:AC:11:00:04\n          inet addr:172.17.0.4  Bcast:0.0.0.0  Mask:255.255.0.0\n          UP BROADCAST RUNNING  MTU:1500  Metric:1\n          RX packets:8 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:8 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:0\n          RX bytes:648 (648.0 B)  TX bytes:648 (648.0 B)\n\nlo        Link encap:Local Loopback\n          inet addr:127.0.0.1  Mask:255.0.0.0\n          UP LOOPBACK RUNNING  MTU:65536  Metric:1\n          RX packets:0 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:0\n          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)\n\n/ #\n\u003c/code\u003e\u003c/pre\u003e\n"
+        "msg": "\u003ch3\u003eSet Docker DNS\u003c/h3\u003e\n\u003cp\u003eDocker default gateway IP address,\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edocker@boot2docker:~$ ifconfig -a\ndocker0   Link encap:Ethernet  HWaddr 56:84:7A:FE:97:99\n          inet addr:172.17.42.1  Bcast:0.0.0.0  Mask:255.255.0.0\n          UP BROADCAST MULTICAST  MTU:1500  Metric:1\n          RX packets:0 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:0\n          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)\n\ndummy0    Link encap:Ethernet  HWaddr AA:36:F8:94:72:96\n          BROADCAST NOARP  MTU:1500  Metric:1\n          RX packets:0 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:0\n          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)\n\neth0      Link encap:Ethernet  HWaddr 08:00:27:17:9C:13\n          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0\n          inet6 addr: fe80::a00:27ff:fe17:9c13/64 Scope:Link\n          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1\n          RX packets:719007 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:327411 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:1000\n          RX bytes:568076244 (541.7 MiB)  TX bytes:17905724 (17.0 MiB)\n\nlo        Link encap:Local Loopback\n          inet addr:127.0.0.1  Mask:255.0.0.0\n          inet6 addr: ::1/128 Scope:Host\n          UP LOOPBACK RUNNING  MTU:65536  Metric:1\n          RX packets:50 errors:0 dropped:0 overruns:0 frame:0\n          TX packets:50 errors:0 dropped:0 overruns:0 carrier:0\n          collisions:0 txqueuelen:0\n          RX bytes:3596 (3.5 KiB)  TX bytes:3596 (3.5 KiB)\n\ndocker@boot2docker:~$\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eModify existing nameserver config, from\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edocker@boot2docker:~$ cat /etc/resolv.conf\nnameserver 10.0.2.3\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eAdd boot2docker profile, and restart docker.\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003esudo vi /var/lib/boot2docker/profile\nEXTRA_ARGS\u003d\"\\\n  --dns 172.17.42.1 \\\n  --dns 8.8.8.8 \\\n  --dns-search service.consul \\\n\"\nsudo /etc/init.d/docker stop\nsudo /etc/init.d/docker start\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eCheck it again,\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e/ # cat /etc/resolv.conf\nnameserver 172.17.42.1\nnameserver 8.8.8.8\nsearch service.consul\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eThis makes Consul responsible for service discovery.\u003c/p\u003e\n"
       },
       "dateCreated": "Aug 2, 2015 5:33:32 AM",
-      "dateStarted": "Aug 2, 2015 5:36:06 AM",
-      "dateFinished": "Aug 2, 2015 5:36:06 AM",
+      "dateStarted": "Aug 3, 2015 10:45:04 PM",
+      "dateFinished": "Aug 3, 2015 10:45:04 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\nin Docker vm, map host port 8600 to DNS port 53 docker.\n```\ndocker run -d \\\n   -p 8400:8400 \\\n   -p 8500:8500 \\\n   -p 8600:53/udp \\\n   -h node1 --name consul \\\n   progrium/consul \\\n   -server -bootstrap \\\n   -advertise 172.17.42.1\n```\nSee port list https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers\nAny DNS client asks IP will get answer from Consul, advertise on default gateway.",
+      "text": "%md\n### Run Consul container\n\nin Docker vm, map host port 8600 to DNS port 53 docker.\n```\ndocker run -d \\\n   -p 8400:8400 \\\n   -p 8500:8500 \\\n   -p 8600:53/udp \\\n   -h node1 --name consul \\\n   progrium/consul \\\n   -server -bootstrap \\\n   -advertise 172.17.42.1\n```\nAny DNS client asks IP will get answer from Consul, advertise on default gateway.\n\nNote: See port list https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers\n",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -616,7 +575,7 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": true
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -627,11 +586,43 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003cp\u003ein Docker vm, map host port 8600 to DNS port 53 docker.\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edocker run -d \\\n   -p 8400:8400 \\\n   -p 8500:8500 \\\n   -p 8600:53/udp \\\n   -h node1 --name consul \\\n   progrium/consul \\\n   -server -bootstrap \\\n   -advertise 172.17.42.1\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eSee port list https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers\n\u003cbr  /\u003eAny DNS client asks IP will get answer from Consul, advertise on default gateway.\u003c/p\u003e\n"
+        "msg": "\u003ch3\u003eRun Consul container\u003c/h3\u003e\n\u003cp\u003ein Docker vm, map host port 8600 to DNS port 53 docker.\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edocker run -d \\\n   -p 8400:8400 \\\n   -p 8500:8500 \\\n   -p 8600:53/udp \\\n   -h node1 --name consul \\\n   progrium/consul \\\n   -server -bootstrap \\\n   -advertise 172.17.42.1\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eAny DNS client asks IP will get answer from Consul, advertise on default gateway.\u003c/p\u003e\n\u003cp\u003eNote: See port list https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers\u003c/p\u003e\n"
       },
       "dateCreated": "Aug 2, 2015 5:36:30 AM",
-      "dateStarted": "Aug 2, 2015 8:45:33 AM",
-      "dateFinished": "Aug 2, 2015 8:45:33 AM",
+      "dateStarted": "Aug 3, 2015 10:54:15 PM",
+      "dateFinished": "Aug 3, 2015 10:54:15 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\nin boot2docker vm,\n\n```\ndocker@boot2docker:~$ docker run -ti --rm \\\n\u003e   -p 9000:9000 \\\n\u003e   -e SERVICE_NAME\u003d\"webserver\" \\\n\u003e   -e SERVICE_TAGS\u003d\"master\" \\\n\u003e   -h web1 --name webserver \\\n\u003e   busybox \\\n\u003e   /bin/sh\nUnable to find image \u0027busybox:latest\u0027 locally\nPulling repository busybox\n8c2e06607696: Download complete\ncf2616975b4a: Download complete\n6ce2e90b0bc7: Download complete\nStatus: Downloaded newer image for busybox:latest\n```",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1438512847222_1125747682",
+      "id": "20150802-035407_1856186602",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003ein boot2docker vm,\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edocker@boot2docker:~$ docker run -ti --rm \\\n\u0026gt;   -p 9000:9000 \\\n\u0026gt;   -e SERVICE_NAME\u003d\"webserver\" \\\n\u0026gt;   -e SERVICE_TAGS\u003d\"master\" \\\n\u0026gt;   -h web1 --name webserver \\\n\u0026gt;   busybox \\\n\u0026gt;   /bin/sh\nUnable to find image \u0027busybox:latest\u0027 locally\nPulling repository busybox\n8c2e06607696: Download complete\ncf2616975b4a: Download complete\n6ce2e90b0bc7: Download complete\nStatus: Downloaded newer image for busybox:latest\n\u003c/code\u003e\u003c/pre\u003e\n"
+      },
+      "dateCreated": "Aug 2, 2015 3:54:07 AM",
+      "dateStarted": "Aug 3, 2015 4:17:57 PM",
+      "dateFinished": "Aug 3, 2015 4:17:57 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
