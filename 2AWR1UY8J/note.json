@@ -35,7 +35,7 @@
     },
     {
       "title": "Reference",
-      "text": "%md\n# **Microservices**\n\n## Reference\n\n* [Martin Fowler blog][1], [Managing Microservices Effectively video][2]\n* [A Microservices Reference Architecture video][3], [notes][4]\n* [Docker Workshop Tel-Aviv workshop requirements][5], [cheat sheet][6], [video][7], [slides][8].\n* [Practical Considerations For Microservice Architectures video][9], [book][10] by Sam Newma.\n* [Agile Australia 2014: Workshop - Design and Implementation of Microservices][11]\n\n[1]:http://martinfowler.com/articles/microservices.html \"Martin Fowler blog\"\n[2]:https://www.youtube.com/watch?v\u003dipHaHuKlLLc \"Managing Microservices Effectively video\"\n\n[3]:https://www.youtube.com/watch?v\u003dKHqMPRA6jVI\u0026list\u003dLL5wCy3trg9aNEBcarsIWUEg\u0026index\u003d1 \"A Microservices Reference Architecture video\"\n[4]:http://www.bencode.net/blog/2015/04/26/microservices/ \"A Microservices Reference Architecture notes\"\n\n[5]:http://dvps.me/docker-workshop-req \"Docker Workshop Tel-Aviv workshop requirements\"\n[6]:https://gist.github.com/kesor/4118731206087dea4239 \"Docker Workshop Tel-Aviv workshop cheat sheet\"\n[7]:https://www.youtube.com/watch?v\u003dOXhp8NAaofI \"Docker Workshop Tel-Aviv workshop video\"\n[8]:https://speakerdeck.com/devops/docker-workshop-microservices \"Docker Workshop Tel-Aviv workshop slides\"\n\n[9]:https://vimeo.com/105751281 \"Practical Considerations For Microservice Architectures - Sam Newman\"\n[10]:http://www.slideshare.net/pallavs20/building-microservices?qid\u003dd9c4884e-5841-49ce-af43-e7f23e05e1f4\u0026v\u003ddefault\u0026b\u003d\u0026from_search\u003d9 \"Building Microservics book - Sam Newma\"\n\n[11]:http://www.slideshare.net/AgileAustralia/agile-australia2014workshopmicroservices?qid\u003dd9c4884e-5841-49ce-af43-e7f23e05e1f4\u0026v\u003ddefault\u0026b\u003d\u0026from_search\u003d8 \"Agile Australia 2014: Workshop - Design and Implementation of Microservices\"\n\n[12]:http://yobriefca.se/blog/2013/04/29/micro-service-architecture/ \"Microservices Architecture\"\n[Architecture]:http://www.slideshare.net/eduardsi/micro-service-architecture",
+      "text": "%md\n# **Microservices**\n\n## Reference\n\n* [Martin Fowler blog][1], [Managing Microservices Effectively video][2]\n* [A Microservices Reference Architecture video][3], [notes][4]\n* [Docker Workshop Tel-Aviv workshop requirements][5], [cheat sheet][6], [video][7], [slides][8].\n* [Practical Considerations For Microservice Architectures video][9], [book][10] by Sam Newma.\n* [Agile Australia 2014: Workshop - Design and Implementation of Microservices][11]\n* [Microservices Architectur][12]\n\n[1]:http://martinfowler.com/articles/microservices.html \"Martin Fowler blog\"\n[2]:https://www.youtube.com/watch?v\u003dipHaHuKlLLc \"Managing Microservices Effectively video\"\n\n[3]:https://www.youtube.com/watch?v\u003dKHqMPRA6jVI\u0026list\u003dLL5wCy3trg9aNEBcarsIWUEg\u0026index\u003d1 \"A Microservices Reference Architecture video\"\n[4]:http://www.bencode.net/blog/2015/04/26/microservices/ \"A Microservices Reference Architecture notes\"\n\n[5]:http://dvps.me/docker-workshop-req \"Docker Workshop Tel-Aviv workshop requirements\"\n[6]:https://gist.github.com/kesor/4118731206087dea4239 \"Docker Workshop Tel-Aviv workshop cheat sheet\"\n[7]:https://www.youtube.com/watch?v\u003dOXhp8NAaofI \"Docker Workshop Tel-Aviv workshop video\"\n[8]:https://speakerdeck.com/devops/docker-workshop-microservices \"Docker Workshop Tel-Aviv workshop slides\"\n\n[9]:https://vimeo.com/105751281 \"Practical Considerations For Microservice Architectures - Sam Newman\"\n[10]:http://www.slideshare.net/pallavs20/building-microservices?qid\u003dd9c4884e-5841-49ce-af43-e7f23e05e1f4\u0026v\u003ddefault\u0026b\u003d\u0026from_search\u003d9 \"Building Microservics book - Sam Newma\"\n\n[11]:http://www.slideshare.net/AgileAustralia/agile-australia2014workshopmicroservices?qid\u003dd9c4884e-5841-49ce-af43-e7f23e05e1f4\u0026v\u003ddefault\u0026b\u003d\u0026from_search\u003d8 \"Agile Australia 2014: Workshop - Design and Implementation of Microservices\"\n\n[12]:http://yobriefca.se/blog/2013/04/29/micro-service-architecture/ \"Microservices Architecture\"\n",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -60,11 +60,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch1\u003e\u003cstrong\u003eMicroservices\u003c/strong\u003e\u003c/h1\u003e\n\u003ch2\u003eReference\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"http://martinfowler.com/articles/microservices.html\" title\u003d\"Martin Fowler blog\"\u003eMartin Fowler blog\u003c/a\u003e, \u003ca href\u003d\"https://www.youtube.com/watch?v\u003dipHaHuKlLLc\" title\u003d\"Managing Microservices Effectively video\"\u003eManaging Microservices Effectively video\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://www.youtube.com/watch?v\u003dKHqMPRA6jVI\u0026amp;list\u003dLL5wCy3trg9aNEBcarsIWUEg\u0026amp;index\u003d1\" title\u003d\"A Microservices Reference Architecture video\"\u003eA Microservices Reference Architecture video\u003c/a\u003e, \u003ca href\u003d\"http://www.bencode.net/blog/2015/04/26/microservices/\" title\u003d\"A Microservices Reference Architecture notes\"\u003enotes\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://dvps.me/docker-workshop-req\" title\u003d\"Docker Workshop Tel-Aviv workshop requirements\"\u003eDocker Workshop Tel-Aviv workshop requirements\u003c/a\u003e, \u003ca href\u003d\"https://gist.github.com/kesor/4118731206087dea4239\" title\u003d\"Docker Workshop Tel-Aviv workshop cheat sheet\"\u003echeat sheet\u003c/a\u003e, \u003ca href\u003d\"https://www.youtube.com/watch?v\u003dOXhp8NAaofI\" title\u003d\"Docker Workshop Tel-Aviv workshop video\"\u003evideo\u003c/a\u003e, \u003ca href\u003d\"https://speakerdeck.com/devops/docker-workshop-microservices\" title\u003d\"Docker Workshop Tel-Aviv workshop slides\"\u003eslides\u003c/a\u003e.\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://vimeo.com/105751281\" title\u003d\"Practical Considerations For Microservice Architectures - Sam Newman\"\u003ePractical Considerations For Microservice Architectures video\u003c/a\u003e, \u003ca href\u003d\"http://www.slideshare.net/pallavs20/building-microservices?qid\u003dd9c4884e-5841-49ce-af43-e7f23e05e1f4\u0026amp;v\u003ddefault\u0026amp;b\u003d\u0026amp;from_search\u003d9\" title\u003d\"Building Microservics book - Sam Newma\"\u003ebook\u003c/a\u003e by Sam Newma.\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://www.slideshare.net/AgileAustralia/agile-australia2014workshopmicroservices?qid\u003dd9c4884e-5841-49ce-af43-e7f23e05e1f4\u0026amp;v\u003ddefault\u0026amp;b\u003d\u0026amp;from_search\u003d8\" title\u003d\"Agile Australia 2014: Workshop - Design and Implementation of Microservices\"\u003eAgile Australia 2014: Workshop - Design and Implementation of Microservices\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n"
+        "msg": "\u003ch1\u003e\u003cstrong\u003eMicroservices\u003c/strong\u003e\u003c/h1\u003e\n\u003ch2\u003eReference\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"http://martinfowler.com/articles/microservices.html\" title\u003d\"Martin Fowler blog\"\u003eMartin Fowler blog\u003c/a\u003e, \u003ca href\u003d\"https://www.youtube.com/watch?v\u003dipHaHuKlLLc\" title\u003d\"Managing Microservices Effectively video\"\u003eManaging Microservices Effectively video\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://www.youtube.com/watch?v\u003dKHqMPRA6jVI\u0026amp;list\u003dLL5wCy3trg9aNEBcarsIWUEg\u0026amp;index\u003d1\" title\u003d\"A Microservices Reference Architecture video\"\u003eA Microservices Reference Architecture video\u003c/a\u003e, \u003ca href\u003d\"http://www.bencode.net/blog/2015/04/26/microservices/\" title\u003d\"A Microservices Reference Architecture notes\"\u003enotes\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://dvps.me/docker-workshop-req\" title\u003d\"Docker Workshop Tel-Aviv workshop requirements\"\u003eDocker Workshop Tel-Aviv workshop requirements\u003c/a\u003e, \u003ca href\u003d\"https://gist.github.com/kesor/4118731206087dea4239\" title\u003d\"Docker Workshop Tel-Aviv workshop cheat sheet\"\u003echeat sheet\u003c/a\u003e, \u003ca href\u003d\"https://www.youtube.com/watch?v\u003dOXhp8NAaofI\" title\u003d\"Docker Workshop Tel-Aviv workshop video\"\u003evideo\u003c/a\u003e, \u003ca href\u003d\"https://speakerdeck.com/devops/docker-workshop-microservices\" title\u003d\"Docker Workshop Tel-Aviv workshop slides\"\u003eslides\u003c/a\u003e.\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://vimeo.com/105751281\" title\u003d\"Practical Considerations For Microservice Architectures - Sam Newman\"\u003ePractical Considerations For Microservice Architectures video\u003c/a\u003e, \u003ca href\u003d\"http://www.slideshare.net/pallavs20/building-microservices?qid\u003dd9c4884e-5841-49ce-af43-e7f23e05e1f4\u0026amp;v\u003ddefault\u0026amp;b\u003d\u0026amp;from_search\u003d9\" title\u003d\"Building Microservics book - Sam Newma\"\u003ebook\u003c/a\u003e by Sam Newma.\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://www.slideshare.net/AgileAustralia/agile-australia2014workshopmicroservices?qid\u003dd9c4884e-5841-49ce-af43-e7f23e05e1f4\u0026amp;v\u003ddefault\u0026amp;b\u003d\u0026amp;from_search\u003d8\" title\u003d\"Agile Australia 2014: Workshop - Design and Implementation of Microservices\"\u003eAgile Australia 2014: Workshop - Design and Implementation of Microservices\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://yobriefca.se/blog/2013/04/29/micro-service-architecture/\" title\u003d\"Microservices Architecture\"\u003eMicroservices Architectur\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Jul 29, 2015 8:01:19 AM",
-      "dateStarted": "Aug 3, 2015 3:21:33 PM",
-      "dateFinished": "Aug 3, 2015 3:21:33 PM",
+      "dateStarted": "Aug 4, 2015 7:04:48 AM",
+      "dateFinished": "Aug 4, 2015 7:04:48 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -770,7 +770,7 @@
     },
     {
       "title": "Add Web Services",
-      "text": "%md\n### Add Web Services\nAdd a web service (use busybox to hold the place for now), in boot2docker vm,\n\n```\ndocker run -ti --rm \\\n  -p 9000:9000 \\\n  -e SERVICE_NAME\u003d\"webserver\" \\\n  -e SERVICE_TAGS\u003d\"master\" \\\n  -h web1 --name webserver \\\n  busybox \\\n  /bin/sh\n``` \n```\nUnable to find image \u0027busybox:latest\u0027 locally\nPulling repository busybox\n8c2e06607696: Download complete\ncf2616975b4a: Download complete\n6ce2e90b0bc7: Download complete\nStatus: Downloaded newer image for busybox:latest\n```\n\nWe will see this in log file,\nUse `cntl-R` in terminal to start reverse search, type `lo` -\u003e `docker logs -f registrator`, we can see webservice has registered.\n\n```\n2015/08/03 05:39:50 registrator: added: a05390f1ebde registrator:webserver:9000\n2015/08/03 06:20:55 registrator: removed: a05390f1ebde registrator:webserver:9000\n```\nWe can also see this in web ui, http://localhost:60085/ui/\n\n![run consul for this workshop](https://www.evernote.com/l/AS7-w2LziHZK-552PcUuAUtx-ZcOwRi5IXgB/image.png)",
+      "text": "%md\n### Add Web Services\nAdd a web service (use busybox to hold the place for now), in boot2docker vm,\n\n```\ndocker run -ti --rm \\\n  -p 9000:9000 \\\n  -e SERVICE_NAME\u003d\"webserver\" \\\n  -e SERVICE_TAGS\u003d\"master\" \\\n  -h web1 --name webserver \\\n  busybox \\\n  /bin/sh\n``` \n```\nUnable to find image \u0027busybox:latest\u0027 locally\nPulling repository busybox\n8c2e06607696: Download complete\ncf2616975b4a: Download complete\n6ce2e90b0bc7: Download complete\nStatus: Downloaded newer image for busybox:latest\n```\n\nWe will see this in log file,\nUse `cntl-R` in terminal to start reverse search, type `lo` -\u003e `docker logs -f registrator`, we can see webservice has registered.\n\n```\n2015/08/03 05:39:50 registrator: added: a05390f1ebde registrator:webserver:9000\n2015/08/03 06:20:55 registrator: removed: a05390f1ebde registrator:webserver:9000\n```\nWe can also see this in web ui, http://localhost:60085/ui/\n\n![run consul for this workshop](https://www.evernote.com/l/AS726FjEi_JNaIBII85hNq9hJSXMldxhr_UB/image.png)",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -795,11 +795,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch3\u003eAdd Web Services\u003c/h3\u003e\n\u003cp\u003eAdd a web service (use busybox to hold the place for now), in boot2docker vm,\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edocker run -ti --rm \\\n  -p 9000:9000 \\\n  -e SERVICE_NAME\u003d\"webserver\" \\\n  -e SERVICE_TAGS\u003d\"master\" \\\n  -h web1 --name webserver \\\n  busybox \\\n  /bin/sh\n\u003c/code\u003e\u003c/pre\u003e\n\u003cpre\u003e\u003ccode\u003eUnable to find image \u0027busybox:latest\u0027 locally\nPulling repository busybox\n8c2e06607696: Download complete\ncf2616975b4a: Download complete\n6ce2e90b0bc7: Download complete\nStatus: Downloaded newer image for busybox:latest\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eWe will see this in log file,\n\u003cbr  /\u003eUse \u003ccode\u003ecntl-R\u003c/code\u003e in terminal to start reverse search, type \u003ccode\u003elo\u003c/code\u003e -\u003e \u003ccode\u003edocker logs -f registrator\u003c/code\u003e, we can see webservice has registered.\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e2015/08/03 05:39:50 registrator: added: a05390f1ebde registrator:webserver:9000\n2015/08/03 06:20:55 registrator: removed: a05390f1ebde registrator:webserver:9000\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eWe can also see this in web ui, http://localhost:60085/ui/\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://www.evernote.com/l/AS7-w2LziHZK-552PcUuAUtx-ZcOwRi5IXgB/image.png\" alt\u003d\"run consul for this workshop\" /\u003e\u003c/p\u003e\n"
+        "msg": "\u003ch3\u003eAdd Web Services\u003c/h3\u003e\n\u003cp\u003eAdd a web service (use busybox to hold the place for now), in boot2docker vm,\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edocker run -ti --rm \\\n  -p 9000:9000 \\\n  -e SERVICE_NAME\u003d\"webserver\" \\\n  -e SERVICE_TAGS\u003d\"master\" \\\n  -h web1 --name webserver \\\n  busybox \\\n  /bin/sh\n\u003c/code\u003e\u003c/pre\u003e\n\u003cpre\u003e\u003ccode\u003eUnable to find image \u0027busybox:latest\u0027 locally\nPulling repository busybox\n8c2e06607696: Download complete\ncf2616975b4a: Download complete\n6ce2e90b0bc7: Download complete\nStatus: Downloaded newer image for busybox:latest\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eWe will see this in log file,\n\u003cbr  /\u003eUse \u003ccode\u003ecntl-R\u003c/code\u003e in terminal to start reverse search, type \u003ccode\u003elo\u003c/code\u003e -\u003e \u003ccode\u003edocker logs -f registrator\u003c/code\u003e, we can see webservice has registered.\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e2015/08/03 05:39:50 registrator: added: a05390f1ebde registrator:webserver:9000\n2015/08/03 06:20:55 registrator: removed: a05390f1ebde registrator:webserver:9000\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eWe can also see this in web ui, http://localhost:60085/ui/\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://www.evernote.com/l/AS726FjEi_JNaIBII85hNq9hJSXMldxhr_UB/image.png\" alt\u003d\"run consul for this workshop\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Aug 2, 2015 3:54:07 AM",
-      "dateStarted": "Aug 4, 2015 3:37:54 AM",
-      "dateFinished": "Aug 4, 2015 3:37:54 AM",
+      "dateStarted": "Aug 4, 2015 4:13:29 AM",
+      "dateFinished": "Aug 4, 2015 4:13:29 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -874,14 +874,84 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "title": "Create a Ruby Web Server",
+      "text": "%md\nin boot2docker vm,\n\n```\ndocker run -ti --rm \\\n  -p 9292:9292 \\\n  -e SERVICE_NAME\u003d\"ruby_hello\" \\\n  -e SERVICE_TAGS\u003d\"ruby_hello\" \\\n  -h ruby_web --name ruby_webserver \\\n  --name ruby_hello \\\n  ruby /bin/bash\n  \n```\ninstall `rack`\n\n```\nroot@bc200f779f77:/# gem list\n\n*** LOCAL GEMS ***\n\nbigdecimal (1.2.6)\nbundler (1.10.6)\nio-console (0.4.3)\njson (1.8.1)\nminitest (5.4.3)\npower_assert (0.2.2)\npsych (2.0.8)\nrake (10.4.2)\nrdoc (4.2.0)\ntest-unit (3.0.8)\nroot@bc200f779f77:/# gem install rack\nFetching: rack-1.6.4.gem (100%)\nSuccessfully installed rack-1.6.4\n1 gem installed\nroot@bc200f779f77:/#\n```\ncopy ruby code from cheat sheet, paste it, and use ^d to save the file\n```\nroot@bc200f779f77:/# cat \u003e ruby_hello.rb\nrun Proc.new { |env|\n  [ 200,\n    {\u0027Content-Type\u0027 \u003d\u003e \u0027text/html\u0027},\n    [ \"Hello world!\" ]\n  ]\n}\n\n```\n`mv ruby_hello.rb ruby_hello.ru`\n\nrun app,\n```\nroot@bc200f779f77:/# rackup ruby_hello.ru\n[2015-08-04 15:14:05] INFO  WEBrick 1.3.1\n[2015-08-04 15:14:05] INFO  ruby 2.2.2 (2015-04-13) [x86_64-linux]\n[2015-08-04 15:14:05] INFO  WEBrick::HTTPServer#start: pid\u003d16 port\u003d9292\n```\n** we did not make this work, TBD **\n",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "title": true,
+        "tableHide": true,
+        "editorHide": true
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1438594126880_-1263160095",
       "id": "20150803-022846_2042916723",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003ein boot2docker vm,\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edocker run -ti --rm \\\n  -p 9292:9292 \\\n  -e SERVICE_NAME\u003d\"ruby_hello\" \\\n  -e SERVICE_TAGS\u003d\"ruby_hello\" \\\n  -h ruby_web --name ruby_webserver \\\n  --name ruby_hello \\\n  ruby /bin/bash\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003einstall \u003ccode\u003erack\u003c/code\u003e\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eroot@bc200f779f77:/# gem list\n\n*** LOCAL GEMS ***\n\nbigdecimal (1.2.6)\nbundler (1.10.6)\nio-console (0.4.3)\njson (1.8.1)\nminitest (5.4.3)\npower_assert (0.2.2)\npsych (2.0.8)\nrake (10.4.2)\nrdoc (4.2.0)\ntest-unit (3.0.8)\nroot@bc200f779f77:/# gem install rack\nFetching: rack-1.6.4.gem (100%)\nSuccessfully installed rack-1.6.4\n1 gem installed\nroot@bc200f779f77:/#\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003ecopy ruby code from cheat sheet, paste it, and use ^d to save the file\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eroot@bc200f779f77:/# cat \u0026gt; ruby_hello.rb\nrun Proc.new { |env|\n  [ 200,\n    {\u0027Content-Type\u0027 \u003d\u0026gt; \u0027text/html\u0027},\n    [ \"Hello world!\" ]\n  ]\n}\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e\u003ccode\u003emv ruby_hello.rb ruby_hello.ru\u003c/code\u003e\u003c/p\u003e\n\u003cp\u003erun app,\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eroot@bc200f779f77:/# rackup ruby_hello.ru\n[2015-08-04 15:14:05] INFO  WEBrick 1.3.1\n[2015-08-04 15:14:05] INFO  ruby 2.2.2 (2015-04-13) [x86_64-linux]\n[2015-08-04 15:14:05] INFO  WEBrick::HTTPServer#start: pid\u003d16 port\u003d9292\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e\u003cem\u003e\u003c/em\u003e we did not make this work \u003cem\u003e\u003c/em\u003e\u003c/p\u003e\n"
+      },
       "dateCreated": "Aug 3, 2015 2:28:46 AM",
+      "dateStarted": "Aug 4, 2015 8:53:59 AM",
+      "dateFinished": "Aug 4, 2015 8:53:59 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Create a GO Web Server",
+      "text": "%md\n\n```\nroot@b8f6dc68c11e:/go# cat \u003e gohello.go\npackage main\n\nimport (\n    \"fmt\"\n    \"net/http\"\n)\n\nfunc handler(w http.ResponseWriter, r *http.Request) {\n    fmt.Fprint(w, \"Hello World!\")\n}\n\nfunc main() {\n    http.HandleFunc(\"/\", handler)\n    http.ListenAndServe(\":8080\", nil)\n}\nroot@b8f6dc68c11e:/go#\n```\nrun app\n\n```\nroot@b8f6dc68c11e:/go# go run gohello.go\n^Z\n[1]+  Stopped                 go run gohello.go\nroot@b8f6dc68c11e:/go# bg\n[1]+ go run gohello.go \u0026\nroot@b8f6dc68c11e:/go# curl localhost:8080\nHello World!root@b8f6dc68c11e:/go#\n```\n\nTo package GO application with all dependencies.\n\n```\nroot@b8f6dc68c11e:/go# ls -altr\ntotal 20\ndrwxrwxrwx  2 root root 4096 Jul 14 06:26 src\ndrwxrwxrwx  2 root root 4096 Jul 14 06:26 bin\n-rw-r--r--  1 root root  231 Aug  4 16:42 gohello.go\ndrwxrwxrwx  4 root root 4096 Aug  4 16:44 .\ndrwxr-xr-x 50 root root 4096 Aug  4 16:49 ..\nroot@b8f6dc68c11e:/go# go build gohello.go\nroot@b8f6dc68c11e:/go# ldd gohello\n\tlinux-vdso.so.1 (0x00007fffbbdfd000)\n\tlibpthread.so.0 \u003d\u003e /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007f27a8485000)\n\tlibc.so.6 \u003d\u003e /lib/x86_64-linux-gnu/libc.so.6 (0x00007f27a80dc000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007f27a86a8000)\nroot@b8f6dc68c11e:/go# ls -altr\ntotal 5728\ndrwxrwxrwx  2 root root    4096 Jul 14 06:26 src\ndrwxrwxrwx  2 root root    4096 Jul 14 06:26 bin\n-rw-r--r--  1 root root     231 Aug  4 16:42 gohello.go\ndrwxr-xr-x 50 root root    4096 Aug  4 16:49 ..\ndrwxrwxrwx  4 root root    4096 Aug  4 17:13 .\n-rwxr-xr-x  1 root root 5844576 Aug  4 17:13 gohello\nroot@b8f6dc68c11e:/go#\n```\nThis allows the developer to use a docker \"scratch\" image as base and place this executable into the container for deployment. ",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "title": true,
+        "editorHide": false,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1438699429415_30976367",
+      "id": "20150804-074349_580925265",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cpre\u003e\u003ccode\u003eroot@b8f6dc68c11e:/go# cat \u0026gt; gohello.go\npackage main\n\nimport (\n    \"fmt\"\n    \"net/http\"\n)\n\nfunc handler(w http.ResponseWriter, r *http.Request) {\n    fmt.Fprint(w, \"Hello World!\")\n}\n\nfunc main() {\n    http.HandleFunc(\"/\", handler)\n    http.ListenAndServe(\":8080\", nil)\n}\nroot@b8f6dc68c11e:/go#\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003erun app\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eroot@b8f6dc68c11e:/go# go run gohello.go\n^Z\n[1]+  Stopped                 go run gohello.go\nroot@b8f6dc68c11e:/go# bg\n[1]+ go run gohello.go \u0026amp;\nroot@b8f6dc68c11e:/go# curl localhost:8080\nHello World!root@b8f6dc68c11e:/go#\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eTo package GO application with all dependencies.\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eroot@b8f6dc68c11e:/go# ls -altr\ntotal 20\ndrwxrwxrwx  2 root root 4096 Jul 14 06:26 src\ndrwxrwxrwx  2 root root 4096 Jul 14 06:26 bin\n-rw-r--r--  1 root root  231 Aug  4 16:42 gohello.go\ndrwxrwxrwx  4 root root 4096 Aug  4 16:44 .\ndrwxr-xr-x 50 root root 4096 Aug  4 16:49 ..\nroot@b8f6dc68c11e:/go# go build gohello.go\nroot@b8f6dc68c11e:/go# ldd gohello\n    linux-vdso.so.1 (0x00007fffbbdfd000)\n    libpthread.so.0 \u003d\u0026gt; /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007f27a8485000)\n    libc.so.6 \u003d\u0026gt; /lib/x86_64-linux-gnu/libc.so.6 (0x00007f27a80dc000)\n    /lib64/ld-linux-x86-64.so.2 (0x00007f27a86a8000)\nroot@b8f6dc68c11e:/go# ls -altr\ntotal 5728\ndrwxrwxrwx  2 root root    4096 Jul 14 06:26 src\ndrwxrwxrwx  2 root root    4096 Jul 14 06:26 bin\n-rw-r--r--  1 root root     231 Aug  4 16:42 gohello.go\ndrwxr-xr-x 50 root root    4096 Aug  4 16:49 ..\ndrwxrwxrwx  4 root root    4096 Aug  4 17:13 .\n-rwxr-xr-x  1 root root 5844576 Aug  4 17:13 gohello\nroot@b8f6dc68c11e:/go#\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eThis allows the developer to use a docker \u0026ldquo;scratch\u0026rdquo; image as base and place this executable into the container for deployment.\u003c/p\u003e\n"
+      },
+      "dateCreated": "Aug 4, 2015 7:43:49 AM",
+      "dateStarted": "Aug 4, 2015 10:32:12 AM",
+      "dateFinished": "Aug 4, 2015 10:32:12 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1438784227318_861178022",
+      "id": "20150805-071707_1443860339",
+      "dateCreated": "Aug 5, 2015 7:17:07 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
