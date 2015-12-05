@@ -2,6 +2,7 @@
   "paragraphs": [
     {
       "text": "%md \n# Spark Tutorial 2013\nfrom Spark Summit 2013 - Parallel programming with Spark - Pat McDonough.mp4",
+      "dateUpdated": "Nov 29, 2015 9:40:54 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -13,7 +14,8 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": true
+        "editorHide": false,
+        "editorMode": "ace/mode/markdown"
       },
       "settings": {
         "params": {},
@@ -33,7 +35,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "// %spark\n// auto completion cntl-.\nval s \u003d Seq(\"a\", \"b\")",
+      "text": "// %spark\n// auto completion cntl-.\nval s \u003d Seq(\"a\", \"b\")\nprintln(s)",
+      "dateUpdated": "Nov 29, 2015 9:42:09 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -45,7 +48,8 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": false
+        "editorHide": false,
+        "editorMode": "ace/mode/scala"
       },
       "settings": {
         "params": {},
@@ -56,11 +60,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "s: Seq[String] \u003d List(a, b)\n"
+        "msg": "s: Seq[String] \u003d List(a, b)\nList(a, b)\n"
       },
       "dateCreated": "Jun 12, 2015 8:35:03 AM",
-      "dateStarted": "Jun 12, 2015 8:58:46 AM",
-      "dateFinished": "Jun 12, 2015 8:58:47 AM",
+      "dateStarted": "Nov 29, 2015 9:42:09 PM",
+      "dateFinished": "Nov 29, 2015 9:42:57 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -389,7 +393,22 @@
   ],
   "name": "Spark Summit 2013 Tutorial",
   "id": "2AQ5587DZ",
-  "angularObjects": {},
+  "angularObjects": {
+    "2B458XSTQ": [],
+    "2B5XRQDUN": [],
+    "2B497ZDYT": [],
+    "2B5HA4K5Z": [],
+    "2B7RWS7R2": [],
+    "2B6MY65WY": [],
+    "2B72GQPKA": [],
+    "2B5KNPTJR": [],
+    "2B83SG64T": [],
+    "2B56DQK71": [],
+    "2B79XCMHY": [],
+    "2B6BSSFX7": [],
+    "2B7NZSVBV": [],
+    "2B62TSAA6": []
+  },
   "config": {
     "looknfeel": "default"
   },

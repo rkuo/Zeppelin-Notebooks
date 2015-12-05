@@ -2,7 +2,8 @@
   "paragraphs": [
     {
       "title": "Stack Options",
-      "text": "%md\n### Stack Options\nhttps://github.com/GoogleCloudPlatform/kubernetes/tree/master/docs/getting-started-guides\n\n![options](https://www.evernote.com/l/AS5jf9h0JD1CCZWwPsxep7PjmyUeKHCSE_0B/image.png)",
+      "text": "%md\n## Kuberetes\n\n### [Stack Options][1]\n![stack options][2]\n\n[1]:https://github.com/GoogleCloudPlatform/kubernetes/tree/master/docs/getting-started-guides\n[2]:https://www.evernote.com/l/AS5jf9h0JD1CCZWwPsxep7PjmyUeKHCSE_0B/image.png",
+      "dateUpdated": "Nov 30, 2015 3:44:21 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -16,7 +17,8 @@
         },
         "editorHide": false,
         "tableHide": false,
-        "title": false
+        "title": false,
+        "editorMode": "ace/mode/markdown"
       },
       "settings": {
         "params": {},
@@ -27,11 +29,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch3\u003eStack Options\u003c/h3\u003e\n\u003cp\u003ehttps://github.com/GoogleCloudPlatform/kubernetes/tree/master/docs/getting-started-guides\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://www.evernote.com/l/AS5jf9h0JD1CCZWwPsxep7PjmyUeKHCSE_0B/image.png\" alt\u003d\"options\" /\u003e\u003c/p\u003e\n"
+        "msg": "\u003ch2\u003eKuberetes\u003c/h2\u003e\n\u003ch3\u003e\u003ca href\u003d\"https://github.com/GoogleCloudPlatform/kubernetes/tree/master/docs/getting-started-guides\"\u003eStack Options\u003c/a\u003e\u003c/h3\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://www.evernote.com/l/AS5jf9h0JD1CCZWwPsxep7PjmyUeKHCSE_0B/image.png)\" alt\u003d\"stack options\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 9, 2015 5:31:26 AM",
-      "dateStarted": "Jun 9, 2015 5:55:43 AM",
-      "dateFinished": "Jun 9, 2015 5:55:43 AM",
+      "dateStarted": "Nov 30, 2015 3:43:59 AM",
+      "dateFinished": "Nov 30, 2015 3:43:59 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -50,7 +52,22 @@
   ],
   "name": "Kuberetes",
   "id": "2AQTWK167",
-  "angularObjects": {},
+  "angularObjects": {
+    "2B458XSTQ": [],
+    "2B5XRQDUN": [],
+    "2B497ZDYT": [],
+    "2B5HA4K5Z": [],
+    "2B7RWS7R2": [],
+    "2B6MY65WY": [],
+    "2B72GQPKA": [],
+    "2B5KNPTJR": [],
+    "2B83SG64T": [],
+    "2B56DQK71": [],
+    "2B79XCMHY": [],
+    "2B6BSSFX7": [],
+    "2B7NZSVBV": [],
+    "2B62TSAA6": []
+  },
   "config": {
     "looknfeel": "default"
   },

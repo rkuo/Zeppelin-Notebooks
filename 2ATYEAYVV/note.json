@@ -1,7 +1,8 @@
 {
   "paragraphs": [
     {
-      "text": "%md \n## Statistical and Mathematical Functions with DataFrames in Spark\n[original blog post - Statistical and Mathematical Functions with DataFrames in Spark]\n\nIn this blog post, we walk through some of the important functions, including:\n\n1. Random data generation\n2. Summary and descriptive statistics\n3. Sample covariance and correlation\n4. Cross tabulation (a.k.a. contingency table)\n5. Frequent items\n6. Mathematical functions\n\n[original blog post - Statistical and Mathematical Functions with DataFrames in Spark]:https://databricks.com/blog/2015/06/02/statistical-and-mathematical-functions-with-dataframes-in-spark.html\n",
+      "text": "%md \n## Statistical and Mathematical Functions with DataFrames in Spark\n[original blog post - Statistical and Mathematical Functions with DataFrames in Spark]\n\nIn this blog post, we walk through some of the important functions, including:\n\n1. Random data generation\n2. Summary and descriptive statistics\n3. Sample covariance and correlation\n4. Cross tabulation (a.k.a. contingency table)\n5. Frequent items\n6. Mathematical functions\n\n[original blog post - Statistical and Mathematical Functions with DataFrames in Spark][1]\n[1]:https://databricks.com/blog/2015/06/02/statistical-and-mathematical-functions-with-dataframes-in-spark.html\n",
+      "dateUpdated": "Dec 5, 2015 3:04:47 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -13,7 +14,8 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": false
+        "editorHide": false,
+        "editorMode": "ace/mode/markdown"
       },
       "settings": {
         "params": {},
@@ -24,11 +26,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch2\u003eStatistical and Mathematical Functions with DataFrames in Spark\u003c/h2\u003e\n\u003cp\u003e\u003ca href\u003d\"https://databricks.com/blog/2015/06/02/statistical-and-mathematical-functions-with-dataframes-in-spark.html\"\u003eoriginal blog post - Statistical and Mathematical Functions with DataFrames in Spark\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eIn this blog post, we walk through some of the important functions, including:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eRandom data generation\u003c/li\u003e\n\u003cli\u003eSummary and descriptive statistics\u003c/li\u003e\n\u003cli\u003eSample covariance and correlation\u003c/li\u003e\n\u003cli\u003eCross tabulation (a.k.a. contingency table)\u003c/li\u003e\n\u003cli\u003eFrequent items\u003c/li\u003e\n\u003cli\u003eMathematical functions\u003c/li\u003e\n\u003c/ol\u003e\n"
+        "msg": "\u003ch2\u003eStatistical and Mathematical Functions with DataFrames in Spark\u003c/h2\u003e\n\u003cp\u003e[original blog post - Statistical and Mathematical Functions with DataFrames in Spark]\u003c/p\u003e\n\u003cp\u003eIn this blog post, we walk through some of the important functions, including:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eRandom data generation\u003c/li\u003e\n\u003cli\u003eSummary and descriptive statistics\u003c/li\u003e\n\u003cli\u003eSample covariance and correlation\u003c/li\u003e\n\u003cli\u003eCross tabulation (a.k.a. contingency table)\u003c/li\u003e\n\u003cli\u003eFrequent items\u003c/li\u003e\n\u003cli\u003eMathematical functions\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003e\u003ca href\u003d\"https://databricks.com/blog/2015/06/02/statistical-and-mathematical-functions-with-dataframes-in-spark.html\"\u003eoriginal blog post - Statistical and Mathematical Functions with DataFrames in Spark\u003c/a\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Jul 14, 2015 12:51:28 AM",
-      "dateStarted": "Jul 14, 2015 1:26:56 AM",
-      "dateFinished": "Jul 14, 2015 1:26:56 AM",
+      "dateStarted": "Dec 5, 2015 3:02:34 AM",
+      "dateFinished": "Dec 5, 2015 3:02:34 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -348,7 +350,22 @@
   ],
   "name": "DF-statistic",
   "id": "2ATYEAYVV",
-  "angularObjects": {},
+  "angularObjects": {
+    "2B458XSTQ": [],
+    "2B5XRQDUN": [],
+    "2B497ZDYT": [],
+    "2B5HA4K5Z": [],
+    "2B7RWS7R2": [],
+    "2B6MY65WY": [],
+    "2B72GQPKA": [],
+    "2B5KNPTJR": [],
+    "2B83SG64T": [],
+    "2B56DQK71": [],
+    "2B79XCMHY": [],
+    "2B6BSSFX7": [],
+    "2B7NZSVBV": [],
+    "2B62TSAA6": []
+  },
   "config": {
     "looknfeel": "default"
   },

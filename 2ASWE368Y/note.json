@@ -1,7 +1,8 @@
 {
   "paragraphs": [
     {
-      "text": "%md \n# Spark and Macine Learning\nFrom Spark East 2015, [video] and [slides]\n\n[video]:https://www.youtube.com/watch?v\u003doTOgaMZkBKQ\n[slides]:http://www.slideshare.net/ksankar/data-science-with-spark\n\n## Terms\n[L1 and L2 regularization](http://www.quora.com/What-is-the-difference-between-L1-and-L2-regularization)\n[RandomForestModel](http://www.quora.com/Random-Forests/How-do-random-forests-work-in-laymans-terms)\n[Eigenvector and Eigenvalues](http://math.stackexchange.com/questions/23312/what-is-the-importance-of-eigenvalues-eigenvectors)\nEigenvectors make understanding linear transformations easy. They are the \"axes\" (directions) along which a linear transformation acts simply by \"stretching/compressing\" and/or \"flipping\"; eigenvalues give you the factors by which this compression occurs.\n\nThe more directions you have along which you understand the behavior of a linear transformation, the easier it is to understand the linear transformation; so you want to have as many linearly independent eigenvectors as possible associated to a single linear transformation. ... click above link for more.",
+      "text": "%md \n# Spark and Machine Learning\nFrom Spark East 2015, [video][1] and [slides][2]\n\n[1]:https://www.youtube.com/watch?v\u003doTOgaMZkBKQ\n[2]:http://www.slideshare.net/ksankar/data-science-with-spark\n\n## Terms\n[L1 and L2 regularization](http://www.quora.com/What-is-the-difference-between-L1-and-L2-regularization)\n[RandomForestModel](http://www.quora.com/Random-Forests/How-do-random-forests-work-in-laymans-terms)\n[Eigenvector and Eigenvalues](http://math.stackexchange.com/questions/23312/what-is-the-importance-of-eigenvalues-eigenvectors)\n\nEigenvectors make understanding linear transformations easy. They are the \"axes\" (directions) along which a linear transformation acts simply by \"stretching/compressing\" and/or \"flipping\"; eigenvalues give you the factors by which this compression occurs.\n\nThe more directions you have along which you understand the behavior of a linear transformation, the easier it is to understand the linear transformation; so you want to have as many linearly independent eigenvectors as possible associated to a single linear transformation. ... click above link for more.",
+      "dateUpdated": "Nov 29, 2015 9:18:55 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -13,7 +14,8 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": false
+        "editorHide": true,
+        "editorMode": "ace/mode/markdown"
       },
       "settings": {
         "params": {},
@@ -24,11 +26,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch1\u003eSpark and Macine Learning\u003c/h1\u003e\n\u003cp\u003eFrom Spark East 2015, \u003ca href\u003d\"https://www.youtube.com/watch?v\u003doTOgaMZkBKQ\"\u003evideo\u003c/a\u003e and \u003ca href\u003d\"http://www.slideshare.net/ksankar/data-science-with-spark\"\u003eslides\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003eTerms\u003c/h2\u003e\n\u003cp\u003e\u003ca href\u003d\"http://www.quora.com/What-is-the-difference-between-L1-and-L2-regularization\"\u003eL1 and L2 regularization\u003c/a\u003e\n\u003cbr  /\u003e\u003ca href\u003d\"http://www.quora.com/Random-Forests/How-do-random-forests-work-in-laymans-terms\"\u003eRandomForestModel\u003c/a\u003e\n\u003cbr  /\u003e\u003ca href\u003d\"http://math.stackexchange.com/questions/23312/what-is-the-importance-of-eigenvalues-eigenvectors\"\u003eEigenvector and Eigenvalues\u003c/a\u003e\n\u003cbr  /\u003eEigenvectors make understanding linear transformations easy. They are the \u0026ldquo;axes\u0026rdquo; (directions) along which a linear transformation acts simply by \u0026ldquo;stretching/compressing\u0026rdquo; and/or \u0026ldquo;flipping\u0026rdquo;; eigenvalues give you the factors by which this compression occurs.\u003c/p\u003e\n\u003cp\u003eThe more directions you have along which you understand the behavior of a linear transformation, the easier it is to understand the linear transformation; so you want to have as many linearly independent eigenvectors as possible associated to a single linear transformation. \u0026hellip; click above link for more.\u003c/p\u003e\n"
+        "msg": "\u003ch1\u003eSpark and Machine Learning\u003c/h1\u003e\n\u003cp\u003eFrom Spark East 2015, \u003ca href\u003d\"https://www.youtube.com/watch?v\u003doTOgaMZkBKQ\"\u003evideo\u003c/a\u003e and \u003ca href\u003d\"http://www.slideshare.net/ksankar/data-science-with-spark\"\u003eslides\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003eTerms\u003c/h2\u003e\n\u003cp\u003e\u003ca href\u003d\"http://www.quora.com/What-is-the-difference-between-L1-and-L2-regularization\"\u003eL1 and L2 regularization\u003c/a\u003e\n\u003cbr  /\u003e\u003ca href\u003d\"http://www.quora.com/Random-Forests/How-do-random-forests-work-in-laymans-terms\"\u003eRandomForestModel\u003c/a\u003e\n\u003cbr  /\u003e\u003ca href\u003d\"http://math.stackexchange.com/questions/23312/what-is-the-importance-of-eigenvalues-eigenvectors\"\u003eEigenvector and Eigenvalues\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eEigenvectors make understanding linear transformations easy. They are the \u0026ldquo;axes\u0026rdquo; (directions) along which a linear transformation acts simply by \u0026ldquo;stretching/compressing\u0026rdquo; and/or \u0026ldquo;flipping\u0026rdquo;; eigenvalues give you the factors by which this compression occurs.\u003c/p\u003e\n\u003cp\u003eThe more directions you have along which you understand the behavior of a linear transformation, the easier it is to understand the linear transformation; so you want to have as many linearly independent eigenvectors as possible associated to a single linear transformation. \u0026hellip; click above link for more.\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 19, 2015 1:24:22 PM",
-      "dateStarted": "Jun 20, 2015 11:49:13 AM",
-      "dateFinished": "Jun 20, 2015 11:49:13 AM",
+      "dateStarted": "Nov 29, 2015 11:49:30 AM",
+      "dateFinished": "Nov 29, 2015 11:49:30 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -66,6 +68,7 @@
     },
     {
       "text": "val df \u003d Seq((\"richard\", 1), (\"smith\",2)).toDF(\"name\",\"id\")\ndf.show()",
+      "dateUpdated": "Nov 29, 2015 9:19:18 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -76,7 +79,9 @@
           "values": [],
           "groups": [],
           "scatter": {}
-        }
+        },
+        "editorMode": "ace/mode/scala",
+        "editorHide": true
       },
       "settings": {
         "params": {},
@@ -110,7 +115,22 @@
   ],
   "name": "MachineLearning",
   "id": "2ASWE368Y",
-  "angularObjects": {},
+  "angularObjects": {
+    "2B458XSTQ": [],
+    "2B5XRQDUN": [],
+    "2B497ZDYT": [],
+    "2B5HA4K5Z": [],
+    "2B7RWS7R2": [],
+    "2B6MY65WY": [],
+    "2B72GQPKA": [],
+    "2B5KNPTJR": [],
+    "2B83SG64T": [],
+    "2B56DQK71": [],
+    "2B79XCMHY": [],
+    "2B6BSSFX7": [],
+    "2B7NZSVBV": [],
+    "2B62TSAA6": []
+  },
   "config": {
     "looknfeel": "default"
   },

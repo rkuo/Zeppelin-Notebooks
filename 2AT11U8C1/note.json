@@ -1,7 +1,8 @@
 {
   "paragraphs": [
     {
-      "text": "%md\n# Intro to Apache Spark Training \n## Part 1\n[video](https://www.youtube.com/watch?v\u003dVWeWViFCzzg\u0026list\u003dPLTPXxbhUt-YWSgAUhrnkyphnh0oKIT8-j\u0026utm_source\u003dhs_email\u0026utm_medium\u003demail\u0026utm_content\u003d18291115\u0026_hsenc\u003dp2ANqtz-_7XYopgsbbcGHRVbxX0nwQR_lbbnRMhwbvQ1I-OkTdfJYIbD1WU2QYhPoThBF6a8J6-CzFrlt0IWzfa9LxyoOH4CePtg\u0026_hsmi\u003d18291115)\n[slides](http://training.databricks.com/workshop/itas_workshop.pdf)",
+      "text": "%md\n# Intro to Apache Spark Training \n## Part 1  \n[video][1], [slides][2]  \n\n[1]:http://tinyurl.com/spark2014Traing1\n[2]:http://training.databricks.com/workshop/itas_workshop.pdf",
+      "dateUpdated": "Dec 5, 2015 9:51:18 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -13,7 +14,8 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": true
+        "editorHide": true,
+        "editorMode": "ace/mode/markdown"
       },
       "settings": {
         "params": {},
@@ -24,16 +26,50 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch1\u003eIntro to Apache Spark Training\u003c/h1\u003e\n\u003ch2\u003ePart 1\u003c/h2\u003e\n\u003cp\u003e\u003ca href\u003d\"https://www.youtube.com/watch?v\u003dVWeWViFCzzg\u0026amp;list\u003dPLTPXxbhUt-YWSgAUhrnkyphnh0oKIT8-j\u0026amp;utm_source\u003dhs_email\u0026amp;utm_medium\u003demail\u0026amp;utm_content\u003d18291115\u0026amp;_hsenc\u003dp2ANqtz-_7XYopgsbbcGHRVbxX0nwQR_lbbnRMhwbvQ1I-OkTdfJYIbD1WU2QYhPoThBF6a8J6-CzFrlt0IWzfa9LxyoOH4CePtg\u0026amp;_hsmi\u003d18291115\"\u003evideo\u003c/a\u003e\n\u003cbr  /\u003e\u003ca href\u003d\"http://training.databricks.com/workshop/itas_workshop.pdf\"\u003eslides\u003c/a\u003e\u003c/p\u003e\n"
+        "msg": "\u003ch1\u003eIntro to Apache Spark Training\u003c/h1\u003e\n\u003ch2\u003ePart 1\u003c/h2\u003e\n\u003cp\u003e\u003ca href\u003d\"http://tinyurl.com/spark2014Traing1\"\u003evideo\u003c/a\u003e, \u003ca href\u003d\"http://training.databricks.com/workshop/itas_workshop.pdf\"\u003eslides\u003c/a\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 12, 2015 2:01:17 PM",
-      "dateStarted": "Jun 12, 2015 2:10:34 PM",
-      "dateFinished": "Jun 12, 2015 2:10:34 PM",
+      "dateStarted": "Dec 5, 2015 9:11:20 AM",
+      "dateFinished": "Dec 5, 2015 9:11:20 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh\npwd\nls -lt",
+      "dateUpdated": "Dec 5, 2015 9:51:02 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1449308517645_-62567112",
+      "id": "20151205-094157_118338509",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "/usr/local/zeppelin\ntotal 208\ndrwxr-xr-x  1 1000 staff   442 Dec  5 09:42 logs\ndrwxr-xr-x  1 1000 staff   748 Dec  5 09:22 notebook\ndrwxr-sr-x  2 root staff  4096 Nov 30 05:39 run\ndrwxr-sr-x  5 root staff  4096 Nov 29 21:42 metastore_db\n-rw-r--r--  1 root staff   699 Nov 29 21:42 derby.log\ndrwxr-sr-x  2 root staff  4096 Nov 27 02:40 conf\ndrwxr-xr-x  2 root root   4096 Nov 27 02:40 logs]\ndrwxr-sr-x  4 root staff  4096 Sep 15 10:48 zeppelin-distribution\ndrwxr-sr-x  4 root staff  4096 Sep 15 10:48 zeppelin-server\ndrwxr-sr-x 10 root staff  4096 Sep 15 10:47 zeppelin-web\ndrwxr-sr-x 16 root staff  4096 Sep 15 10:44 interpreter\ndrwxr-sr-x  4 root staff  4096 Sep 15 10:44 cassandra\ndrwxr-sr-x  4 root staff  4096 Sep 15 10:43 lens\ndrwxr-sr-x  4 root staff  4096 Sep 15 10:43 kylin\ndrwxr-sr-x  4 root staff  4096 Sep 15 10:43 ignite\ndrwxr-sr-x  4 root staff  4096 Sep 15 10:43 flink\ndrwxr-sr-x  4 root staff  4096 Sep 15 10:43 tajo\ndrwxr-sr-x  4 root staff  4096 Sep 15 10:43 postgresql\ndrwxr-sr-x  4 root staff  4096 Sep 15 10:43 geode\ndrwxr-sr-x  4 root staff  4096 Sep 15 10:43 phoenix\ndrwxr-sr-x  4 root staff  4096 Sep 15 10:42 hive\ndrwxr-sr-x  4 root staff  4096 Sep 15 10:42 shell\ndrwxr-sr-x  4 root staff  4096 Sep 15 10:42 angular\ndrwxr-sr-x  4 root staff  4096 Sep 15 10:42 markdown\ndrwxr-sr-x  4 root staff  4096 Sep 15 10:42 spark\ndrwxr-sr-x  3 root staff  4096 Sep 15 10:42 spark-dependencies\ndrwxr-sr-x  4 root staff  4096 Sep 15 10:40 zeppelin-zengine\ndrwxr-sr-x  4 root staff  4096 Sep 15 10:40 zeppelin-interpreter\ndrwxr-sr-x  3 root staff  4096 Sep 15 10:40 target\n-rw-r--r--  1 root staff  6481 Sep 15 10:40 CONTRIBUTING.md\n-rw-r--r--  1 root staff  1440 Sep 15 10:40 DEPLOY.md\n-rw-r--r--  1 root staff   542 Sep 15 10:40 DISCLAIMER\n-rw-r--r--  1 root staff 13273 Sep 15 10:40 LICENSE\n-rw-r--r--  1 root staff  1436 Sep 15 10:40 NOTICE\n-rw-r--r--  1 root staff  4990 Sep 15 10:40 README.md\n-rw-r--r--  1 root staff   115 Sep 15 10:40 Roadmap.md\n-rw-r--r--  1 root staff  2910 Sep 15 10:40 STYLE.md\ndrwxr-sr-x  3 root staff  4096 Sep 15 10:40 _tools\ndrwxr-sr-x  2 root staff  4096 Sep 15 10:40 bin\ndrwxr-sr-x  3 root staff  4096 Sep 15 10:40 dev\ndrwxr-sr-x  7 root staff  4096 Sep 15 10:40 docs\n-rwxr-xr-x  1 root staff 20814 Sep 15 10:40 pom.xml\ndrwxr-sr-x  2 root staff  4096 Sep 15 10:40 testing\ndrwxr-sr-x  2 root staff  4096 Sep 15 10:40 data\n"
+      },
+      "dateCreated": "Dec 5, 2015 9:41:57 AM",
+      "dateStarted": "Dec 5, 2015 9:51:02 AM",
+      "dateFinished": "Dec 5, 2015 9:51:02 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "sc.version\n",
+      "dateUpdated": "Dec 5, 2015 9:11:37 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -55,11 +91,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "res0: String \u003d 1.4.0\n"
+        "msg": "res171: String \u003d 1.5.0\n"
       },
       "dateCreated": "Jun 12, 2015 5:02:38 PM",
-      "dateStarted": "Jun 12, 2015 8:19:47 PM",
-      "dateFinished": "Jun 12, 2015 8:19:55 PM",
+      "dateStarted": "Dec 5, 2015 9:11:37 AM",
+      "dateFinished": "Dec 5, 2015 9:11:37 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -96,6 +132,7 @@
     },
     {
       "text": "// create RDD in 5 partitions\nval distData \u003d sc.parallelize(data, 5)",
+      "dateUpdated": "Dec 5, 2015 9:11:56 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -107,7 +144,7 @@
           "groups": [],
           "scatter": {}
         },
-        "tableHide": true,
+        "tableHide": false,
         "editorHide": false
       },
       "settings": {
@@ -129,6 +166,7 @@
     },
     {
       "text": "// tranform RDD\nval distDataLessThan10 \u003d distData.filter(_ \u003c 10)",
+      "dateUpdated": "Dec 5, 2015 9:12:02 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -140,7 +178,7 @@
           "groups": [],
           "scatter": {}
         },
-        "tableHide": true
+        "tableHide": false
       },
       "settings": {
         "params": {},
@@ -191,103 +229,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n### Log Mining Example\n\nFor this exercise, a text file `log.txt` is saved in `data` directory (same level as notebook).\n\n```\nERROR\tphp: dying for unknown reasons\nWARN\tdave, are you angry at me?\nERROR\tdid mysql just barf?\nWARN\txylons approaching\nERROR\tmysql cluster: replace with spark cluster\n```",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "editorHide": true
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1434155248828_1063653290",
-      "id": "20150612-172728_1055667895",
-      "result": {
-        "code": "SUCCESS",
-        "type": "HTML",
-        "msg": "\u003ch3\u003eLog Mining Example\u003c/h3\u003e\n\u003cp\u003eFor this exercise, a text file \u003ccode\u003elog.txt\u003c/code\u003e is saved in \u003ccode\u003edata\u003c/code\u003e directory (same level as notebook).\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eERROR   php: dying for unknown reasons\nWARN    dave, are you angry at me?\nERROR   did mysql just barf?\nWARN    xylons approaching\nERROR   mysql cluster: replace with spark cluster\n\u003c/code\u003e\u003c/pre\u003e\n"
-      },
-      "dateCreated": "Jun 12, 2015 5:27:28 PM",
-      "dateStarted": "Jun 12, 2015 9:23:11 PM",
-      "dateFinished": "Jun 12, 2015 9:23:11 PM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "text": "// Read data and create RDD\n\nval lines \u003d sc.textFile(\"../data/error/log.txt\")",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "tableHide": true
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1434167906449_1376054818",
-      "id": "20150612-205826_1406498730",
-      "result": {
-        "code": "SUCCESS",
-        "type": "TEXT",
-        "msg": "lines: org.apache.spark.rdd.RDD[String] \u003d MapPartitionsRDD[7] at textFile at \u003cconsole\u003e:25\n"
-      },
-      "dateCreated": "Jun 12, 2015 8:58:26 PM",
-      "dateStarted": "Jun 13, 2015 10:07:28 AM",
-      "dateFinished": "Jun 13, 2015 10:07:28 AM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "text": "// transform RDD \nval errors \u003d lines.filter(_.startsWith(\"ERROR\"))\nval messages \u003d errors.map(_.split(\"\\t\")).map(r \u003d\u003e r(1))\nmessages.cache()",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "tableHide": true
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1434169421174_-1381308686",
-      "id": "20150612-212341_1528868070",
-      "result": {
-        "code": "SUCCESS",
-        "type": "TEXT",
-        "msg": "errors: org.apache.spark.rdd.RDD[String] \u003d MapPartitionsRDD[8] at filter at \u003cconsole\u003e:26\nmessages: org.apache.spark.rdd.RDD[String] \u003d MapPartitionsRDD[10] at map at \u003cconsole\u003e:27\nres29: messages.type \u003d MapPartitionsRDD[10] at map at \u003cconsole\u003e:27\n"
-      },
-      "dateCreated": "Jun 12, 2015 9:23:41 PM",
-      "dateStarted": "Jun 13, 2015 10:07:30 AM",
-      "dateFinished": "Jun 13, 2015 10:07:31 AM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "text": "%md \n### Spark Compute Pattern\n![Spark compute pattern](https://www.evernote.com/l/AS7obefocbxEZooANa8HZQb0PttS4laKsHoB/image.png)\ncreate RDD (lines) -\u003e transform RDD (lines -\u003e errors -\u003e messages -\u003e messages.filter) -\u003e action (count)",
+      "text": "%md \n### Spark Compute Pattern\n![Spark compute pattern][3]  \ncreate RDD (lines) -\u003e transform RDD (lines -\u003e errors -\u003e messages -\u003e messages.filter) -\u003e action (count)\n\n[3]:https://www.evernote.com/l/AS7obefocbxEZooANa8HZQb0PttS4laKsHoB/image.png  ",
+      "dateUpdated": "Nov 30, 2015 1:05:52 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -313,39 +256,8 @@
         "msg": "\u003ch3\u003eSpark Compute Pattern\u003c/h3\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://www.evernote.com/l/AS7obefocbxEZooANa8HZQb0PttS4laKsHoB/image.png\" alt\u003d\"Spark compute pattern\" /\u003e\n\u003cbr  /\u003ecreate RDD (lines) -\u003e transform RDD (lines -\u003e errors -\u003e messages -\u003e messages.filter) -\u003e action (count)\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 12, 2015 10:00:51 PM",
-      "dateStarted": "Jun 13, 2015 9:43:04 AM",
-      "dateFinished": "Jun 13, 2015 9:43:04 AM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "text": "// action 1\nmessages.filter(_.contains(\"mysql\")).count()\n// action 2\nmessages.filter(_.contains(\"php\")).count()",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        }
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1434170133954_-269897164",
-      "id": "20150612-213533_598796303",
-      "result": {
-        "code": "SUCCESS",
-        "type": "TEXT",
-        "msg": "res42: Long \u003d 2\nres44: Long \u003d 1\n"
-      },
-      "dateCreated": "Jun 12, 2015 9:35:33 PM",
-      "dateStarted": "Jun 13, 2015 10:09:24 AM",
-      "dateFinished": "Jun 13, 2015 10:09:25 AM",
+      "dateStarted": "Nov 30, 2015 1:05:52 AM",
+      "dateFinished": "Nov 30, 2015 1:05:52 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -362,9 +274,24 @@
       "progressUpdateIntervalMs": 500
     }
   ],
-  "name": "Intro2ApacheSpark",
+  "name": "Spark-Introduction",
   "id": "2AT11U8C1",
-  "angularObjects": {},
+  "angularObjects": {
+    "2B458XSTQ": [],
+    "2B5XRQDUN": [],
+    "2B497ZDYT": [],
+    "2B5HA4K5Z": [],
+    "2B7RWS7R2": [],
+    "2B6MY65WY": [],
+    "2B72GQPKA": [],
+    "2B5KNPTJR": [],
+    "2B83SG64T": [],
+    "2B56DQK71": [],
+    "2B79XCMHY": [],
+    "2B6BSSFX7": [],
+    "2B7NZSVBV": [],
+    "2B62TSAA6": []
+  },
   "config": {
     "looknfeel": "default"
   },

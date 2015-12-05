@@ -1,7 +1,8 @@
 {
   "paragraphs": [
     {
-      "text": "%md \n# Read local CSV file\nFrom Zeppelin tutorial:\n[read local CVS file](https://zeppelin.incubator.apache.org/docs/tutorial/tutorial.html) and\n[quick start](http://www.makedatauseful.com/apache-zeppelin-on-osx-ultra-quick-start/)\n\n## Preparation\nDownload the [bank.zip](http://archive.ics.uci.edu/ml/machine-learning-databases/00222/bank.zip) and unzip it\n\n![data structure and partial data](https://www.evernote.com/l/AS5coa0JbPVLQ4q-JTmRDmxCknxSSiOPlu4B/image.png)\n",
+      "text": "%md \n# Read local CSV file\nFrom Zeppelin tutorial:\n\n[read local CVS file][2] and\n[quick start][3]\n\n## Preparation\nDownload the [bank.zip][1] and unzip it\n\n![data structure and partial data][4]\n\nFor more data descriptive, see [page][5]\n\n[1]:http://archive.ics.uci.edu/ml/machine-learning-databases/00222/bank.zip\n[2]:https://zeppelin.incubator.apache.org/docs/tutorial/tutorial.html\n[3]:http://www.makedatauseful.com/apache-zeppelin-on-osx-ultra-quick-start/\n[4]:https://www.evernote.com/l/AS5coa0JbPVLQ4q-JTmRDmxCknxSSiOPlu4B/image.png\n[5]:http://mlr.cs.umass.edu/ml/datasets/Bank+Marketing\n",
+      "dateUpdated": "Dec 5, 2015 8:43:51 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -25,16 +26,17 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch1\u003eRead local CSV file\u003c/h1\u003e\n\u003cp\u003eFrom Zeppelin tutorial:\n\u003cbr  /\u003e\u003ca href\u003d\"https://zeppelin.incubator.apache.org/docs/tutorial/tutorial.html\"\u003eread local CVS file\u003c/a\u003e and\n\u003cbr  /\u003e\u003ca href\u003d\"http://www.makedatauseful.com/apache-zeppelin-on-osx-ultra-quick-start/\"\u003equick start\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003ePreparation\u003c/h2\u003e\n\u003cp\u003eDownload the \u003ca href\u003d\"http://archive.ics.uci.edu/ml/machine-learning-databases/00222/bank.zip\"\u003ebank.zip\u003c/a\u003e and unzip it\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://www.evernote.com/l/AS5coa0JbPVLQ4q-JTmRDmxCknxSSiOPlu4B/image.png\" alt\u003d\"data structure and partial data\" /\u003e\u003c/p\u003e\n"
+        "msg": "\u003ch1\u003eRead local CSV file\u003c/h1\u003e\n\u003cp\u003eFrom Zeppelin tutorial:\u003c/p\u003e\n\u003cp\u003e\u003ca href\u003d\"https://zeppelin.incubator.apache.org/docs/tutorial/tutorial.html\"\u003eread local CVS file\u003c/a\u003e and\n\u003cbr  /\u003e\u003ca href\u003d\"http://www.makedatauseful.com/apache-zeppelin-on-osx-ultra-quick-start/\"\u003equick start\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003ePreparation\u003c/h2\u003e\n\u003cp\u003eDownload the \u003ca href\u003d\"http://archive.ics.uci.edu/ml/machine-learning-databases/00222/bank.zip\"\u003ebank.zip\u003c/a\u003e and unzip it\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://www.evernote.com/l/AS5coa0JbPVLQ4q-JTmRDmxCknxSSiOPlu4B/image.png\" alt\u003d\"data structure and partial data\" /\u003e\u003c/p\u003e\n\u003cp\u003eFor more data descriptive, see \u003ca href\u003d\"http://mlr.cs.umass.edu/ml/datasets/Bank+Marketing\"\u003epage\u003c/a\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 6, 2015 2:42:40 AM",
-      "dateStarted": "Jun 6, 2015 9:14:36 PM",
-      "dateFinished": "Jun 6, 2015 9:14:36 PM",
+      "dateStarted": "Dec 5, 2015 8:43:43 AM",
+      "dateFinished": "Dec 5, 2015 8:43:43 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "val bankText \u003d sc.textFile(\"../bank/bank-full.csv\")",
+      "text": "%md\nThere are many open data set for ml at https://archive.ics.uci.edu/ml/index.html\nWe can put download procedure here too.  \nSee http://i1.wp.com/www.makedatauseful.com/wp-content/uploads/2015/04/apache-zeppelin-install-osx-notebook.jpg for instruction.",
+      "dateUpdated": "Dec 5, 2015 8:05:08 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -45,7 +47,78 @@
           "values": [],
           "groups": [],
           "scatter": {}
-        }
+        },
+        "editorMode": "ace/mode/markdown",
+        "tableHide": false,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1449297083868_555146241",
+      "id": "20151205-063123_339645067",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eThere are many open data set for ml at https://archive.ics.uci.edu/ml/index.html\n\u003cbr  /\u003eWe can put download procedure here too.\n\u003cbr  /\u003eSee http://i1.wp.com/www.makedatauseful.com/wp-content/uploads/2015/04/apache-zeppelin-install-osx-notebook.jpg for instruction.\u003c/p\u003e\n"
+      },
+      "dateCreated": "Dec 5, 2015 6:31:23 AM",
+      "dateStarted": "Dec 5, 2015 8:05:08 AM",
+      "dateFinished": "Dec 5, 2015 8:05:08 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "// this process replaces manual download, I could not make it work\n\n// import sys.process._\n// \"pwd\" !\n// \"wget https://archive.ics.uci.edu/ml/machine-learning-databases/00222/bank.zip\" !\n// \"mkdir data\" !\n// \"unzip data.zip -d data\" !\n// \"rm bank.zip\" !",
+      "dateUpdated": "Dec 5, 2015 8:24:16 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorMode": "ace/mode/scala",
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1449297304312_-1743253388",
+      "id": "20151205-063504_1487654106",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
+      "dateCreated": "Dec 5, 2015 6:35:04 AM",
+      "dateStarted": "Dec 5, 2015 8:05:08 AM",
+      "dateFinished": "Dec 5, 2015 8:05:08 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "val bankText \u003d sc.textFile(\"../zeppelin/notebook/2AQ19R43E/bank/bank-full.csv\")",
+      "dateUpdated": "Dec 5, 2015 8:58:35 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorMode": "ace/mode/scala",
+        "tableHide": false
       },
       "settings": {
         "params": {},
@@ -56,16 +129,17 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "bankText: org.apache.spark.rdd.RDD[String] \u003d MapPartitionsRDD[16] at textFile at \u003cconsole\u003e:23\n"
+        "msg": "bankText: org.apache.spark.rdd.RDD[String] \u003d MapPartitionsRDD[386] at textFile at \u003cconsole\u003e:41\n"
       },
       "dateCreated": "Jun 6, 2015 2:52:31 AM",
-      "dateStarted": "Jun 13, 2015 6:33:29 AM",
-      "dateFinished": "Jun 13, 2015 6:33:30 AM",
+      "dateStarted": "Dec 5, 2015 8:58:35 AM",
+      "dateFinished": "Dec 5, 2015 8:58:36 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "case class Bank(age:Integer, job:String, marital : String, education : String, balance : Integer)",
+      "dateUpdated": "Dec 5, 2015 8:58:38 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -92,13 +166,14 @@
         "msg": "defined class Bank\n"
       },
       "dateCreated": "Jun 6, 2015 2:57:45 AM",
-      "dateStarted": "Jun 13, 2015 6:33:35 AM",
-      "dateFinished": "Jun 13, 2015 6:33:35 AM",
+      "dateStarted": "Dec 5, 2015 8:58:38 AM",
+      "dateFinished": "Dec 5, 2015 8:58:38 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md ### why case class \n\nfrom [when to use case class](http://stackoverflow.com/questions/26118270/when-to-use-case-class-or-regular-class)\nIf you are going to write pure functional code with immutable objects, u should better try avoid using regular classes. Main idea of functional paradigm is the separation of data structures and operations on them. Case Classes is the representation of data structure with the necessary methods. Functions on the data should be described in a different software entities(traits, objects).\n\nRegular classes contrary link the data and operations to provide the mutability and this approach is closer to object-oriented paradigm.\n\nAs a result, don\u0027t use Case Classes if:\n\n* Your class carries mutable state\n* Your class includes some logic\n* Your class is not a data representation and you don\u0027t require structural equality\n\nBut in these case, you should really think about the style of code, because, perhaps, it isn\u0027t enough functional.\n\nFrom [difference between case class and regular class](http://stackoverflow.com/questions/2312881/what-is-the-difference-between-scalas-case-class-and-class)\nCase classes can be seen as plain and immutable data-holding objects that should exclusively depend on their constructor arguments.\n\nThis functional concept allows us to\n\n* use a compact initialisation syntax (Node(1, Leaf(2), None)))\n* decompose them using pattern matching\n* have equality comparisons implicitly defined\n\nIn combination with inheritance, case classes are used to mimic algebraic datatypes.\n\nIf an object performs stateful computations on the inside or exhibits other kinds of complex behaviour, it should be an ordinary class.",
+      "dateUpdated": "Dec 5, 2015 8:26:07 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -124,13 +199,14 @@
         "msg": "\u003ch3\u003ewhy case class\u003c/h3\u003e\n\u003cp\u003efrom \u003ca href\u003d\"http://stackoverflow.com/questions/26118270/when-to-use-case-class-or-regular-class\"\u003ewhen to use case class\u003c/a\u003e\n\u003cbr  /\u003eIf you are going to write pure functional code with immutable objects, u should better try avoid using regular classes. Main idea of functional paradigm is the separation of data structures and operations on them. Case Classes is the representation of data structure with the necessary methods. Functions on the data should be described in a different software entities(traits, objects).\u003c/p\u003e\n\u003cp\u003eRegular classes contrary link the data and operations to provide the mutability and this approach is closer to object-oriented paradigm.\u003c/p\u003e\n\u003cp\u003eAs a result, don\u0027t use Case Classes if:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eYour class carries mutable state\u003c/li\u003e\n\u003cli\u003eYour class includes some logic\u003c/li\u003e\n\u003cli\u003eYour class is not a data representation and you don\u0027t require structural equality\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eBut in these case, you should really think about the style of code, because, perhaps, it isn\u0027t enough functional.\u003c/p\u003e\n\u003cp\u003eFrom \u003ca href\u003d\"http://stackoverflow.com/questions/2312881/what-is-the-difference-between-scalas-case-class-and-class\"\u003edifference between case class and regular class\u003c/a\u003e\n\u003cbr  /\u003eCase classes can be seen as plain and immutable data-holding objects that should exclusively depend on their constructor arguments.\u003c/p\u003e\n\u003cp\u003eThis functional concept allows us to\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003euse a compact initialisation syntax (Node(1, Leaf(2), None)))\u003c/li\u003e\n\u003cli\u003edecompose them using pattern matching\u003c/li\u003e\n\u003cli\u003ehave equality comparisons implicitly defined\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eIn combination with inheritance, case classes are used to mimic algebraic datatypes.\u003c/p\u003e\n\u003cp\u003eIf an object performs stateful computations on the inside or exhibits other kinds of complex behaviour, it should be an ordinary class.\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 6, 2015 3:09:08 AM",
-      "dateStarted": "Jun 6, 2015 9:14:36 PM",
-      "dateFinished": "Jun 6, 2015 9:14:36 PM",
+      "dateStarted": "Dec 5, 2015 8:26:07 AM",
+      "dateFinished": "Dec 5, 2015 8:26:07 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "val bank \u003d bankText.map(s\u003d\u003es.split(\";\")).filter(s\u003d\u003es(0)!\u003d\"\\\"age\\\"\").map(s\u003d\u003eBank(\n                                         s(0).toInt, \n                                         s(1).replaceAll(\"\\\"\", \"\"),\n                                         s(2).replaceAll(\"\\\"\", \"\"),\n                                         s(3).replaceAll(\"\\\"\", \"\"),\n                                         s(5).replaceAll(\"\\\"\", \"\").toInt)\n                        )\n\nbank.toDF().registerTempTable(\"bank\")",
+      "dateUpdated": "Dec 5, 2015 8:58:43 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -154,16 +230,17 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "bank: org.apache.spark.rdd.RDD[Bank] \u003d MapPartitionsRDD[19] at map at \u003cconsole\u003e:27\n"
+        "msg": "bank: org.apache.spark.rdd.RDD[Bank] \u003d MapPartitionsRDD[389] at map at \u003cconsole\u003e:47\n"
       },
       "dateCreated": "Jun 6, 2015 3:43:50 AM",
-      "dateStarted": "Jun 13, 2015 6:33:42 AM",
-      "dateFinished": "Jun 13, 2015 6:33:44 AM",
+      "dateStarted": "Dec 5, 2015 8:58:43 AM",
+      "dateFinished": "Dec 5, 2015 8:58:44 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql select age, count(1) from bank where age \u003c 30 group by age order by age",
+      "text": "%sql \nselect age, count(1) from bank where age \u003c 30 group by age order by age",
+      "dateUpdated": "Dec 5, 2015 8:58:48 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -199,7 +276,8 @@
           }
         },
         "tableHide": false,
-        "editorHide": false
+        "editorHide": false,
+        "editorMode": "ace/mode/sql"
       },
       "settings": {
         "params": {},
@@ -213,17 +291,18 @@
         "msg": "age\t_c1\n18\t12\n19\t35\n20\t50\n21\t79\n22\t129\n23\t202\n24\t302\n25\t527\n26\t805\n27\t909\n28\t1038\n29\t1185\n"
       },
       "dateCreated": "Jun 6, 2015 8:47:45 PM",
-      "dateStarted": "Jun 13, 2015 6:34:07 AM",
-      "dateFinished": "Jun 13, 2015 6:34:08 AM",
+      "dateStarted": "Dec 5, 2015 8:58:48 AM",
+      "dateFinished": "Dec 5, 2015 8:58:49 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%sql \nselect age, count(1) from bank where age \u003c ${maxAge\u003d30} group by age order by age",
+      "dateUpdated": "Dec 5, 2015 8:40:21 AM",
       "config": {
-        "colWidth": 12.0,
+        "colWidth": 6.0,
         "graph": {
-          "mode": "multiBarChart",
+          "mode": "pieChart",
           "height": 300.0,
           "optionOpen": false,
           "keys": [
@@ -253,7 +332,8 @@
               "aggr": "sum"
             }
           }
-        }
+        },
+        "editorMode": "ace/mode/sql"
       },
       "settings": {
         "params": {
@@ -275,15 +355,16 @@
         "msg": "age\t_c1\n18\t12\n19\t35\n20\t50\n21\t79\n22\t129\n23\t202\n24\t302\n"
       },
       "dateCreated": "Jun 6, 2015 11:51:51 PM",
-      "dateStarted": "Jun 6, 2015 11:53:59 PM",
-      "dateFinished": "Jun 6, 2015 11:54:00 PM",
+      "dateStarted": "Dec 5, 2015 8:39:51 AM",
+      "dateFinished": "Dec 5, 2015 8:39:52 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql select age, count(1) from bank where marital\u003d\"${marital\u003dsingle,single|divorced|married}\" group by age order by age",
+      "text": "%sql \nselect age, count(1) from bank where marital\u003d\"${marital\u003dsingle,single|divorced|married}\" group by age order by age",
+      "dateUpdated": "Dec 5, 2015 8:27:39 AM",
       "config": {
-        "colWidth": 12.0,
+        "colWidth": 6.0,
         "graph": {
           "mode": "multiBarChart",
           "height": 300.0,
@@ -315,7 +396,8 @@
               "aggr": "sum"
             }
           }
-        }
+        },
+        "editorMode": "ace/mode/sql"
       },
       "settings": {
         "params": {
@@ -348,13 +430,14 @@
         "msg": "age\t_c1\n20\t3\n21\t5\n22\t9\n23\t27\n24\t53\n25\t98\n26\t170\n27\t233\n28\t325\n29\t463\n30\t675\n31\t881\n32\t1007\n33\t1075\n34\t1131\n35\t1077\n36\t1076\n37\t1073\n38\t905\n39\t960\n40\t929\n41\t875\n42\t840\n43\t805\n44\t782\n45\t893\n46\t852\n47\t826\n48\t707\n49\t733\n50\t699\n51\t710\n52\t699\n53\t657\n54\t579\n55\t589\n56\t564\n57\t642\n58\t584\n59\t583\n60\t465\n61\t123\n62\t74\n63\t68\n64\t65\n65\t50\n66\t53\n67\t43\n68\t26\n69\t34\n70\t53\n71\t42\n72\t44\n73\t36\n74\t32\n75\t27\n76\t24\n77\t38\n78\t18\n79\t17\n80\t29\n81\t9\n82\t10\n83\t12\n84\t6\n85\t4\n86\t6\n87\t3\n88\t2\n89\t2\n92\t2\n93\t2\n95\t1\n"
       },
       "dateCreated": "Jun 6, 2015 9:04:01 PM",
-      "dateStarted": "Jun 13, 2015 6:34:54 AM",
-      "dateFinished": "Jun 13, 2015 6:34:55 AM",
+      "dateStarted": "Dec 5, 2015 8:27:39 AM",
+      "dateFinished": "Dec 5, 2015 8:27:41 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md ### Notes\n* Zeppelin expect % is at the first line of the cell.\n* Sometimes, copying text from web page may contain special characters, use a text editor to filter this.",
+      "dateUpdated": "Dec 5, 2015 8:05:08 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -380,27 +463,60 @@
         "msg": "\u003ch3\u003eNotes\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eZeppelin expect % is at the first line of the cell.\u003c/li\u003e\n\u003cli\u003eSometimes, copying text from web page may contain special characters, use a text editor to filter this.\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Jun 6, 2015 9:09:22 PM",
-      "dateStarted": "Jun 6, 2015 11:57:27 PM",
-      "dateFinished": "Jun 6, 2015 11:57:27 PM",
+      "dateStarted": "Dec 5, 2015 8:05:08 AM",
+      "dateFinished": "Dec 5, 2015 8:05:08 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "dateUpdated": "Dec 5, 2015 8:05:08 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        }
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1434121179959_-1258733460",
       "id": "20150612-075939_1691322207",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT"
+      },
       "dateCreated": "Jun 12, 2015 7:59:39 AM",
-      "status": "READY",
+      "dateStarted": "Dec 5, 2015 8:05:10 AM",
+      "dateFinished": "Dec 5, 2015 8:05:10 AM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     }
   ],
-  "name": "ReadLocalCSVFile",
+  "name": "Read Local CSV File",
   "id": "2AQ19R43E",
-  "angularObjects": {},
+  "angularObjects": {
+    "2B458XSTQ": [],
+    "2B5XRQDUN": [],
+    "2B497ZDYT": [],
+    "2B5HA4K5Z": [],
+    "2B7RWS7R2": [],
+    "2B6MY65WY": [],
+    "2B72GQPKA": [],
+    "2B5KNPTJR": [],
+    "2B83SG64T": [],
+    "2B56DQK71": [],
+    "2B79XCMHY": [],
+    "2B6BSSFX7": [],
+    "2B7NZSVBV": [],
+    "2B62TSAA6": []
+  },
   "config": {
     "looknfeel": "default"
   },

@@ -1,7 +1,9 @@
 {
   "paragraphs": [
     {
-      "text": "%md\n![CS190.1x ML Logo] \n# Machine Larning with Apache Spark\n## Lab 3 - **Linear Regression Lab**\n\nThis lab covers a common supervised learning pipeline, using a subset of the [Million Song Dataset] from the [UCI Machine Learning Repository]. Our goal is to train a linear regression model to predict the release year of a song given a set of audio features.\n\n** This lab will cover: **\n* *Part 1:* Read and parse the initial dataset\n    * *Visualization 1:* Features\n    * *Visualization 2:* Shifting labels\n \n* *Part 2:* Create and evaluate a baseline model\n    * *Visualization 3:* Predicted vs. actual\n \n* *Part 3:* Train (via gradient descent) and evaluate a linear regression model\n    * *Visualization 4:* Training error\n \n* *Part 4:* Train using MLlib and tune hyperparameters via grid search\n    * *Visualization 5:* Best model\u0027s predictions\n    * *Visualization 6:* Hyperparameter heat map\n \n* *Part 5:* Add interactions between features\n \nNote that, for reference, you can look up the details of the relevant Spark methods in [Spark\u0027s Python API] and the relevant NumPy methods in the [NumPy Reference]\n\n[CS190.1x ML Logo]:http://spark-mooc.github.io/web-assets/images/CS190.1x_Banner_300.png\n[Million Song Dataset]:http://labrosa.ee.columbia.edu/millionsong/\n[UCI Machine Learning Repository]:https://archive.ics.uci.edu/ml/datasets/YearPredictionMSD\n[Spark\u0027s Python API]:https://spark.apache.org/docs/latest/api/python/pyspark.html#pyspark.RDD\n[NumPy Reference]:http://docs.scipy.org/doc/numpy/reference/index.html",
+      "title": "Lab3",
+      "text": "%md\n![CS190.1x ML Logo][1]  \n# Machine Larning with Apache Spark\n## Lab 3 - **Linear Regression Lab**\n\nThis lab covers a common supervised learning pipeline, using a subset of the [2] from the [UCI Machine Learning Repository][3]. Our goal is to train a linear regression model to predict the release year of a song given a set of audio features.\n\n** This lab will cover: **\n* *Part 1:* Read and parse the initial dataset\n    * *Visualization 1:* Features\n    * *Visualization 2:* Shifting labels\n \n* *Part 2:* Create and evaluate a baseline model\n    * *Visualization 3:* Predicted vs. actual\n \n* *Part 3:* Train (via gradient descent) and evaluate a linear regression model\n    * *Visualization 4:* Training error\n \n* *Part 4:* Train using MLlib and tune hyperparameters via grid search\n    * *Visualization 5:* Best model\u0027s predictions\n    * *Visualization 6:* Hyperparameter heat map\n \n* *Part 5:* Add interactions between features\n \nNote that, for reference, you can look up the details of the relevant Spark methods in [Spark\u0027s Python API][4] and the relevant NumPy methods in the [NumPy Reference][5]\n\n[1]:http://spark-mooc.github.io/web-assets/images/CS190.1x_Banner_300.png\n[2]:http://labrosa.ee.columbia.edu/millionsong/\n[3]:https://archive.ics.uci.edu/ml/datasets/YearPredictionMSD\n\n[4]:https://spark.apache.org/docs/latest/api/python/pyspark.html#pyspark.RDD\n[5]:http://docs.scipy.org/doc/numpy/reference/index.html",
+      "dateUpdated": "Nov 30, 2015 5:28:01 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -14,7 +16,9 @@
           "scatter": {}
         },
         "editorHide": false,
-        "tableHide": false
+        "tableHide": false,
+        "title": true,
+        "editorMode": "ace/mode/markdown"
       },
       "settings": {
         "params": {},
@@ -34,6 +38,9 @@
       "progressUpdateIntervalMs": 500
     },
     {
+      "title": "Test Installation - pyspark",
+      "text": "%pyspark\nprint\"hi! pyspark works!\"",
+      "dateUpdated": "Nov 30, 2015 5:28:59 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -46,7 +53,10 @@
           "scatter": {}
         },
         "editorHide": true,
-        "tableHide": false
+        "tableHide": false,
+        "editorMode": "ace/mode/scala",
+        "title": true,
+        "lineNumbers": true
       },
       "settings": {
         "params": {},
@@ -54,14 +64,48 @@
       },
       "jobName": "paragraph_1436683048548_-2070924050",
       "id": "20150711-233728_177514076",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "hi! pyspark works!\n"
+      },
       "dateCreated": "Jul 11, 2015 11:37:28 PM",
+      "dateStarted": "Nov 30, 2015 5:28:52 AM",
+      "dateFinished": "Nov 30, 2015 5:28:52 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1448856580126_-435852464",
+      "id": "20151130-040940_632677350",
+      "dateCreated": "Nov 30, 2015 4:09:40 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
   ],
   "name": "cs190.1x-lab3",
   "id": "2AUMKRMQV",
-  "angularObjects": {},
+  "angularObjects": {
+    "2B458XSTQ": [],
+    "2B5XRQDUN": [],
+    "2B497ZDYT": [],
+    "2B5HA4K5Z": [],
+    "2B7RWS7R2": [],
+    "2B6MY65WY": [],
+    "2B72GQPKA": [],
+    "2B5KNPTJR": [],
+    "2B83SG64T": [],
+    "2B56DQK71": [],
+    "2B79XCMHY": [],
+    "2B6BSSFX7": [],
+    "2B7NZSVBV": [],
+    "2B62TSAA6": []
+  },
   "config": {
     "looknfeel": "default"
   },

@@ -1,0 +1,346 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md\n# Learning Spark\nThis exercise is based on O\u0027reilly book isbn:978-1-449-35862-4, Learning Spark, as base to learn Spark and Apache Zeppelin. \n\n## Preparation\n*  Since I plan to learn other interesting packages too, using Docker will be the easiest way: [install Docker][1], select and download a Zeppelin docker image and run Zeppelin on Docker Engine. I selected [RichardKDrew/Zeppelin][2] for my Mac. Richard also provides a very good instruction to map out a volume for Zeppelin notebook and another one for log persistance locally or a separate container.\n \n[1]:https://docs.docker.com/mac/step_one/\n[2]:https://hub.docker.com/r/richardkdrew/zeppelin/",
+      "dateUpdated": "Nov 30, 2015 8:31:48 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorMode": "ace/mode/markdown",
+        "tableHide": false,
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1448868530958_915010415",
+      "id": "20151130-072850_1066856016",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch1\u003eLearning Spark\u003c/h1\u003e\n\u003cp\u003eThis exercise is based on O\u0027reilly book isbn:978-1-449-35862-4, Learning Spark, as base to learn Spark and Apache Zeppelin.\u003c/p\u003e\n\u003ch2\u003ePreparation\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eSince I plan to learn other interesting packages too, using Docker will be the easiest way: \u003ca href\u003d\"https://docs.docker.com/mac/step_one/\"\u003einstall Docker\u003c/a\u003e, select and download a Zeppelin docker image and run Zeppelin on Docker Engine. I selected \u003ca href\u003d\"https://hub.docker.com/r/richardkdrew/zeppelin/\"\u003eRichardKDrew/Zeppelin\u003c/a\u003e for my Mac. Richard also provides a very good instruction to map out a volume for Zeppelin notebook and another one for log persistance locally or a separate container.\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Nov 30, 2015 7:28:50 AM",
+      "dateStarted": "Nov 30, 2015 8:31:48 AM",
+      "dateFinished": "Nov 30, 2015 8:31:48 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Test Installation - Spark",
+      "text": "%spark\nvar a \u003d \"Spark\"\nprintln(\"Hello \" + a + \" Works!\")\n",
+      "dateUpdated": "Nov 30, 2015 6:56:09 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1448833709318_-796258211",
+      "id": "20151129-214829_1753330727",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "a: String \u003d Spark\nHello Spark Works!\n"
+      },
+      "dateCreated": "Nov 29, 2015 9:48:29 PM",
+      "dateStarted": "Nov 30, 2015 5:39:48 AM",
+      "dateFinished": "Nov 30, 2015 5:39:48 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md \n## Chapter - 1 Getting Started  ",
+      "dateUpdated": "Nov 30, 2015 7:58:31 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorMode": "ace/mode/markdown",
+        "tableHide": false,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1448869686120_1600266820",
+      "id": "20151130-074806_1249598970",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch2\u003eChapter - 1 Getting Started\u003c/h2\u003e\n"
+      },
+      "dateCreated": "Nov 30, 2015 7:48:06 AM",
+      "dateStarted": "Nov 30, 2015 7:58:24 AM",
+      "dateFinished": "Nov 30, 2015 7:58:24 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Find An available File to Work",
+      "text": "%sh pwd     # current directory\nls -lt | grep md\n\nWe need a text file. Usually, there is a README.md file in software package.",
+      "dateUpdated": "Nov 30, 2015 8:08:47 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorMode": "ace/mode/sh",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1448861722672_920177731",
+      "id": "20151130-053522_1128619158",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "/usr/local/zeppelin\n-rw-r--r--  1 root staff  6481 Sep 15 10:40 CONTRIBUTING.md\n-rw-r--r--  1 root staff  1440 Sep 15 10:40 DEPLOY.md\n-rw-r--r--  1 root staff  4990 Sep 15 10:40 README.md\n-rw-r--r--  1 root staff   115 Sep 15 10:40 Roadmap.md\n-rw-r--r--  1 root staff  2910 Sep 15 10:40 STYLE.md\n"
+      },
+      "dateCreated": "Nov 30, 2015 5:35:22 AM",
+      "dateStarted": "Nov 30, 2015 7:11:10 AM",
+      "dateFinished": "Nov 30, 2015 7:11:10 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Word Count",
+      "text": "%spark\n// Ex2.2 Scala line count               // spark is written with scala\n\nvar lines \u003d sc.textFile(\"README.md\")    // create a RDD called lines",
+      "dateUpdated": "Nov 30, 2015 7:04:52 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1448861988053_-726195106",
+      "id": "20151130-053948_720369193",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "lines: org.apache.spark.rdd.RDD[String] \u003d MapPartitionsRDD[1] at textFile at \u003cconsole\u003e:25\n"
+      },
+      "dateCreated": "Nov 30, 2015 5:39:48 AM",
+      "dateStarted": "Nov 30, 2015 7:02:56 AM",
+      "dateFinished": "Nov 30, 2015 7:02:57 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark\n// we want to do one line at time, so it more like REPL\n\nlines.count()",
+      "dateUpdated": "Nov 30, 2015 7:16:02 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1448866933988_1599976781",
+      "id": "20151130-070213_1629751782",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "res17: Long \u003d 159\n"
+      },
+      "dateCreated": "Nov 30, 2015 7:02:13 AM",
+      "dateStarted": "Nov 30, 2015 7:15:19 AM",
+      "dateFinished": "Nov 30, 2015 7:15:20 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark\nlines.first()",
+      "dateUpdated": "Nov 30, 2015 7:18:00 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1448867719468_133617168",
+      "id": "20151130-071519_2024160612",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "res20: String \u003d \"#Zeppelin \"\n"
+      },
+      "dateCreated": "Nov 30, 2015 7:15:19 AM",
+      "dateStarted": "Nov 30, 2015 7:18:00 AM",
+      "dateFinished": "Nov 30, 2015 7:18:01 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md \n### Architecture\nEvery Spark application has a `driver program`, which is the application\u0027s `main` function located. The work will be distributed to several `worker nodes`, which hosts `Executors`. The `driver program` will use a `SparkContext (sc)` to link  to Spark computing cluster. `sc` is created at its first call and is shared among `Executors`, which manages the computation `tasks`. \n\n![Spark Driver Program and Worker Nodes][1]\n\nWorker nodes will be managed by a `cluster manager`, which can be either  \n* standalone\n* local\n* Yarn \n* Mesos\n\nCluster manager schedules the resources.\n\n[1]:http://spark.apache.org/docs/latest/img/cluster-overview.png",
+      "dateUpdated": "Nov 30, 2015 8:54:52 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1448867868167_247688901",
+      "id": "20151130-071748_812912203",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eArchitecture\u003c/h3\u003e\n\u003cp\u003eEvery Spark application has a \u003ccode\u003edriver program\u003c/code\u003e, which is the application\u0027s \u003ccode\u003emain\u003c/code\u003e function located. The work will be distributed to several \u003ccode\u003eworker nodes\u003c/code\u003e, which hosts \u003ccode\u003eExecutors\u003c/code\u003e. The \u003ccode\u003edriver program\u003c/code\u003e will use a \u003ccode\u003eSparkContext (sc)\u003c/code\u003e to link  to Spark computing cluster. \u003ccode\u003esc\u003c/code\u003e is created at its first call and is shared among \u003ccode\u003eExecutors\u003c/code\u003e, which manages the computation \u003ccode\u003etasks\u003c/code\u003e.\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"http://spark.apache.org/docs/latest/img/cluster-overview.png\" alt\u003d\"Spark Driver Program and Worker Nodes\" /\u003e\u003c/p\u003e\n\u003cp\u003eWorker nodes will be managed by a \u003ccode\u003ecluster manager\u003c/code\u003e, which can be either\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003estandalone\u003c/li\u003e\n\u003cli\u003elocal\u003c/li\u003e\n\u003cli\u003eYarn\u003c/li\u003e\n\u003cli\u003eMesos\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eCluster manager schedules the resources.\u003c/p\u003e\n"
+      },
+      "dateCreated": "Nov 30, 2015 7:17:48 AM",
+      "dateStarted": "Nov 30, 2015 8:54:52 PM",
+      "dateFinished": "Nov 30, 2015 8:54:52 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### SparkContext\n\nWhen Spark reads in a dataset, like the example above, `sc.textFile(\"README.md\")`, it creates `Resilent Distributed Dataset(RDD)` and in this case, it is named `lines`.  \n\nRDD is a set of distributed dataset, which likes many fruits distributed on the different branches of a fruit tree, they are linked like a graph with links and nodes. Each node proforms certain computation, except there is a data at end of branch. RDD is represented by this `Direct A??? Graph (DAG)`.  \n\nWorking with data persistenace engine, Spark knows how to reproduce the missed RDD nodes.???",
+      "dateUpdated": "Nov 30, 2015 8:55:58 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1448871381605_-317283949",
+      "id": "20151130-081621_1438585200",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eSparkContext\u003c/h3\u003e\n\u003cp\u003eWhen Spark reads in a dataset, like the example above, \u003ccode\u003esc.textFile(\"README.md\")\u003c/code\u003e, it creates \u003ccode\u003eResilent Distributed Dataset(RDD)\u003c/code\u003e and in this case, it is named \u003ccode\u003elines\u003c/code\u003e.\u003c/p\u003e\n\u003cp\u003eRDD is a set of distributed dataset, which likes many fruits distributed on the different branches of a fruit tree, they are linked like a graph with links and nodes. Each node proforms certain computation, except there is a data at end of branch. RDD is represented by this \u003ccode\u003eDirect A??? Graph (DAG)\u003c/code\u003e.\u003c/p\u003e\n\u003cp\u003eWorking with data persistenace engine, Spark knows how to reproduce the missed RDD nodes.???\u003c/p\u003e\n"
+      },
+      "dateCreated": "Nov 30, 2015 8:16:21 AM",
+      "dateStarted": "Nov 30, 2015 8:55:58 PM",
+      "dateFinished": "Nov 30, 2015 8:55:58 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1448913429507_1585680978",
+      "id": "20151130-195709_954220796",
+      "dateCreated": "Nov 30, 2015 7:57:09 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "O\u0027reilly-Learning-Spark-Chapter1",
+  "id": "2B6KNS9Z2",
+  "angularObjects": {
+    "2B458XSTQ": [],
+    "2B5XRQDUN": [],
+    "2B497ZDYT": [],
+    "2B5HA4K5Z": [],
+    "2B7RWS7R2": [],
+    "2B6MY65WY": [],
+    "2B72GQPKA": [],
+    "2B5KNPTJR": [],
+    "2B83SG64T": [],
+    "2B56DQK71": [],
+    "2B79XCMHY": [],
+    "2B6BSSFX7": [],
+    "2B7NZSVBV": [],
+    "2B62TSAA6": []
+  },
+  "config": {
+    "looknfeel": "default"
+  },
+  "info": {}
+}
