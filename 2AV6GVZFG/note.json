@@ -2,6 +2,7 @@
   "paragraphs": [
     {
       "text": "%md \n# Apache Flink\n\n## Reference\nFrom Bay Area Apache Flink Meetup 17.06.15:\nFirst Meetup:\n* Henry S., [the video of the first meetup](https://youtu.be/BJjGD8ijJcg)\n* Kostas T., [Introduction to Flink slides](http://www.slideshare.net/KostasTzoumas/first-flink-bay-area-meetup)\n* Stephan E., Here is a link to [the code used for the demo](https://github.com/StephanEwen/flink-demos/tree/master/streaming-state-machine)\n\nFrom Apache Flink meetup Berlin 23.06.15\n* [Data flow vs. procedural programming: How to put your algorithms into Flink by Mikio Braun 23.06.15](https://www.youtube.com/watch?v\u003d6BjoW2Vs2C0), [slides](http://de.slideshare.net/mikiobraun/flink-meetup2015)",
+      "dateUpdated": "Dec 5, 2015 5:28:06 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -12,7 +13,9 @@
           "values": [],
           "groups": [],
           "scatter": {}
-        }
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
       },
       "settings": {
         "params": {},
@@ -46,7 +49,22 @@
   ],
   "name": "Apache Flink",
   "id": "2AV6GVZFG",
-  "angularObjects": {},
+  "angularObjects": {
+    "2B458XSTQ": [],
+    "2B5XRQDUN": [],
+    "2B497ZDYT": [],
+    "2B5HA4K5Z": [],
+    "2B7RWS7R2": [],
+    "2B6MY65WY": [],
+    "2B72GQPKA": [],
+    "2B5KNPTJR": [],
+    "2B83SG64T": [],
+    "2B56DQK71": [],
+    "2B79XCMHY": [],
+    "2B6BSSFX7": [],
+    "2B7NZSVBV": [],
+    "2B62TSAA6": []
+  },
   "config": {
     "looknfeel": "default"
   },
