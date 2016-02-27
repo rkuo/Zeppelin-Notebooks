@@ -319,21 +319,149 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "%sql\nselect age, count(1) value\nfrom bank\ngroup by age",
+      "dateUpdated": "Jan 22, 2016 7:24:23 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorMode": "ace/mode/sql"
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1435955447812_-158639899",
       "id": "20150703-133047_853701097",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "age\tvalue\n31\t1996\n32\t2085\n33\t1972\n34\t1930\n35\t1894\n36\t1806\n37\t1696\n38\t1466\n39\t1487\n40\t1355\n41\t1291\n42\t1242\n43\t1161\n44\t1136\n45\t1216\n46\t1175\n47\t1088\n48\t997\n49\t994\n50\t939\n51\t936\n52\t911\n53\t891\n54\t811\n55\t806\n56\t778\n57\t828\n58\t740\n59\t770\n60\t596\n61\t147\n62\t80\n63\t77\n64\t74\n65\t59\n66\t63\n67\t54\n68\t36\n69\t44\n70\t67\n71\t54\n72\t52\n73\t44\n74\t37\n75\t39\n76\t32\n77\t44\n78\t30\n79\t25\n80\t31\n81\t17\n82\t19\n83\t22\n84\t9\n85\t5\n86\t9\n87\t4\n88\t2\n89\t3\n90\t2\n92\t2\n93\t2\n94\t1\n95\t2\n18\t12\n19\t35\n20\t50\n21\t79\n22\t129\n23\t202\n24\t302\n25\t527\n26\t805\n27\t909\n28\t1038\n29\t1185\n30\t1757\n"
+      },
       "dateCreated": "Jul 3, 2015 1:30:47 PM",
+      "dateStarted": "Jan 22, 2016 7:24:23 AM",
+      "dateFinished": "Jan 22, 2016 7:24:30 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "println(%html \u003ch1\u003ehello zeppelin\u003ch1)",
+      "dateUpdated": "Jan 22, 2016 3:10:25 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1453432092851_1316945304",
+      "id": "20160122-030812_401832719",
+      "result": {
+        "code": "ERROR",
+        "type": "HTML",
+        "msg": "\u003ch1\u003ehello zeppelin\u003ch1)\n                                          ^\n"
+      },
+      "dateCreated": "Jan 22, 2016 3:08:12 AM",
+      "dateStarted": "Jan 22, 2016 3:10:25 AM",
+      "dateFinished": "Jan 22, 2016 3:10:25 AM",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "println(s\"\"\"%table\nkey\\tvalue\na1\\t1\nb\\t2\n\"\"\")",
+      "dateUpdated": "Jan 22, 2016 3:11:41 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1453432225409_-378442240",
+      "id": "20160122-031025_96740084",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "key\tvalue\na1\t1\nb\t2\n\n"
+      },
+      "dateCreated": "Jan 22, 2016 3:10:25 AM",
+      "dateStarted": "Jan 22, 2016 3:11:41 AM",
+      "dateFinished": "Jan 22, 2016 3:11:43 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "println(s\"\"\"%angular \u003ch3\u003ehello\u003c/h3\u003e)",
+      "dateUpdated": "Jan 22, 2016 3:13:54 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1453432301494_-1351770469",
+      "id": "20160122-031141_736819873",
+      "dateCreated": "Jan 22, 2016 3:11:41 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
   ],
   "name": "Zeppelin Tutorial",
   "id": "2A94M5J1Z",
-  "angularObjects": {},
+  "angularObjects": {
+    "2B458XSTQ": [],
+    "2B5XRQDUN": [],
+    "2B497ZDYT": [],
+    "2B5HA4K5Z": [],
+    "2B7RWS7R2": [],
+    "2B6MY65WY": [],
+    "2B72GQPKA": [],
+    "2B5KNPTJR": [],
+    "2B83SG64T": [],
+    "2B56DQK71": [],
+    "2B79XCMHY": [],
+    "2B6BSSFX7": [],
+    "2B7NZSVBV": [],
+    "2B62TSAA6": []
+  },
   "config": {
     "looknfeel": "default"
   },

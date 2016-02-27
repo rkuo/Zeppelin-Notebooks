@@ -1,0 +1,279 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md \n![ntu logo]\n\n## [機器學習基石 (Machine Learning Foundations)]\n![course logo]\n\n### Instructor\n[prof. Hsuan-Tien Lin]\n\nCo-authored [Learning from Data A Short Course], which is available for sale on Amazon, and is consistently one of the best sellers.  \n\nTo access the e-Chapters, go to the book forum e-Chapter section:\nUser Name: bookreaders\nPassword: Enter the first word on page 27 of the book.\n\u003cbr /\u003e\nACM SigKDD (Knowledge Discovery and Data Mining) Competitions \n* the third place of KDDCup 2009 slow track\n* the champion of KDDCup 2010, \n* the double-champion of the two tracks in KDDCup 2011 \n* the champion of track 2 in KDDCup 2012\n* the double-champion of the two tracks in KDDCup 2013.\n\n[prof. Hsuan-Tien Lin]: http://www.csie.ntu.edu.tw/~htlin/\n[Learning from Data A Short Course]: http://www.amazon.com/Learning-From-Data-Yaser-Abu-Mostafa/dp/1600490069\n[機器學習基石 (Machine Learning Foundations)]: https://www.coursera.org/course/ntumlone\n[course logo]: https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/3f/b6d4d0352b11e494bcf927fb09cbc9/logo.png\n[prof. Hsuan-Tien Lin - photo]: https://encrypted-tbn3.gstatic.com/images?q\u003dtbn:ANd9GcRhJyJAVIpKhtRGU5xoWktFSGrXD8HGIG8B0iHeuwtQrRWTK0D4xw\n[ntu logo]: https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/5b/39b3e07cc411e48464c531312c1861/NTU-widelogo-_1_.png?auto\u003dformat\u0026dpr\u003d2\u0026w\u003d\u0026h\u003d40",
+      "dateUpdated": "Feb 16, 2016 7:38:40 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1455485959391_290656802",
+      "id": "20160214-213919_548121247",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/5b/39b3e07cc411e48464c531312c1861/NTU-widelogo-_1_.png?auto\u003dformat\u0026amp;dpr\u003d2\u0026amp;w\u003d\u0026amp;h\u003d40\" alt\u003d\"ntu logo\" /\u003e\u003c/p\u003e\n\u003ch2\u003e\u003ca href\u003d\"https://www.coursera.org/course/ntumlone\"\u003e機器學習基石 (Machine Learning Foundations)\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/3f/b6d4d0352b11e494bcf927fb09cbc9/logo.png\" alt\u003d\"course logo\" /\u003e\u003c/p\u003e\n\u003ch3\u003eInstructor\u003c/h3\u003e\n\u003cp\u003e\u003ca href\u003d\"http://www.csie.ntu.edu.tw/~htlin/\"\u003eprof. Hsuan-Tien Lin\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eCo-authored \u003ca href\u003d\"http://www.amazon.com/Learning-From-Data-Yaser-Abu-Mostafa/dp/1600490069\"\u003eLearning from Data A Short Course\u003c/a\u003e, which is available for sale on Amazon, and is consistently one of the best sellers.\u003c/p\u003e\n\u003cp\u003eTo access the e-Chapters, go to the book forum e-Chapter section:\n\u003cbr  /\u003eUser Name: bookreaders\n\u003cbr  /\u003ePassword: Enter the first word on page 27 of the book.\n\u003cbr  /\u003e\u003cbr  /\u003e\n\u003cbr  /\u003eACM SigKDD (Knowledge Discovery and Data Mining) Competitions\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003ethe third place of KDDCup 2009 slow track\u003c/li\u003e\n\u003cli\u003ethe champion of KDDCup 2010,\u003c/li\u003e\n\u003cli\u003ethe double-champion of the two tracks in KDDCup 2011\u003c/li\u003e\n\u003cli\u003ethe champion of track 2 in KDDCup 2012\u003c/li\u003e\n\u003cli\u003ethe double-champion of the two tracks in KDDCup 2013.\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Feb 14, 2016 9:39:19 PM",
+      "dateStarted": "Feb 16, 2016 7:38:40 PM",
+      "dateFinished": "Feb 16, 2016 7:38:40 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md  \n## Course Overview\n\n[mooc outline, slides, video]\n\n[mooc outline, slides, video]: http://www.csie.ntu.edu.tw/~htlin/mooc/",
+      "dateUpdated": "Feb 27, 2016 12:52:01 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1455494017147_1120545010",
+      "id": "20160214-235337_649886751",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch2\u003eCourse Overview\u003c/h2\u003e\n\u003cp\u003e\u003ca href\u003d\"http://www.csie.ntu.edu.tw/~htlin/mooc/\"\u003emooc outline, slides, video\u003c/a\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Feb 14, 2016 11:53:37 PM",
+      "dateStarted": "Feb 27, 2016 12:48:43 AM",
+      "dateFinished": "Feb 27, 2016 12:48:45 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n## The Learning Problem\n### Course Introduction",
+      "dateUpdated": "Feb 27, 2016 12:55:37 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1455495562454_2054957761",
+      "id": "20160215-001922_1884841395",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch2\u003eThe Learning Problem\u003c/h2\u003e\n\u003ch3\u003eCourse Introduction\u003c/h3\u003e\n"
+      },
+      "dateCreated": "Feb 15, 2016 12:19:22 AM",
+      "dateStarted": "Feb 17, 2016 12:21:57 AM",
+      "dateFinished": "Feb 17, 2016 12:21:57 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### What is Machine Learning\nLearning: Acquiring skill from experience accumulated from observations.\nMachine Learning: Acquiring skill with experience accumulated/computed from data.   \n\nSkill: improve some performance measurement, e.g. predication accuracy.   \n\n\u003d\u003e Machine Learning: improving some performance measure with experience computed from data.  \n\n![ML definition](https://www.evernote.com/l/AS69WvP8gsJDI7gBwIMSpnjysxZUpbGisT8)\n\n### ML Use Cases\n* Computational Finance: stock data -\u003e ML -\u003e more investment gain.\n\n### Why ML?\n* don\u0027t know how to define a solution, e.g. visual/speech recognition.\n* human cannot program the system manually, e.g. we need to design a navigation system on Mars, but we do not know what kind of environment the rover will encounte.\n* need rapid decision that requires large amount data analysis, and human just can not do it fast enough, e.g. stock market trading.\n* need to create customer-targeted marketing for massive scale, e.g. recommendation engine.\n\n### Key Essentials\nDifference between Data Mining and Machine Learning:\n* Data Mining: Search thru huge amount of data to find interesting property or information.\n* Machine Learning: Use data to compute hypothesis, g, that approximate to target function, f.\n* ML is very similar to DM. DM is to find interesting property **same as** hypothesis that approximate to target.  ML is to find interesting property **related to** hypothesis that approximate to target.  ",
+      "dateUpdated": "Feb 27, 2016 1:35:41 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1455642704383_-230017202",
+      "id": "20160216-171144_617238845",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eWhat is Machine Learning\u003c/h3\u003e\n\u003cp\u003eLearning: Acquiring skill from experience accumulated from observations.\n\u003cbr  /\u003eMachine Learning: Acquiring skill with experience accumulated/computed from data.\u003c/p\u003e\n\u003cp\u003eSkill: improve some performance measurement, e.g. predication accuracy.\u003c/p\u003e\n\u003cp\u003e\u003d\u003e Machine Learning: improving some performance measure with experience computed from data.\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://www.evernote.com/l/AS69WvP8gsJDI7gBwIMSpnjysxZUpbGisT8\" alt\u003d\"ML definition\" /\u003e\u003c/p\u003e\n\u003ch3\u003eML Use Cases\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eComputational Finance: stock data -\u003e ML -\u003e more investment gain.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eWhy ML?\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003edon\u0027t know how to define a solution, e.g. visual/speech recognition.\u003c/li\u003e\n\u003cli\u003ehuman cannot program the system manually, e.g. we need to design a navigation system on Mars, but we do not know what kind of environment the rover will encounte.\u003c/li\u003e\n\u003cli\u003eneed rapid decision that requires large amount data analysis, and human just can not do it fast enough, e.g. stock market trading.\u003c/li\u003e\n\u003cli\u003eneed to create customer-targeted marketing for massive scale, e.g. recommendation engine.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eKey Essentials\u003c/h3\u003e\n\u003cp\u003eDifference between Data Mining and Machine Learning:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eData Mining: Search thru huge amount of data to find interesting property or information.\u003c/li\u003e\n\u003cli\u003eMachine Learning: Use data to compute hypothesis, g, that approximate to target function, f.\u003c/li\u003e\n\u003cli\u003eML is very similar to DM. DM is to find interesting property \u003cstrong\u003esame as\u003c/strong\u003e hypothesis that approximate to target.  ML is to find interesting property \u003cstrong\u003erelated to\u003c/strong\u003e hypothesis that approximate to target.\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Feb 16, 2016 5:11:44 PM",
+      "dateStarted": "Feb 27, 2016 1:35:41 AM",
+      "dateFinished": "Feb 27, 2016 1:35:41 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### Applications of Machine Learning\n",
+      "dateUpdated": "Feb 16, 2016 7:38:40 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1455651433260_-1180258403",
+      "id": "20160216-193713_755003191",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eApplications of Machine Learning\u003c/h3\u003e\n"
+      },
+      "dateCreated": "Feb 16, 2016 7:37:13 PM",
+      "dateStarted": "Feb 16, 2016 7:38:40 PM",
+      "dateFinished": "Feb 16, 2016 7:38:40 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md \n### Components of Machine Learning\n",
+      "dateUpdated": "Feb 16, 2016 7:38:40 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1455651470599_491906290",
+      "id": "20160216-193750_1120160984",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eComponents of Machine Learning\u003c/h3\u003e\n"
+      },
+      "dateCreated": "Feb 16, 2016 7:37:50 PM",
+      "dateStarted": "Feb 16, 2016 7:38:40 PM",
+      "dateFinished": "Feb 16, 2016 7:38:40 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### Machine Learning and Other Fields\n",
+      "dateUpdated": "Feb 16, 2016 7:38:40 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1455651487768_747241642",
+      "id": "20160216-193807_615958933",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eMachine Learning and Other Fields\u003c/h3\u003e\n"
+      },
+      "dateCreated": "Feb 16, 2016 7:38:07 PM",
+      "dateStarted": "Feb 16, 2016 7:38:41 PM",
+      "dateFinished": "Feb 16, 2016 7:38:41 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1455651520939_1154351951",
+      "id": "20160216-193840_1691385710",
+      "dateCreated": "Feb 16, 2016 7:38:40 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "Machine Learning Foundations",
+  "id": "2BAJAQBSK",
+  "angularObjects": {
+    "2BAKJY5HP": [],
+    "2BA4ZT9KA": [],
+    "2BAJHP13K": [],
+    "2BA4FS6H4": [],
+    "2BATJ7JXT": [],
+    "2BDD5JNQA": [],
+    "2BA4VB3HF": [],
+    "2BAVVBSJR": [],
+    "2BCD6QS1M": [],
+    "2BBZ5KHWK": [],
+    "2BAH52SQH": [],
+    "2BAG4DA48": [],
+    "2BBPA417C": [],
+    "2BBYH3GSG": [],
+    "2BB3B14B6": []
+  },
+  "config": {},
+  "info": {}
+}

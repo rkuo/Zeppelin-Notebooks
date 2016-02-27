@@ -34,6 +34,40 @@
       "progressUpdateIntervalMs": 500
     },
     {
+      "text": "sc.version",
+      "dateUpdated": "Feb 8, 2016 6:16:45 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1454912193278_-1818583845",
+      "id": "20160208-061633_73437295",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "res6: String \u003d 1.6.0\n"
+      },
+      "dateCreated": "Feb 8, 2016 6:16:33 AM",
+      "dateStarted": "Feb 8, 2016 6:16:45 AM",
+      "dateFinished": "Feb 8, 2016 6:16:45 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
       "text": "// from https://www.youtube.com/watch?v\u003dxU5TBS_MsAs\n\n// Each cell can only be one type declaration % \n// println(\"%html \u003ch3\u003eHello Zeppelin with HTML!\u003c/h3\u003e\")\nprintln(\"%angular \u003ch3\u003eHello Zeppelin!\u003c/h3\u003e\")",
       "config": {
         "colWidth": 12.0,
@@ -68,6 +102,7 @@
     },
     {
       "text": "// when name is not defined, it gets blank\nprintln(\"%angular \u003ch3\u003eHello {{name}}\u003c/h3\u003e\")",
+      "dateUpdated": "Feb 8, 2016 6:57:05 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -80,7 +115,9 @@
           "scatter": {}
         },
         "editorHide": false,
-        "tableHide": false
+        "tableHide": false,
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
       },
       "settings": {
         "params": {},
@@ -94,13 +131,14 @@
         "msg": "\u003ch3\u003eHello {{name}}\u003c/h3\u003e\n"
       },
       "dateCreated": "Jun 6, 2015 4:17:18 PM",
-      "dateStarted": "Jun 12, 2015 5:40:06 AM",
-      "dateFinished": "Jun 12, 2015 5:40:18 AM",
+      "dateStarted": "Feb 8, 2016 6:57:05 AM",
+      "dateFinished": "Feb 8, 2016 6:57:05 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "val name \u003d \"Zeppelin\"\nz.angularBind(\"name\", name)",
+      "text": "// angular -\u003e scala\nval name \u003d \"Zeppelin\"\nz.angularBind(\"name\", name)\nprintln(\"%angular \u003ch3\u003eHello {{name}}\u003c/h3\u003e\")",
+      "dateUpdated": "Feb 8, 2016 12:12:53 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -112,7 +150,8 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": false
+        "editorHide": false,
+        "enabled": true
       },
       "settings": {
         "params": {},
@@ -122,17 +161,18 @@
       "id": "20150606-164748_1765617474",
       "result": {
         "code": "SUCCESS",
-        "type": "TEXT",
-        "msg": "name: String \u003d Zeppelin\n"
+        "type": "ANGULAR",
+        "msg": "\u003ch3\u003eHello {{name}}\u003c/h3\u003e\n"
       },
       "dateCreated": "Jun 6, 2015 4:47:48 PM",
-      "dateStarted": "Jun 12, 2015 5:40:18 AM",
-      "dateFinished": "Jun 12, 2015 5:40:18 AM",
+      "dateStarted": "Feb 8, 2016 12:12:53 PM",
+      "dateFinished": "Feb 8, 2016 12:12:54 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "// angular -\u003e scala\n// click button will update name -\u003e Angular\nprintln(\"\"\"%angular \n        \u003ch3\u003eHello {{name}}\u003c/h3\u003e\n        \u003cbutton class \u003d \"btn btn-success\"\n        ng-click \u003d \"name \u003d \u0027Angular\u0027\"\u003eclick\u003c/button\u003e\n        \u003cbutton class \u003d \"btn btn-clear\"\n        ng-click \u003d \"name \u003d \u0027\u0027\"\u003eclear\u003c/button\u003e\n        \"\"\")",
+      "text": "// angular -\u003e scala\n// click button will update name -\u003e Angular\n// clear button will clear name value\nprintln(\"\"\"%angular \n        \u003ch3\u003eHello {{name}}\u003c/h3\u003e\n        \u003cbutton class \u003d \"btn btn-success\"\n        ng-click \u003d \"name \u003d \u0027Angular\u0027\"\u003eclick\u003c/button\u003e\n        \u003cbutton class \u003d \"btn btn-clear\"\n        ng-click \u003d \"name \u003d \u0027\u0027\"\u003eclear\u003c/button\u003e\n        \"\"\")",
+      "dateUpdated": "Feb 8, 2016 12:12:47 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -143,7 +183,8 @@
           "values": [],
           "groups": [],
           "scatter": {}
-        }
+        },
+        "enabled": true
       },
       "settings": {
         "params": {},
@@ -157,8 +198,8 @@
         "msg": "\n        \u003ch3\u003eHello {{name}}\u003c/h3\u003e\n        \u003cbutton class \u003d \"btn btn-success\"\n        ng-click \u003d \"name \u003d \u0027Angular\u0027\"\u003eclick\u003c/button\u003e\n        \u003cbutton class \u003d \"btn btn-clear\"\n        ng-click \u003d \"name \u003d \u0027\u0027\"\u003eclear\u003c/button\u003e\n        \n"
       },
       "dateCreated": "Jun 6, 2015 4:53:02 PM",
-      "dateStarted": "Jun 12, 2015 5:40:18 AM",
-      "dateFinished": "Jun 12, 2015 5:40:18 AM",
+      "dateStarted": "Feb 8, 2016 12:12:47 PM",
+      "dateFinished": "Feb 8, 2016 12:12:47 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -256,39 +297,43 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        }
-      },
+      "config": {},
       "settings": {
         "params": {},
         "forms": {}
       },
-      "jobName": "paragraph_1434112670894_-1565775273",
-      "id": "20150612-053750_968414050",
-      "result": {
-        "code": "SUCCESS",
-        "type": "TEXT"
-      },
-      "dateCreated": "Jun 12, 2015 5:37:50 AM",
-      "dateStarted": "Jun 12, 2015 5:40:20 AM",
-      "dateFinished": "Jun 12, 2015 5:40:20 AM",
-      "status": "FINISHED",
+      "jobName": "paragraph_1454924510477_-587120936",
+      "id": "20160208-094150_1993674437",
+      "dateCreated": "Feb 8, 2016 9:41:50 AM",
+      "status": "READY",
       "progressUpdateIntervalMs": 500
     }
   ],
   "name": "AngularDisplay",
   "id": "2ARGEQPMY",
-  "angularObjects": {},
+  "angularObjects": {
+    "2BAKJY5HP": [],
+    "2BA4ZT9KA": [],
+    "2BAJHP13K": [],
+    "2BA4FS6H4": [],
+    "2BATJ7JXT": [],
+    "2BDD5JNQA": [],
+    "2BA4VB3HF": [],
+    "2BAVVBSJR": [
+      {
+        "name": "name",
+        "object": "Zeppelin",
+        "noteId": "2ARGEQPMY"
+      }
+    ],
+    "2BCD6QS1M": [],
+    "2BBZ5KHWK": [],
+    "2BAH52SQH": [],
+    "2BAG4DA48": [],
+    "2BBPA417C": [],
+    "2BBYH3GSG": [],
+    "2BB3B14B6": []
+  },
   "config": {
     "looknfeel": "default"
   },
