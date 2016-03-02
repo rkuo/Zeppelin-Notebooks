@@ -392,6 +392,8 @@
     "2BBYH3GSG": [],
     "2BB3B14B6": []
   },
-  "config": {},
+  "config": {
+    "looknfeel": "default"
+  },
   "info": {}
 }
