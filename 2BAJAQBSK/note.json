@@ -2,7 +2,7 @@
   "paragraphs": [
     {
       "text": "%md \n![ntu logo]\n\n## [機器學習基石 (Machine Learning Foundations)]\n![course logo]\n\n### Instructor\n[prof. Hsuan-Tien Lin]\n\nCo-authored [Learning from Data A Short Course], which is available for sale on Amazon, and is consistently one of the best sellers.  \n\nTo access the e-Chapters, go to the book forum e-Chapter section:\nUser Name: bookreaders\nPassword: Enter the first word on page 27 of the book.\n\u003cbr /\u003e\nACM SigKDD (Knowledge Discovery and Data Mining) Competitions \n* the third place of KDDCup 2009 slow track\n* the champion of KDDCup 2010, \n* the double-champion of the two tracks in KDDCup 2011 \n* the champion of track 2 in KDDCup 2012\n* the double-champion of the two tracks in KDDCup 2013.\n\n[prof. Hsuan-Tien Lin]: http://www.csie.ntu.edu.tw/~htlin/\n[Learning from Data A Short Course]: http://www.amazon.com/Learning-From-Data-Yaser-Abu-Mostafa/dp/1600490069\n[機器學習基石 (Machine Learning Foundations)]: https://www.coursera.org/course/ntumlone\n[course logo]: https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/3f/b6d4d0352b11e494bcf927fb09cbc9/logo.png\n[prof. Hsuan-Tien Lin - photo]: https://encrypted-tbn3.gstatic.com/images?q\u003dtbn:ANd9GcRhJyJAVIpKhtRGU5xoWktFSGrXD8HGIG8B0iHeuwtQrRWTK0D4xw\n[ntu logo]: https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/5b/39b3e07cc411e48464c531312c1861/NTU-widelogo-_1_.png?auto\u003dformat\u0026dpr\u003d2\u0026w\u003d\u0026h\u003d40",
-      "dateUpdated": "Feb 16, 2016 7:38:40 PM",
+      "dateUpdated": "Mar 2, 2016 10:58:10 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -16,7 +16,7 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/markdown",
-        "editorHide": true
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -30,14 +30,14 @@
         "msg": "\u003cp\u003e\u003cimg src\u003d\"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/5b/39b3e07cc411e48464c531312c1861/NTU-widelogo-_1_.png?auto\u003dformat\u0026amp;dpr\u003d2\u0026amp;w\u003d\u0026amp;h\u003d40\" alt\u003d\"ntu logo\" /\u003e\u003c/p\u003e\n\u003ch2\u003e\u003ca href\u003d\"https://www.coursera.org/course/ntumlone\"\u003e機器學習基石 (Machine Learning Foundations)\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/3f/b6d4d0352b11e494bcf927fb09cbc9/logo.png\" alt\u003d\"course logo\" /\u003e\u003c/p\u003e\n\u003ch3\u003eInstructor\u003c/h3\u003e\n\u003cp\u003e\u003ca href\u003d\"http://www.csie.ntu.edu.tw/~htlin/\"\u003eprof. Hsuan-Tien Lin\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eCo-authored \u003ca href\u003d\"http://www.amazon.com/Learning-From-Data-Yaser-Abu-Mostafa/dp/1600490069\"\u003eLearning from Data A Short Course\u003c/a\u003e, which is available for sale on Amazon, and is consistently one of the best sellers.\u003c/p\u003e\n\u003cp\u003eTo access the e-Chapters, go to the book forum e-Chapter section:\n\u003cbr  /\u003eUser Name: bookreaders\n\u003cbr  /\u003ePassword: Enter the first word on page 27 of the book.\n\u003cbr  /\u003e\u003cbr  /\u003e\n\u003cbr  /\u003eACM SigKDD (Knowledge Discovery and Data Mining) Competitions\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003ethe third place of KDDCup 2009 slow track\u003c/li\u003e\n\u003cli\u003ethe champion of KDDCup 2010,\u003c/li\u003e\n\u003cli\u003ethe double-champion of the two tracks in KDDCup 2011\u003c/li\u003e\n\u003cli\u003ethe champion of track 2 in KDDCup 2012\u003c/li\u003e\n\u003cli\u003ethe double-champion of the two tracks in KDDCup 2013.\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Feb 14, 2016 9:39:19 PM",
-      "dateStarted": "Feb 16, 2016 7:38:40 PM",
-      "dateFinished": "Feb 16, 2016 7:38:40 PM",
+      "dateStarted": "Feb 27, 2016 6:54:18 AM",
+      "dateFinished": "Feb 27, 2016 6:54:18 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md  \n## Course Overview\n\n[mooc outline, slides, video]\n\n[mooc outline, slides, video]: http://www.csie.ntu.edu.tw/~htlin/mooc/",
-      "dateUpdated": "Feb 27, 2016 12:52:01 AM",
+      "dateUpdated": "Feb 27, 2016 6:54:18 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -65,14 +65,14 @@
         "msg": "\u003ch2\u003eCourse Overview\u003c/h2\u003e\n\u003cp\u003e\u003ca href\u003d\"http://www.csie.ntu.edu.tw/~htlin/mooc/\"\u003emooc outline, slides, video\u003c/a\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Feb 14, 2016 11:53:37 PM",
-      "dateStarted": "Feb 27, 2016 12:48:43 AM",
-      "dateFinished": "Feb 27, 2016 12:48:45 AM",
+      "dateStarted": "Feb 27, 2016 6:54:18 AM",
+      "dateFinished": "Feb 27, 2016 6:54:18 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n## The Learning Problem\n### Course Introduction",
-      "dateUpdated": "Feb 27, 2016 12:55:37 AM",
+      "dateUpdated": "Feb 27, 2016 6:54:18 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -100,16 +100,16 @@
         "msg": "\u003ch2\u003eThe Learning Problem\u003c/h2\u003e\n\u003ch3\u003eCourse Introduction\u003c/h3\u003e\n"
       },
       "dateCreated": "Feb 15, 2016 12:19:22 AM",
-      "dateStarted": "Feb 17, 2016 12:21:57 AM",
-      "dateFinished": "Feb 17, 2016 12:21:57 AM",
+      "dateStarted": "Feb 27, 2016 6:54:18 AM",
+      "dateFinished": "Feb 27, 2016 6:54:18 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n### What is Machine Learning\nLearning: Acquiring skill from experience accumulated from observations.\nMachine Learning: Acquiring skill with experience accumulated/computed from data.   \n\nSkill: improve some performance measurement, e.g. predication accuracy.   \n\n\u003d\u003e Machine Learning: improving some performance measure with experience computed from data.  \n\n![ML definition][1]\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/images/What_Is_ML_Definition.png\n\n### ML Use Cases\n* Computational Finance: stock data -\u003e ML -\u003e more investment gain.\n\n### Why ML?\n* don\u0027t know how to define a solution, e.g. visual/speech recognition.\n* human cannot program the system manually, e.g. we need to design a navigation system on Mars, but we do not know what kind of environment the rover will encounte.\n* need rapid decision that requires large amount data analysis, and human just can not do it fast enough, e.g. stock market trading.\n* need to create customer-targeted marketing for massive scale, e.g. recommendation engine.\n\n### Key Essentials\nDifference between Data Mining and Machine Learning:\n* Data Mining: Search thru huge amount of data to find interesting property or information.\n* Machine Learning: Use data to compute hypothesis, g, that approximate to target function, f.\n* ML is very similar to DM. DM is to find interesting property **same as** hypothesis that approximate to target.  ML is to find interesting property **related to** hypothesis that approximate to target.  ",
-      "dateUpdated": "Feb 27, 2016 3:18:35 AM",
+      "text": "%md\n### What is Machine Learning\nLearning: Acquiring skill from experience accumulated from observations.\nMachine Learning: Acquiring skill with experience accumulated/computed from data.   \n\nSkill: improve some performance measurement, e.g. predication accuracy.   \n\n\u003d\u003e Machine Learning: improving some performance measure with experience computed from data.  \n",
+      "dateUpdated": "Mar 2, 2016 10:57:59 AM",
       "config": {
-        "colWidth": 12.0,
+        "colWidth": 6.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
@@ -132,17 +132,52 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch3\u003eWhat is Machine Learning\u003c/h3\u003e\n\u003cp\u003eLearning: Acquiring skill from experience accumulated from observations.\n\u003cbr  /\u003eMachine Learning: Acquiring skill with experience accumulated/computed from data.\u003c/p\u003e\n\u003cp\u003eSkill: improve some performance measurement, e.g. predication accuracy.\u003c/p\u003e\n\u003cp\u003e\u003d\u003e Machine Learning: improving some performance measure with experience computed from data.\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/images/What_Is_ML_Definition.png\" alt\u003d\"ML definition\" /\u003e\u003c/p\u003e\n\u003ch3\u003eML Use Cases\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eComputational Finance: stock data -\u003e ML -\u003e more investment gain.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eWhy ML?\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003edon\u0027t know how to define a solution, e.g. visual/speech recognition.\u003c/li\u003e\n\u003cli\u003ehuman cannot program the system manually, e.g. we need to design a navigation system on Mars, but we do not know what kind of environment the rover will encounte.\u003c/li\u003e\n\u003cli\u003eneed rapid decision that requires large amount data analysis, and human just can not do it fast enough, e.g. stock market trading.\u003c/li\u003e\n\u003cli\u003eneed to create customer-targeted marketing for massive scale, e.g. recommendation engine.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eKey Essentials\u003c/h3\u003e\n\u003cp\u003eDifference between Data Mining and Machine Learning:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eData Mining: Search thru huge amount of data to find interesting property or information.\u003c/li\u003e\n\u003cli\u003eMachine Learning: Use data to compute hypothesis, g, that approximate to target function, f.\u003c/li\u003e\n\u003cli\u003eML is very similar to DM. DM is to find interesting property \u003cstrong\u003esame as\u003c/strong\u003e hypothesis that approximate to target.  ML is to find interesting property \u003cstrong\u003erelated to\u003c/strong\u003e hypothesis that approximate to target.\u003c/li\u003e\n\u003c/ul\u003e\n"
+        "msg": "\u003ch3\u003eWhat is Machine Learning\u003c/h3\u003e\n\u003cp\u003eLearning: Acquiring skill from experience accumulated from observations.\n\u003cbr  /\u003eMachine Learning: Acquiring skill with experience accumulated/computed from data.\u003c/p\u003e\n\u003cp\u003eSkill: improve some performance measurement, e.g. predication accuracy.\u003c/p\u003e\n\u003cp\u003e\u003d\u003e Machine Learning: improving some performance measure with experience computed from data.\u003c/p\u003e\n"
       },
       "dateCreated": "Feb 16, 2016 5:11:44 PM",
-      "dateStarted": "Feb 27, 2016 3:18:35 AM",
-      "dateFinished": "Feb 27, 2016 3:18:35 AM",
+      "dateStarted": "Feb 27, 2016 6:54:18 AM",
+      "dateFinished": "Feb 27, 2016 6:54:18 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n### Applications of Machine Learning\n",
-      "dateUpdated": "Feb 16, 2016 7:38:40 PM",
+      "text": "%md\n![ML definition][1]\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/images/What_Is_ML_Definition.png\n",
+      "dateUpdated": "Feb 27, 2016 6:54:25 AM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1456555888462_702544819",
+      "id": "20160227-065128_1905085644",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/images/What_Is_ML_Definition.png\" alt\u003d\"ML definition\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Feb 27, 2016 6:51:28 AM",
+      "dateStarted": "Feb 27, 2016 6:54:18 AM",
+      "dateFinished": "Feb 27, 2016 6:54:18 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### Why ML?\n* don\u0027t know how to define a solution, e.g. visual/speech recognition.\n* human cannot program the system manually, e.g. we need to design a navigation system on Mars, but we do not know what kind of environment the rover will encounte.\n* need rapid decision that requires large amount data analysis, and human just can not do it fast enough, e.g. stock market trading.\n* need to create customer-targeted marketing for massive scale, e.g. recommendation engine.\n\n### Key Essentials\nDifference between Data Mining and Machine Learning:\n* Data Mining: Search thru huge amount of data to find interesting property or information.\n* Machine Learning: Use data to compute hypothesis, g, that approximate to target function, f.\n* ML is very similar to DM. DM is to find interesting property **same as** hypothesis that approximate to target.  ML is to find interesting property **related to** hypothesis that approximate to target.  ",
+      "dateUpdated": "Feb 27, 2016 7:02:07 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -155,7 +190,43 @@
           "scatter": {}
         },
         "enabled": true,
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1456555987390_-1702058662",
+      "id": "20160227-065307_846266498",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eWhy ML?\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003edon\u0027t know how to define a solution, e.g. visual/speech recognition.\u003c/li\u003e\n\u003cli\u003ehuman cannot program the system manually, e.g. we need to design a navigation system on Mars, but we do not know what kind of environment the rover will encounte.\u003c/li\u003e\n\u003cli\u003eneed rapid decision that requires large amount data analysis, and human just can not do it fast enough, e.g. stock market trading.\u003c/li\u003e\n\u003cli\u003eneed to create customer-targeted marketing for massive scale, e.g. recommendation engine.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eKey Essentials\u003c/h3\u003e\n\u003cp\u003eDifference between Data Mining and Machine Learning:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eData Mining: Search thru huge amount of data to find interesting property or information.\u003c/li\u003e\n\u003cli\u003eMachine Learning: Use data to compute hypothesis, g, that approximate to target function, f.\u003c/li\u003e\n\u003cli\u003eML is very similar to DM. DM is to find interesting property \u003cstrong\u003esame as\u003c/strong\u003e hypothesis that approximate to target.  ML is to find interesting property \u003cstrong\u003erelated to\u003c/strong\u003e hypothesis that approximate to target.\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Feb 27, 2016 6:53:07 AM",
+      "dateStarted": "Feb 27, 2016 7:01:56 AM",
+      "dateFinished": "Feb 27, 2016 7:01:56 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### Applications of Machine Learning\n* Food: \n    * data: get data feed from twitter or yalp about nearby resturant\n    * skill: develop measurement of quality of food\n* Clothing: \n    * data: get data of sales figures and survey\n    * skill: give recommandation to client\n* Housing:\n    * data: characteristic of building and its energy energy use\n    * skill: predict the energy usage of nearby building energy consumption\n* Transportation\n    * data: traffic signal images and traffic meanings\n    * skill: recognize the traffic correctly\n* Education\n    * data: students\u0027 records on quizz of a online class\n    * skill: predict a student whether be able to answer other quizzes correctly\n* Entertainment\n    * data: how other users rate a movie, for example, Netflix provided 100M rating from 480k user rated 17.7k movies.\n    * skill: predict how a user rates a unrated movie, for example, to improve 10% recommendations.\n    * solution: develop a user pattern: rating \u003c- viewer/movie factors, movie can be describe as a chain of factors, we can multiple these two chains (matix).Since we only know rating,  we will ask the system to learn the movie factors from rating, and predict the user\u0027s unknown rating.\n\n**ML is everywhere!!**\n",
+      "dateUpdated": "Mar 2, 2016 10:59:54 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
       },
       "settings": {
         "params": {},
@@ -166,19 +237,19 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch3\u003eApplications of Machine Learning\u003c/h3\u003e\n"
+        "msg": "\u003ch3\u003eApplications of Machine Learning\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eFood:\u003cul\u003e\n\u003cli\u003edata: get data feed from twitter or yalp about nearby resturant\u003c/li\u003e\n\u003cli\u003eskill: develop measurement of quality of food\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eClothing:\u003cul\u003e\n\u003cli\u003edata: get data of sales figures and survey\u003c/li\u003e\n\u003cli\u003eskill: give recommandation to client\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eHousing:\u003cul\u003e\n\u003cli\u003edata: characteristic of building and its energy energy use\u003c/li\u003e\n\u003cli\u003eskill: predict the energy usage of nearby building energy consumption\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eTransportation\u003cul\u003e\n\u003cli\u003edata: traffic signal images and traffic meanings\u003c/li\u003e\n\u003cli\u003eskill: recognize the traffic correctly\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eEducation\u003cul\u003e\n\u003cli\u003edata: students\u0027 records on quizz of a online class\u003c/li\u003e\n\u003cli\u003eskill: predict a student whether be able to answer other quizzes correctly\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eEntertainment\u003cul\u003e\n\u003cli\u003edata: how other users rate a movie, for example, Netflix provided 100M rating from 480k user rated 17.7k movies.\u003c/li\u003e\n\u003cli\u003eskill: predict how a user rates a unrated movie, for example, to improve 10% recommendations.\u003c/li\u003e\n\u003cli\u003esolution: develop a user pattern: rating \u0026lt;- viewer/movie factors, movie can be describe as a chain of factors, we can multiple these two chains (matix).Since we only know rating,  we will ask the system to learn the movie factors from rating, and predict the user\u0027s unknown rating.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cstrong\u003eML is everywhaere!!\u003c/strong\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Feb 16, 2016 7:37:13 PM",
-      "dateStarted": "Feb 16, 2016 7:38:40 PM",
-      "dateFinished": "Feb 16, 2016 7:38:40 PM",
+      "dateStarted": "Mar 2, 2016 3:32:48 AM",
+      "dateFinished": "Mar 2, 2016 3:32:48 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md \n### Components of Machine Learning\n",
-      "dateUpdated": "Feb 16, 2016 7:38:40 PM",
+      "dateUpdated": "Mar 2, 2016 10:52:05 AM",
       "config": {
-        "colWidth": 12.0,
+        "colWidth": 6.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
@@ -203,14 +274,41 @@
         "msg": "\u003ch3\u003eComponents of Machine Learning\u003c/h3\u003e\n"
       },
       "dateCreated": "Feb 16, 2016 7:37:50 PM",
-      "dateStarted": "Feb 16, 2016 7:38:40 PM",
-      "dateFinished": "Feb 16, 2016 7:38:40 PM",
+      "dateStarted": "Feb 27, 2016 6:54:19 AM",
+      "dateFinished": "Feb 27, 2016 6:54:19 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
+      "text": "%md\n![Components of ML][1]\n\n[1]: ",
+      "dateUpdated": "Mar 2, 2016 10:53:57 AM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1456915936921_-802313622",
+      "id": "20160302-105216_890388739",
+      "dateCreated": "Mar 2, 2016 10:52:16 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
       "text": "%md\n### Machine Learning and Other Fields\n",
-      "dateUpdated": "Feb 16, 2016 7:38:40 PM",
+      "dateUpdated": "Feb 27, 2016 6:54:19 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -237,21 +335,41 @@
         "msg": "\u003ch3\u003eMachine Learning and Other Fields\u003c/h3\u003e\n"
       },
       "dateCreated": "Feb 16, 2016 7:38:07 PM",
-      "dateStarted": "Feb 16, 2016 7:38:41 PM",
-      "dateFinished": "Feb 16, 2016 7:38:41 PM",
+      "dateStarted": "Feb 27, 2016 6:54:19 AM",
+      "dateFinished": "Feb 27, 2016 6:54:19 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "dateUpdated": "Feb 27, 2016 6:54:19 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1455651520939_1154351951",
       "id": "20160216-193840_1691385710",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
       "dateCreated": "Feb 16, 2016 7:38:40 PM",
-      "status": "READY",
+      "dateStarted": "Feb 27, 2016 6:54:19 AM",
+      "dateFinished": "Feb 27, 2016 6:54:51 AM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     }
   ],
