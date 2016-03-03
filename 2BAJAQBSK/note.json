@@ -2,7 +2,7 @@
   "paragraphs": [
     {
       "text": "%md \n![ntu logo]\n\n## [機器學習基石 (Machine Learning Foundations)]\n![course logo]\n\n### Instructor\n[prof. Hsuan-Tien Lin]\n\nCo-authored [Learning from Data A Short Course], which is available for sale on Amazon, and is consistently one of the best sellers.  \n\nTo access the e-Chapters, go to the book forum e-Chapter section:\nUser Name: bookreaders\nPassword: Enter the first word on page 27 of the book.\n\u003cbr /\u003e\nACM SigKDD (Knowledge Discovery and Data Mining) Competitions \n* the third place of KDDCup 2009 slow track\n* the champion of KDDCup 2010, \n* the double-champion of the two tracks in KDDCup 2011 \n* the champion of track 2 in KDDCup 2012\n* the double-champion of the two tracks in KDDCup 2013.\n\n[prof. Hsuan-Tien Lin]: http://www.csie.ntu.edu.tw/~htlin/\n[Learning from Data A Short Course]: http://www.amazon.com/Learning-From-Data-Yaser-Abu-Mostafa/dp/1600490069\n[機器學習基石 (Machine Learning Foundations)]: https://www.coursera.org/course/ntumlone\n[course logo]: https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/3f/b6d4d0352b11e494bcf927fb09cbc9/logo.png\n[prof. Hsuan-Tien Lin - photo]: https://encrypted-tbn3.gstatic.com/images?q\u003dtbn:ANd9GcRhJyJAVIpKhtRGU5xoWktFSGrXD8HGIG8B0iHeuwtQrRWTK0D4xw\n[ntu logo]: https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/5b/39b3e07cc411e48464c531312c1861/NTU-widelogo-_1_.png?auto\u003dformat\u0026dpr\u003d2\u0026w\u003d\u0026h\u003d40",
-      "dateUpdated": "Mar 2, 2016 10:58:10 AM",
+      "dateUpdated": "Mar 3, 2016 6:38:07 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -16,7 +16,7 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/markdown",
-        "editorHide": false
+        "editorHide": true
       },
       "settings": {
         "params": {},
@@ -107,7 +107,7 @@
     },
     {
       "text": "%md\n### What is Machine Learning\nLearning: Acquiring skill from experience accumulated from observations.\nMachine Learning: Acquiring skill with experience accumulated/computed from data.   \n\nSkill: improve some performance measurement, e.g. predication accuracy.   \n\n\u003d\u003e Machine Learning: improving some performance measure with experience computed from data.  \n",
-      "dateUpdated": "Mar 2, 2016 10:57:59 AM",
+      "dateUpdated": "Mar 2, 2016 11:43:46 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -121,7 +121,7 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/markdown",
-        "editorHide": false
+        "editorHide": true
       },
       "settings": {
         "params": {},
@@ -141,8 +141,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n![ML definition][1]\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/images/What_Is_ML_Definition.png\n",
-      "dateUpdated": "Feb 27, 2016 6:54:25 AM",
+      "text": "%md\n![ML definition][1]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BAJAQBSK/images/What_Is_ML_Definition.png\n",
+      "dateUpdated": "Mar 3, 2016 6:40:09 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -167,17 +167,17 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/images/What_Is_ML_Definition.png\" alt\u003d\"ML definition\" /\u003e\u003c/p\u003e\n"
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BAJAQBSK/images/What_Is_ML_Definition.png\" alt\u003d\"ML definition\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Feb 27, 2016 6:51:28 AM",
-      "dateStarted": "Feb 27, 2016 6:54:18 AM",
-      "dateFinished": "Feb 27, 2016 6:54:18 AM",
+      "dateStarted": "Mar 3, 2016 6:40:05 PM",
+      "dateFinished": "Mar 3, 2016 6:40:05 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n### Why ML?\n* don\u0027t know how to define a solution, e.g. visual/speech recognition.\n* human cannot program the system manually, e.g. we need to design a navigation system on Mars, but we do not know what kind of environment the rover will encounte.\n* need rapid decision that requires large amount data analysis, and human just can not do it fast enough, e.g. stock market trading.\n* need to create customer-targeted marketing for massive scale, e.g. recommendation engine.\n\n### Key Essentials\nDifference between Data Mining and Machine Learning:\n* Data Mining: Search thru huge amount of data to find interesting property or information.\n* Machine Learning: Use data to compute hypothesis, g, that approximate to target function, f.\n* ML is very similar to DM. DM is to find interesting property **same as** hypothesis that approximate to target.  ML is to find interesting property **related to** hypothesis that approximate to target.  ",
-      "dateUpdated": "Feb 27, 2016 7:02:07 AM",
+      "text": "%md\n### Why ML?\n* don\u0027t know how to define a solution, e.g. visual/speech recognition.\n* human cannot program the system manually, e.g. we need to design a navigation system on Mars, but we do not know what kind of environment the rover will encounte.\n* need rapid decision that requires large amount data analysis, and human just can not do it fast enough, e.g. stock market trading.\n* need to create customer-targeted marketing for massive scale, e.g. recommendation engine.\n",
+      "dateUpdated": "Mar 3, 2016 9:37:23 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -191,7 +191,7 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/markdown",
-        "editorHide": true
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -202,17 +202,17 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch3\u003eWhy ML?\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003edon\u0027t know how to define a solution, e.g. visual/speech recognition.\u003c/li\u003e\n\u003cli\u003ehuman cannot program the system manually, e.g. we need to design a navigation system on Mars, but we do not know what kind of environment the rover will encounte.\u003c/li\u003e\n\u003cli\u003eneed rapid decision that requires large amount data analysis, and human just can not do it fast enough, e.g. stock market trading.\u003c/li\u003e\n\u003cli\u003eneed to create customer-targeted marketing for massive scale, e.g. recommendation engine.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eKey Essentials\u003c/h3\u003e\n\u003cp\u003eDifference between Data Mining and Machine Learning:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eData Mining: Search thru huge amount of data to find interesting property or information.\u003c/li\u003e\n\u003cli\u003eMachine Learning: Use data to compute hypothesis, g, that approximate to target function, f.\u003c/li\u003e\n\u003cli\u003eML is very similar to DM. DM is to find interesting property \u003cstrong\u003esame as\u003c/strong\u003e hypothesis that approximate to target.  ML is to find interesting property \u003cstrong\u003erelated to\u003c/strong\u003e hypothesis that approximate to target.\u003c/li\u003e\n\u003c/ul\u003e\n"
+        "msg": "\u003ch3\u003eWhy ML?\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003edon\u0027t know how to define a solution, e.g. visual/speech recognition.\u003c/li\u003e\n\u003cli\u003ehuman cannot program the system manually, e.g. we need to design a navigation system on Mars, but we do not know what kind of environment the rover will encounte.\u003c/li\u003e\n\u003cli\u003eneed rapid decision that requires large amount data analysis, and human just can not do it fast enough, e.g. stock market trading.\u003c/li\u003e\n\u003cli\u003eneed to create customer-targeted marketing for massive scale, e.g. recommendation engine.\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Feb 27, 2016 6:53:07 AM",
-      "dateStarted": "Feb 27, 2016 7:01:56 AM",
-      "dateFinished": "Feb 27, 2016 7:01:56 AM",
+      "dateStarted": "Mar 3, 2016 9:37:23 PM",
+      "dateFinished": "Mar 3, 2016 9:37:23 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n### Applications of Machine Learning\n* Food: \n    * data: get data feed from twitter or yalp about nearby resturant\n    * skill: develop measurement of quality of food\n* Clothing: \n    * data: get data of sales figures and survey\n    * skill: give recommandation to client\n* Housing:\n    * data: characteristic of building and its energy energy use\n    * skill: predict the energy usage of nearby building energy consumption\n* Transportation\n    * data: traffic signal images and traffic meanings\n    * skill: recognize the traffic correctly\n* Education\n    * data: students\u0027 records on quizz of a online class\n    * skill: predict a student whether be able to answer other quizzes correctly\n* Entertainment\n    * data: how other users rate a movie, for example, Netflix provided 100M rating from 480k user rated 17.7k movies.\n    * skill: predict how a user rates a unrated movie, for example, to improve 10% recommendations.\n    * solution: develop a user pattern: rating \u003c- viewer/movie factors, movie can be describe as a chain of factors, we can multiple these two chains (matix).Since we only know rating,  we will ask the system to learn the movie factors from rating, and predict the user\u0027s unknown rating.\n\n**ML is everywhere!!**\n",
-      "dateUpdated": "Mar 2, 2016 10:59:54 AM",
+      "dateUpdated": "Mar 3, 2016 6:48:14 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -237,17 +237,17 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch3\u003eApplications of Machine Learning\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eFood:\u003cul\u003e\n\u003cli\u003edata: get data feed from twitter or yalp about nearby resturant\u003c/li\u003e\n\u003cli\u003eskill: develop measurement of quality of food\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eClothing:\u003cul\u003e\n\u003cli\u003edata: get data of sales figures and survey\u003c/li\u003e\n\u003cli\u003eskill: give recommandation to client\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eHousing:\u003cul\u003e\n\u003cli\u003edata: characteristic of building and its energy energy use\u003c/li\u003e\n\u003cli\u003eskill: predict the energy usage of nearby building energy consumption\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eTransportation\u003cul\u003e\n\u003cli\u003edata: traffic signal images and traffic meanings\u003c/li\u003e\n\u003cli\u003eskill: recognize the traffic correctly\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eEducation\u003cul\u003e\n\u003cli\u003edata: students\u0027 records on quizz of a online class\u003c/li\u003e\n\u003cli\u003eskill: predict a student whether be able to answer other quizzes correctly\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eEntertainment\u003cul\u003e\n\u003cli\u003edata: how other users rate a movie, for example, Netflix provided 100M rating from 480k user rated 17.7k movies.\u003c/li\u003e\n\u003cli\u003eskill: predict how a user rates a unrated movie, for example, to improve 10% recommendations.\u003c/li\u003e\n\u003cli\u003esolution: develop a user pattern: rating \u0026lt;- viewer/movie factors, movie can be describe as a chain of factors, we can multiple these two chains (matix).Since we only know rating,  we will ask the system to learn the movie factors from rating, and predict the user\u0027s unknown rating.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cstrong\u003eML is everywhaere!!\u003c/strong\u003e\u003c/p\u003e\n"
+        "msg": "\u003ch3\u003eApplications of Machine Learning\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eFood:\u003cul\u003e\n\u003cli\u003edata: get data feed from twitter or yalp about nearby resturant\u003c/li\u003e\n\u003cli\u003eskill: develop measurement of quality of food\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eClothing:\u003cul\u003e\n\u003cli\u003edata: get data of sales figures and survey\u003c/li\u003e\n\u003cli\u003eskill: give recommandation to client\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eHousing:\u003cul\u003e\n\u003cli\u003edata: characteristic of building and its energy energy use\u003c/li\u003e\n\u003cli\u003eskill: predict the energy usage of nearby building energy consumption\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eTransportation\u003cul\u003e\n\u003cli\u003edata: traffic signal images and traffic meanings\u003c/li\u003e\n\u003cli\u003eskill: recognize the traffic correctly\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eEducation\u003cul\u003e\n\u003cli\u003edata: students\u0027 records on quizz of a online class\u003c/li\u003e\n\u003cli\u003eskill: predict a student whether be able to answer other quizzes correctly\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eEntertainment\u003cul\u003e\n\u003cli\u003edata: how other users rate a movie, for example, Netflix provided 100M rating from 480k user rated 17.7k movies.\u003c/li\u003e\n\u003cli\u003eskill: predict how a user rates a unrated movie, for example, to improve 10% recommendations.\u003c/li\u003e\n\u003cli\u003esolution: develop a user pattern: rating \u0026lt;- viewer/movie factors, movie can be describe as a chain of factors, we can multiple these two chains (matix).Since we only know rating,  we will ask the system to learn the movie factors from rating, and predict the user\u0027s unknown rating.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cstrong\u003eML is everywhere!!\u003c/strong\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Feb 16, 2016 7:37:13 PM",
-      "dateStarted": "Mar 2, 2016 3:32:48 AM",
-      "dateFinished": "Mar 2, 2016 3:32:48 AM",
+      "dateStarted": "Mar 3, 2016 6:48:14 PM",
+      "dateFinished": "Mar 3, 2016 6:48:14 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md \n### Components of Machine Learning\n",
-      "dateUpdated": "Mar 2, 2016 10:52:05 AM",
+      "text": "%md \n### Components of Machine Learning\n\n#### problem: unknown target function, ***f***\n* to find out the pattern for approving the credit card that benefit to a bank. A target function ***f***, which maps applicant ***X*** (information about different application) that leads to outcome of ***Y*** (different out comes).\n\n#### training examples, ***D***\n* input: information of each applicant, x: age, salary, exist debts,etc\n* output: out come of each applicant, y: good or bad for bank/late payment/default\n* collected data, ***D***: {(x1, y1), (x2, y2), ... (xn, yn)}\n\n#### hypothesis set, ***H***\n* There is a set of h in ***H***, we like to find a specific h, good skill, hopefully have good performance. We select the best h, we call it ***g***\n* function ***g***, is part of H \u003d {hk}, that can map ***X -\u003e Y*** with good accuracy\n\n#### learning algorithm, ***A***\n* Use data to compute the best hypothesis, ***g***, which approximates to ***f***  \n\n#### target fountion, ***g***  \n* will be used to forecast future applicants.\n\n### Learning Model\nlearning algorithm, ***A*** and hypothesis set, ***H***\n",
+      "dateUpdated": "Mar 3, 2016 9:07:50 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -260,7 +260,8 @@
           "scatter": {}
         },
         "enabled": true,
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
       },
       "settings": {
         "params": {},
@@ -271,17 +272,17 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch3\u003eComponents of Machine Learning\u003c/h3\u003e\n"
+        "msg": "\u003ch3\u003eComponents of Machine Learning\u003c/h3\u003e\n\u003ch4\u003eproblem: unknown target function, \u003cstrong\u003e\u003cem\u003ef\u003c/em\u003e\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003eto find out the pattern for approving the credit card that benefit to a bank. A target function \u003cstrong\u003e\u003cem\u003ef\u003c/em\u003e\u003c/strong\u003e, which maps applicant \u003cstrong\u003e\u003cem\u003eX\u003c/em\u003e\u003c/strong\u003e (information about different application) that leads to outcome of \u003cstrong\u003e\u003cem\u003eY\u003c/em\u003e\u003c/strong\u003e (different out comes).\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003etraining examples, \u003cstrong\u003e\u003cem\u003eD\u003c/em\u003e\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003einput: information of each applicant, x: age, salary, exist debts,etc\u003c/li\u003e\n\u003cli\u003eoutput: out come of each applicant, y: good or bad for bank/late payment/default\u003c/li\u003e\n\u003cli\u003ecollected data, \u003cstrong\u003e\u003cem\u003eD\u003c/em\u003e\u003c/strong\u003e: {(x1, y1), (x2, y2), \u0026hellip; (xn, yn)}\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003ehypothesis set, \u003cstrong\u003e\u003cem\u003eH\u003c/em\u003e\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003eThere is a set of h in \u003cstrong\u003e\u003cem\u003eH\u003c/em\u003e\u003c/strong\u003e, we like to find a specific h, good skill, hopefully have good performance. We select the best h, we call it \u003cstrong\u003e\u003cem\u003eg\u003c/em\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003efunction \u003cstrong\u003e\u003cem\u003eg\u003c/em\u003e\u003c/strong\u003e, is part of H \u003d {hk}, that can map \u003cstrong\u003e\u003cem\u003eX -\u003e Y\u003c/em\u003e\u003c/strong\u003e with good accuracy\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003elearning algorithm, \u003cstrong\u003e\u003cem\u003eA\u003c/em\u003e\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003eUse data to compute the best hypothesis, \u003cstrong\u003e\u003cem\u003eg\u003c/em\u003e\u003c/strong\u003e, which approximates to \u003cstrong\u003e\u003cem\u003ef\u003c/em\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003etarget fountion, \u003cstrong\u003e\u003cem\u003eg\u003c/em\u003e\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003ewill be used to forecast future applicants.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eLearning Model\u003c/h3\u003e\n\u003cp\u003elearning algorithm, \u003cstrong\u003e\u003cem\u003eA\u003c/em\u003e\u003c/strong\u003e and hypothesis set, \u003cstrong\u003e\u003cem\u003eH\u003c/em\u003e\u003c/strong\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Feb 16, 2016 7:37:50 PM",
-      "dateStarted": "Feb 27, 2016 6:54:19 AM",
-      "dateFinished": "Feb 27, 2016 6:54:19 AM",
+      "dateStarted": "Mar 3, 2016 9:03:49 PM",
+      "dateFinished": "Mar 3, 2016 9:03:49 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n![Components of ML][1]\n\n[1]: ",
-      "dateUpdated": "Mar 2, 2016 10:53:57 AM",
+      "text": "%md\n![Components of ML][1]   \n\u003c/br\u003e   \n\u003c/br\u003e   \n      \n      \n        \n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/b338147d26ad9b27d9f165529fc4972f0a6e31aa/2BAJAQBSK/images/practical_definition_ML.png",
+      "dateUpdated": "Mar 3, 2016 9:43:29 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -294,7 +295,8 @@
           "scatter": {}
         },
         "enabled": true,
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
       },
       "settings": {
         "params": {},
@@ -302,15 +304,22 @@
       },
       "jobName": "paragraph_1456915936921_-802313622",
       "id": "20160302-105216_890388739",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/b338147d26ad9b27d9f165529fc4972f0a6e31aa/2BAJAQBSK/images/practical_definition_ML.png\" alt\u003d\"Components of ML\" /\u003e\n\u003cbr  /\u003e\u003c/br\u003e\n\u003cbr  /\u003e\u003c/br\u003e\u003c/p\u003e\n"
+      },
       "dateCreated": "Mar 2, 2016 10:52:16 AM",
-      "status": "READY",
+      "dateStarted": "Mar 3, 2016 9:43:27 PM",
+      "dateFinished": "Mar 3, 2016 9:43:27 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n### Machine Learning and Other Fields\n",
-      "dateUpdated": "Feb 27, 2016 6:54:19 AM",
+      "text": "%md\n### Machine Learning and Other Fields\n\n#### Data Mining (DM)\nDifference between Data Mining and Machine Learning:\n* Data Mining: Search thru huge amount of data to find interesting property or information.\n* Machine Learning: Use data to compute hypothesis, g, that approximate to target function, f.\n* ML is very similar to DM. DM is to find interesting property **same as** hypothesis that approximate to target.  ML is to find interesting property **related to** hypothesis that approximate to target.  \n",
+      "dateUpdated": "Mar 3, 2016 9:44:15 PM",
       "config": {
-        "colWidth": 12.0,
+        "colWidth": 6.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
@@ -332,12 +341,93 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch3\u003eMachine Learning and Other Fields\u003c/h3\u003e\n"
+        "msg": "\u003ch3\u003eMachine Learning and Other Fields\u003c/h3\u003e\n\u003ch4\u003eData Mining (DM)\u003c/h4\u003e\n\u003cp\u003eDifference between Data Mining and Machine Learning:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eData Mining: Search thru huge amount of data to find interesting property or information.\u003c/li\u003e\n\u003cli\u003eMachine Learning: Use data to compute hypothesis, g, that approximate to target function, f.\u003c/li\u003e\n\u003cli\u003eML is very similar to DM. DM is to find interesting property \u003cstrong\u003esame as\u003c/strong\u003e hypothesis that approximate to target.  ML is to find interesting property \u003cstrong\u003erelated to\u003c/strong\u003e hypothesis that approximate to target.\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Feb 16, 2016 7:38:07 PM",
-      "dateStarted": "Feb 27, 2016 6:54:19 AM",
-      "dateFinished": "Feb 27, 2016 6:54:19 AM",
+      "dateStarted": "Mar 3, 2016 9:44:15 PM",
+      "dateFinished": "Mar 3, 2016 9:44:15 PM",
       "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md \n![ML_DM][2]\n\n[2]: ",
+      "dateUpdated": "Mar 3, 2016 9:45:49 PM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457041461039_-649615459",
+      "id": "20160303-214421_498171529",
+      "dateCreated": "Mar 3, 2016 9:44:21 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "#### Artificial Intelligent (AI)\n",
+      "dateUpdated": "Mar 3, 2016 9:40:44 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457041204735_-1709378683",
+      "id": "20160303-214004_374326519",
+      "dateCreated": "Mar 3, 2016 9:40:04 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "#### Statistic\n",
+      "dateUpdated": "Mar 3, 2016 9:40:44 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457041199977_-1134194402",
+      "id": "20160303-213959_525062478",
+      "dateCreated": "Mar 3, 2016 9:39:59 PM",
+      "status": "READY",
       "progressUpdateIntervalMs": 500
     },
     {
