@@ -1,0 +1,244 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md\n## What is Container?\n\n## Type of Containers (partial list)\n* ### Docker\n* ### CoreOS\n* ### Ubuntu\n* ### CloudFoundry\n",
+      "dateUpdated": "Mar 7, 2016 8:34:01 PM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457370969083_1057787935",
+      "id": "20160307-171609_253994628",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch2\u003eWhat is Container?\u003c/h2\u003e\n\u003ch2\u003eType of Containers\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ch3\u003eDocker\u003c/h3\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003ch3\u003eCoreOS\u003c/h3\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003ch3\u003eUbuntu\u003c/h3\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003ch3\u003eCloudFoundry\u003c/h3\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Mar 7, 2016 5:16:09 PM",
+      "dateStarted": "Mar 7, 2016 6:47:53 PM",
+      "dateFinished": "Mar 7, 2016 6:47:53 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n![vm-container]\n\u003c/br\u003e\n\u003c/br\u003e\n\n[vm-container]: http://nicholasjackson.github.io/images/post_images/micro_containers/containers_vs_vms.png",
+      "dateUpdated": "Mar 7, 2016 8:32:47 PM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457381130680_-1796149261",
+      "id": "20160307-200530_1214886788",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"http://nicholasjackson.github.io/images/post_images/micro_containers/containers_vs_vms.png\" alt\u003d\"vm-container\" /\u003e\n\u003cbr  /\u003e\u003c/br\u003e\n\u003cbr  /\u003e\u003c/br\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Mar 7, 2016 8:05:30 PM",
+      "dateStarted": "Mar 7, 2016 8:32:44 PM",
+      "dateFinished": "Mar 7, 2016 8:32:44 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n## Tools and Ecosystem\n\nhttps://www.dropbox.com/s/nbuq42t5o2wvck2/DockerEcoSystem.smmx?dl\u003d0",
+      "dateUpdated": "Mar 7, 2016 8:30:55 PM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457375308254_-1486734450",
+      "id": "20160307-182828_1889471912",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch2\u003eTools and Ecosystem\u003c/h2\u003e\n\u003cp\u003ehttps://www.dropbox.com/s/nbuq42t5o2wvck2/DockerEcoSystem.smmx?dl\u003d0\u003c/p\u003e\n"
+      },
+      "dateCreated": "Mar 7, 2016 6:28:28 PM",
+      "dateStarted": "Mar 7, 2016 8:30:55 PM",
+      "dateFinished": "Mar 7, 2016 8:30:55 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md \n## Install Docker\n",
+      "dateUpdated": "Mar 7, 2016 6:25:46 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457374909225_1103596004",
+      "id": "20160307-182149_279519487",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch2\u003eInstall Docker\u003c/h2\u003e\n"
+      },
+      "dateCreated": "Mar 7, 2016 6:21:49 PM",
+      "dateStarted": "Mar 7, 2016 6:25:46 PM",
+      "dateFinished": "Mar 7, 2016 6:25:46 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n## Fetch and Run",
+      "dateUpdated": "Mar 7, 2016 6:25:48 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457375016766_1581038740",
+      "id": "20160307-182336_914712584",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch2\u003eFetch and Run\u003c/h2\u003e\n"
+      },
+      "dateCreated": "Mar 7, 2016 6:23:36 PM",
+      "dateStarted": "Mar 7, 2016 6:25:48 PM",
+      "dateFinished": "Mar 7, 2016 6:25:48 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n## Create\n## Dockerfile\n",
+      "dateUpdated": "Mar 7, 2016 6:26:27 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457375064194_-707570311",
+      "id": "20160307-182424_814444278",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch2\u003eCreate\u003c/h2\u003e\n"
+      },
+      "dateCreated": "Mar 7, 2016 6:24:24 PM",
+      "dateStarted": "Mar 7, 2016 6:25:52 PM",
+      "dateFinished": "Mar 7, 2016 6:25:52 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457375152314_404074886",
+      "id": "20160307-182552_1621654570",
+      "dateCreated": "Mar 7, 2016 6:25:52 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "Get Started with Containers",
+  "id": "2BD6ANE7S",
+  "angularObjects": {
+    "2BAKJY5HP": [],
+    "2BA4ZT9KA": [],
+    "2BAJHP13K": [],
+    "2BA4FS6H4": [],
+    "2BATJ7JXT": [],
+    "2BDD5JNQA": [],
+    "2BA4VB3HF": [],
+    "2BAVVBSJR": [],
+    "2BCD6QS1M": [],
+    "2BBZ5KHWK": [],
+    "2BAH52SQH": [],
+    "2BAG4DA48": [],
+    "2BBPA417C": [],
+    "2BBYH3GSG": [],
+    "2BB3B14B6": []
+  },
+  "config": {
+    "looknfeel": "default"
+  },
+  "info": {}
+}
