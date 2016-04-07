@@ -106,8 +106,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n### Why ML?  \n![4v][1]\n\n[1]: https://www-01.ibm.com/software/data/bigdata/images/4-Vs-of-big-data.jpg",
-      "dateUpdated": "Apr 7, 2016 3:58:16 PM",
+      "text": "%md\n### Why ML?  \n* Increase of data Volume, Variety, Velocity, and Veracity.\n![4v][1]\n   \n\n* Increase of computing power with dedicate hardware, Deep Learning Supercomputer in a box.  \n  ![dgx1][2]\n* [MIT\u0027s 168-core chip could give big brains to mobile devices and robots][3].\n* [Nvidia Tesla P100][4]\n* A chip startup [Movidius][6] makes low-power chips it calls vision processing units (or VPUs), which can be part of mobile device.\n\n* More machine learning algorithms and theories are developed by researchers.\n![azure algorithm cheat sheet][7]\n\n* More industry support.\n\n[1]: https://www-01.ibm.com/software/data/bigdata/images/4-Vs-of-big-data.jpg\n[2]: http://images.nvidia.com/content/technologies/deep-learning/images/dgx1-header.jpg\n[3]: http://www.pcworld.com/article/3029972/components-processors/mits-168-core-chip-could-make-mobile-devices-robots-smarter.html\n[4]: https://www.technologyreview.com/s/601195/a-2-billion-chip-to-accelerate-artificial-intelligence/\n[5]: http://www.forbes.com/sites/aarontilley/2016/01/27/google-partners-with-chip-startup-to-take-machine-learning-out-of-the-cloud-and-into-your-pocket/#1760f30933e5  \n[6]: http://www.movidius.com/\n[7]: https://acom.azurecomcdn.net/80C57D/cdn/mediahandler/docarticles/dpsmedia-prod/azure.microsoft.com/en-us/documentation/articles/machine-learning-algorithm-cheat-sheet/20160331010724/machine-learning-algorithm-cheat-sheet-small_v_0_6-01.png",
+      "dateUpdated": "Apr 7, 2016 7:03:10 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -131,19 +131,19 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch3\u003eWhy ML?\u003c/h3\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://www-01.ibm.com/software/data/bigdata/images/4-Vs-of-big-data.jpg\" alt\u003d\"4v\" /\u003e\u003c/p\u003e\n"
+        "msg": "\u003ch3\u003eWhy ML?\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cp\u003eIncrease of data Volume, Variety, Velocity, and Veracity.\n\u003cbr  /\u003e\u003cimg src\u003d\"https://www-01.ibm.com/software/data/bigdata/images/4-Vs-of-big-data.jpg\" alt\u003d\"4v\" /\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eIncrease of computing power with dedicate hardware, Deep Learning Supercomputer in a box.\n\u003cbr  /\u003e\u003cimg src\u003d\"http://images.nvidia.com/content/technologies/deep-learning/images/dgx1-header.jpg\" alt\u003d\"dgx1\" /\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003e\u003ca href\u003d\"http://www.pcworld.com/article/3029972/components-processors/mits-168-core-chip-could-make-mobile-devices-robots-smarter.html\"\u003eMIT\u0027s 168-core chip could give big brains to mobile devices and robots\u003c/a\u003e.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003e\u003ca href\u003d\"https://www.technologyreview.com/s/601195/a-2-billion-chip-to-accelerate-artificial-intelligence/\"\u003eNvidia Tesla P100\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eA chip startup \u003ca href\u003d\"http://www.movidius.com/\"\u003eMovidius\u003c/a\u003e makes low-power chips it calls vision processing units (or VPUs), which can be part of mobile device.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eMore machine learning algorithms and theories are developed by researchers.\n\u003cbr  /\u003e\u003cimg src\u003d\"https://acom.azurecomcdn.net/80C57D/cdn/mediahandler/docarticles/dpsmedia-prod/azure.microsoft.com/en-us/documentation/articles/machine-learning-algorithm-cheat-sheet/20160331010724/machine-learning-algorithm-cheat-sheet-small_v_0_6-01.png\" alt\u003d\"azure algorithm cheat sheet\" /\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eMore industry support.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Apr 6, 2016 6:18:28 PM",
-      "dateStarted": "Apr 7, 2016 3:58:16 PM",
-      "dateFinished": "Apr 7, 2016 3:58:16 PM",
+      "dateStarted": "Apr 7, 2016 7:03:10 PM",
+      "dateFinished": "Apr 7, 2016 7:03:10 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n### Vectorization\n",
-      "dateUpdated": "Apr 7, 2016 3:58:16 PM",
+      "text": "%md\n### Vectorization\nIt makes coding easier and more readable.\n![vectorization-octave][1]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Vectorization_in_Octave_Matlab__-_YouTube_vectorize.png",
+      "dateUpdated": "Apr 7, 2016 7:08:49 PM",
       "config": {
-        "colWidth": 12.0,
+        "colWidth": 6.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
@@ -165,11 +165,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch3\u003eVectorization\u003c/h3\u003e\n"
+        "msg": "\u003ch3\u003eVectorization\u003c/h3\u003e\n\u003cp\u003eIt makes coding easier and more readable.\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Vectorization_in_Octave_Matlab__-_YouTube_vectorize.png\" alt\u003d\"vectorization-octave\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 7, 2016 5:45:12 AM",
-      "dateStarted": "Apr 7, 2016 3:58:17 PM",
-      "dateFinished": "Apr 7, 2016 3:58:17 PM",
+      "dateStarted": "Apr 7, 2016 5:48:02 PM",
+      "dateFinished": "Apr 7, 2016 5:48:02 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -208,8 +208,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n### Computer Language for Big Data and Machine Learning\n![quora][2]\n\n[2]: https://www.quora.com/What-is-the-best-language-to-use-while-learning-machine-learning-for-the-first-time",
-      "dateUpdated": "Apr 7, 2016 3:58:17 PM",
+      "text": "%md\n### Computer Language for Big Data and Machine Learning\n[quora disussion notes][2]\n\n[1]: http://machinelearningmastery.com/best-programming-language-for-machine-learning/\n[2]: https://www.quora.com/What-is-the-best-language-to-use-while-learning-machine-learning-for-the-first-time",
+      "dateUpdated": "Apr 7, 2016 7:12:57 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -233,11 +233,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch3\u003eComputer Language for Big Data and Machine Learning\u003c/h3\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://www.quora.com/What-is-the-best-language-to-use-while-learning-machine-learning-for-the-first-time\" alt\u003d\"quora\" /\u003e\u003c/p\u003e\n"
+        "msg": "\u003ch3\u003eComputer Language for Big Data and Machine Learning\u003c/h3\u003e\n\u003cp\u003e\u003ca href\u003d\"https://www.quora.com/What-is-the-best-language-to-use-while-learning-machine-learning-for-the-first-time\"\u003equora disussion notes\u003c/a\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 7, 2016 3:54:36 PM",
-      "dateStarted": "Apr 7, 2016 3:58:17 PM",
-      "dateFinished": "Apr 7, 2016 3:58:17 PM",
+      "dateStarted": "Apr 7, 2016 7:08:17 PM",
+      "dateFinished": "Apr 7, 2016 7:08:17 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
