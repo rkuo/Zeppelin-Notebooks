@@ -1,8 +1,8 @@
 {
   "paragraphs": [
     {
-      "text": "%md\n## What is Container?\n\n## Type of Containers (partial list)\n* ### Docker\n* ### CoreOS\n* ### Ubuntu\n* ### CloudFoundry\n",
-      "dateUpdated": "Mar 7, 2016 8:34:01 PM",
+      "text": "%md\n## What is Container?\n* An isolated Linux execution environment.\n* Leverages OS virtualization.\n* Runs in different OS, different provider clouds.\n\n[1]: http://www.torsten-horn.de/techdocs/Docker.html\n",
+      "dateUpdated": "Mar 11, 2016 7:00:05 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -15,7 +15,8 @@
           "scatter": {}
         },
         "enabled": true,
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -26,17 +27,17 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch2\u003eWhat is Container?\u003c/h2\u003e\n\u003ch2\u003eType of Containers\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ch3\u003eDocker\u003c/h3\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003ch3\u003eCoreOS\u003c/h3\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003ch3\u003eUbuntu\u003c/h3\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003ch3\u003eCloudFoundry\u003c/h3\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n"
+        "msg": "\u003ch2\u003eWhat is Container?\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eAn isolated Linux execution environment.\u003c/li\u003e\n\u003cli\u003eLeverages OS virtualization.\u003c/li\u003e\n\u003cli\u003eRuns in different OS, different cloud providers.\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Mar 7, 2016 5:16:09 PM",
-      "dateStarted": "Mar 7, 2016 6:47:53 PM",
-      "dateFinished": "Mar 7, 2016 6:47:53 PM",
+      "dateStarted": "Mar 11, 2016 6:59:28 PM",
+      "dateFinished": "Mar 11, 2016 6:59:28 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n![vm-container]\n\u003c/br\u003e\n\u003c/br\u003e\n\n[vm-container]: http://nicholasjackson.github.io/images/post_images/micro_containers/containers_vs_vms.png",
-      "dateUpdated": "Mar 7, 2016 8:32:47 PM",
+      "text": "%md\n![vm-container]\n\u003c/br\u003e\n\n[vm-container]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BD6ANE7S/images/vm-vs-container.png",
+      "dateUpdated": "Mar 7, 2016 9:30:53 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -61,17 +62,149 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003cp\u003e\u003cimg src\u003d\"http://nicholasjackson.github.io/images/post_images/micro_containers/containers_vs_vms.png\" alt\u003d\"vm-container\" /\u003e\n\u003cbr  /\u003e\u003c/br\u003e\n\u003cbr  /\u003e\u003c/br\u003e\u003c/p\u003e\n"
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BD6ANE7S/images/vm-vs-container.png\" alt\u003d\"vm-container\" /\u003e\n\u003cbr  /\u003e\u003c/br\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Mar 7, 2016 8:05:30 PM",
-      "dateStarted": "Mar 7, 2016 8:32:44 PM",
-      "dateFinished": "Mar 7, 2016 8:32:44 PM",
+      "dateStarted": "Mar 7, 2016 8:53:08 PM",
+      "dateFinished": "Mar 7, 2016 8:53:08 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n## Tools and Ecosystem\n\nhttps://www.dropbox.com/s/nbuq42t5o2wvck2/DockerEcoSystem.smmx?dl\u003d0",
-      "dateUpdated": "Mar 7, 2016 8:30:55 PM",
+      "text": "%md\n## Why Container?\n\n",
+      "dateUpdated": "Mar 11, 2016 6:25:20 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457720686033_2123241033",
+      "id": "20160311-182446_2056583096",
+      "dateCreated": "Mar 11, 2016 6:24:46 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n## Type of Containers (partial list)   \n\n![Open Container Inititive icon]  \n[Open Container Inititive] (OCI)\n\n* Docker\n* CoreOS: [Rocket][CoreOS-Rocket]\n    * Composable. All tools for downloading, installing, and running containers should be well integrated, but independent and composable.\n    * Security. Isolation should be pluggable, and the crypto primitives for strong trust, image auditing and application identity should exist from day one.\n    * Image distribution. Discovery of container images should be simple and facilitate a federated namespace, and distributed retrieval. This opens the possibility of alternative protocols, such as BitTorrent, and deployments to private environments without the requirement of a registry.\n    * Open. The format and runtime should be well-specified and developed by a community. We want independent implementations of tools to be able to run the same container consistently. \n* [Canonical][LXD]: Snappy and light weight hypervisor-LXC/LXD\n    * Secure by default (unprivileged containers, apparmor, seccomp, etc.)\n    * Image based workflow (no more locally built rootfs)\n    * Support for online snapshotting, including running state with Checkpoint/Restore in User (CRIU)\n    * Live migration support\n    * Shell command control \n* CloudFoundry: Warden run on Garden\n* [OpenVZ] \n* [Linux-VServer]\n\n[Open Container Inititive]: https://www.opencontainers.org/\n[Open Container Inititive icon]: https://www.opencontainers.org/sites/cpstandard/files/logo_oci2016.png\n[CoreOS-Rocket]: https://coreos.com/blog/rocket/\n[LXD]: https://insights.ubuntu.com/2015/11/05/canonical-launches-worlds-fastest-hypervisor-lxd/\n[OpenVZ]: https://openvz.org/Main_Page\n[Linux-VServer]: http://linux-vserver.org/Welcome_to_Linux-VServer.org",
+      "dateUpdated": "Mar 8, 2016 9:46:07 PM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457385006024_-1379351307",
+      "id": "20160307-211006_930154447",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch2\u003eType of Containers (partial list)\u003c/h2\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://www.opencontainers.org/sites/cpstandard/files/logo_oci2016.png\" alt\u003d\"Open Container Inititive icon\" /\u003e\n\u003cbr  /\u003e\u003ca href\u003d\"OCI\"\u003eOpen Container Inititive\u003c/a\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eDocker\u003c/li\u003e\n\u003cli\u003eCoreOS: \u003ca href\u003d\"https://coreos.com/blog/rocket/\"\u003eRocket\u003c/a\u003e\u003cul\u003e\n\u003cli\u003eComposable. All tools for downloading, installing, and running containers should be well integrated, but independent and composable.\u003c/li\u003e\n\u003cli\u003eSecurity. Isolation should be pluggable, and the crypto primitives for strong trust, image auditing and application identity should exist from day one.\u003c/li\u003e\n\u003cli\u003eImage distribution. Discovery of container images should be simple and facilitate a federated namespace, and distributed retrieval. This opens the possibility of alternative protocols, such as BitTorrent, and deployments to private environments without the requirement of a registry.\u003c/li\u003e\n\u003cli\u003eOpen. The format and runtime should be well-specified and developed by a community. We want independent implementations of tools to be able to run the same container consistently.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://insights.ubuntu.com/2015/11/05/canonical-launches-worlds-fastest-hypervisor-lxd/\"\u003eCanonical\u003c/a\u003e: Snappy and light weight hypervisor-LXC/LXD\u003cul\u003e\n\u003cli\u003eSecure by default (unprivileged containers, apparmor, seccomp, etc.)\u003c/li\u003e\n\u003cli\u003eImage based workflow (no more locally built rootfs)\u003c/li\u003e\n\u003cli\u003eSupport for online snapshotting, including running state with Checkpoint/Restore in User (CRIU)\u003c/li\u003e\n\u003cli\u003eLive migration support\u003c/li\u003e\n\u003cli\u003eShell command control\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eCloudFoundry: Warden run on Garden\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://openvz.org/Main_Page\"\u003eOpenVZ\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://linux-vserver.org/Welcome_to_Linux-VServer.org\"\u003eLinux-VServer\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Mar 7, 2016 9:10:06 PM",
+      "dateStarted": "Mar 8, 2016 9:46:05 PM",
+      "dateFinished": "Mar 8, 2016 9:46:05 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n![OCI-appc-intersection](https://coreos.com/assets/images/media/oci-appc-intersection.svg)",
+      "dateUpdated": "Mar 23, 2016 6:37:03 PM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457388391693_1917906022",
+      "id": "20160307-220631_861987818",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://coreos.com/assets/images/media/oci-appc-intersection.svg\" alt\u003d\"OCI-appc-intersection\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Mar 7, 2016 10:06:31 PM",
+      "dateStarted": "Mar 7, 2016 10:08:57 PM",
+      "dateFinished": "Mar 7, 2016 10:08:57 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n## Cloud Native Computing Foundation (CNCF)\n\nGoal: \n* Cloud-native apps use an elastic infrastructure\n* Cloud-native apps need to provision instances of themselves through an API\n* Cloud-native apps must be able to scale up and down at a rapid rate, with the ability to offer thousands or even hundreds of thousands of nodes or instances\n* Cloud-native apps are autonomic in nature, with the ability to detect and work around failures, and if one or more nodes are lost, new nodes are spun up extremely quickly\n\nApproaches: from [O\u0027reilly-cncf]\n* [The Twelve-Factor App][12 factors design]: a collection of cloud-native app architecture patterns\n* [Microservices][Microservices-martin fowler]: independently deployable services that do one thing well\n* Self-Service Agile Infrastructure: platforms for rapid, repeatable, and consistent provisioning of app environments and backing services\n* API-based Collaboration: published and versioned APIs that allow interaction between services in a cloud-native app architecture\n* Anti-Fragility: systems that get stronger when subjected to stress\n\n[Cloud Native Computing Foundation]: https://cncf.io/\n[Cloud Native Computing Foundation icon]: https://cncf.io/sites/cpstandard/files/cncf_logo_hztl2.png\n[O\u0027reilly-cncf]: http://www.oreilly.com/programming/free/migrating-cloud-native-application-architectures.csp?intcmp\u003dil-prog-free-product-lgen_cloud_native_aa\n[12 factors design]: http://12factor.net/\n[Microservices-martin fowler]:http://martinfowler.com/articles/microservices.html\n[A Microservices Reference Architecture]:https://www.youtube.com/watch?v\u003dKHqMPRA6jVI\u0026list\u003dLL5wCy3trg9aNEBcarsIWUEg\u0026index\u003d1\n[microservices-notes]: http://www.bencode.net/blog/2015/04/26/microservices/\n",
+      "dateUpdated": "Mar 8, 2016 2:17:15 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457387430910_214462821",
+      "id": "20160307-215030_92636289",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch2\u003eCloud Native Computing Foundation (CNCF)\u003c/h2\u003e\n\u003cp\u003eGoal:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eCloud-native apps use an elastic infrastructure\u003c/li\u003e\n\u003cli\u003eCloud-native apps need to provision instances of themselves through an API\u003c/li\u003e\n\u003cli\u003eCloud-native apps must be able to scale up and down at a rapid rate, with the ability to offer thousands or even hundreds of thousands of nodes or instances\u003c/li\u003e\n\u003cli\u003eCloud-native apps are autonomic in nature, with the ability to detect and work around failures, and if one or more nodes are lost, new nodes are spun up extremely quickly\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eApproaches: from \u003ca href\u003d\"http://www.oreilly.com/programming/free/migrating-cloud-native-application-architectures.csp?intcmp\u003dil-prog-free-product-lgen_cloud_native_aa\"\u003eO\u0027reilly-cncf\u003c/a\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"http://12factor.net/\"\u003eThe Twelve-Factor App\u003c/a\u003e: a collection of cloud-native app architecture patterns\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://martinfowler.com/articles/microservices.html\"\u003eMicroservices\u003c/a\u003e: independently deployable services that do one thing well\u003c/li\u003e\n\u003cli\u003eSelf-Service Agile Infrastructure: platforms for rapid, repeatable, and consistent provisioning of app environments and backing services\u003c/li\u003e\n\u003cli\u003eAPI-based Collaboration: published and versioned APIs that allow interaction between services in a cloud-native app architecture\u003c/li\u003e\n\u003cli\u003eAnti-Fragility: systems that get stronger when subjected to stress\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Mar 7, 2016 9:50:30 PM",
+      "dateStarted": "Mar 8, 2016 2:17:05 AM",
+      "dateFinished": "Mar 8, 2016 2:17:05 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n## Tools and Ecosystem\n\nIDE, hosting, platform, clustering, orchestration,...",
+      "dateUpdated": "Mar 7, 2016 10:58:09 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -95,19 +228,19 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch2\u003eTools and Ecosystem\u003c/h2\u003e\n\u003cp\u003ehttps://www.dropbox.com/s/nbuq42t5o2wvck2/DockerEcoSystem.smmx?dl\u003d0\u003c/p\u003e\n"
+        "msg": "\u003ch2\u003eTools and Ecosystem\u003c/h2\u003e\n\u003cp\u003eIDE, hosting, platform, clustering, orchestration,\u0026hellip;\u003c/p\u003e\n"
       },
       "dateCreated": "Mar 7, 2016 6:28:28 PM",
-      "dateStarted": "Mar 7, 2016 8:30:55 PM",
-      "dateFinished": "Mar 7, 2016 8:30:55 PM",
+      "dateStarted": "Mar 7, 2016 10:58:09 PM",
+      "dateFinished": "Mar 7, 2016 10:58:09 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md \n## Install Docker\n",
-      "dateUpdated": "Mar 7, 2016 6:25:46 PM",
+      "text": "%md\n![docker-ecosystem](https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BD6ANE7S/images/DockerEcoSystem.png)",
+      "dateUpdated": "Mar 7, 2016 10:57:03 PM",
       "config": {
-        "colWidth": 12.0,
+        "colWidth": 6.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
@@ -118,7 +251,43 @@
           "scatter": {}
         },
         "enabled": true,
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457390796252_-270926134",
+      "id": "20160307-224636_2107359877",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BD6ANE7S/images/DockerEcoSystem.png\" alt\u003d\"docker-ecosystem\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Mar 7, 2016 10:46:36 PM",
+      "dateStarted": "Mar 7, 2016 10:57:00 PM",
+      "dateFinished": "Mar 7, 2016 10:57:00 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md \n## Install Docker\nDocker runs on Linux. For non-Linux (Mac OSx and Windows) OS, Docker will install a small Linux VM to host, then install Docker engine on VM.\n* The instruction varies per Linux distro, e.g.    \n    * [install docker on ubuntu].\n    * install docker on Redhat, ...\n* [install Docker on OSx]:       \n    * [install VirtualBox]  \n    * [Installing Ubuntu inside Windows using VirtualBox], or [How to Install Ubuntu on Your Mac Using VirtualBox], or [import VM] with Docker installed.\n    * install Docker Toolbox\n\n**test installation**\n\n[install VirtualBox]: https://www.virtualbox.org/wiki/Downloads\n[Installing Ubuntu inside Windows using VirtualBox]: http://www.psychocats.net/ubuntu/virtualbox\n[How to Install Ubuntu on Your Mac Using VirtualBox]: http://www.simplehelp.net/2015/06/09/how-to-install-ubuntu-on-your-mac/\n[install docker]: https://docs.docker.com/engine/installation/\n[install docker on ubuntu]: https://docs.docker.com/engine/installation/linux/ubuntulinux/\n[install Docker on OSx]: https://docs.docker.com/engine/installation/mac/\n[import VM]",
+      "dateUpdated": "Mar 13, 2016 8:07:03 PM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -129,17 +298,87 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch2\u003eInstall Docker\u003c/h2\u003e\n"
+        "msg": "\u003ch2\u003eInstall Docker\u003c/h2\u003e\n\u003cp\u003eDocker runs on Linux. For non-Linux (Mac OSx and Windows) OS, Docker will install a small Linux VM to host, then install Docker engine on VM.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eThe instruction varies per Linux distro, e.g.\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"https://docs.docker.com/engine/installation/linux/ubuntulinux/\"\u003einstall docker on ubuntu\u003c/a\u003e.\u003c/li\u003e\n\u003cli\u003einstall docker on Redhat, \u0026hellip;\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://docs.docker.com/engine/installation/mac/\"\u003einstall Docker on OSx\u003c/a\u003e:\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"https://www.virtualbox.org/wiki/Downloads\"\u003einstall VirtualBox\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://www.psychocats.net/ubuntu/virtualbox\"\u003eInstalling Ubuntu inside Windows using VirtualBox\u003c/a\u003e, or \u003ca href\u003d\"http://www.simplehelp.net/2015/06/09/how-to-install-ubuntu-on-your-mac/\"\u003eHow to Install Ubuntu on Your Mac Using VirtualBox\u003c/a\u003e, or [import VM] with Docker installed.\u003c/li\u003e\n\u003cli\u003einstall Docker Toolbox\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cstrong\u003etest installation\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e[import VM]\u003c/p\u003e\n"
       },
       "dateCreated": "Mar 7, 2016 6:21:49 PM",
-      "dateStarted": "Mar 7, 2016 6:25:46 PM",
-      "dateFinished": "Mar 7, 2016 6:25:46 PM",
+      "dateStarted": "Mar 13, 2016 8:07:03 PM",
+      "dateFinished": "Mar 13, 2016 8:07:03 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n## Fetch and Run",
-      "dateUpdated": "Mar 7, 2016 6:25:48 PM",
+      "text": "%md\nOn a typical Linux installation, the Docker client, the Docker daemon, and any containers run directly on your localhost. You can access ports on a Docker container by using localhost:xyz or 0.0.0.0:xyz.\n\n![Docker on linux]  \n\n[Docker on linux]: https://docs.docker.com/engine/installation/images/linux_docker_host.svg\n\n",
+      "dateUpdated": "Mar 23, 2016 6:42:40 PM",
+      "config": {
+        "colWidth": 3.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457404241220_1215467339",
+      "id": "20160308-023041_1842284681",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eOn a typical Linux installation, the Docker client, the Docker daemon, and any containers run directly on your localhost. You can access ports on a Docker container by using localhost:xyz or 0.0.0.0:xyz.\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://docs.docker.com/engine/installation/images/linux_docker_host.svg\" alt\u003d\"Docker on linux\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Mar 8, 2016 2:30:41 AM",
+      "dateStarted": "Mar 8, 2016 5:27:14 PM",
+      "dateFinished": "Mar 8, 2016 5:27:14 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\nIn an OS X installation, the docker daemon is running inside a light weight Linux VM called default. This VM has its own IP address. It is displayed at initial startup or by using `Docker ip`\n\n![Docker on Mac OSx]\n\n\n[Docker on Mac OSx]: https://docs.docker.com/engine/installation/images/mac_docker_host.svg",
+      "dateUpdated": "Mar 8, 2016 5:41:52 PM",
+      "config": {
+        "colWidth": 3.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457457278554_-1351219557",
+      "id": "20160308-171438_537142770",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eIn an OS X installation, the docker daemon is running inside a light weight Linux VM called default. This VM has its own IP address. It is displayed at initial startup or by using \u003ccode\u003eDocker ip\u003c/code\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://docs.docker.com/engine/installation/images/mac_docker_host.svg\" alt\u003d\"Docker on Mac OSx\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Mar 8, 2016 5:14:38 PM",
+      "dateStarted": "Mar 8, 2016 5:41:48 PM",
+      "dateFinished": "Mar 8, 2016 5:41:48 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n## Fetch and Run\nRun Docker command on Docker client.\ndocker \n",
+      "dateUpdated": "Mar 13, 2016 8:07:55 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -172,8 +411,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n## Create\n## Dockerfile\n",
-      "dateUpdated": "Mar 7, 2016 6:26:27 PM",
+      "text": "%md\n## Build containers with Dockerfile  \n* edit a Dockerfile syntax to describe the image/package to [build container]\n* in the directory with Dockerfile, `docker build .` to create Docker image\n\n\n[build container]: https://docs.docker.com/engine/reference/builder/\n",
+      "dateUpdated": "Mar 13, 2016 8:26:04 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -197,11 +436,79 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch2\u003eCreate\u003c/h2\u003e\n"
+        "msg": "\u003ch2\u003eBuild containers with Dockerfile\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eedit a Dockerfile syntax to describe the image/package to \u003ca href\u003d\"https://docs.docker.com/engine/reference/builder/\"\u003ebuild container\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003ein the directory with Dockerfile, \u003ccode\u003edocker build .\u003c/code\u003e to create Docker image\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Mar 7, 2016 6:24:24 PM",
-      "dateStarted": "Mar 7, 2016 6:25:52 PM",
-      "dateFinished": "Mar 7, 2016 6:25:52 PM",
+      "dateStarted": "Mar 13, 2016 8:26:04 PM",
+      "dateFinished": "Mar 13, 2016 8:26:04 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n## Develop, Deployment, Management\n\n\u003cinsert slide here\u003e",
+      "dateUpdated": "Mar 13, 2016 8:17:28 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457375152314_404074886",
+      "id": "20160307-182552_1621654570",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch2\u003eDevelop, Deployment, Management\u003c/h2\u003e\n"
+      },
+      "dateCreated": "Mar 7, 2016 6:25:52 PM",
+      "dateStarted": "Mar 7, 2016 10:59:43 PM",
+      "dateFinished": "Mar 7, 2016 10:59:43 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n## Link containers\n### port\n### volumes",
+      "dateUpdated": "Mar 13, 2016 8:28:57 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457391581674_-1824238999",
+      "id": "20160307-225941_1334633075",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch2\u003eLink containers\u003c/h2\u003e\n\u003ch3\u003eport\u003c/h3\u003e\n\u003ch3\u003evolumes\u003c/h3\u003e\n"
+      },
+      "dateCreated": "Mar 7, 2016 10:59:41 PM",
+      "dateStarted": "Mar 13, 2016 8:28:57 PM",
+      "dateFinished": "Mar 13, 2016 8:28:57 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -211,9 +518,9 @@
         "params": {},
         "forms": {}
       },
-      "jobName": "paragraph_1457375152314_404074886",
-      "id": "20160307-182552_1621654570",
-      "dateCreated": "Mar 7, 2016 6:25:52 PM",
+      "jobName": "paragraph_1457900808054_76359638",
+      "id": "20160313-202648_251612709",
+      "dateCreated": "Mar 13, 2016 8:26:48 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }

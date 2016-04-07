@@ -20,5 +20,7 @@ Directory |Description        |Notes
 | |
 2AQTWK167 | Kuberetes         |
 2AWR1UY8J | Microservices     |
+2BAJAQBSK | ML foundation     | ntu lecture
+2BD6ANE7S | Get Started Docker| slides and notes
 
 $$ a = {b \over a}$$

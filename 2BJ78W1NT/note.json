@@ -1,0 +1,278 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md\n# Learning Machine Learning\n![stanford logo][1] \n![coursera logo][2]\n![ML logo][3]   \n\n\nInstructors:\n### [Andrew Ng][4]\nAssociate Professor, Stanford University; Chief Scientist, Baidu; Chairman and Co-founder, Coursera\n\n[1]: https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/e3/cebbb0d0a311e39b31794df7e5d956/Coursera-SUSig_StnfrdUStack_SQ.png?auto\u003dformat\u0026dpr\u003d1.7999999523162842\u0026w\u003d56px\u0026h\u003d56px\u0026auto\u003dformat\u0026dpr\u003d2\u0026w\u003d\u0026h\u003d\n\n[2]: https://encrypted-tbn3.gstatic.com/images?q\u003dtbn:ANd9GcTVnfsoG42SrUKHQOZ6q6_Jmu5Scwcwg3GCx7HIkckL8nLTGnKzTw\n\n[3]: https://coursera.s3.amazonaws.com/topics/ml/large-icon.png\n\n[4]: https://www.google.com/webhp?sourceid\u003dchrome-instant\u0026ion\u003d1\u0026espv\u003d2\u0026ie\u003dUTF-8#q\u003dAndrew+Ng\n%",
+      "dateUpdated": "Apr 7, 2016 3:58:16 PM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1459959433353_-1226480493",
+      "id": "20160406-161713_1247844891",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch1\u003eLearning Machine Learning\u003c/h1\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/e3/cebbb0d0a311e39b31794df7e5d956/Coursera-SUSig_StnfrdUStack_SQ.png?auto\u003dformat\u0026amp;dpr\u003d1.7999999523162842\u0026amp;w\u003d56px\u0026amp;h\u003d56px\u0026amp;auto\u003dformat\u0026amp;dpr\u003d2\u0026amp;w\u003d\u0026amp;h\u003d\" alt\u003d\"stanford logo\" /\u003e\n\u003cbr  /\u003e\u003cimg src\u003d\"https://encrypted-tbn3.gstatic.com/images?q\u003dtbn:ANd9GcTVnfsoG42SrUKHQOZ6q6_Jmu5Scwcwg3GCx7HIkckL8nLTGnKzTw\" alt\u003d\"coursera logo\" /\u003e\n\u003cbr  /\u003e\u003cimg src\u003d\"https://coursera.s3.amazonaws.com/topics/ml/large-icon.png\" alt\u003d\"ML logo\" /\u003e\u003c/p\u003e\n\u003cp\u003eInstructors:\u003c/p\u003e\n\u003ch3\u003e\u003ca href\u003d\"https://www.google.com/webhp?sourceid\u003dchrome-instant\u0026amp;ion\u003d1\u0026amp;espv\u003d2\u0026amp;ie\u003dUTF-8#q\u003dAndrew+Ng\"\u003eAndrew Ng\u003c/a\u003e\u003c/h3\u003e\n\u003cp\u003eAssociate Professor, Stanford University; Chief Scientist, Baidu; Chairman and Co-founder, Coursera\u003c/p\u003e\n\u003cp\u003e%\u003c/p\u003e\n"
+      },
+      "dateCreated": "Apr 6, 2016 4:17:13 PM",
+      "dateStarted": "Apr 7, 2016 3:58:16 PM",
+      "dateFinished": "Apr 7, 2016 3:58:16 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### [Course Contents][1]\n\n### Pre-requistes  \n(They will be reviwed in class):\n* [Linear Algebra][2]   \n* [Octave][3]\n  ![octave-gui][4]\n\n\n[1]: https://www.coursera.org/learn/machine-learning\n[2]: https://www.khanacademy.org/math/linear-algebra\n[3]: http://wiki.octave.org/Video_tutorials\n[4]: https://upload.wikimedia.org/wikipedia/en/4/48/Octave-4.0.0-rc1-Qt5.4-Linux.png",
+      "dateUpdated": "Apr 7, 2016 3:58:21 PM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorHide": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1459959477451_564202185",
+      "id": "20160406-161757_915714676",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003e\u003ca href\u003d\"https://www.coursera.org/learn/machine-learning\"\u003eCourse Contents\u003c/a\u003e\u003c/h3\u003e\n\u003ch3\u003ePre-requistes\u003c/h3\u003e\n\u003cp\u003e(They will be reviwed in class):\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"https://www.khanacademy.org/math/linear-algebra\"\u003eLinear Algebra\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://wiki.octave.org/Video_tutorials\"\u003eOctave\u003c/a\u003e\n\u003cbr  /\u003e\u003cimg src\u003d\"https://upload.wikimedia.org/wikipedia/en/4/48/Octave-4.0.0-rc1-Qt5.4-Linux.png\" alt\u003d\"octave-gui\" /\u003e\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Apr 6, 2016 4:17:57 PM",
+      "dateStarted": "Apr 7, 2016 3:58:16 PM",
+      "dateFinished": "Apr 7, 2016 3:58:16 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md \n### What is ML:\nA computer program is said to learn from experience (E) with some class of tasks (T) and a performance measure (P) if its performance at tasks in T as measured by P improves with E.\n",
+      "dateUpdated": "Apr 7, 2016 3:58:16 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1459960411736_145933037",
+      "id": "20160406-163331_361459834",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eWhat is ML:\u003c/h3\u003e\n\u003cp\u003eA computer program is said to learn from experience (E) with some class of tasks (T) and a performance measure (P) if its performance at tasks in T as measured by P improves with E.\u003c/p\u003e\n"
+      },
+      "dateCreated": "Apr 6, 2016 4:33:31 PM",
+      "dateStarted": "Apr 7, 2016 3:58:16 PM",
+      "dateFinished": "Apr 7, 2016 3:58:16 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### Why ML?  \n![4v][1]\n\n[1]: https://www-01.ibm.com/software/data/bigdata/images/4-Vs-of-big-data.jpg",
+      "dateUpdated": "Apr 7, 2016 3:58:16 PM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1459966708847_1443651609",
+      "id": "20160406-181828_143354758",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eWhy ML?\u003c/h3\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://www-01.ibm.com/software/data/bigdata/images/4-Vs-of-big-data.jpg\" alt\u003d\"4v\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Apr 6, 2016 6:18:28 PM",
+      "dateStarted": "Apr 7, 2016 3:58:16 PM",
+      "dateFinished": "Apr 7, 2016 3:58:16 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### Vectorization\n",
+      "dateUpdated": "Apr 7, 2016 3:58:16 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460007912517_-1117128230",
+      "id": "20160407-054512_134062741",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eVectorization\u003c/h3\u003e\n"
+      },
+      "dateCreated": "Apr 7, 2016 5:45:12 AM",
+      "dateStarted": "Apr 7, 2016 3:58:17 PM",
+      "dateFinished": "Apr 7, 2016 3:58:17 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### Algorithm\n",
+      "dateUpdated": "Apr 7, 2016 3:58:16 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460043886003_1578765382",
+      "id": "20160407-154446_635586039",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eAlgorithm\u003c/h3\u003e\n"
+      },
+      "dateCreated": "Apr 7, 2016 3:44:46 PM",
+      "dateStarted": "Apr 7, 2016 3:58:17 PM",
+      "dateFinished": "Apr 7, 2016 3:58:17 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### Computer Language for Big Data and Machine Learning\n![quora][2]\n\n[2]: https://www.quora.com/What-is-the-best-language-to-use-while-learning-machine-learning-for-the-first-time",
+      "dateUpdated": "Apr 7, 2016 3:58:17 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460044476680_-1991476193",
+      "id": "20160407-155436_1055321493",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eComputer Language for Big Data and Machine Learning\u003c/h3\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://www.quora.com/What-is-the-best-language-to-use-while-learning-machine-learning-for-the-first-time\" alt\u003d\"quora\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Apr 7, 2016 3:54:36 PM",
+      "dateStarted": "Apr 7, 2016 3:58:17 PM",
+      "dateFinished": "Apr 7, 2016 3:58:17 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460044697054_1373671793",
+      "id": "20160407-155817_1214816686",
+      "dateCreated": "Apr 7, 2016 3:58:17 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "Learning Machine Learning",
+  "id": "2BJ78W1NT",
+  "angularObjects": {
+    "2BAKJY5HP": [],
+    "2BA4ZT9KA": [],
+    "2BAJHP13K": [],
+    "2BA4FS6H4": [],
+    "2BATJ7JXT": [],
+    "2BDD5JNQA": [],
+    "2BA4VB3HF": [],
+    "2BAVVBSJR": [],
+    "2BCD6QS1M": [],
+    "2BBZ5KHWK": [],
+    "2BAH52SQH": [],
+    "2BAG4DA48": [],
+    "2BBPA417C": [],
+    "2BBYH3GSG": [],
+    "2BB3B14B6": []
+  },
+  "config": {},
+  "info": {}
+}
