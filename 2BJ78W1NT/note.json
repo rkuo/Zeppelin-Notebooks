@@ -71,8 +71,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md \n### What is ML:\nA computer program is said to learn from experience (E) with some class of tasks (T) and a performance measure (P) if its performance at tasks in T as measured by P improves with E.\n",
-      "dateUpdated": "Apr 7, 2016 3:58:16 PM",
+      "text": "%md \n### What is ML:\nMachine Learning is concerned with the development, the analysis, and the application of algorithms that allow computers to learn.\n\nLearning:\n* A computer program is said to learn from experience (E) with some class of tasks (T) and a performance measure (P) if its performance at tasks in T as measured by P improves with E. (i.e. by collecting data)\n* Extracting a model of a system from the sole observation (or the simulation) of this system in some situations.\n    * A model \u003d some relationships between the variables used to describe the system.\n\n* Two main goals: make prediction and better understand the system.",
+      "dateUpdated": "Apr 8, 2016 2:05:39 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -86,7 +86,7 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/markdown",
-        "editorHide": false
+        "editorHide": true
       },
       "settings": {
         "params": {},
@@ -97,17 +97,17 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch3\u003eWhat is ML:\u003c/h3\u003e\n\u003cp\u003eA computer program is said to learn from experience (E) with some class of tasks (T) and a performance measure (P) if its performance at tasks in T as measured by P improves with E.\u003c/p\u003e\n"
+        "msg": "\u003ch3\u003eWhat is ML:\u003c/h3\u003e\n\u003cp\u003eMachine Learning is concerned with the development, the analysis, and the application of algorithms that allow computers to learn\u003c/p\u003e\n\u003cp\u003eLearning:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cp\u003eA computer program is said to learn from experience (E) with some class of tasks (T) and a performance measure (P) if its performance at tasks in T as measured by P improves with E. (i.e. by collecting data)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eExtracting a model of a system from the sole observation (or the simulation) of this system in some situations.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eA model \u003d some relationships between the variables used to describe the system.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eTwo main goals: make prediction and better understand the system.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Apr 6, 2016 4:33:31 PM",
-      "dateStarted": "Apr 7, 2016 3:58:16 PM",
-      "dateFinished": "Apr 7, 2016 3:58:16 PM",
+      "dateStarted": "Apr 8, 2016 1:25:29 AM",
+      "dateFinished": "Apr 8, 2016 1:25:29 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n### Why ML?  \n* Increase of data Volume, Variety, Velocity, and Veracity.\n![4v][1]\n   \n\n* Increase of computing power with dedicate hardware, Deep Learning Supercomputer in a box.  \n  ![dgx1][2]\n* [MIT\u0027s 168-core chip could give big brains to mobile devices and robots][3].\n* [Nvidia Tesla P100][4]\n* A chip startup [Movidius][6] makes low-power chips it calls vision processing units (or VPUs), which can be part of mobile device.\n\n* More machine learning algorithms and theories are developed by researchers.\n![azure algorithm cheat sheet][7]\n\n* More industry support.\n\n[1]: https://www-01.ibm.com/software/data/bigdata/images/4-Vs-of-big-data.jpg\n[2]: http://images.nvidia.com/content/technologies/deep-learning/images/dgx1-header.jpg\n[3]: http://www.pcworld.com/article/3029972/components-processors/mits-168-core-chip-could-make-mobile-devices-robots-smarter.html\n[4]: https://www.technologyreview.com/s/601195/a-2-billion-chip-to-accelerate-artificial-intelligence/\n[5]: http://www.forbes.com/sites/aarontilley/2016/01/27/google-partners-with-chip-startup-to-take-machine-learning-out-of-the-cloud-and-into-your-pocket/#1760f30933e5  \n[6]: http://www.movidius.com/\n[7]: https://acom.azurecomcdn.net/80C57D/cdn/mediahandler/docarticles/dpsmedia-prod/azure.microsoft.com/en-us/documentation/articles/machine-learning-algorithm-cheat-sheet/20160331010724/machine-learning-algorithm-cheat-sheet-small_v_0_6-01.png",
-      "dateUpdated": "Apr 7, 2016 7:03:10 PM",
+      "text": "%md \n### Components of Machine Learning\n\n#### problem: unknown target function, ***f***\n* to find out the pattern for approving the credit card that benefit to a bank. A target function ***f***, which maps applicant ***X*** (information about different application) that leads to outcome of ***Y*** (different out comes).\n\n#### training examples, ***D***\n* input: information of each applicant, x: age, salary, exist debts,etc\n* output: out come of each applicant, y: good or bad for bank/late payment/default\n* collected data, ***D***: {(x1, y1), (x2, y2), ... (xn, yn)}\n\n#### hypothesis set, ***H***\n* There is a set of h in ***H***, we like to find a specific h, good skill, hopefully have good performance. We select the best h, we call it ***g***\n* function ***g***, is part of H \u003d {hk}, that can map ***X -\u003e Y*** with good accuracy\n\n#### learning algorithm, ***A***\n* Use data to compute the best hypothesis, ***g***, which approximates to ***f***  \n\n#### target fountion, ***g***  \n* will be used to forecast future applicants.\n\n### Learning Model\nlearning algorithm, ***A*** and hypothesis set, ***H***",
+      "dateUpdated": "Apr 8, 2016 2:20:33 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -120,7 +120,78 @@
           "scatter": {}
         },
         "enabled": true,
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/scala",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460081943739_1862455769",
+      "id": "20160408-021903_560249876",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eComponents of Machine Learning\u003c/h3\u003e\n\u003ch4\u003eproblem: unknown target function, \u003cstrong\u003e\u003cem\u003ef\u003c/em\u003e\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003eto find out the pattern for approving the credit card that benefit to a bank. A target function \u003cstrong\u003e\u003cem\u003ef\u003c/em\u003e\u003c/strong\u003e, which maps applicant \u003cstrong\u003e\u003cem\u003eX\u003c/em\u003e\u003c/strong\u003e (information about different application) that leads to outcome of \u003cstrong\u003e\u003cem\u003eY\u003c/em\u003e\u003c/strong\u003e (different out comes).\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003etraining examples, \u003cstrong\u003e\u003cem\u003eD\u003c/em\u003e\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003einput: information of each applicant, x: age, salary, exist debts,etc\u003c/li\u003e\n\u003cli\u003eoutput: out come of each applicant, y: good or bad for bank/late payment/default\u003c/li\u003e\n\u003cli\u003ecollected data, \u003cstrong\u003e\u003cem\u003eD\u003c/em\u003e\u003c/strong\u003e: {(x1, y1), (x2, y2), \u0026hellip; (xn, yn)}\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003ehypothesis set, \u003cstrong\u003e\u003cem\u003eH\u003c/em\u003e\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003eThere is a set of h in \u003cstrong\u003e\u003cem\u003eH\u003c/em\u003e\u003c/strong\u003e, we like to find a specific h, good skill, hopefully have good performance. We select the best h, we call it \u003cstrong\u003e\u003cem\u003eg\u003c/em\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003efunction \u003cstrong\u003e\u003cem\u003eg\u003c/em\u003e\u003c/strong\u003e, is part of H \u003d {hk}, that can map \u003cstrong\u003e\u003cem\u003eX -\u003e Y\u003c/em\u003e\u003c/strong\u003e with good accuracy\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003elearning algorithm, \u003cstrong\u003e\u003cem\u003eA\u003c/em\u003e\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003eUse data to compute the best hypothesis, \u003cstrong\u003e\u003cem\u003eg\u003c/em\u003e\u003c/strong\u003e, which approximates to \u003cstrong\u003e\u003cem\u003ef\u003c/em\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003etarget fountion, \u003cstrong\u003e\u003cem\u003eg\u003c/em\u003e\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003ewill be used to forecast future applicants.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eLearning Model\u003c/h3\u003e\n\u003cp\u003elearning algorithm, \u003cstrong\u003e\u003cem\u003eA\u003c/em\u003e\u003c/strong\u003e and hypothesis set, \u003cstrong\u003e\u003cem\u003eH\u003c/em\u003e\u003c/strong\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Apr 8, 2016 2:19:03 AM",
+      "dateStarted": "Apr 8, 2016 2:20:30 AM",
+      "dateFinished": "Apr 8, 2016 2:20:30 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n![Components of ML][1]   \n\u003c/br\u003e   \n\u003c/br\u003e   \n\u003c/br\u003e   \n      \n        \n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/b338147d26ad9b27d9f165529fc4972f0a6e31aa/2BAJAQBSK/images/practical_definition_ML.png",
+      "dateUpdated": "Apr 8, 2016 2:18:54 AM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460081891416_1961428182",
+      "id": "20160408-021811_1132659849",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/b338147d26ad9b27d9f165529fc4972f0a6e31aa/2BAJAQBSK/images/practical_definition_ML.png\" alt\u003d\"Components of ML\" /\u003e\n\u003cbr  /\u003e\u003c/br\u003e\n\u003cbr  /\u003e\u003c/br\u003e\n\u003cbr  /\u003e\u003c/br\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Apr 8, 2016 2:18:11 AM",
+      "dateStarted": "Apr 8, 2016 2:18:29 AM",
+      "dateFinished": "Apr 8, 2016 2:18:29 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### Why ML?  \n* Increase of data Volume, Variety, Velocity, and Veracity.\n![4v][1]\n   \n* Increase of computing power with dedicate hardware, Deep Learning Supercomputer in a box.  \n  ![dgx1][2]\n    * [MIT\u0027s 168-core chip could give big brains to mobile devices and robots][3].\n    * [Nvidia Tesla P100][4]\n    * A chip startup [Movidius][6] makes low-power chips it calls vision processing units (or VPUs), which can be part of mobile device.\n\n* More machine learning algorithms and theories are developed by researchers.\n* More industry support.\n\n[1]: https://www-01.ibm.com/software/data/bigdata/images/4-Vs-of-big-data.jpg\n[2]: http://images.nvidia.com/content/technologies/deep-learning/images/dgx1-header.jpg\n[3]: http://www.pcworld.com/article/3029972/components-processors/mits-168-core-chip-could-make-mobile-devices-robots-smarter.html\n[4]: https://www.technologyreview.com/s/601195/a-2-billion-chip-to-accelerate-artificial-intelligence/\n[5]: http://www.forbes.com/sites/aarontilley/2016/01/27/google-partners-with-chip-startup-to-take-machine-learning-out-of-the-cloud-and-into-your-pocket/#1760f30933e5  \n[6]: http://www.movidius.com/",
+      "dateUpdated": "Apr 8, 2016 4:43:11 PM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
       },
       "settings": {
         "params": {},
@@ -131,17 +202,17 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch3\u003eWhy ML?\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cp\u003eIncrease of data Volume, Variety, Velocity, and Veracity.\n\u003cbr  /\u003e\u003cimg src\u003d\"https://www-01.ibm.com/software/data/bigdata/images/4-Vs-of-big-data.jpg\" alt\u003d\"4v\" /\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eIncrease of computing power with dedicate hardware, Deep Learning Supercomputer in a box.\n\u003cbr  /\u003e\u003cimg src\u003d\"http://images.nvidia.com/content/technologies/deep-learning/images/dgx1-header.jpg\" alt\u003d\"dgx1\" /\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003e\u003ca href\u003d\"http://www.pcworld.com/article/3029972/components-processors/mits-168-core-chip-could-make-mobile-devices-robots-smarter.html\"\u003eMIT\u0027s 168-core chip could give big brains to mobile devices and robots\u003c/a\u003e.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003e\u003ca href\u003d\"https://www.technologyreview.com/s/601195/a-2-billion-chip-to-accelerate-artificial-intelligence/\"\u003eNvidia Tesla P100\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eA chip startup \u003ca href\u003d\"http://www.movidius.com/\"\u003eMovidius\u003c/a\u003e makes low-power chips it calls vision processing units (or VPUs), which can be part of mobile device.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eMore machine learning algorithms and theories are developed by researchers.\n\u003cbr  /\u003e\u003cimg src\u003d\"https://acom.azurecomcdn.net/80C57D/cdn/mediahandler/docarticles/dpsmedia-prod/azure.microsoft.com/en-us/documentation/articles/machine-learning-algorithm-cheat-sheet/20160331010724/machine-learning-algorithm-cheat-sheet-small_v_0_6-01.png\" alt\u003d\"azure algorithm cheat sheet\" /\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eMore industry support.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n"
+        "msg": "\u003ch3\u003eWhy ML?\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cp\u003eIncrease of data Volume, Variety, Velocity, and Veracity.\n\u003cbr  /\u003e\u003cimg src\u003d\"https://www-01.ibm.com/software/data/bigdata/images/4-Vs-of-big-data.jpg\" alt\u003d\"4v\" /\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eIncrease of computing power with dedicate hardware, Deep Learning Supercomputer in a box.\n\u003cbr  /\u003e\u003cimg src\u003d\"http://images.nvidia.com/content/technologies/deep-learning/images/dgx1-header.jpg\" alt\u003d\"dgx1\" /\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"http://www.pcworld.com/article/3029972/components-processors/mits-168-core-chip-could-make-mobile-devices-robots-smarter.html\"\u003eMIT\u0027s 168-core chip could give big brains to mobile devices and robots\u003c/a\u003e.\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://www.technologyreview.com/s/601195/a-2-billion-chip-to-accelerate-artificial-intelligence/\"\u003eNvidia Tesla P100\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eA chip startup \u003ca href\u003d\"http://www.movidius.com/\"\u003eMovidius\u003c/a\u003e makes low-power chips it calls vision processing units (or VPUs), which can be part of mobile device.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eMore machine learning algorithms and theories are developed by researchers.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eMore industry support.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Apr 6, 2016 6:18:28 PM",
-      "dateStarted": "Apr 7, 2016 7:03:10 PM",
-      "dateFinished": "Apr 7, 2016 7:03:10 PM",
+      "dateStarted": "Apr 8, 2016 1:51:52 AM",
+      "dateFinished": "Apr 8, 2016 1:51:52 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n### Vectorization\nIt makes coding easier and more readable.\n![vectorization-octave][1]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Vectorization_in_Octave_Matlab__-_YouTube_vectorize.png",
-      "dateUpdated": "Apr 7, 2016 7:08:49 PM",
+      "text": "%md \n### When?\n\n* We cannot fully predict the problem and human expertise does not exist (navigating on Mars).\n* Humans are unable to explain their expertise (speech recognition, play chess or go).\n* Solution changes in time (routing on a computer network).\n* Solution needs to be adapted to particular cases (user biometrics, recommendations).",
+      "dateUpdated": "Apr 8, 2016 4:43:17 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -154,7 +225,280 @@
           "scatter": {}
         },
         "enabled": true,
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460079119142_1971708086",
+      "id": "20160408-013159_931507414",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eWhen?\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eWe cannot fully predict the problem and human expertise does not exist (navigating on Mars).\u003c/li\u003e\n\u003cli\u003eHumans are unable to explain their expertise (speech recognition, play chess or go).\u003c/li\u003e\n\u003cli\u003eSolution changes in time (routing on a computer network).\u003c/li\u003e\n\u003cli\u003eSolution needs to be adapted to particular cases (user biometrics, recommendations).\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Apr 8, 2016 1:31:59 AM",
+      "dateStarted": "Apr 8, 2016 1:42:28 AM",
+      "dateFinished": "Apr 8, 2016 1:42:28 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### Computer Language for Big Data and Machine Learning\nThere is a [quora disussion notes][2]\n\nA performace table from [Julia website][3] can be used as reference.\n![julia perfromace table][4]\n\n[1]: http://machinelearningmastery.com/best-programming-language-for-machine-learning/\n[2]: https://www.quora.com/What-is-the-best-language-to-use-while-learning-machine-learning-for-the-first-time\n[3]: http://julialang.org/\n[4]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/edf50ea0c1af465db5172d4439a0183df4763b62/2BJ78W1NT/images/The_Julia_Language.png",
+      "dateUpdated": "Apr 8, 2016 4:42:49 PM",
+      "config": {
+        "colWidth": 7.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460044476680_-1991476193",
+      "id": "20160407-155436_1055321493",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eComputer Language for Big Data and Machine Learning\u003c/h3\u003e\n\u003cp\u003eThere is a \u003ca href\u003d\"https://www.quora.com/What-is-the-best-language-to-use-while-learning-machine-learning-for-the-first-time\"\u003equora disussion notes\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eA performace table from \u003ca href\u003d\"http://julialang.org/\"\u003eJulia website\u003c/a\u003e can be used as reference.\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/edf50ea0c1af465db5172d4439a0183df4763b62/2BJ78W1NT/images/The_Julia_Language.png\" alt\u003d\"julia perfromace table\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Apr 7, 2016 3:54:36 PM",
+      "dateStarted": "Apr 8, 2016 2:48:49 AM",
+      "dateFinished": "Apr 8, 2016 2:48:49 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "dateUpdated": "Apr 8, 2016 2:23:18 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460125390156_-1688723120",
+      "id": "20160408-142310_442705527",
+      "dateCreated": "Apr 8, 2016 2:23:10 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### Algorithm\n![sci-learn cheatsheet][1]    \n\u003c/br\u003e\n\n[1]: http://scikit-learn.org/stable/_static/ml_map.png",
+      "dateUpdated": "Apr 8, 2016 4:43:33 PM",
+      "config": {
+        "colWidth": 7.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460043886003_1578765382",
+      "id": "20160407-154446_635586039",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eAlgorithm\u003c/h3\u003e\n\u003cp\u003e\u003cimg src\u003d\"http://scikit-learn.org/stable/_static/ml_map.png\" alt\u003d\"sci-learn cheatsheet\" /\u003e\n\u003cbr  /\u003e\u003c/br\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Apr 7, 2016 3:44:46 PM",
+      "dateStarted": "Apr 8, 2016 2:22:38 PM",
+      "dateFinished": "Apr 8, 2016 2:22:38 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n![azure algorithm cheat sheet][3]   \n\u003c/br\u003e\n\u003c/br\u003e\n\u003c/br\u003e\n\n[3]: https://acom.azurecomcdn.net/80C57D/cdn/mediahandler/docarticles/dpsmedia-prod/azure.microsoft.com/en-us/documentation/articles/machine-learning-algorithm-cheat-sheet/20160331010724/machine-learning-algorithm-cheat-sheet-small_v_0_6-01.png\n",
+      "dateUpdated": "Apr 8, 2016 4:43:40 PM",
+      "config": {
+        "colWidth": 7.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460125055492_135677376",
+      "id": "20160408-141735_602552586",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://acom.azurecomcdn.net/80C57D/cdn/mediahandler/docarticles/dpsmedia-prod/azure.microsoft.com/en-us/documentation/articles/machine-learning-algorithm-cheat-sheet/20160331010724/machine-learning-algorithm-cheat-sheet-small_v_0_6-01.png\" alt\u003d\"azure algorithm cheat sheet\" /\u003e\n\u003cbr  /\u003e\u003c/br\u003e\n\u003cbr  /\u003e\u003c/br\u003e\n\u003cbr  /\u003e\u003c/br\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Apr 8, 2016 2:17:35 PM",
+      "dateStarted": "Apr 8, 2016 2:24:09 PM",
+      "dateFinished": "Apr 8, 2016 2:24:09 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### Algorithm \n\nA subset of machine learing algorithm.   \n![ML algorithm mindmap][4]\n\u003c/br\u003e\n[4]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/MachineLearningMindMap2.png",
+      "dateUpdated": "Apr 8, 2016 2:20:49 PM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460125065129_1018306677",
+      "id": "20160408-141745_96654384",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eAlgorithm\u003c/h3\u003e\n\u003cp\u003eA subset of machine learing algorithm.\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/MachineLearningMindMap2.png\" alt\u003d\"ML algorithm mindmap\" /\u003e\n\u003cbr  /\u003e\u003c/br\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Apr 8, 2016 2:17:45 PM",
+      "dateStarted": "Apr 8, 2016 2:20:46 PM",
+      "dateFinished": "Apr 8, 2016 2:20:46 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### Learning Machine Learning\nAn ecosystem for learning machine learning.\n![ML mindmap][1]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/MachineLearningMindMap1.png",
+      "dateUpdated": "Apr 8, 2016 5:04:45 PM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460044697054_1373671793",
+      "id": "20160407-155817_1214816686",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eLearning Machine Learning\u003c/h3\u003e\n\u003cp\u003eAn ecosystem for learning machine learning.\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/MachineLearningMindMap1.png\" alt\u003d\"ML mindmap\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Apr 7, 2016 3:58:17 PM",
+      "dateStarted": "Apr 8, 2016 2:43:17 AM",
+      "dateFinished": "Apr 8, 2016 2:43:17 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### eBook\n[machine learning ebooks][1], [deep learning][2]\n\n[1]: https://github.com/rasbt/pattern_classification/blob/master/resources/machine_learning_ebooks.md\n[2]: http://www.deeplearningbook.org/",
+      "dateUpdated": "Apr 8, 2016 2:37:28 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460083423117_868716114",
+      "id": "20160408-024343_2124507528",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eeBook\u003c/h3\u003e\n\u003cp\u003e\u003ca href\u003d\"https://github.com/rasbt/pattern_classification/blob/master/resources/machine_learning_ebooks.md\"\u003emachine learning ebooks\u003c/a\u003e, \u003ca href\u003d\"http://www.deeplearningbook.org/\"\u003edeep learning\u003c/a\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Apr 8, 2016 2:43:43 AM",
+      "dateStarted": "Apr 8, 2016 2:37:23 PM",
+      "dateFinished": "Apr 8, 2016 2:37:23 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### Vectorization\nIt makes coding easier and more readable.\n![vectorization-octave][1]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Vectorization_in_Octave_Matlab__-_YouTube_vectorize.png",
+      "dateUpdated": "Apr 8, 2016 4:41:53 PM",
+      "config": {
+        "colWidth": 7.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
       },
       "settings": {
         "params": {},
@@ -174,10 +518,22 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n### Algorithm\n",
-      "dateUpdated": "Apr 7, 2016 3:58:16 PM",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460125656818_-148959666",
+      "id": "20160408-142736_405002591",
+      "dateCreated": "Apr 8, 2016 2:27:36 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### Neural Network\n![Neural][1]\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Model_Representation_I_-_Stanford_University___Coursera-neuronbrain.png",
+      "dateUpdated": "Apr 8, 2016 4:39:57 PM",
       "config": {
-        "colWidth": 12.0,
+        "colWidth": 7.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
@@ -188,30 +544,101 @@
           "scatter": {}
         },
         "enabled": true,
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
       },
       "settings": {
         "params": {},
         "forms": {}
       },
-      "jobName": "paragraph_1460043886003_1578765382",
-      "id": "20160407-154446_635586039",
+      "jobName": "paragraph_1460131710788_-1450339219",
+      "id": "20160408-160830_40253068",
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch3\u003eAlgorithm\u003c/h3\u003e\n"
+        "msg": "\u003ch3\u003eNeural Network\u003c/h3\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Model_Representation_I_-_Stanford_University___Coursera-neuronbrain.png\" alt\u003d\"Neural\" /\u003e\u003c/p\u003e\n"
       },
-      "dateCreated": "Apr 7, 2016 3:44:46 PM",
-      "dateStarted": "Apr 7, 2016 3:58:17 PM",
-      "dateFinished": "Apr 7, 2016 3:58:17 PM",
+      "dateCreated": "Apr 8, 2016 4:08:30 PM",
+      "dateStarted": "Apr 8, 2016 4:14:32 PM",
+      "dateFinished": "Apr 8, 2016 4:14:32 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n### Computer Language for Big Data and Machine Learning\n[quora disussion notes][2]\n\n[1]: http://machinelearningmastery.com/best-programming-language-for-machine-learning/\n[2]: https://www.quora.com/What-is-the-best-language-to-use-while-learning-machine-learning-for-the-first-time",
-      "dateUpdated": "Apr 7, 2016 7:12:57 PM",
+      "text": "%md\n![single cell][1]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/6_2_-_Hypothesis_Representation_-___Machine_Learning___By_Andrew_Ng_-_YouTube_gFunction.png",
+      "dateUpdated": "Apr 8, 2016 4:40:10 PM",
       "config": {
-        "colWidth": 12.0,
+        "colWidth": 7.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460132027337_733355976",
+      "id": "20160408-161347_2069722513",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/6_2_-_Hypothesis_Representation_-___Machine_Learning___By_Andrew_Ng_-_YouTube_gFunction.png\" alt\u003d\"single cell\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Apr 8, 2016 4:13:47 PM",
+      "dateStarted": "Apr 8, 2016 4:29:23 PM",
+      "dateFinished": "Apr 8, 2016 4:29:23 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n![neuron unit][1]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Model_Representation_I_-_Stanford_University___Coursera_LogisticUnit.png",
+      "dateUpdated": "Apr 8, 2016 4:50:29 PM",
+      "config": {
+        "colWidth": 7.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460133862463_-1236353721",
+      "id": "20160408-164422_504641169",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Model_Representation_I_-_Stanford_University___Coursera_LogisticUnit.png\" alt\u003d\"neuron unit\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Apr 8, 2016 4:44:22 PM",
+      "dateStarted": "Apr 8, 2016 4:47:35 PM",
+      "dateFinished": "Apr 8, 2016 4:47:35 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n![4ward representation][1]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Model_Representation_I_-_Stanford_University___Coursera_4wardRep.png",
+      "dateUpdated": "Apr 8, 2016 4:41:04 PM",
+      "config": {
+        "colWidth": 7.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
@@ -228,16 +655,51 @@
         "params": {},
         "forms": {}
       },
-      "jobName": "paragraph_1460044476680_-1991476193",
-      "id": "20160407-155436_1055321493",
+      "jobName": "paragraph_1460132875057_361727410",
+      "id": "20160408-162755_66969054",
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch3\u003eComputer Language for Big Data and Machine Learning\u003c/h3\u003e\n\u003cp\u003e\u003ca href\u003d\"https://www.quora.com/What-is-the-best-language-to-use-while-learning-machine-learning-for-the-first-time\"\u003equora disussion notes\u003c/a\u003e\u003c/p\u003e\n"
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Model_Representation_I_-_Stanford_University___Coursera_4wardRep.png\" alt\u003d\"4ward representation\" /\u003e\u003c/p\u003e\n"
       },
-      "dateCreated": "Apr 7, 2016 3:54:36 PM",
-      "dateStarted": "Apr 7, 2016 7:08:17 PM",
-      "dateFinished": "Apr 7, 2016 7:08:17 PM",
+      "dateCreated": "Apr 8, 2016 4:27:55 PM",
+      "dateStarted": "Apr 8, 2016 4:41:04 PM",
+      "dateFinished": "Apr 8, 2016 4:41:04 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### Cost Function for Multi-classification\n\n![cost function for multi-classification][1]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Cost_Function_-_Stanford_University___Coursera_CostF-neuron.pnghttps://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Cost_Function_-_Stanford_University___Coursera_CostF-neuron.png",
+      "dateUpdated": "Apr 8, 2016 4:58:35 PM",
+      "config": {
+        "colWidth": 7.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460133626086_1776721662",
+      "id": "20160408-164026_965077961",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eCost Function for Multi-classification\u003c/h3\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Cost_Function_-_Stanford_University___Coursera_CostF-neuron.pnghttps://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Cost_Function_-_Stanford_University___Coursera_CostF-neuron.png\" alt\u003d\"cost function for multi-classification\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Apr 8, 2016 4:40:26 PM",
+      "dateStarted": "Apr 8, 2016 4:58:27 PM",
+      "dateFinished": "Apr 8, 2016 4:58:27 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -247,9 +709,9 @@
         "params": {},
         "forms": {}
       },
-      "jobName": "paragraph_1460044697054_1373671793",
-      "id": "20160407-155817_1214816686",
-      "dateCreated": "Apr 7, 2016 3:58:17 PM",
+      "jobName": "paragraph_1460134655917_1426442511",
+      "id": "20160408-165735_1060393370",
+      "dateCreated": "Apr 8, 2016 4:57:35 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
@@ -273,6 +735,8 @@
     "2BBYH3GSG": [],
     "2BB3B14B6": []
   },
-  "config": {},
+  "config": {
+    "looknfeel": "default"
+  },
   "info": {}
 }

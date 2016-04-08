@@ -247,7 +247,7 @@
     },
     {
       "text": "%md \n### Components of Machine Learning\n\n#### problem: unknown target function, ***f***\n* to find out the pattern for approving the credit card that benefit to a bank. A target function ***f***, which maps applicant ***X*** (information about different application) that leads to outcome of ***Y*** (different out comes).\n\n#### training examples, ***D***\n* input: information of each applicant, x: age, salary, exist debts,etc\n* output: out come of each applicant, y: good or bad for bank/late payment/default\n* collected data, ***D***: {(x1, y1), (x2, y2), ... (xn, yn)}\n\n#### hypothesis set, ***H***\n* There is a set of h in ***H***, we like to find a specific h, good skill, hopefully have good performance. We select the best h, we call it ***g***\n* function ***g***, is part of H \u003d {hk}, that can map ***X -\u003e Y*** with good accuracy\n\n#### learning algorithm, ***A***\n* Use data to compute the best hypothesis, ***g***, which approximates to ***f***  \n\n#### target fountion, ***g***  \n* will be used to forecast future applicants.\n\n### Learning Model\nlearning algorithm, ***A*** and hypothesis set, ***H***\n",
-      "dateUpdated": "Mar 3, 2016 9:07:50 PM",
+      "dateUpdated": "Apr 8, 2016 2:17:02 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -261,7 +261,7 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/markdown",
-        "editorHide": true
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -282,7 +282,7 @@
     },
     {
       "text": "%md\n![Components of ML][1]   \n\u003c/br\u003e   \n\u003c/br\u003e   \n\u003c/br\u003e   \n\n      \n      \n        \n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/b338147d26ad9b27d9f165529fc4972f0a6e31aa/2BAJAQBSK/images/practical_definition_ML.png",
-      "dateUpdated": "Mar 24, 2016 9:54:59 PM",
+      "dateUpdated": "Apr 8, 2016 2:16:40 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -296,7 +296,7 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/markdown",
-        "editorHide": true
+        "editorHide": false
       },
       "settings": {
         "params": {},
