@@ -414,7 +414,7 @@
     },
     {
       "text": "%md\n### Learning Machine Learning\nAn ecosystem for learning machine learning.\n![ML mindmap][1]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/MachineLearningMindMap1.png",
-      "dateUpdated": "Apr 8, 2016 5:04:45 PM",
+      "dateUpdated": "Apr 8, 2016 5:10:01 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -442,8 +442,8 @@
         "msg": "\u003ch3\u003eLearning Machine Learning\u003c/h3\u003e\n\u003cp\u003eAn ecosystem for learning machine learning.\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/MachineLearningMindMap1.png\" alt\u003d\"ML mindmap\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 7, 2016 3:58:17 PM",
-      "dateStarted": "Apr 8, 2016 2:43:17 AM",
-      "dateFinished": "Apr 8, 2016 2:43:17 AM",
+      "dateStarted": "Apr 8, 2016 5:10:01 PM",
+      "dateFinished": "Apr 8, 2016 5:10:01 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -531,9 +531,9 @@
     },
     {
       "text": "%md\n### Neural Network\n![Neural][1]\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Model_Representation_I_-_Stanford_University___Coursera-neuronbrain.png",
-      "dateUpdated": "Apr 8, 2016 4:39:57 PM",
+      "dateUpdated": "Apr 8, 2016 5:26:29 PM",
       "config": {
-        "colWidth": 7.0,
+        "colWidth": 6.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
@@ -565,10 +565,45 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n![single cell][1]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/6_2_-_Hypothesis_Representation_-___Machine_Learning___By_Andrew_Ng_-_YouTube_gFunction.png",
-      "dateUpdated": "Apr 8, 2016 4:40:10 PM",
+      "text": "%md\n![neuron unit][1]\n\u003c/br\u003e\n\u003c/br\u003e\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Model_Representation_I_-_Stanford_University___Coursera_LogisticUnit.png",
+      "dateUpdated": "Apr 9, 2016 2:52:47 AM",
       "config": {
-        "colWidth": 7.0,
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460133862463_-1236353721",
+      "id": "20160408-164422_504641169",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Model_Representation_I_-_Stanford_University___Coursera_LogisticUnit.png\" alt\u003d\"neuron unit\" /\u003e\n\u003cbr  /\u003e\u003c/br\u003e\n\u003cbr  /\u003e\u003c/br\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Apr 8, 2016 4:44:22 PM",
+      "dateStarted": "Apr 9, 2016 2:52:44 AM",
+      "dateFinished": "Apr 9, 2016 2:52:44 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n![single cell][1]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/6_2_-_Hypothesis_Representation_-___Machine_Learning___By_Andrew_Ng_-_YouTube_gFunction.png",
+      "dateUpdated": "Apr 9, 2016 2:56:34 AM",
+      "config": {
+        "colWidth": 6.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
@@ -594,16 +629,16 @@
         "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/6_2_-_Hypothesis_Representation_-___Machine_Learning___By_Andrew_Ng_-_YouTube_gFunction.png\" alt\u003d\"single cell\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 8, 2016 4:13:47 PM",
-      "dateStarted": "Apr 8, 2016 4:29:23 PM",
-      "dateFinished": "Apr 8, 2016 4:29:23 PM",
+      "dateStarted": "Apr 9, 2016 2:56:32 AM",
+      "dateFinished": "Apr 9, 2016 2:56:32 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n![neuron unit][1]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Model_Representation_I_-_Stanford_University___Coursera_LogisticUnit.png",
-      "dateUpdated": "Apr 8, 2016 4:50:29 PM",
+      "text": "%md\n![4ward representation][1]\n\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Model_Representation_I_-_Stanford_University___Coursera_4wardRep.png",
+      "dateUpdated": "Apr 9, 2016 2:56:14 AM",
       "config": {
-        "colWidth": 7.0,
+        "colWidth": 6.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
@@ -621,40 +656,6 @@
         "params": {},
         "forms": {}
       },
-      "jobName": "paragraph_1460133862463_-1236353721",
-      "id": "20160408-164422_504641169",
-      "result": {
-        "code": "SUCCESS",
-        "type": "HTML",
-        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Model_Representation_I_-_Stanford_University___Coursera_LogisticUnit.png\" alt\u003d\"neuron unit\" /\u003e\u003c/p\u003e\n"
-      },
-      "dateCreated": "Apr 8, 2016 4:44:22 PM",
-      "dateStarted": "Apr 8, 2016 4:47:35 PM",
-      "dateFinished": "Apr 8, 2016 4:47:35 PM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "text": "%md\n![4ward representation][1]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Model_Representation_I_-_Stanford_University___Coursera_4wardRep.png",
-      "dateUpdated": "Apr 8, 2016 4:41:04 PM",
-      "config": {
-        "colWidth": 7.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/markdown"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
       "jobName": "paragraph_1460132875057_361727410",
       "id": "20160408-162755_66969054",
       "result": {
@@ -663,16 +664,16 @@
         "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Model_Representation_I_-_Stanford_University___Coursera_4wardRep.png\" alt\u003d\"4ward representation\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 8, 2016 4:27:55 PM",
-      "dateStarted": "Apr 8, 2016 4:41:04 PM",
-      "dateFinished": "Apr 8, 2016 4:41:04 PM",
+      "dateStarted": "Apr 9, 2016 2:56:12 AM",
+      "dateFinished": "Apr 9, 2016 2:56:12 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n### Cost Function for Multi-classification\n\n![cost function for multi-classification][1]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Cost_Function_-_Stanford_University___Coursera_CostF-neuron.pnghttps://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Cost_Function_-_Stanford_University___Coursera_CostF-neuron.png",
-      "dateUpdated": "Apr 8, 2016 4:58:35 PM",
+      "dateUpdated": "Apr 8, 2016 5:27:47 PM",
       "config": {
-        "colWidth": 7.0,
+        "colWidth": 6.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
@@ -704,14 +705,181 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "%md\n### Forward Propagation\n![forward propagation][1]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Backpropagation_Intuition_-_Stanford_University___Coursera_Forward.png",
+      "dateUpdated": "Apr 8, 2016 9:38:05 PM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460136336957_-1889365670",
+      "id": "20160408-172536_1386733766",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eForward Propagation\u003c/h3\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Backpropagation_Intuition_-_Stanford_University___Coursera_Forward.png\" alt\u003d\"forward propagation\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Apr 8, 2016 5:25:36 PM",
+      "dateStarted": "Apr 8, 2016 9:37:35 PM",
+      "dateFinished": "Apr 8, 2016 9:37:35 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n\n![gradient descent for backward propagation][1]\nSee the derivation of formula in [MIT Course Number 6.034 lecture-12][2]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Backpropagation_Algorithm_-_Stanford_University___Coursera_GridentD.png\n[2]: https://www.youtube.com/watch?v\u003dq0pm3BrIUFo",
+      "dateUpdated": "Apr 9, 2016 6:37:19 AM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1460134655917_1426442511",
       "id": "20160408-165735_1060393370",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Backpropagation_Algorithm_-_Stanford_University___Coursera_GridentD.png\" alt\u003d\"gradient descent for backward propagation\" /\u003e\n\u003cbr  /\u003eSee the derivation of formula in \u003ca href\u003d\"https://www.youtube.com/watch?v\u003dq0pm3BrIUFo\"\u003eMIT Course Number 6.034 lecture-12\u003c/a\u003e\u003c/p\u003e\n"
+      },
       "dateCreated": "Apr 8, 2016 4:57:35 PM",
+      "dateStarted": "Apr 9, 2016 6:37:15 AM",
+      "dateFinished": "Apr 9, 2016 6:37:15 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n![backpropagation][1]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Backpropagation_Intuition_-_Stanford_University___Coursera_%F0%9F%94%8A.png",
+      "dateUpdated": "Apr 8, 2016 9:46:45 PM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460151923084_999525742",
+      "id": "20160408-214523_1951582141",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Backpropagation_Intuition_-_Stanford_University___Coursera_%F0%9F%94%8A.png\" alt\u003d\"backpropagation\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Apr 8, 2016 9:45:23 PM",
+      "dateStarted": "Apr 8, 2016 9:46:27 PM",
+      "dateFinished": "Apr 8, 2016 9:46:27 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n\n[1]: ",
+      "dateUpdated": "Apr 9, 2016 1:29:33 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460208191761_-1119404103",
+      "id": "20160409-132311_1237527276",
+      "dateCreated": "Apr 9, 2016 1:23:11 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### Use Cases\n\n* server failure prediction\n* facial recognition\n* speech recognition\n* text classification\n* self-driving car\n* smart home\n* surveillance and security\n* medical image and diagnostic\n* spam discovery and filtering\n* predictive maintenance\n* ...\n",
+      "dateUpdated": "Apr 9, 2016 2:58:48 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460151987663_-761561919",
+      "id": "20160408-214627_1586863590",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eUse Cases\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eserver failure prediction\u003c/li\u003e\n\u003cli\u003efacial recognition\u003c/li\u003e\n\u003cli\u003espeech recognition\u003c/li\u003e\n\u003cli\u003etext classification\u003c/li\u003e\n\u003cli\u003eself-driving car\u003c/li\u003e\n\u003cli\u003esmart home\u003c/li\u003e\n\u003cli\u003esurveillance and security\u003c/li\u003e\n\u003cli\u003emedical image and diagnostic\u003c/li\u003e\n\u003cli\u003espam discovery and filtering\u003c/li\u003e\n\u003cli\u003epredictive maintenance\u003c/li\u003e\n\u003cli\u003e\u0026hellip;\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Apr 8, 2016 9:46:27 PM",
+      "dateStarted": "Apr 8, 2016 11:42:07 PM",
+      "dateFinished": "Apr 8, 2016 11:42:07 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460158910620_160027867",
+      "id": "20160408-234150_1862008598",
+      "dateCreated": "Apr 8, 2016 11:41:50 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
