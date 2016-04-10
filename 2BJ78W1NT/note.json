@@ -106,76 +106,6 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md \n### Components of Machine Learning\n\n#### problem: unknown target function, ***f***\n* to find out the pattern for approving the credit card that benefit to a bank. A target function ***f***, which maps applicant ***X*** (information about different application) that leads to outcome of ***Y*** (different out comes).\n\n#### training examples, ***D***\n* input: information of each applicant, x: age, salary, exist debts,etc\n* output: out come of each applicant, y: good or bad for bank/late payment/default\n* collected data, ***D***: {(x1, y1), (x2, y2), ... (xn, yn)}\n\n#### hypothesis set, ***H***\n* There is a set of h in ***H***, we like to find a specific h, good skill, hopefully have good performance. We select the best h, we call it ***g***\n* function ***g***, is part of H \u003d {hk}, that can map ***X -\u003e Y*** with good accuracy\n\n#### learning algorithm, ***A***\n* Use data to compute the best hypothesis, ***g***, which approximates to ***f***  \n\n#### target fountion, ***g***  \n* will be used to forecast future applicants.\n\n### Learning Model\nlearning algorithm, ***A*** and hypothesis set, ***H***",
-      "dateUpdated": "Apr 8, 2016 2:20:33 AM",
-      "config": {
-        "colWidth": 6.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/scala",
-        "editorHide": true
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1460081943739_1862455769",
-      "id": "20160408-021903_560249876",
-      "result": {
-        "code": "SUCCESS",
-        "type": "HTML",
-        "msg": "\u003ch3\u003eComponents of Machine Learning\u003c/h3\u003e\n\u003ch4\u003eproblem: unknown target function, \u003cstrong\u003e\u003cem\u003ef\u003c/em\u003e\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003eto find out the pattern for approving the credit card that benefit to a bank. A target function \u003cstrong\u003e\u003cem\u003ef\u003c/em\u003e\u003c/strong\u003e, which maps applicant \u003cstrong\u003e\u003cem\u003eX\u003c/em\u003e\u003c/strong\u003e (information about different application) that leads to outcome of \u003cstrong\u003e\u003cem\u003eY\u003c/em\u003e\u003c/strong\u003e (different out comes).\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003etraining examples, \u003cstrong\u003e\u003cem\u003eD\u003c/em\u003e\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003einput: information of each applicant, x: age, salary, exist debts,etc\u003c/li\u003e\n\u003cli\u003eoutput: out come of each applicant, y: good or bad for bank/late payment/default\u003c/li\u003e\n\u003cli\u003ecollected data, \u003cstrong\u003e\u003cem\u003eD\u003c/em\u003e\u003c/strong\u003e: {(x1, y1), (x2, y2), \u0026hellip; (xn, yn)}\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003ehypothesis set, \u003cstrong\u003e\u003cem\u003eH\u003c/em\u003e\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003eThere is a set of h in \u003cstrong\u003e\u003cem\u003eH\u003c/em\u003e\u003c/strong\u003e, we like to find a specific h, good skill, hopefully have good performance. We select the best h, we call it \u003cstrong\u003e\u003cem\u003eg\u003c/em\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003efunction \u003cstrong\u003e\u003cem\u003eg\u003c/em\u003e\u003c/strong\u003e, is part of H \u003d {hk}, that can map \u003cstrong\u003e\u003cem\u003eX -\u003e Y\u003c/em\u003e\u003c/strong\u003e with good accuracy\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003elearning algorithm, \u003cstrong\u003e\u003cem\u003eA\u003c/em\u003e\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003eUse data to compute the best hypothesis, \u003cstrong\u003e\u003cem\u003eg\u003c/em\u003e\u003c/strong\u003e, which approximates to \u003cstrong\u003e\u003cem\u003ef\u003c/em\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003etarget fountion, \u003cstrong\u003e\u003cem\u003eg\u003c/em\u003e\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003ewill be used to forecast future applicants.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eLearning Model\u003c/h3\u003e\n\u003cp\u003elearning algorithm, \u003cstrong\u003e\u003cem\u003eA\u003c/em\u003e\u003c/strong\u003e and hypothesis set, \u003cstrong\u003e\u003cem\u003eH\u003c/em\u003e\u003c/strong\u003e\u003c/p\u003e\n"
-      },
-      "dateCreated": "Apr 8, 2016 2:19:03 AM",
-      "dateStarted": "Apr 8, 2016 2:20:30 AM",
-      "dateFinished": "Apr 8, 2016 2:20:30 AM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "text": "%md\n![Components of ML][1]   \n\u003c/br\u003e   \n\u003c/br\u003e   \n\u003c/br\u003e   \n      \n        \n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/b338147d26ad9b27d9f165529fc4972f0a6e31aa/2BAJAQBSK/images/practical_definition_ML.png",
-      "dateUpdated": "Apr 8, 2016 2:18:54 AM",
-      "config": {
-        "colWidth": 6.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/scala",
-        "editorHide": true
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1460081891416_1961428182",
-      "id": "20160408-021811_1132659849",
-      "result": {
-        "code": "SUCCESS",
-        "type": "HTML",
-        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/b338147d26ad9b27d9f165529fc4972f0a6e31aa/2BAJAQBSK/images/practical_definition_ML.png\" alt\u003d\"Components of ML\" /\u003e\n\u003cbr  /\u003e\u003c/br\u003e\n\u003cbr  /\u003e\u003c/br\u003e\n\u003cbr  /\u003e\u003c/br\u003e\u003c/p\u003e\n"
-      },
-      "dateCreated": "Apr 8, 2016 2:18:11 AM",
-      "dateStarted": "Apr 8, 2016 2:18:29 AM",
-      "dateFinished": "Apr 8, 2016 2:18:29 AM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
       "text": "%md\n### Why ML?  \n* Increase of data Volume, Variety, Velocity, and Veracity.\n![4v][1]\n   \n* Increase of computing power with dedicate hardware, Deep Learning Supercomputer in a box.  \n  ![dgx1][2]\n    * [MIT\u0027s 168-core chip could give big brains to mobile devices and robots][3].\n    * [Nvidia Tesla P100][4]\n    * A chip startup [Movidius][6] makes low-power chips it calls vision processing units (or VPUs), which can be part of mobile device.\n\n* More machine learning algorithms and theories are developed by researchers.\n* More industry support.\n\n[1]: https://www-01.ibm.com/software/data/bigdata/images/4-Vs-of-big-data.jpg\n[2]: http://images.nvidia.com/content/technologies/deep-learning/images/dgx1-header.jpg\n[3]: http://www.pcworld.com/article/3029972/components-processors/mits-168-core-chip-could-make-mobile-devices-robots-smarter.html\n[4]: https://www.technologyreview.com/s/601195/a-2-billion-chip-to-accelerate-artificial-intelligence/\n[5]: http://www.forbes.com/sites/aarontilley/2016/01/27/google-partners-with-chip-startup-to-take-machine-learning-out-of-the-cloud-and-into-your-pocket/#1760f30933e5  \n[6]: http://www.movidius.com/",
       "dateUpdated": "Apr 8, 2016 4:43:11 PM",
       "config": {
@@ -246,10 +176,92 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n### Computer Language for Big Data and Machine Learning\nThere is a [quora disussion notes][2]\n\nA performace table from [Julia website][3] can be used as reference.\n![julia perfromace table][4]\n\n[1]: http://machinelearningmastery.com/best-programming-language-for-machine-learning/\n[2]: https://www.quora.com/What-is-the-best-language-to-use-while-learning-machine-learning-for-the-first-time\n[3]: http://julialang.org/\n[4]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/edf50ea0c1af465db5172d4439a0183df4763b62/2BJ78W1NT/images/The_Julia_Language.png",
-      "dateUpdated": "Apr 8, 2016 4:42:49 PM",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460213933892_498849697",
+      "id": "20160409-145853_87787074",
+      "dateCreated": "Apr 9, 2016 2:58:53 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n![Components of ML][1]   \n\u003c/br\u003e   \n\u003c/br\u003e   \n\u003c/br\u003e   \n      \n        \n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/b338147d26ad9b27d9f165529fc4972f0a6e31aa/2BAJAQBSK/images/practical_definition_ML.png",
+      "dateUpdated": "Apr 8, 2016 2:18:54 AM",
       "config": {
-        "colWidth": 7.0,
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460081891416_1961428182",
+      "id": "20160408-021811_1132659849",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/b338147d26ad9b27d9f165529fc4972f0a6e31aa/2BAJAQBSK/images/practical_definition_ML.png\" alt\u003d\"Components of ML\" /\u003e\n\u003cbr  /\u003e\u003c/br\u003e\n\u003cbr  /\u003e\u003c/br\u003e\n\u003cbr  /\u003e\u003c/br\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Apr 8, 2016 2:18:11 AM",
+      "dateStarted": "Apr 8, 2016 2:18:29 AM",
+      "dateFinished": "Apr 8, 2016 2:18:29 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md \n### Components of Machine Learning\n\n#### problem: unknown target function, ***f***\n* to find out the pattern for approving the credit card that benefit to a bank. A target function ***f***, which maps applicant ***X*** (information about different application) that leads to outcome of ***Y*** (different out comes).\n\n#### training examples, ***D***\n* input: information of each applicant, x: age, salary, exist debts,etc\n* output: out come of each applicant, y: good or bad for bank/late payment/default\n* collected data, ***D***: {(x1, y1), (x2, y2), ... (xn, yn)}\n\n#### hypothesis set, ***H***\n* There is a set of h in ***H***, we like to find a specific h, good skill, hopefully have good performance. We select the best h, we call it ***g***\n* function ***g***, is part of H \u003d {hk}, that can map ***X -\u003e Y*** with good accuracy\n\n#### learning algorithm, ***A***\n* Use data to compute the best hypothesis, ***g***, which approximates to ***f***  \n\n#### target fountion, ***g***  \n* will be used to forecast future applicants.\n\n### Learning Model\nlearning algorithm, ***A*** and hypothesis set, ***H***",
+      "dateUpdated": "Apr 8, 2016 2:20:33 AM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460081943739_1862455769",
+      "id": "20160408-021903_560249876",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eComponents of Machine Learning\u003c/h3\u003e\n\u003ch4\u003eproblem: unknown target function, \u003cstrong\u003e\u003cem\u003ef\u003c/em\u003e\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003eto find out the pattern for approving the credit card that benefit to a bank. A target function \u003cstrong\u003e\u003cem\u003ef\u003c/em\u003e\u003c/strong\u003e, which maps applicant \u003cstrong\u003e\u003cem\u003eX\u003c/em\u003e\u003c/strong\u003e (information about different application) that leads to outcome of \u003cstrong\u003e\u003cem\u003eY\u003c/em\u003e\u003c/strong\u003e (different out comes).\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003etraining examples, \u003cstrong\u003e\u003cem\u003eD\u003c/em\u003e\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003einput: information of each applicant, x: age, salary, exist debts,etc\u003c/li\u003e\n\u003cli\u003eoutput: out come of each applicant, y: good or bad for bank/late payment/default\u003c/li\u003e\n\u003cli\u003ecollected data, \u003cstrong\u003e\u003cem\u003eD\u003c/em\u003e\u003c/strong\u003e: {(x1, y1), (x2, y2), \u0026hellip; (xn, yn)}\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003ehypothesis set, \u003cstrong\u003e\u003cem\u003eH\u003c/em\u003e\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003eThere is a set of h in \u003cstrong\u003e\u003cem\u003eH\u003c/em\u003e\u003c/strong\u003e, we like to find a specific h, good skill, hopefully have good performance. We select the best h, we call it \u003cstrong\u003e\u003cem\u003eg\u003c/em\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003efunction \u003cstrong\u003e\u003cem\u003eg\u003c/em\u003e\u003c/strong\u003e, is part of H \u003d {hk}, that can map \u003cstrong\u003e\u003cem\u003eX -\u003e Y\u003c/em\u003e\u003c/strong\u003e with good accuracy\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003elearning algorithm, \u003cstrong\u003e\u003cem\u003eA\u003c/em\u003e\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003eUse data to compute the best hypothesis, \u003cstrong\u003e\u003cem\u003eg\u003c/em\u003e\u003c/strong\u003e, which approximates to \u003cstrong\u003e\u003cem\u003ef\u003c/em\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003etarget fountion, \u003cstrong\u003e\u003cem\u003eg\u003c/em\u003e\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003ewill be used to forecast future applicants.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eLearning Model\u003c/h3\u003e\n\u003cp\u003elearning algorithm, \u003cstrong\u003e\u003cem\u003eA\u003c/em\u003e\u003c/strong\u003e and hypothesis set, \u003cstrong\u003e\u003cem\u003eH\u003c/em\u003e\u003c/strong\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Apr 8, 2016 2:19:03 AM",
+      "dateStarted": "Apr 8, 2016 2:20:30 AM",
+      "dateFinished": "Apr 8, 2016 2:20:30 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### Computer Language for Big Data and Machine Learning\nThere is a [quora disussion notes][2]\n\nA performace table from [Julia website][3] can be used as reference.\n![julia perfromace table][4]\n\n[1]: http://machinelearningmastery.com/best-programming-language-for-machine-learning/\n[2]: https://www.quora.com/What-is-the-best-language-to-use-while-learning-machine-learning-for-the-first-time\n[3]: http://julialang.org/\n[4]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/edf50ea0c1af465db5172d4439a0183df4763b62/2BJ78W1NT/images/The_Julia_Language.png",
+      "dateUpdated": "Apr 9, 2016 2:59:43 PM",
+      "config": {
+        "colWidth": 6.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
@@ -309,9 +321,9 @@
     },
     {
       "text": "%md\n### Algorithm\n![sci-learn cheatsheet][1]    \n\u003c/br\u003e\n\n[1]: http://scikit-learn.org/stable/_static/ml_map.png",
-      "dateUpdated": "Apr 8, 2016 4:43:33 PM",
+      "dateUpdated": "Apr 9, 2016 2:59:57 PM",
       "config": {
-        "colWidth": 7.0,
+        "colWidth": 6.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
@@ -344,9 +356,9 @@
     },
     {
       "text": "%md\n![azure algorithm cheat sheet][3]   \n\u003c/br\u003e\n\u003c/br\u003e\n\u003c/br\u003e\n\n[3]: https://acom.azurecomcdn.net/80C57D/cdn/mediahandler/docarticles/dpsmedia-prod/azure.microsoft.com/en-us/documentation/articles/machine-learning-algorithm-cheat-sheet/20160331010724/machine-learning-algorithm-cheat-sheet-small_v_0_6-01.png\n",
-      "dateUpdated": "Apr 8, 2016 4:43:40 PM",
+      "dateUpdated": "Apr 9, 2016 3:00:03 PM",
       "config": {
-        "colWidth": 7.0,
+        "colWidth": 6.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
@@ -526,6 +538,33 @@
       "jobName": "paragraph_1460125656818_-148959666",
       "id": "20160408-142736_405002591",
       "dateCreated": "Apr 8, 2016 2:27:36 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### Learning from Nature\n\n[1]: ",
+      "dateUpdated": "Apr 10, 2016 3:42:48 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460302893773_-1660795101",
+      "id": "20160410-154133_641689297",
+      "dateCreated": "Apr 10, 2016 3:41:33 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     },
@@ -740,8 +779,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n\n![gradient descent for backward propagation][1]\nSee the derivation of formula in [MIT Course Number 6.034 lecture-12][2]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Backpropagation_Algorithm_-_Stanford_University___Coursera_GridentD.png\n[2]: https://www.youtube.com/watch?v\u003dq0pm3BrIUFo",
-      "dateUpdated": "Apr 9, 2016 6:37:19 AM",
+      "text": "%md\n\n![gradient descent for backward propagation][1]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Backpropagation_Algorithm_-_Stanford_University___Coursera_GridentD.png\n",
+      "dateUpdated": "Apr 9, 2016 1:43:06 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -766,11 +805,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Backpropagation_Algorithm_-_Stanford_University___Coursera_GridentD.png\" alt\u003d\"gradient descent for backward propagation\" /\u003e\n\u003cbr  /\u003eSee the derivation of formula in \u003ca href\u003d\"https://www.youtube.com/watch?v\u003dq0pm3BrIUFo\"\u003eMIT Course Number 6.034 lecture-12\u003c/a\u003e\u003c/p\u003e\n"
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Backpropagation_Algorithm_-_Stanford_University___Coursera_GridentD.png\" alt\u003d\"gradient descent for backward propagation\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 8, 2016 4:57:35 PM",
-      "dateStarted": "Apr 9, 2016 6:37:15 AM",
-      "dateFinished": "Apr 9, 2016 6:37:15 AM",
+      "dateStarted": "Apr 9, 2016 1:43:00 PM",
+      "dateFinished": "Apr 9, 2016 1:43:00 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -810,10 +849,10 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n\n[1]: ",
-      "dateUpdated": "Apr 9, 2016 1:29:33 PM",
+      "text": "%md\n### MIT Course Number 6.034 lecture-12\n\nSee the derivation of formula in [MIT Course Number 6.034 lecture-12][0]\n\n![model][1]    \nx1,...xn is input, \nz1,...zn is outpu, which equalvent to y1, ...yn in prof. Ng\u0027s lecture, and (x1, z1) is a pair.\nd is y hat, it is the value calculated based on hypothesis.  \nP is performance, is a cost function. \ny is a2 in prof. Ng\u0027s notes.\n   \n\u003c/br\u003e   \n![find w][2]\nThere is a typo in picture, x and y should be w1 and w2.\n   \n\u003c/br\u003e      \n![x][3]  \nw1 is input layer, consider x is a single variable or a vector.  \nw2 is hiden layer,  \nz is output layer,  \np is error, cost function.  \nThis model is set for proving backpropagation.\n   \n\u003c/br\u003e      \n![y][4]\n   \nThis exercise proves the performance improvement is local dependency, e.g. for \\partial(p/w2) is dependent on (d-z), y, and \\partial(z/p2). \u003c/br\u003e\n\\partial(z/p2) \u003d z*(1-z)\n\n[0]: https://www.youtube.com/watch?v\u003dq0pm3BrIUFo\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/12__Learning__Neural_Nets__Back_Propagation_-0a.png\n[2]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/12__Learning__Neural_Nets__Back_Propagation_-0b.png\n[3]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/12__Learning__Neural_Nets__Back_Propagation_-1.png\n[4]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/12__Learning__Neural_Nets__Back_Propagation_-2.png",
+      "dateUpdated": "Apr 9, 2016 3:46:37 PM",
       "config": {
-        "colWidth": 12.0,
+        "colWidth": 6.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
@@ -824,7 +863,8 @@
           "scatter": {}
         },
         "enabled": true,
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
       },
       "settings": {
         "params": {},
@@ -832,13 +872,20 @@
       },
       "jobName": "paragraph_1460208191761_-1119404103",
       "id": "20160409-132311_1237527276",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eMIT Course Number 6.034 lecture-12\u003c/h3\u003e\n\u003cp\u003eSee the derivation of formula in \u003ca href\u003d\"https://www.youtube.com/watch?v\u003dq0pm3BrIUFo\"\u003eMIT Course Number 6.034 lecture-12\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/12__Learning__Neural_Nets__Back_Propagation_-0a.png\" alt\u003d\"model\" /\u003e\n\u003cbr  /\u003ex1,\u0026hellip;xn is input,\n\u003cbr  /\u003ez1,\u0026hellip;zn is outpu, which equalvent to y1, \u0026hellip;yn in prof. Ng\u0027s lecture, and (x1, z1) is a pair.\n\u003cbr  /\u003ed is y hat, it is the value calculated based on hypothesis.\n\u003cbr  /\u003eP is performance, is a cost function.\n\u003cbr  /\u003ey is a2 in prof. Ng\u0027s notes.\u003c/p\u003e\n\u003cp\u003e\u003c/br\u003e\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/12__Learning__Neural_Nets__Back_Propagation_-0b.png\" alt\u003d\"find w\" /\u003e\n\u003cbr  /\u003eThere is a typo in picture, x and y should be w1 and w2.\u003c/p\u003e\n\u003cp\u003e\u003c/br\u003e\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/12__Learning__Neural_Nets__Back_Propagation_-1.png\" alt\u003d\"x\" /\u003e\n\u003cbr  /\u003ew1 is input layer, consider x is a single variable or a vector.\n\u003cbr  /\u003ew2 is hiden layer,\n\u003cbr  /\u003ez is output layer,\n\u003cbr  /\u003ep is error, cost function.\n\u003cbr  /\u003eThis model is set for proving backpropagation.\u003c/p\u003e\n\u003cp\u003e\u003c/br\u003e\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/12__Learning__Neural_Nets__Back_Propagation_-2.png\" alt\u003d\"y\" /\u003e\u003c/p\u003e\n\u003cp\u003eThis exercise proves the performance improvement is local dependency, e.g. for \\partial(p/w2) is dependent on (d-z), y, and \\partial(z/p2). \u003c/br\u003e\n\u003cbr  /\u003e\\partial(z/p2) \u003d z*(1-z)\u003c/p\u003e\n"
+      },
       "dateCreated": "Apr 9, 2016 1:23:11 PM",
-      "status": "READY",
+      "dateStarted": "Apr 9, 2016 3:46:35 PM",
+      "dateFinished": "Apr 9, 2016 3:46:35 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n### Use Cases\n\n* server failure prediction\n* facial recognition\n* speech recognition\n* text classification\n* self-driving car\n* smart home\n* surveillance and security\n* medical image and diagnostic\n* spam discovery and filtering\n* predictive maintenance\n* ...\n",
-      "dateUpdated": "Apr 9, 2016 2:58:48 AM",
+      "text": "%md\n### Use Cases\n\n* equipment failure prediction\n* facial recognition\n* speech recognition\n* text classification\n* self-driving car\n* smart home\n* surveillance and security\n* medical image and diagnostic\n* spam discovery and filtering\n* predictive maintenance\n* ...\n",
+      "dateUpdated": "Apr 9, 2016 3:47:06 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -863,11 +910,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch3\u003eUse Cases\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eserver failure prediction\u003c/li\u003e\n\u003cli\u003efacial recognition\u003c/li\u003e\n\u003cli\u003espeech recognition\u003c/li\u003e\n\u003cli\u003etext classification\u003c/li\u003e\n\u003cli\u003eself-driving car\u003c/li\u003e\n\u003cli\u003esmart home\u003c/li\u003e\n\u003cli\u003esurveillance and security\u003c/li\u003e\n\u003cli\u003emedical image and diagnostic\u003c/li\u003e\n\u003cli\u003espam discovery and filtering\u003c/li\u003e\n\u003cli\u003epredictive maintenance\u003c/li\u003e\n\u003cli\u003e\u0026hellip;\u003c/li\u003e\n\u003c/ul\u003e\n"
+        "msg": "\u003ch3\u003eUse Cases\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eequipment failure prediction\u003c/li\u003e\n\u003cli\u003efacial recognition\u003c/li\u003e\n\u003cli\u003espeech recognition\u003c/li\u003e\n\u003cli\u003etext classification\u003c/li\u003e\n\u003cli\u003eself-driving car\u003c/li\u003e\n\u003cli\u003esmart home\u003c/li\u003e\n\u003cli\u003esurveillance and security\u003c/li\u003e\n\u003cli\u003emedical image and diagnostic\u003c/li\u003e\n\u003cli\u003espam discovery and filtering\u003c/li\u003e\n\u003cli\u003epredictive maintenance\u003c/li\u003e\n\u003cli\u003e\u0026hellip;\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Apr 8, 2016 9:46:27 PM",
-      "dateStarted": "Apr 8, 2016 11:42:07 PM",
-      "dateFinished": "Apr 8, 2016 11:42:07 PM",
+      "dateStarted": "Apr 9, 2016 3:47:05 PM",
+      "dateFinished": "Apr 9, 2016 3:47:05 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
