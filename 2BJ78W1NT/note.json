@@ -542,33 +542,6 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n### Learning from Nature\n\n[1]: ",
-      "dateUpdated": "Apr 10, 2016 3:42:48 PM",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/markdown"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1460302893773_-1660795101",
-      "id": "20160410-154133_641689297",
-      "dateCreated": "Apr 10, 2016 3:41:33 PM",
-      "status": "READY",
-      "progressUpdateIntervalMs": 500
-    },
-    {
       "text": "%md\n### Neural Network\n![Neural][1]\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Model_Representation_I_-_Stanford_University___Coursera-neuronbrain.png",
       "dateUpdated": "Apr 8, 2016 5:26:29 PM",
       "config": {
@@ -600,6 +573,41 @@
       "dateCreated": "Apr 8, 2016 4:08:30 PM",
       "dateStarted": "Apr 8, 2016 4:14:32 PM",
       "dateFinished": "Apr 8, 2016 4:14:32 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### Learning from Nature\n\n![neural network][1]\n![airplane bio][2]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Lecture_10_-_Neural_Networks_-_YouTube-bio1.png\n[2]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Lecture_10_-_Neural_Networks_-_YouTube-bio2.png",
+      "dateUpdated": "Apr 10, 2016 3:53:34 PM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460302893773_-1660795101",
+      "id": "20160410-154133_641689297",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eLearning from Nature\u003c/h3\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Lecture_10_-_Neural_Networks_-_YouTube-bio1.png\" alt\u003d\"neural network\" /\u003e\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Lecture_10_-_Neural_Networks_-_YouTube-bio2.png\" alt\u003d\"airplane bio\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Apr 10, 2016 3:41:33 PM",
+      "dateStarted": "Apr 10, 2016 3:52:58 PM",
+      "dateFinished": "Apr 10, 2016 3:52:58 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
