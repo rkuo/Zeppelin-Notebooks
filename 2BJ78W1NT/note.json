@@ -106,8 +106,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n### Why ML?  \n* Increase of data Volume, Variety, Velocity, and Veracity.\n![4v][1]\n   \n* Increase of computing power with dedicate hardware, Deep Learning Supercomputer in a box.  \n  ![dgx1][2]\n    * [MIT\u0027s 168-core chip could give big brains to mobile devices and robots][3].\n    * [Nvidia Tesla P100][4]\n    * A chip startup [Movidius][6] makes low-power chips it calls vision processing units (or VPUs), which can be part of mobile device.\n\n* More machine learning algorithms and theories are developed by researchers.\n* More industry support.\n\n[1]: https://www-01.ibm.com/software/data/bigdata/images/4-Vs-of-big-data.jpg\n[2]: http://images.nvidia.com/content/technologies/deep-learning/images/dgx1-header.jpg\n[3]: http://www.pcworld.com/article/3029972/components-processors/mits-168-core-chip-could-make-mobile-devices-robots-smarter.html\n[4]: https://www.technologyreview.com/s/601195/a-2-billion-chip-to-accelerate-artificial-intelligence/\n[5]: http://www.forbes.com/sites/aarontilley/2016/01/27/google-partners-with-chip-startup-to-take-machine-learning-out-of-the-cloud-and-into-your-pocket/#1760f30933e5  \n[6]: http://www.movidius.com/",
-      "dateUpdated": "Apr 8, 2016 4:43:11 PM",
+      "text": "%md\n### Why ML?  \n* Increase of data Volume, Variety, Velocity, and Veracity.\n![4v][1]\n   \n* Increase of computing power with dedicate hardware, Deep Learning Supercomputer in a box.  \n  ![dgx1][2]\n    * [MIT\u0027s 168-core chip could give big brains to mobile devices and robots][3].\n    * [Nvidia Tesla P100][4] ![tesla p100][7]\n    * A chip startup [Movidius][6] makes low-power chips it calls vision processing units (or VPUs), which can be part of mobile device.\n\n* More machine learning algorithms and theories are developed by researchers.\n* More industry support.\n\n[1]: https://www-01.ibm.com/software/data/bigdata/images/4-Vs-of-big-data.jpg\n[2]: http://images.nvidia.com/content/technologies/deep-learning/images/dgx1-header.jpg\n[3]: http://www.pcworld.com/article/3029972/components-processors/mits-168-core-chip-could-make-mobile-devices-robots-smarter.html\n[4]: https://www.technologyreview.com/s/601195/a-2-billion-chip-to-accelerate-artificial-intelligence/\n[5]: http://www.forbes.com/sites/aarontilley/2016/01/27/google-partners-with-chip-startup-to-take-machine-learning-out-of-the-cloud-and-into-your-pocket/#1760f30933e5  \n[6]: http://www.movidius.com/\n[7]: http://www.digitimes.com/NewsShow/20160408PD205_files/1_r.jpg",
+      "dateUpdated": "Apr 10, 2016 4:21:54 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -132,11 +132,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch3\u003eWhy ML?\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cp\u003eIncrease of data Volume, Variety, Velocity, and Veracity.\n\u003cbr  /\u003e\u003cimg src\u003d\"https://www-01.ibm.com/software/data/bigdata/images/4-Vs-of-big-data.jpg\" alt\u003d\"4v\" /\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eIncrease of computing power with dedicate hardware, Deep Learning Supercomputer in a box.\n\u003cbr  /\u003e\u003cimg src\u003d\"http://images.nvidia.com/content/technologies/deep-learning/images/dgx1-header.jpg\" alt\u003d\"dgx1\" /\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"http://www.pcworld.com/article/3029972/components-processors/mits-168-core-chip-could-make-mobile-devices-robots-smarter.html\"\u003eMIT\u0027s 168-core chip could give big brains to mobile devices and robots\u003c/a\u003e.\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://www.technologyreview.com/s/601195/a-2-billion-chip-to-accelerate-artificial-intelligence/\"\u003eNvidia Tesla P100\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eA chip startup \u003ca href\u003d\"http://www.movidius.com/\"\u003eMovidius\u003c/a\u003e makes low-power chips it calls vision processing units (or VPUs), which can be part of mobile device.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eMore machine learning algorithms and theories are developed by researchers.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eMore industry support.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n"
+        "msg": "\u003ch3\u003eWhy ML?\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cp\u003eIncrease of data Volume, Variety, Velocity, and Veracity.\n\u003cbr  /\u003e\u003cimg src\u003d\"https://www-01.ibm.com/software/data/bigdata/images/4-Vs-of-big-data.jpg\" alt\u003d\"4v\" /\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eIncrease of computing power with dedicate hardware, Deep Learning Supercomputer in a box.\n\u003cbr  /\u003e\u003cimg src\u003d\"http://images.nvidia.com/content/technologies/deep-learning/images/dgx1-header.jpg\" alt\u003d\"dgx1\" /\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"http://www.pcworld.com/article/3029972/components-processors/mits-168-core-chip-could-make-mobile-devices-robots-smarter.html\"\u003eMIT\u0027s 168-core chip could give big brains to mobile devices and robots\u003c/a\u003e.\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://www.technologyreview.com/s/601195/a-2-billion-chip-to-accelerate-artificial-intelligence/\"\u003eNvidia Tesla P100\u003c/a\u003e \u003cimg src\u003d\"http://www.digitimes.com/NewsShow/20160408PD205_files/1_r.jpg\" alt\u003d\"tesla p100\" /\u003e\u003c/li\u003e\n\u003cli\u003eA chip startup \u003ca href\u003d\"http://www.movidius.com/\"\u003eMovidius\u003c/a\u003e makes low-power chips it calls vision processing units (or VPUs), which can be part of mobile device.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eMore machine learning algorithms and theories are developed by researchers.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eMore industry support.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Apr 6, 2016 6:18:28 PM",
-      "dateStarted": "Apr 8, 2016 1:51:52 AM",
-      "dateFinished": "Apr 8, 2016 1:51:52 AM",
+      "dateStarted": "Apr 10, 2016 4:20:34 PM",
+      "dateFinished": "Apr 10, 2016 4:20:34 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -889,6 +889,33 @@
       "dateStarted": "Apr 9, 2016 3:46:35 PM",
       "dateFinished": "Apr 9, 2016 3:46:35 PM",
       "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### Caltech ",
+      "dateUpdated": "Apr 10, 2016 4:23:10 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460305352805_674956343",
+      "id": "20160410-162232_1505696264",
+      "dateCreated": "Apr 10, 2016 4:22:32 PM",
+      "status": "READY",
       "progressUpdateIntervalMs": 500
     },
     {
