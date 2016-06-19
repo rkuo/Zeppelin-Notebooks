@@ -1,8 +1,8 @@
 {
   "paragraphs": [
     {
-      "text": "%md\n[video]\n\n[data source]: https://archive.ics.uci.edu/ml/machine-learning-databases/20newsgroups-mld/\n[video]: https://www.youtube.com/watch?v\u003dRiuee7qxdX4",
-      "dateUpdated": "Apr 14, 2016 4:08:14 PM",
+      "text": "%pyspark\na \u003d 1 + 1\nprint(a)",
+      "dateUpdated": "Apr 14, 2016 8:13:43 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -15,28 +15,28 @@
           "scatter": {}
         },
         "enabled": true,
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/scala"
       },
       "settings": {
         "params": {},
         "forms": {}
       },
-      "jobName": "paragraph_1436862746988_1311171746",
-      "id": "20150714-013226_2010423626",
+      "jobName": "paragraph_1460664762565_-825232267",
+      "id": "20160414-201242_1199690230",
       "result": {
         "code": "SUCCESS",
-        "type": "HTML",
-        "msg": "\u003cp\u003e\u003ca href\u003d\"https://www.youtube.com/watch?v\u003dRiuee7qxdX4\"\u003evideo\u003c/a\u003e\u003c/p\u003e\n"
+        "type": "TEXT",
+        "msg": "2\n"
       },
-      "dateCreated": "Jul 14, 2015 1:32:26 AM",
-      "dateStarted": "Jul 15, 2015 2:30:22 AM",
-      "dateFinished": "Jul 15, 2015 2:30:22 AM",
+      "dateCreated": "Apr 14, 2016 8:12:42 PM",
+      "dateStarted": "Apr 14, 2016 8:13:43 PM",
+      "dateFinished": "Apr 14, 2016 8:13:43 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sh \npwd\n# this is in zeppelin docker",
-      "dateUpdated": "Apr 14, 2016 8:12:12 PM",
+      "text": "",
+      "dateUpdated": "Apr 14, 2016 8:36:46 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -49,23 +49,22 @@
           "scatter": {}
         },
         "enabled": true,
-        "editorMode": "ace/mode/sh",
-        "editorHide": false
+        "editorMode": "ace/mode/scala"
       },
       "settings": {
         "params": {},
         "forms": {}
       },
-      "jobName": "paragraph_1436862911698_-906122486",
-      "id": "20150714-013511_656421174",
+      "jobName": "paragraph_1460664788957_2114680051",
+      "id": "20160414-201308_1112705394",
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "/zeppelin\n"
+        "msg": ""
       },
-      "dateCreated": "Jul 14, 2015 1:35:11 AM",
-      "dateStarted": "Apr 14, 2016 8:12:12 PM",
-      "dateFinished": "Apr 14, 2016 8:12:12 PM",
+      "dateCreated": "Apr 14, 2016 8:13:08 PM",
+      "dateStarted": "Apr 14, 2016 8:36:46 PM",
+      "dateFinished": "Apr 14, 2016 8:36:46 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -75,15 +74,15 @@
         "params": {},
         "forms": {}
       },
-      "jobName": "paragraph_1460650184395_2038535793",
-      "id": "20160414-160944_1498508680",
-      "dateCreated": "Apr 14, 2016 4:09:44 PM",
+      "jobName": "paragraph_1460666169253_925346225",
+      "id": "20160414-203609_1592884654",
+      "dateCreated": "Apr 14, 2016 8:36:09 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
   ],
-  "name": "DF-20newsgroups",
-  "id": "2AS8N5GZQ",
+  "name": "Neuron Networks Demystified",
+  "id": "2BGZ99VUX",
   "angularObjects": {
     "2BAKJY5HP": [],
     "2BA4ZT9KA": [],
@@ -101,8 +100,6 @@
     "2BBYH3GSG": [],
     "2BB3B14B6": []
   },
-  "config": {
-    "looknfeel": "default"
-  },
+  "config": {},
   "info": {}
 }

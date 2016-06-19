@@ -1,0 +1,746 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md\n\n# Everyone Plays: Collaborative Data Science with Apache Zeppelin\n*trevor grant, aka @rawkintrevo*\n\n\n_",
+      "dateUpdated": "May 11, 2016 11:52:14 AM",
+      "config": {
+        "colWidth": 8.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "graph": {
+          "mode": "table",
+          "height": 87.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1462992734768_-465022426",
+      "id": "20160422-113846_252676000",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch1\u003eEveryone Plays: Collaborative Data Science with Apache Zeppelin\u003c/h1\u003e\n\u003cp\u003e\u003cem\u003etrevor grant, aka @rawkintrevo\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003e_\u003c/p\u003e\n"
+      },
+      "dateCreated": "May 11, 2016 11:52:14 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "about the author",
+      "text": "%md\n\n__*trevor grant*__\n*r\u0026d data scientist at market6*\n*trevor.d.grant@gmail.com*\n*@rawkintrevo*\n*[http://github.com/rawkintrevo](http://github.com/rawkintrevo)*",
+      "dateUpdated": "May 11, 2016 11:52:14 AM",
+      "config": {
+        "colWidth": 4.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "title": true,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1462992734769_-465407175",
+      "id": "20160422-114016_1287710326",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cstrong\u003e\u003cem\u003etrevor grant\u003c/em\u003e\u003c/strong\u003e\n\u003cbr  /\u003e\u003cem\u003er\u0026amp;d data scientist at market6\u003c/em\u003e\n\u003cbr  /\u003e\u003cem\u003etrevor.d.grant@gmail.com\u003c/em\u003e\n\u003cbr  /\u003e\u003cem\u003e@rawkintrevo\u003c/em\u003e\n\u003cbr  /\u003e\u003cem\u003e\u003ca href\u003d\"http://github.com/rawkintrevo\"\u003ehttp://github.com/rawkintrevo\u003c/a\u003e\u003c/em\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "May 11, 2016 11:52:14 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n## Overview\n\n##### Prologue\n\n#### Chapter 1. Collaboration Among Apache Products\n\n#### Chapter 2. Intra-Organizational Collaboration\n\n#### Chapter 3. Usecasing",
+      "dateUpdated": "May 11, 2016 11:52:14 AM",
+      "config": {
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "title": false,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1462992734769_-465407175",
+      "id": "20160422-114205_265679647",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch2\u003eOverview\u003c/h2\u003e\n\u003ch5\u003ePrologue\u003c/h5\u003e\n\u003ch4\u003eChapter 1. Collaboration Among Apache Products\u003c/h4\u003e\n\u003ch4\u003eChapter 2. Intra-Organizational Collaboration\u003c/h4\u003e\n\u003ch4\u003eChapter 3. Usecasing\u003c/h4\u003e\n"
+      },
+      "dateCreated": "May 11, 2016 11:52:14 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Prologue...",
+      "text": "%md\n\n## What *is* Apache Zeppelin?!\n\n- Paragraph-Web based interpretter for a whole galaxy of Big Data Products\n- Dynamic forms and \u0027pre built\u0027 visualizations for data exploration.\n- Extendable!\n    - Integration with AngularJS for pretty demos (beyond prepackaged).\n    - Connects to non-Apache products via JDBC interpretter (or home-brew your own)\n- `ResourcePool` allows for variable sharing between interpreters\n- Version control built in\n- And more...",
+      "dateUpdated": "May 11, 2016 11:52:14 AM",
+      "config": {
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "title": true,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1462992734769_-465407175",
+      "id": "20160422-114414_2114001232",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch2\u003eWhat \u003cem\u003eis\u003c/em\u003e Apache Zeppelin?!\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eParagraph-Web based interpretter for a whole galaxy of Big Data Products\u003c/li\u003e\n\u003cli\u003eDynamic forms and \u0027pre built\u0027 visualizations for data exploration.\u003c/li\u003e\n\u003cli\u003eExtendable!\u003cul\u003e\n\u003cli\u003eIntegration with AngularJS for pretty demos (beyond prepackaged).\u003c/li\u003e\n\u003cli\u003eConnects to non-Apache products via JDBC interpretter (or home-brew your own)\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003eResourcePool\u003c/code\u003e allows for variable sharing between interpreters\u003c/li\u003e\n\u003cli\u003eVersion control built in\u003c/li\u003e\n\u003cli\u003eAnd more\u0026hellip;\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "May 11, 2016 11:52:14 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\nHello World!",
+      "dateUpdated": "May 11, 2016 11:52:14 AM",
+      "config": {
+        "colWidth": 4.0,
+        "editorMode": "ace/mode/markdown",
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1462992734769_-465407175",
+      "id": "20160422-115026_448983249",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eHello World!\u003c/p\u003e\n"
+      },
+      "dateCreated": "May 11, 2016 11:52:14 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark\n\nprintln(\"hello Spark\")",
+      "dateUpdated": "May 11, 2016 11:52:14 AM",
+      "config": {
+        "colWidth": 4.0,
+        "editorMode": "ace/mode/scala",
+        "tableHide": false,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1462992734769_-465407175",
+      "id": "20160422-115528_1481602958",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "hello Spark\n"
+      },
+      "dateCreated": "May 11, 2016 11:52:14 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%flink\n\nprintln(\"hello Flink\")",
+      "dateUpdated": "May 11, 2016 11:52:14 AM",
+      "config": {
+        "colWidth": 4.0,
+        "editorMode": "ace/mode/scala",
+        "tableHide": false,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1462992734769_-465407175",
+      "id": "20160422-115604_336866583",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "hello Flink\n"
+      },
+      "dateCreated": "May 11, 2016 11:52:14 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sql\n\nshow tables",
+      "dateUpdated": "May 11, 2016 11:52:14 AM",
+      "config": {
+        "colWidth": 4.0,
+        "editorMode": "ace/mode/sql",
+        "tableHide": true,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [
+            {
+              "name": "tableName",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "isTemporary",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
+          "groups": [],
+          "scatter": {
+            "xAxis": {
+              "name": "tableName",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "isTemporary",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1462992734770_-464252928",
+      "id": "20160422-115628_982297488",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "tableName\tisTemporary\n"
+      },
+      "dateCreated": "May 11, 2016 11:52:14 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\n\nprint \"Hi world.\"",
+      "dateUpdated": "May 11, 2016 11:52:14 AM",
+      "config": {
+        "colWidth": 4.0,
+        "editorMode": "ace/mode/python",
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1462992734770_-464252928",
+      "id": "20160423-113357_1522363245",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "Hi world.\n"
+      },
+      "dateCreated": "May 11, 2016 11:52:14 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%r\n\nprint(\"hello, world.\") #need to upgrade R and install dependencies..",
+      "dateUpdated": "May 11, 2016 11:52:14 AM",
+      "config": {
+        "colWidth": 4.0,
+        "editorMode": "ace/mode/scala",
+        "tableHide": true,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1462992734770_-464252928",
+      "id": "20160423-113429_1509632745",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "java.lang.RuntimeException: Error in library(\"knitr\"): there is no package called ‘knitr’\n\n\tat org.apache.zeppelin.spark.ZeppelinR.request(ZeppelinR.java:254)\n\tat org.apache.zeppelin.spark.ZeppelinR.eval(ZeppelinR.java:179)\n\tat org.apache.zeppelin.spark.SparkRInterpreter.open(SparkRInterpreter.java:111)\n\tat org.apache.zeppelin.interpreter.ClassloaderInterpreter.open(ClassloaderInterpreter.java:74)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.open(LazyOpenInterpreter.java:68)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.interpret(LazyOpenInterpreter.java:92)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:345)\n\tat org.apache.zeppelin.scheduler.Job.run(Job.java:176)\n\tat org.apache.zeppelin.scheduler.FIFOScheduler$1.run(FIFOScheduler.java:139)\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:262)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\tat java.lang.Thread.run(Thread.java:745)\n"
+      },
+      "dateCreated": "May 11, 2016 11:52:14 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n\n## Dynamic Forms can do lots of cool things, but basically this\n\n`Hello ",
+      "dateUpdated": "May 11, 2016 11:52:14 AM",
+      "config": {
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1462992734770_-464252928",
+      "id": "20160425-085544_674234949",
+      "dateCreated": "May 11, 2016 11:52:14 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md \n\n## Zeppelin `ResourcePool` for sharing objects between interpreters",
+      "dateUpdated": "May 11, 2016 11:52:14 AM",
+      "config": {
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1462992734770_-464252928",
+      "id": "20160422-181923_811496485",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch2\u003eZeppelin \u003ccode\u003eResourcePool\u003c/code\u003e for sharing objects between interpreters\u003c/h2\u003e\n"
+      },
+      "dateCreated": "May 11, 2016 11:52:14 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Flink accesses the resourcePool",
+      "text": "%flink\n// for flink we have to declare declare the resource pool\nimport org.apache.zeppelin.interpreter.InterpreterContext\n\nval resourcePool \u003d InterpreterContext.get().getResourcePool()",
+      "dateUpdated": "May 11, 2016 11:52:14 AM",
+      "config": {
+        "tableHide": true,
+        "colWidth": 4.0,
+        "editorMode": "ace/mode/scala",
+        "title": true,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1462992734771_-464637677",
+      "id": "20160422-120033_449495135",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "import org.apache.zeppelin.interpreter.InterpreterContext\nresourcePool: org.apache.zeppelin.resource.ResourcePool \u003d org.apache.zeppelin.resource.DistributedResourcePool@6322c4ef\n"
+      },
+      "dateCreated": "May 11, 2016 11:52:14 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Flink puts something in the resourcePool",
+      "text": "%flink\n// Put a variable in the resource pool\nval foo \u003d \"bar\"\nresourcePool.put(\"foo\", \"bar\")",
+      "dateUpdated": "May 11, 2016 11:52:14 AM",
+      "config": {
+        "colWidth": 4.0,
+        "editorMode": "ace/mode/scala",
+        "title": true,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1462992734771_-464637677",
+      "id": "20160422-122440_1548253589",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "foo: String \u003d bar\n"
+      },
+      "dateCreated": "May 11, 2016 11:52:14 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Spark fishes it out of the resourcePool",
+      "text": "%spark\n\n// Spark has some built in wrapper. Let\u0027s get \"foo\" from the resource pool \nprintln(\"foo is: \"+ z.get(\"foo\"))",
+      "dateUpdated": "May 11, 2016 11:52:14 AM",
+      "config": {
+        "colWidth": 4.0,
+        "editorMode": "ace/mode/scala",
+        "title": true,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1462992734771_-464637677",
+      "id": "20160422-122605_65082483",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "foo is: bar\n"
+      },
+      "dateCreated": "May 11, 2016 11:52:14 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark\n\nz.put(\"foo2\", List(1,2,3))\n\n\n",
+      "dateUpdated": "May 11, 2016 11:52:14 AM",
+      "config": {
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/scala",
+        "tableHide": false,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1462992734771_-464637677",
+      "id": "20160422-181637_1234238046",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
+      "dateCreated": "May 11, 2016 11:52:14 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%flink\n\nval foo2 \u003d resourcePool.get(\"foo2\").get();\nprintln(\"foo2 is: \" + foo2)",
+      "dateUpdated": "May 11, 2016 11:52:14 AM",
+      "config": {
+        "colWidth": 6.0,
+        "editorMode": "ace/mode/scala",
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1462992734771_-464637677",
+      "id": "20160422-181401_902830897",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "foo2: Object \u003d List(1, 2, 3)\nfoo2 is: List(1, 2, 3)\n"
+      },
+      "dateCreated": "May 11, 2016 11:52:14 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Scala to Python as well.",
+      "text": "%pyspark\n\nprint \"foo: \", z.get(\"foo\"), \",foo2: \", z.get(\"foo2\")",
+      "dateUpdated": "May 11, 2016 11:52:14 AM",
+      "config": {
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/python",
+        "title": true,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1462992734771_-464637677",
+      "id": "20160423-115506_1619759829",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "foo:  bar ,foo2:  List(1, 2, 3)\n"
+      },
+      "dateCreated": "May 11, 2016 11:52:14 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n## Build in Version Control\n\nClick the little button at the top.\n\nThrough clever use of shell `%sh` interpretter and notebook scheduling could auto-commit nightly.",
+      "dateUpdated": "May 11, 2016 11:52:14 AM",
+      "config": {
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1462992734771_-464637677",
+      "id": "20160423-095556_1862629220",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch2\u003eBuild in Version Control\u003c/h2\u003e\n\u003cp\u003eClick the little button at the top.\u003c/p\u003e\n\u003cp\u003eThrough clever use of shell \u003ccode\u003e%sh\u003c/code\u003e interpretter and notebook scheduling could auto-commit nightly.\u003c/p\u003e\n"
+      },
+      "dateCreated": "May 11, 2016 11:52:14 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n#Collaboratoin Among Apache Products\n",
+      "dateUpdated": "May 11, 2016 11:52:14 AM",
+      "config": {
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1462992734771_-464637677",
+      "id": "20160423-101350_339462392",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch1\u003eCollaboratoin Among Apache Products\u003c/h1\u003e\n"
+      },
+      "dateCreated": "May 11, 2016 11:52:14 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "dateUpdated": "May 11, 2016 11:52:14 AM",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1462992734771_-464637677",
+      "id": "20160423-112836_1324431413",
+      "dateCreated": "May 11, 2016 11:52:14 AM",
+      "status": "READY",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "ApacheCon2016",
+  "id": "2BKPTP8XN",
+  "angularObjects": {
+    "2BJNWTGVX:shared_process": [],
+    "2BHQR9UME:shared_process": [],
+    "2BKZJ4SRP:shared_process": [],
+    "2BME5YFFH:shared_process": [],
+    "2BN58QNE3:shared_process": [],
+    "2BKB225AF:shared_process": [],
+    "2BK2WJSB5:shared_process": [],
+    "2BJUP28CV:shared_process": [],
+    "2BM3A9BK4:shared_process": [],
+    "2BJ14398P:shared_process": [],
+    "2BN46FG7A:shared_process": [],
+    "2BJEPGMRU:shared_process": [],
+    "2BM6T2CVF:shared_process": [],
+    "2BK1W54BQ:shared_process": [],
+    "2BMYC3FF3:shared_process": [],
+    "2BKZFCDHR:shared_process": [],
+    "2BJSW731A:shared_process": [],
+    "2BJDU2EXK:shared_process": []
+  },
+  "config": {},
+  "info": {}
+}

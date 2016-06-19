@@ -36,7 +36,8 @@
     },
     {
       "text": "%flink\nprintln(\"hello world!\")",
-      "dateUpdated": "Feb 8, 2016 7:08:42 AM",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 6, 2016 5:17:35 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -63,8 +64,78 @@
         "msg": "hello world!\n"
       },
       "dateCreated": "Jul 29, 2015 3:51:03 AM",
-      "dateStarted": "Feb 8, 2016 7:08:42 AM",
-      "dateFinished": "Feb 8, 2016 7:08:53 AM",
+      "dateStarted": "Jun 6, 2016 5:17:35 PM",
+      "dateFinished": "Jun 6, 2016 5:17:41 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "sc.version",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 6, 2016 5:17:27 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1462986477152_1482939656",
+      "id": "20160511-100757_1438027072",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "res0: String \u003d 1.6.1\n"
+      },
+      "dateCreated": "May 11, 2016 10:07:57 AM",
+      "dateStarted": "Jun 6, 2016 5:17:27 PM",
+      "dateFinished": "Jun 6, 2016 5:17:28 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%flink  // let Zeppelin know what interpretter to use. \n\nval text \u003d env.fromElements(\"In the time of chimpanzees, I was a monkey\",   // some lines of text to analyze\n\"Butane in my veins and I\u0027m out to cut the junkie\",\n\"With the plastic eyeballs, spray paint the vegetables\",\n\"Dog food stalls with the beefcake pantyhose\",\n\"Kill the headlights and put it in neutral\",\n\"Stock car flamin\u0027 with a loser in the cruise control\",\n\"Baby\u0027s in Reno with the Vitamin D\",\n\"Got a couple of couches, sleep on the love seat\",\n\"Someone came in sayin\u0027 I\u0027m insane to complain\",\n\"About a shotgun wedding and a stain on my shirt\",\n\"Don\u0027t believe everything that you breathe\",\n\"You get a parking violation and a maggot on your sleeve\",\n\"So shave your face with some mace in the dark\",\n\"Savin\u0027 all your food stamps and burnin\u0027 down the trailer park\",\n\"Yo, cut it\")\n\n/*  The meat and potatoes:\n        this tells flink to iterate through the elements, in this case strings,\n        transform the string to lower case and split the string at white space into individual words\n        then finally aggregate the occurance of each word. \n        \n        This creates the count variable which is a list of tuples of the form (word, occurances)\n*/\nval counts \u003d text.flatMap{ _.toLowerCase.split(\"\\\\W+\") }.map { (_,1) }.groupBy(0).sum(1)\n\ncounts.collect().foreach(println(_))  // execute the script and print each element in the counts list\n",
+      "authenticationInfo": {},
+      "dateUpdated": "May 11, 2016 9:39:50 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1454919523695_-452479016",
+      "id": "20160208-081843_17175686",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "text: org.apache.flink.api.scala.DataSet[String] \u003d org.apache.flink.api.scala.DataSet@15c887d1\ncounts: org.apache.flink.api.scala.AggregateDataSet[(String, Int)] \u003d org.apache.flink.api.scala.AggregateDataSet@37ad1c06\n(a,7)\n(about,1)\n(all,1)\n(and,5)\n(baby,1)\n(beefcake,1)\n(believe,1)\n(breathe,1)\n(burnin,1)\n(butane,1)\n(came,1)\n(car,1)\n(chimpanzees,1)\n(complain,1)\n(control,1)\n(couches,1)\n(couple,1)\n(cruise,1)\n(cut,2)\n(d,1)\n(dark,1)\n(dog,1)\n(don,1)\n(down,1)\n(everything,1)\n(eyeballs,1)\n(face,1)\n(flamin,1)\n(food,2)\n(get,1)\n(got,1)\n(headlights,1)\n(i,3)\n(in,7)\n(insane,1)\n(it,2)\n(junkie,1)\n(kill,1)\n(loser,1)\n(love,1)\n(m,2)\n(mace,1)\n(maggot,1)\n(monkey,1)\n(my,2)\n(neutral,1)\n(of,2)\n(on,3)\n(out,1)\n(paint,1)\n(pantyhose,1)\n(park,1)\n(parking,1)\n(plastic,1)\n(put,1)\n(reno,1)\n(s,1)\n(savin,1)\n(sayin,1)\n(seat,1)\n(shave,1)\n(shirt,1)\n(shotgun,1)\n(sleep,1)\n(sleeve,1)\n(so,1)\n(some,1)\n(someone,1)\n(spray,1)\n(stain,1)\n(stalls,1)\n(stamps,1)\n(stock,1)\n(t,1)\n(that,1)\n(the,11)\n(time,1)\n(to,2)\n(trailer,1)\n(vegetables,1)\n(veins,1)\n(violation,1)\n(vitamin,1)\n(was,1)\n(wedding,1)\n(with,5)\n(yo,1)\n(you,2)\n(your,3)\n"
+      },
+      "dateCreated": "Feb 8, 2016 8:18:43 AM",
+      "dateStarted": "May 11, 2016 9:39:50 AM",
+      "dateFinished": "May 11, 2016 9:39:52 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -74,9 +145,9 @@
         "params": {},
         "forms": {}
       },
-      "jobName": "paragraph_1454919523695_-452479016",
-      "id": "20160208-081843_17175686",
-      "dateCreated": "Feb 8, 2016 8:18:43 AM",
+      "jobName": "paragraph_1462944574984_-977715469",
+      "id": "20160511-052934_1040841031",
+      "dateCreated": "May 11, 2016 5:29:34 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
@@ -84,21 +155,24 @@
   "name": "Apache Flink",
   "id": "2AV6GVZFG",
   "angularObjects": {
-    "2BAKJY5HP": [],
-    "2BA4ZT9KA": [],
-    "2BAJHP13K": [],
-    "2BA4FS6H4": [],
-    "2BATJ7JXT": [],
-    "2BDD5JNQA": [],
-    "2BA4VB3HF": [],
-    "2BAVVBSJR": [],
-    "2BCD6QS1M": [],
-    "2BBZ5KHWK": [],
-    "2BAH52SQH": [],
-    "2BAG4DA48": [],
-    "2BBPA417C": [],
-    "2BBYH3GSG": [],
-    "2BB3B14B6": []
+    "2BJNWTGVX:shared_process": [],
+    "2BHQR9UME:shared_process": [],
+    "2BKZJ4SRP:shared_process": [],
+    "2BME5YFFH:shared_process": [],
+    "2BN58QNE3:shared_process": [],
+    "2BKB225AF:shared_process": [],
+    "2BK2WJSB5:shared_process": [],
+    "2BJUP28CV:shared_process": [],
+    "2BM3A9BK4:shared_process": [],
+    "2BJ14398P:shared_process": [],
+    "2BN46FG7A:shared_process": [],
+    "2BJEPGMRU:shared_process": [],
+    "2BM6T2CVF:shared_process": [],
+    "2BK1W54BQ:shared_process": [],
+    "2BMYC3FF3:shared_process": [],
+    "2BKZFCDHR:shared_process": [],
+    "2BJSW731A:shared_process": [],
+    "2BJDU2EXK:shared_process": []
   },
   "config": {
     "looknfeel": "default"

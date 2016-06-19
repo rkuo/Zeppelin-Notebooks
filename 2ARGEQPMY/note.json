@@ -35,7 +35,8 @@
     },
     {
       "text": "sc.version",
-      "dateUpdated": "Feb 8, 2016 6:16:45 AM",
+      "authenticationInfo": {},
+      "dateUpdated": "May 26, 2016 7:50:02 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -59,12 +60,47 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "res6: String \u003d 1.6.0\n"
+        "msg": "res0: String \u003d 1.6.1\n"
       },
       "dateCreated": "Feb 8, 2016 6:16:33 AM",
-      "dateStarted": "Feb 8, 2016 6:16:45 AM",
-      "dateFinished": "Feb 8, 2016 6:16:45 AM",
+      "dateStarted": "May 26, 2016 7:50:02 PM",
+      "dateFinished": "May 26, 2016 7:50:11 PM",
       "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%flink",
+      "authenticationInfo": {},
+      "dateUpdated": "May 26, 2016 7:50:57 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1464317425479_2136338640",
+      "id": "20160526-195025_1692532556",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "\u003cconsole\u003e:28: error: not found: value %\n              %flink\n              ^\n"
+      },
+      "dateCreated": "May 26, 2016 7:50:25 PM",
+      "dateStarted": "May 26, 2016 7:50:57 PM",
+      "dateFinished": "May 26, 2016 7:50:57 PM",
+      "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },
     {
@@ -312,27 +348,24 @@
   "name": "AngularDisplay",
   "id": "2ARGEQPMY",
   "angularObjects": {
-    "2BAKJY5HP": [],
-    "2BA4ZT9KA": [],
-    "2BAJHP13K": [],
-    "2BA4FS6H4": [],
-    "2BATJ7JXT": [],
-    "2BDD5JNQA": [],
-    "2BA4VB3HF": [],
-    "2BAVVBSJR": [
-      {
-        "name": "name",
-        "object": "Zeppelin",
-        "noteId": "2ARGEQPMY"
-      }
-    ],
-    "2BCD6QS1M": [],
-    "2BBZ5KHWK": [],
-    "2BAH52SQH": [],
-    "2BAG4DA48": [],
-    "2BBPA417C": [],
-    "2BBYH3GSG": [],
-    "2BB3B14B6": []
+    "2BJNWTGVX:shared_process": [],
+    "2BHQR9UME:shared_process": [],
+    "2BKZJ4SRP:shared_process": [],
+    "2BME5YFFH:shared_process": [],
+    "2BN58QNE3:shared_process": [],
+    "2BKB225AF:shared_process": [],
+    "2BK2WJSB5:shared_process": [],
+    "2BJUP28CV:shared_process": [],
+    "2BM3A9BK4:shared_process": [],
+    "2BJ14398P:shared_process": [],
+    "2BN46FG7A:shared_process": [],
+    "2BJEPGMRU:shared_process": [],
+    "2BM6T2CVF:shared_process": [],
+    "2BK1W54BQ:shared_process": [],
+    "2BMYC3FF3:shared_process": [],
+    "2BKZFCDHR:shared_process": [],
+    "2BJSW731A:shared_process": [],
+    "2BJDU2EXK:shared_process": []
   },
   "config": {
     "looknfeel": "default"

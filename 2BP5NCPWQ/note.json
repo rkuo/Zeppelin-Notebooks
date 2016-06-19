@@ -1,0 +1,683 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md\n# Scala \n\nThis study note is based on the book [Scala for the Impatient][2] and [Programming Scala-First Edition][1]; also see [First Step in Scala for First Time Programmers][3]\n\n[1]:https://www.amazon.com/Programming-Scala-Updated-2-12/dp/0981531687/ref\u003dsr_1_1?s\u003dbooks\u0026ie\u003dUTF8\u0026qid\u003d1466181835\u0026sr\u003d1-1\u0026keywords\u003dscala+programming\n[2]:https://www.amazon.com/Scala-Impatient-Cay-S-Horstmann/dp/0321774094/ref\u003dsr_1_1?s\u003dbooks\u0026ie\u003dUTF8\u0026qid\u003d1466182192\u0026sr\u003d1-1\u0026keywords\u003dscala+impatient\n[3]:http://bcomposes.com/2011/08/22/first-steps-in-scala-for-first-time-programmers-part-1/",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 17, 2016 10:23:31 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466181571251_771249663",
+      "id": "20160617-093931_529811073",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch1\u003eScala\u003c/h1\u003e\n\u003cp\u003eThis study note is based on the book \u003ca href\u003d\"https://www.amazon.com/Scala-Impatient-Cay-S-Horstmann/dp/0321774094/ref\u003dsr_1_1?s\u003dbooks\u0026amp;ie\u003dUTF8\u0026amp;qid\u003d1466182192\u0026amp;sr\u003d1-1\u0026amp;keywords\u003dscala+impatient\"\u003eScala for the Impatient\u003c/a\u003e and \u003ca href\u003d\"https://www.amazon.com/Programming-Scala-Updated-2-12/dp/0981531687/ref\u003dsr_1_1?s\u003dbooks\u0026amp;ie\u003dUTF8\u0026amp;qid\u003d1466181835\u0026amp;sr\u003d1-1\u0026amp;keywords\u003dscala+programming\"\u003eProgramming Scala-First Edition\u003c/a\u003e; also see \u003ca href\u003d\"http://bcomposes.com/2011/08/22/first-steps-in-scala-for-first-time-programmers-part-1/\"\u003eFirst Step in Scala for First Time Programmers\u003c/a\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 17, 2016 9:39:31 AM",
+      "dateStarted": "Jun 17, 2016 10:23:31 AM",
+      "dateFinished": "Jun 17, 2016 10:23:31 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "1.1 Scala Interpreter",
+      "text": "%md\nSince Zeppelin supports Scala in default, there is not additional interpreter flag (%) is needed. We can use it as Read-Eval-Print-Loop (REPL) out of box.",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 17, 2016 10:45:50 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "title": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466182262765_1260601526",
+      "id": "20160617-095102_718414910",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eSince Zeppelin supports Scala in default, there is not additional ?? is needed. We can use it as Read-Eval-Print-Loop (REPL) out of box.\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 17, 2016 9:51:02 AM",
+      "dateStarted": "Jun 17, 2016 9:58:20 AM",
+      "dateFinished": "Jun 17, 2016 9:58:20 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "8 * 5 + 2",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 17, 2016 9:58:52 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466182712898_686968275",
+      "id": "20160617-095832_105071488",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "res265: Int \u003d 42\n"
+      },
+      "dateCreated": "Jun 17, 2016 9:58:32 AM",
+      "dateStarted": "Jun 17, 2016 9:58:52 AM",
+      "dateFinished": "Jun 17, 2016 9:58:52 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "0.5 * res265 ",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 17, 2016 10:03:42 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466182975341_-1884913369",
+      "id": "20160617-100255_647248168",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "res267: Double \u003d 21.0\n"
+      },
+      "dateCreated": "Jun 17, 2016 10:02:55 AM",
+      "dateStarted": "Jun 17, 2016 10:03:42 AM",
+      "dateFinished": "Jun 17, 2016 10:03:42 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "\"Hello, \" + res265",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 17, 2016 10:05:31 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466183027556_-466436119",
+      "id": "20160617-100347_1361603513",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "res271: String \u003d Hello, 42\n"
+      },
+      "dateCreated": "Jun 17, 2016 10:03:47 AM",
+      "dateStarted": "Jun 17, 2016 10:05:31 AM",
+      "dateFinished": "Jun 17, 2016 10:05:31 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\nThe interpreter automatically convert 42 value to String and display the type of result: String. Zeppelin also includes a _tab completion_, use key `ctnl+.`. We can try by typing `res265.to` then hit \u0027cntl+.`. We will get a list of choices such as `toString`, `toShort`, `toLong`,... we can use upper-arrow or down-arrow key to select the choice then hit enter key.",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 17, 2016 10:30:42 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466183168984_421011028",
+      "id": "20160617-100608_807857905",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eThe interpreter automatically convert 42 value to String and display the type of result: String. Zeppelin also includes a \u003cem\u003etab completion\u003c/em\u003e, use key \u003ccode\u003ectnl+.\u003c/code\u003e. We can try by typing \u003ccode\u003eres265.to\u003c/code\u003e then hit \u0027cntl+.\u003ccode\u003e. We will get a list of choices such as\u003c/code\u003etoString\u003ccode\u003e,\u003c/code\u003etoShort\u003ccode\u003e,\u003c/code\u003etoLong`,\u0026hellip;\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 17, 2016 10:06:08 AM",
+      "dateStarted": "Jun 17, 2016 10:29:09 AM",
+      "dateFinished": "Jun 17, 2016 10:29:09 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "// put cursor after `to` then hit `cntl+.` to see choices.\nres265.to",
+      "dateUpdated": "Jun 17, 2016 10:39:45 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466184389913_409586744",
+      "id": "20160617-102629_1399349947",
+      "dateCreated": "Jun 17, 2016 10:26:29 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "1.2 Declaring Values and Variables",
+      "text": "%md\nInstead accepting system generate name, `res0`, `res1`, `res2`,..., we can define our own names.",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 17, 2016 11:11:03 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466185560988_-1742463807",
+      "id": "20160617-104600_619261351",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eInstead accepting system generate name, \u003ccode\u003eres0\u003c/code\u003e, \u003ccode\u003eres1\u003c/code\u003e, \u003ccode\u003eres2\u003c/code\u003e,\u0026hellip;, we can define our own names.\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 17, 2016 10:46:00 AM",
+      "dateStarted": "Jun 17, 2016 10:49:45 AM",
+      "dateFinished": "Jun 17, 2016 10:49:45 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "val answer \u003d 8 * 5 + 2",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 17, 2016 10:51:54 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466185885957_-721449140",
+      "id": "20160617-105125_1625251218",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "answer: Int \u003d 42\n"
+      },
+      "dateCreated": "Jun 17, 2016 10:51:25 AM",
+      "dateStarted": "Jun 17, 2016 10:51:54 AM",
+      "dateFinished": "Jun 17, 2016 10:51:54 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "0.5 * answer",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 17, 2016 10:54:11 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466186019885_-1551151658",
+      "id": "20160617-105339_452629584",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "res274: Double \u003d 21.0\n"
+      },
+      "dateCreated": "Jun 17, 2016 10:53:39 AM",
+      "dateStarted": "Jun 17, 2016 10:54:11 AM",
+      "dateFinished": "Jun 17, 2016 10:54:11 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md \nValue declared with `val` is constant, which cannot be changed. We will get error message, if we do.",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 17, 2016 11:13:46 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466186069366_1096766893",
+      "id": "20160617-105429_1337139170",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eValue declared with \u003ccode\u003eval\u003c/code\u003e is constant, which cannot be changed. We will get error message, if we do.\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 17, 2016 10:54:29 AM",
+      "dateStarted": "Jun 17, 2016 11:13:45 AM",
+      "dateFinished": "Jun 17, 2016 11:13:45 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "answer \u003d 0",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 17, 2016 11:08:51 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466186916204_-1860063463",
+      "id": "20160617-110836_1719595458",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "\u003cconsole\u003e:29: error: reassignment to val\n         answer \u003d 0\n                ^\n"
+      },
+      "dateCreated": "Jun 17, 2016 11:08:36 AM",
+      "dateStarted": "Jun 17, 2016 11:08:51 AM",
+      "dateFinished": "Jun 17, 2016 11:08:51 AM",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\nWe can declare a name to hold the value as variable.",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 17, 2016 11:13:41 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466186958155_-1929056109",
+      "id": "20160617-110918_1524054169",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eWe can declare a name to hold the value as variable.\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 17, 2016 11:09:18 AM",
+      "dateStarted": "Jun 17, 2016 11:13:39 AM",
+      "dateFinished": "Jun 17, 2016 11:13:39 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "// this is ok\nvar counter \u003d 0\nvar counter \u003d 1\n",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 17, 2016 11:20:40 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466187056103_1214127866",
+      "id": "20160617-111056_974555977",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "counter: Int \u003d 0\ncounter: Int \u003d 1\n"
+      },
+      "dateCreated": "Jun 17, 2016 11:10:56 AM",
+      "dateStarted": "Jun 17, 2016 11:20:40 AM",
+      "dateFinished": "Jun 17, 2016 11:20:40 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\nWe do not need to specify the type of variable or value. The type is inferred from the expression of initialization. We can also initialize several variables/values at the same time. Different from Java, Scala declares the type after the name of variable/value. ",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 17, 2016 11:20:44 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466187280926_-280334264",
+      "id": "20160617-111440_1523052836",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eWe do not need to specify the type of variable or value. The type is inferred from the expression of initialization. We can also initialize several variables/values at the same time. Different from Java, Scala declares the type after the name of variable/value.\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 17, 2016 11:14:40 AM",
+      "dateStarted": "Jun 17, 2016 11:20:43 AM",
+      "dateFinished": "Jun 17, 2016 11:20:43 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "1.3 Commonly Used Types",
+      "text": "%md\nScala has seven different numeric types: Byte, Char, Short, Int, Long, Float, Double, and Boolean type. In Scala, type is class. We can call its methods on numbers. ",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 17, 2016 11:28:06 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466187663656_-679584318",
+      "id": "20160617-112103_588117930",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eScala has seven different numeric types: Byte, Char, Short, Int, Long, Float, Double, and Boolean type. In Scala, type is class. We can call its methods on numbers.\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 17, 2016 11:21:03 AM",
+      "dateStarted": "Jun 17, 2016 11:28:04 AM",
+      "dateFinished": "Jun 17, 2016 11:28:04 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "1.toString // yields a string \"1\"\n1.to(10)   // yields a range (1,2,3,...10)",
+      "dateUpdated": "Jun 17, 2016 7:35:02 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466188089464_590701664",
+      "id": "20160617-112809_492116530",
+      "dateCreated": "Jun 17, 2016 11:28:09 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "(1 to 4).map(_+3)\n        .filter(_\u003e5)\n        .foldRight(2)(_+_)",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 17, 2016 7:36:26 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466217131026_169416343",
+      "id": "20160617-193211_1895329098",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "res287: Int \u003d 15\n"
+      },
+      "dateCreated": "Jun 17, 2016 7:32:11 PM",
+      "dateStarted": "Jun 17, 2016 7:36:26 PM",
+      "dateFinished": "Jun 17, 2016 7:36:26 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Chapter 2 - Control Structure and Function",
+      "dateUpdated": "Jun 17, 2016 9:54:22 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466182398483_800658024",
+      "id": "20160617-095318_684837004",
+      "dateCreated": "Jun 17, 2016 9:53:18 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "Scala",
+  "id": "2BP5NCPWQ",
+  "angularObjects": {
+    "2BJNWTGVX:shared_process": [],
+    "2BHQR9UME:shared_process": [],
+    "2BKZJ4SRP:shared_process": [],
+    "2BME5YFFH:shared_process": [],
+    "2BN58QNE3:shared_process": [],
+    "2BKB225AF:shared_process": [],
+    "2BK2WJSB5:shared_process": [],
+    "2BJUP28CV:shared_process": [],
+    "2BM3A9BK4:shared_process": [],
+    "2BJ14398P:shared_process": [],
+    "2BN46FG7A:shared_process": [],
+    "2BJEPGMRU:shared_process": [],
+    "2BM6T2CVF:shared_process": [],
+    "2BK1W54BQ:shared_process": [],
+    "2BMYC3FF3:shared_process": [],
+    "2BKZFCDHR:shared_process": [],
+    "2BJSW731A:shared_process": [],
+    "2BJDU2EXK:shared_process": []
+  },
+  "config": {},
+  "info": {}
+}

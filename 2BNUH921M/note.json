@@ -1,0 +1,519 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md\n# Functional Programming - Function Composition\n\nmore description [here][1]\n[1]:https://en.wikipedia.org/wiki/Function_composition",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 17, 2016 9:00:16 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466107397735_1142374544",
+      "id": "20160616-130317_1939425602",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch1\u003eFunctional Programming - Function Composition\u003c/h1\u003e\n\u003cp\u003emore description \u003ca href\u003d\"https://en.wikipedia.org/wiki/Function_composition\"\u003ehere\u003c/a\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 16, 2016 1:03:17 PM",
+      "dateStarted": "Jun 16, 2016 4:54:45 PM",
+      "dateFinished": "Jun 16, 2016 4:54:45 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Input Data ",
+      "text": "val ls \u003d List(1,2,3,4)      //this is good for numbers are not in sequence\nval ls0 \u003d (1 to 4).toList   //this is good for numbers are in sequence, and long list",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 16, 2016 4:55:50 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466023315955_2098350783",
+      "id": "20160615-134155_1577991203",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "ls: List[Int] \u003d List(1, 2, 3, 4)\nls0: List[Int] \u003d List(1, 2, 3, 4)\n"
+      },
+      "dateCreated": "Jun 15, 2016 1:41:55 PM",
+      "dateStarted": "Jun 16, 2016 2:01:14 PM",
+      "dateFinished": "Jun 16, 2016 2:01:14 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Functions",
+      "text": "// Functions \u003c- this really a method\ndef f(x:Int): Int \u003d {\n    x+1\n}   //f provides a service: to transform input value 2 with function f\n\nf(2)\n\ndef g(x:Int) : Int \u003d {\n    x*2\n}\n\ng(2) //transform input value 2 with a different function g",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 17, 2016 9:03:50 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466022836867_-718869320",
+      "id": "20160615-133356_1343909027",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "f: (x: Int)Int\nres356: Int \u003d 3\ng: (x: Int)Int\nres357: Int \u003d 4\n"
+      },
+      "dateCreated": "Jun 15, 2016 1:33:56 PM",
+      "dateStarted": "Jun 17, 2016 9:03:50 PM",
+      "dateFinished": "Jun 17, 2016 9:03:50 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Method vs Function",
+      "text": "// method vs function\n// http://jim-mcbeath.blogspot.com/2009/05/scala-functions-vs-methods.html\n\ndef m1(x:Int) \u003d x+3       //method\nm1(2)\nval f1 \u003d (x:Int) \u003d\u003e x+3   //function\nf1(2)\nval f2 \u003d m1 _             //reuse method\nf2(2)",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 17, 2016 9:04:07 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466060018998_-899062392",
+      "id": "20160615-235338_480909490",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "m1: (x: Int)Int\nres365: Int \u003d 5\nf1: Int \u003d\u003e Int \u003d \u003cfunction1\u003e\nres366: Int \u003d 5\nf2: Int \u003d\u003e Int \u003d \u003cfunction1\u003e\nres367: Int \u003d 5\n"
+      },
+      "dateCreated": "Jun 15, 2016 11:53:38 PM",
+      "dateStarted": "Jun 17, 2016 9:04:07 PM",
+      "dateFinished": "Jun 17, 2016 9:04:07 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Filter",
+      "text": "val ls1 \u003d ls.filter(e \u003d\u003e e \u003e 2)\n\nval fIG2 \u003d (e:Int) \u003d\u003e e \u003e 2   //rule function - Integer Greater than 2\nval ls11 \u003d ls filter(fIG2)",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 17, 2016 10:20:20 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466043326967_1138084364",
+      "id": "20160615-191526_1908517464",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "ls1: List[Int] \u003d List(3, 4)\nfIG2: Int \u003d\u003e Boolean \u003d \u003cfunction1\u003e\nls11: List[Int] \u003d List(3, 4)\n"
+      },
+      "dateCreated": "Jun 15, 2016 7:15:26 PM",
+      "dateStarted": "Jun 17, 2016 10:20:20 PM",
+      "dateFinished": "Jun 17, 2016 10:20:20 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Map and Composition",
+      "text": "// functional composition\n// http://twitter.github.io/scala_school/pattern-matching-and-functional-composition.html\n// http://bcomposes.com/2011/08/20/fun-with-function-composition-in-scala/\n// https://www.youtube.com/watch?v\u003dAvgwKjTPMmM%\n\nval ls2 \u003d ls.map(x \u003d\u003e f(g(x)))   //1 * 2 + 1 \u003d 3\nval ls3 \u003d ls.map(x \u003d\u003e g(f(x)))   //(1 + 1) * 2 \u003d 4\n\nval fComposeG \u003d f _ compose g    //compose function, f is a method, so need _\nval fAndThenG \u003d f _ andThen g    //chaining\n\nval ls4 \u003d ls.map((f _ andThen g)(_))   \nval ls5 \u003d ls.map(fAndThenG)\nval ls6 \u003d ls.map(fComposeG)\nval ls7 \u003d ls map fComposeG\nval ls8 \u003d ls map g map f\nval ls9 \u003d ls map f map g\nval ls15 \u003d ls filter fG2 map f map g     //3, 4 andThen + 1 andThen * 2\n\n// define functions\nval ff \u003d (x:Int) \u003d\u003e {x + 1}\nval fg \u003d (x:Int) \u003d\u003e {x * 2}\n\nval ffComposeFg \u003d ff compose fg    //compose function, ff is a function, no need for _\n\nval ls10 \u003d ls map ffComposeFg \n\n// always use val for defining function!!! \n\nval fncs \u003d List(ff, fg)                                 //transformation list\nval ls12 \u003d ls map ( fncs.reverse reduce (_ compose _) ) //andThen\nval ls12 \u003d ls map ( fncs reduce (_ andThen _) )         //andThen\nval ls13 \u003d ls map ( fncs reduce (_ compose _) )         //compose",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 18, 2016 2:43:12 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466043538442_1438757440",
+      "id": "20160615-191858_71143756",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "ls2: List[Int] \u003d List(3, 5, 7, 9)\nls3: List[Int] \u003d List(4, 6, 8, 10)\nfComposeG: Int \u003d\u003e Int \u003d \u003cfunction1\u003e\nfAndThenG: Int \u003d\u003e Int \u003d \u003cfunction1\u003e\nls4: List[Int] \u003d List(4, 6, 8, 10)\nls5: List[Int] \u003d List(4, 6, 8, 10)\nls6: List[Int] \u003d List(3, 5, 7, 9)\nls7: List[Int] \u003d List(3, 5, 7, 9)\nls8: List[Int] \u003d List(3, 5, 7, 9)\nls9: List[Int] \u003d List(4, 6, 8, 10)\nls15: List[Int] \u003d List(8, 10)\nff: Int \u003d\u003e Int \u003d \u003cfunction1\u003e\nfg: Int \u003d\u003e Int \u003d \u003cfunction1\u003e\nffComposeFg: Int \u003d\u003e Int \u003d \u003cfunction1\u003e\nls10: List[Int] \u003d List(3, 5, 7, 9)\nfncs: List[Int \u003d\u003e Int] \u003d List(\u003cfunction1\u003e, \u003cfunction1\u003e)\nls12: List[Int] \u003d List(4, 6, 8, 10)\nls12: List[Int] \u003d List(4, 6, 8, 10)\nls13: List[Int] \u003d List(3, 5, 7, 9)\n"
+      },
+      "dateCreated": "Jun 15, 2016 7:18:58 PM",
+      "dateStarted": "Jun 18, 2016 2:43:12 AM",
+      "dateFinished": "Jun 18, 2016 2:43:14 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Chaining ",
+      "text": "%md\ncompare to `val ls15 \u003d ls filter fIG2 map f map g     //3, 4 andThen + 1 andThen * 2`\nThere is a good [discussion on stackoverflow][1].\n\nThe best comments are the ones that explain why the code does something. Well-written code should make the \"how\" obvious from the code itself.\n\n[1]: http://stackoverflow.com/questions/6137430/documenting-scala-functional-chains?rq\u003d1",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 17, 2016 10:34:35 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466114078968_479652222",
+      "id": "20160616-145438_174511099",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003ecompare to \u003ccode\u003eval ls15 \u003d ls filter fIG2 map f map g     //3, 4 andThen + 1 andThen * 2\u003c/code\u003e\n\u003cbr  /\u003eThere is a good \u003ca href\u003d\"http://stackoverflow.com/questions/6137430/documenting-scala-functional-chains?rq\u003d1\"\u003ediscussion on stackoverflow\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eThe best comments are the ones that explain why the code does something. Well-written code should make the \u0026ldquo;how\u0026rdquo; obvious from the code itself.\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 16, 2016 2:54:38 PM",
+      "dateStarted": "Jun 17, 2016 10:34:35 PM",
+      "dateFinished": "Jun 17, 2016 10:34:35 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "(1 to 4).filter(_ \u003e 2)  //Vector(3, 4)\n        .map(_ + 1)     //Vector(4, 5)\n        .map(_ * 2)     //Vector(8, 10)\n\n// use defined functions     \nfIG2\nff\nfg\nffComposeFg\n\n(1 to 4).filter(fIG2).map(ff).map(fg)\n(1 to 4).filter(fIG2).map(fg).map(ff)\n(1 to 4).filter(fIG2).map(ffComposeFg)",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 17, 2016 10:29:35 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466227763034_-1944242067",
+      "id": "20160617-222923_2024418526",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "res373: scala.collection.immutable.IndexedSeq[Int] \u003d Vector(8, 10)\nres374: Int \u003d\u003e Boolean \u003d \u003cfunction1\u003e\nres375: Int \u003d\u003e Int \u003d \u003cfunction1\u003e\nres376: Int \u003d\u003e Int \u003d \u003cfunction1\u003e\nres377: Int \u003d\u003e Int \u003d \u003cfunction1\u003e\nres378: scala.collection.immutable.IndexedSeq[Int] \u003d Vector(8, 10)\nres379: scala.collection.immutable.IndexedSeq[Int] \u003d Vector(7, 9)\nres380: scala.collection.immutable.IndexedSeq[Int] \u003d Vector(7, 9)\n"
+      },
+      "dateCreated": "Jun 17, 2016 10:29:23 PM",
+      "dateStarted": "Jun 17, 2016 10:29:35 PM",
+      "dateFinished": "Jun 17, 2016 10:29:36 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "foldLeft and foldRight",
+      "text": "%md\n![foldLeft and foldRight][1]\n\n[1]:https://joelneely.files.wordpress.com/2008/04/foldlfoldr1.jpg?w\u003d398\u0026h\u003d200",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 17, 2016 8:59:15 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466069313121_835568575",
+      "id": "20160616-022833_1121475708",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://joelneely.files.wordpress.com/2008/04/foldlfoldr1.jpg?w\u003d398\u0026amp;h\u003d200\" alt\u003d\"foldLeft and foldRight\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 16, 2016 2:28:33 AM",
+      "dateStarted": "Jun 17, 2016 8:59:08 PM",
+      "dateFinished": "Jun 17, 2016 8:59:08 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Fold vs For Loop",
+      "text": "%md\n![foldLft and foldRight][1]\nfrom [here][2]\n[1]:http://cdn-ak.f.st-hatena.com/images/fotolife/t/tototoshi/20121223/20121223021039.jpg\n[2]:http://tototoshi.hatenablog.com/entry/20121223/1356197321",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 16, 2016 2:01:14 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466070130378_-114615068",
+      "id": "20160616-024210_964396837",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"http://cdn-ak.f.st-hatena.com/images/fotolife/t/tototoshi/20121223/20121223021039.jpg\" alt\u003d\"foldLft and foldRight\" /\u003e\n\u003cbr  /\u003efrom \u003ca href\u003d\"http://tototoshi.hatenablog.com/entry/20121223/1356197321\"\u003ehere\u003c/a\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 16, 2016 2:42:10 AM",
+      "dateStarted": "Jun 16, 2016 2:01:14 PM",
+      "dateFinished": "Jun 16, 2016 2:01:14 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "// http://www.nurkiewicz.com/2012/04/secret-powers-of-foldleft-in-scala.html\n\nval s4 \u003d ls.foldLeft(0)((r, c) \u003d\u003e (r + c))  \nval s5 \u003d ls.foldLeft(0)(_ + _)     // 0 + 1 + 2 + 3 + 4\nval s6 \u003d ls.foldLeft(1)(_ * _)     // 1 * 1 * 2 * 3 * 4\nval s14 \u003d ls.foldRight(0)(_ + _)   // 0 + 4 + 3 + 2 + 1\n",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 16, 2016 2:01:14 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466043630587_-889019378",
+      "id": "20160615-192030_277074341",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "s4: Int \u003d 10\ns5: Int \u003d 10\ns6: Int \u003d 24\ns14: Int \u003d 10\n"
+      },
+      "dateCreated": "Jun 15, 2016 7:20:30 PM",
+      "dateStarted": "Jun 16, 2016 2:01:15 PM",
+      "dateFinished": "Jun 16, 2016 2:01:15 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Reduce",
+      "text": "%md\nIf op for each node is different, then we can use `reduce`.\n\n![reduce][1]\n\nreduce(((val1 op1 val2) op2 val3) op3 val4)\n[1]:http://thecannycoder.files.wordpress.com/2014/08/foldleft.jpg?w\u003d272\u0026h\u003d300",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 16, 2016 2:52:23 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": false,
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466057219476_-1259754880",
+      "id": "20160615-230659_1792046463",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eIf op for each node is different, then use \u003ccode\u003ereduce\u003c/code\u003e.\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"http://thecannycoder.files.wordpress.com/2014/08/foldleft.jpg?w\u003d272\u0026amp;h\u003d300\" alt\u003d\"reduce\" /\u003e\u003c/p\u003e\n\u003cp\u003ereduce(((val1 op1 val2) op2 val3) op3 val4)\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 15, 2016 11:06:59 PM",
+      "dateStarted": "Jun 16, 2016 2:01:14 PM",
+      "dateFinished": "Jun 16, 2016 2:01:14 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "\nls\nls.reduce((r,c) \u003d\u003e r + c)\nList(1,2).reduce(_ + _)\nList(1,2).reduce(_ * _) \n\nval op1 \u003d (x:Int, y:Int) \u003d\u003e { x * 3 + y }   // define a computation function\n(1 to 2).reduce(op1)  // 1 * 3 + 2 \u003d 5\n(1 to 3).reduce(op1)  // 5 * 3 + 3 \u003d 18",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 18, 2016 3:00:24 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466090741568_-1171798750",
+      "id": "20160616-082541_1050029786",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "res412: List[Int] \u003d List(1, 2, 3, 4)\nres413: Int \u003d 10\nres414: Int \u003d 3\nres415: Int \u003d 2\nop1: (Int, Int) \u003d\u003e Int \u003d \u003cfunction2\u003e\nres416: Int \u003d 5\nres417: Int \u003d 18\n"
+      },
+      "dateCreated": "Jun 16, 2016 8:25:41 AM",
+      "dateStarted": "Jun 18, 2016 2:59:01 AM",
+      "dateFinished": "Jun 18, 2016 2:59:01 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466243178204_952064536",
+      "id": "20160618-024618_618071845",
+      "dateCreated": "Jun 18, 2016 2:46:18 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "Functional Programming - Function Composition",
+  "id": "2BNUH921M",
+  "angularObjects": {
+    "2BJNWTGVX:shared_process": [],
+    "2BHQR9UME:shared_process": [],
+    "2BKZJ4SRP:shared_process": [],
+    "2BME5YFFH:shared_process": [],
+    "2BN58QNE3:shared_process": [],
+    "2BKB225AF:shared_process": [],
+    "2BK2WJSB5:shared_process": [],
+    "2BJUP28CV:shared_process": [],
+    "2BM3A9BK4:shared_process": [],
+    "2BJ14398P:shared_process": [],
+    "2BN46FG7A:shared_process": [],
+    "2BJEPGMRU:shared_process": [],
+    "2BM6T2CVF:shared_process": [],
+    "2BK1W54BQ:shared_process": [],
+    "2BMYC3FF3:shared_process": [],
+    "2BKZFCDHR:shared_process": [],
+    "2BJSW731A:shared_process": [],
+    "2BJDU2EXK:shared_process": []
+  },
+  "config": {
+    "looknfeel": "default"
+  },
+  "info": {}
+}

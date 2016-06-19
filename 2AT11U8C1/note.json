@@ -1,8 +1,8 @@
 {
   "paragraphs": [
     {
-      "text": "%md\n# Learning Spark\nBased on O\u0027reilly book -  Learning Spark\n\n### Preparation  \n* optional download example [code][1]\n* install docker or run Zeppelin on your laptop \n* run Zeppelin container and download this notebook\n\n[1]:https://github.com/databricks/learning-spark",
-      "dateUpdated": "Dec 21, 2015 6:43:47 AM",
+      "text": "%md\n# Learning Spark\nBased on O\u0027reilly book -  Learning Spark\n\n### Preparation  \n* optional download example [code][1]\n* install docker and run Zeppelin container (use dylanmei/zeppelin)\n\n[1]: https://github.com/databricks/learning-spark\n[2]: ",
+      "dateUpdated": "Apr 13, 2016 11:33:27 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -15,7 +15,8 @@
           "scatter": {}
         },
         "editorHide": false,
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "enabled": true
       },
       "settings": {
         "params": {},
@@ -26,11 +27,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch1\u003eLearning Spark\u003c/h1\u003e\n\u003cp\u003eBased on O\u0027reilly book -  Learning Spark\u003c/p\u003e\n\u003ch3\u003ePreparation\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eexample \u003ca href\u003d\"https://github.com/databricks/learning-spark\"\u003ecode\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003einstall docker or run Zeppelin on your laptop\u003c/li\u003e\n\u003cli\u003erun Zeppelin container and download this notebook\u003c/li\u003e\n\u003c/ul\u003e\n"
+        "msg": "\u003ch1\u003eLearning Spark\u003c/h1\u003e\n\u003cp\u003eBased on O\u0027reilly book -  Learning Spark\u003c/p\u003e\n\u003ch3\u003ePreparation\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eoptional download example \u003ca href\u003d\"https://github.com/databricks/learning-spark\"\u003ecode\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003einstall docker or run Zeppelin on your laptop\u003c/li\u003e\n\u003cli\u003erun Zeppelin container and download this notebook (use dylanmei/zeppelin)\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Jun 12, 2015 2:01:17 PM",
-      "dateStarted": "Dec 21, 2015 6:42:39 AM",
-      "dateFinished": "Dec 21, 2015 6:42:39 AM",
+      "dateStarted": "Apr 12, 2016 7:02:40 PM",
+      "dateFinished": "Apr 12, 2016 7:02:40 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -68,14 +69,82 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "sc.version",
+      "dateUpdated": "Apr 13, 2016 12:18:54 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1450679736413_2052195143",
       "id": "20151221-063536_143749967",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "res0: String \u003d 1.6.0\n"
+      },
       "dateCreated": "Dec 21, 2015 6:35:36 AM",
+      "dateStarted": "Apr 13, 2016 12:18:54 AM",
+      "dateFinished": "Apr 13, 2016 12:19:24 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\na \u003d 1 + 1\nprint(a)",
+      "dateUpdated": "Apr 14, 2016 3:29:51 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460506734876_-1977537305",
+      "id": "20160413-001854_421024121",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
+      "dateCreated": "Apr 13, 2016 12:18:54 AM",
+      "dateStarted": "Apr 14, 2016 3:29:31 PM",
+      "dateFinished": "Apr 14, 2016 3:29:31 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460590689952_-1437215139",
+      "id": "20160413-233809_11367660",
+      "dateCreated": "Apr 13, 2016 11:38:09 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
@@ -83,20 +152,21 @@
   "name": "Learning Spark",
   "id": "2AT11U8C1",
   "angularObjects": {
-    "2B458XSTQ": [],
-    "2B5XRQDUN": [],
-    "2B497ZDYT": [],
-    "2B5HA4K5Z": [],
-    "2B7RWS7R2": [],
-    "2B6MY65WY": [],
-    "2B72GQPKA": [],
-    "2B5KNPTJR": [],
-    "2B83SG64T": [],
-    "2B56DQK71": [],
-    "2B79XCMHY": [],
-    "2B6BSSFX7": [],
-    "2B7NZSVBV": [],
-    "2B62TSAA6": []
+    "2BAKJY5HP": [],
+    "2BA4ZT9KA": [],
+    "2BAJHP13K": [],
+    "2BA4FS6H4": [],
+    "2BATJ7JXT": [],
+    "2BDD5JNQA": [],
+    "2BA4VB3HF": [],
+    "2BAVVBSJR": [],
+    "2BCD6QS1M": [],
+    "2BBZ5KHWK": [],
+    "2BAH52SQH": [],
+    "2BAG4DA48": [],
+    "2BBPA417C": [],
+    "2BBYH3GSG": [],
+    "2BB3B14B6": []
   },
   "config": {
     "looknfeel": "default"

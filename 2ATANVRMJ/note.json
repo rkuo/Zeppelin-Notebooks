@@ -292,6 +292,8 @@
     },
     {
       "text": "%sh\ncd /Users/rkuo/Tools/spark-1.4.0/examples/src/main/resources\npwd\nls",
+      "authenticationInfo": {},
+      "dateUpdated": "May 12, 2016 9:10:44 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -303,7 +305,9 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": true
+        "editorHide": true,
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
       },
       "settings": {
         "params": {},
@@ -314,11 +318,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "/Users/rkuo/Tools/spark-1.4.0/examples/src/main/resources\nfull_user.avsc\nkv1.txt\npeople.json\npeople.txt\nuser.avsc\nusers.avro\nusers.parquet\n"
+        "msg": "/Users/rkuo/code/zeppelin/incubator-zeppelin\nCONTRIBUTING.md\nDISCLAIMER\nLICENSE\nNOTICE\nREADME.md\nRoadmap.md\nSECURITY-README.md\nSTYLE.md\n_tools\nalluxio\nangular\nbin\ncassandra\nconf\nderby.log\ndev\ndocs\nelasticsearch\nfile\nflink\ngeode\nhbase\nhive\nignite\ninterpreter\njdbc\nkylin\nlens\nlicenses\nlogs\nmarkdown\nnotebook\nphoenix\npom.xml\npostgresql\nr\nrun\nscalding\nscripts\nshell\nspark\nspark-dependencies\ntajo\ntarget\ntesting\nzeppelin-display\nzeppelin-distribution\nzeppelin-interpreter\nzeppelin-server\nzeppelin-web\nzeppelin-zengine\n"
       },
       "dateCreated": "Jun 28, 2015 7:37:11 AM",
-      "dateStarted": "Jun 28, 2015 7:55:15 AM",
-      "dateFinished": "Jun 28, 2015 7:55:15 AM",
+      "dateStarted": "May 12, 2016 9:10:44 AM",
+      "dateFinished": "May 12, 2016 9:10:45 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -356,6 +360,8 @@
     },
     {
       "text": "%sh\ncd ~/Projects/zeppelin/data\npwd\ntree -L 2",
+      "authenticationInfo": {},
+      "dateUpdated": "May 12, 2016 9:11:11 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -367,7 +373,8 @@
           "groups": [],
           "scatter": {}
         },
-        "editorHide": false
+        "editorHide": false,
+        "enabled": true
       },
       "settings": {
         "params": {},
@@ -378,11 +385,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "/Users/rkuo/Projects/zeppelin/data\n.\n├── error\n│   └── log.txt\n├── github-achieve\n│   ├── 2015-01-01-15.json\n│   └── 2015-01-01-15.json.gz\n├── hamlet\n│   └── 2bon2b\n├── school\n│   └── people.json\n└── twitter\n    └── twitter-demo.json\n\n5 directories, 6 files\n"
+        "msg": "/Users/rkuo/code/zeppelin/incubator-zeppelin\n.\n├── CONTRIBUTING.md\n├── DISCLAIMER\n├── LICENSE\n├── NOTICE\n├── README.md\n├── Roadmap.md\n├── SECURITY-README.md\n├── STYLE.md\n├── _tools\n│   ├── checkstyle.xml\n│   ├── scalastyle.xml\n│   └── site\n├── alluxio\n│   ├── pom.xml\n│   ├── src\n│   └── target\n├── angular\n│   ├── pom.xml\n│   ├── src\n│   └── target\n├── bin\n│   ├── common.cmd\n│   ├── common.sh\n│   ├── functions.cmd\n│   ├── functions.sh\n│   ├── interpreter.cmd\n│   ├── interpreter.sh\n│   ├── zeppelin-daemon.sh\n│   ├── zeppelin.cmd\n│   └── zeppelin.sh\n├── cassandra\n│   ├── pom.xml\n│   ├── src\n│   └── target\n├── conf\n│   ├── README.md\n│   ├── configuration.xsl\n│   ├── interpreter.json\n│   ├── log4j.properties\n│   ├── shiro.ini\n│   ├── zeppelin-env.cmd.template\n│   ├── zeppelin-env.sh\n│   ├── zeppelin-env.sh.template\n│   ├── zeppelin-site.xml\n│   └── zeppelin-site.xml.template\n├── derby.log\n├── dev\n│   ├── create_release.sh\n│   ├── merge_zeppelin_pr.py\n│   ├── test_zeppelin_pr.py\n│   └── travis\n├── docs\n│   ├── 404.html\n│   ├── Gemfile\n│   ├── Gemfile.lock\n│   ├── README.md\n│   ├── Rakefile\n│   ├── _config.yml\n│   ├── _includes\n│   ├── _layouts\n│   ├── _plugins\n│   ├── assets\n│   ├── atom.xml\n│   ├── development\n│   ├── displaysystem\n│   ├── doap.rdf\n│   ├── index.md\n│   ├── install\n│   ├── interpreter\n│   ├── manual\n│   ├── pleasecontribute.md\n│   ├── rest-api\n│   ├── robot.txt\n│   ├── rss.xml\n│   ├── screenshots.md\n│   ├── security\n│   ├── sitemap.txt\n│   ├── storage\n│   ├── tutorial\n│   └── ui_layout\n├── elasticsearch\n│   ├── pom.xml\n│   ├── src\n│   └── target\n├── file\n│   ├── pom.xml\n│   ├── src\n│   └── target\n├── flink\n│   ├── pom.xml\n│   ├── src\n│   └── target\n├── geode\n│   ├── pom.xml\n│   └── src\n├── hbase\n│   ├── pom.xml\n│   ├── src\n│   └── target\n├── hive\n│   ├── pom.xml\n│   ├── src\n│   └── target\n├── ignite\n│   ├── pom.xml\n│   ├── src\n│   └── target\n├── interpreter\n│   ├── alluxio\n│   ├── angular\n│   ├── cassandra\n│   ├── elasticsearch\n│   ├── file\n│   ├── flink\n│   ├── hbase\n│   ├── hive\n│   ├── ignite\n│   ├── jdbc\n│   ├── kylin\n│   ├── lens\n│   ├── md\n│   ├── phoenix\n│   ├── psql\n│   ├── sh\n│   ├── spark\n│   └── tajo\n├── jdbc\n│   ├── pom.xml\n│   ├── src\n│   └── target\n├── kylin\n│   ├── pom.xml\n│   ├── src\n│   └── target\n├── lens\n│   ├── pom.xml\n│   ├── src\n│   └── target\n├── licenses\n│   ├── LICENSE-bootstrap-3.0.2\n│   ├── LICENSE-fontawesome-4.2.0\n│   ├── LICENSE-fontawesome-style-4.2.0\n│   ├── LICENSE-jekyll-1.3.0\n│   ├── LICENSE-jekyll-bootstrap-0.3\n│   ├── LICENSE-rscala-1.0.6\n│   ├── LICENSE-scala-2.10\n│   └── LICENSE-simple_line_icons-1.0.0\n├── logs\n│   ├── zeppelin-interpreter-flink-rkuo-waterlily.local.log\n│   ├── zeppelin-interpreter-sh-rkuo-waterlily.local.log\n│   ├── zeppelin-interpreter-spark-rkuo-waterlily.local.log\n│   ├── zeppelin-rkuo-waterlily.local.log\n│   ├── zeppelin-rkuo-waterlily.local.log.2016-05-11\n│   └── zeppelin-rkuo-waterlily.local.out\n├── markdown\n│   ├── pom.xml\n│   ├── src\n│   └── target\n├── notebook\n│   ├── 2A94M5J1Z\n│   ├── 2BJV6A2B3\n│   └── r\n├── phoenix\n│   ├── pom.xml\n│   ├── src\n│   └── target\n├── pom.xml\n├── postgresql\n│   ├── README.md\n│   ├── pom.xml\n│   ├── src\n│   └── target\n├── r\n│   ├── R\n│   ├── _tools\n│   ├── pom.xml\n│   └── src\n├── run\n│   ├── zeppelin-interpreter-sh-rkuo-waterlily.local.pid\n│   └── zeppelin-rkuo-waterlily.local.pid\n├── scalding\n│   ├── pom.xml\n│   └── src\n├── scripts\n│   └── vagrant\n├── shell\n│   ├── pom.xml\n│   ├── src\n│   └── target\n├── spark\n│   ├── dependency-reduced-pom.xml\n│   ├── pom.xml\n│   ├── src\n│   └── target\n├── spark-dependencies\n│   ├── dependency-reduced-pom.xml\n│   ├── pom.xml\n│   └── target\n├── tajo\n│   ├── pom.xml\n│   ├── src\n│   └── target\n├── target\n│   ├── checkstyle-cachefile\n│   ├── checkstyle-checker.xml\n│   ├── checkstyle-result.xml\n│   └── maven-shared-archive-resources\n├── testing\n│   ├── downloadSpark.sh\n│   ├── startSparkCluster.sh\n│   └── stopSparkCluster.sh\n├── zeppelin-display\n│   ├── pom.xml\n│   ├── src\n│   └── target\n├── zeppelin-distribution\n│   ├── README.md\n│   ├── build-infrastructure.md\n│   ├── pom.xml\n│   ├── src\n│   └── target\n├── zeppelin-interpreter\n│   ├── dependency-reduced-pom.xml\n│   ├── pom.xml\n│   ├── src\n│   └── target\n├── zeppelin-server\n│   ├── pom.xml\n│   ├── src\n│   └── target\n├── zeppelin-web\n│   ├── CONTRIBUTING.md\n│   ├── Gruntfile.js\n│   ├── README.md\n│   ├── bower\n│   ├── bower.json\n│   ├── bower_components\n│   ├── dist\n│   ├── etc\n│   ├── grunt\n│   ├── node\n│   ├── node_modules\n│   ├── package.json\n│   ├── pom.xml\n│   ├── src\n│   ├── target\n│   └── test\n└── zeppelin-zengine\n    ├── pom.xml\n    ├── src\n    └── target\n\n140 directories, 111 files\n"
       },
       "dateCreated": "Jun 28, 2015 7:36:35 AM",
-      "dateStarted": "Jun 28, 2015 7:44:04 AM",
-      "dateFinished": "Jun 28, 2015 7:44:04 AM",
+      "dateStarted": "May 12, 2016 9:11:12 AM",
+      "dateFinished": "May 12, 2016 9:11:12 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -1032,7 +1039,26 @@
   ],
   "name": "Data Frame Introduction",
   "id": "2ATANVRMJ",
-  "angularObjects": {},
+  "angularObjects": {
+    "2BJNWTGVX:shared_process": [],
+    "2BHQR9UME:shared_process": [],
+    "2BKZJ4SRP:shared_process": [],
+    "2BME5YFFH:shared_process": [],
+    "2BN58QNE3:shared_process": [],
+    "2BKB225AF:shared_process": [],
+    "2BK2WJSB5:shared_process": [],
+    "2BJUP28CV:shared_process": [],
+    "2BM3A9BK4:shared_process": [],
+    "2BJ14398P:shared_process": [],
+    "2BN46FG7A:shared_process": [],
+    "2BJEPGMRU:shared_process": [],
+    "2BM6T2CVF:shared_process": [],
+    "2BK1W54BQ:shared_process": [],
+    "2BMYC3FF3:shared_process": [],
+    "2BKZFCDHR:shared_process": [],
+    "2BJSW731A:shared_process": [],
+    "2BJDU2EXK:shared_process": []
+  },
   "config": {
     "looknfeel": "default"
   },
