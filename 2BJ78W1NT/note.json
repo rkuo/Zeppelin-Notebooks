@@ -76,7 +76,9 @@
     },
     {
       "title": "Other Machine Learning Online Classes",
-      "dateUpdated": "Jun 19, 2016 7:40:03 AM",
+      "text": "%md\n\n![ML history-1][1]\n![ML history-2][2]\n![ML history-3][3]\n\n#### 2012 - Now: New Period\n\nAndrew Ng and his team made major breakthough in face detector from unlabeled images: from [this artical][4]\n\nWe train a 9-layered locally connected sparse autoencoder with pooling and local contrast normalization on a large dataset of images (the model has 1 billion connections, the dataset has 10 million 200x200 pixel images downloaded from the Internet). We train this network using model parallelism and asynchronous SGD on a cluster with 1,000 machines (16,000 cores) for three days. \n\nContrary to what appears to be a widely-held intuition, our experimental results reveal that it is possible to train a face detector without having to label images as containing a face or not. Control experiments show that this feature detector is robust not only to translation but also to scaling and out-of-plane rotation. We also find that the same network is sensitive to other high-level concepts such as cat faces and human bodies. Starting with these learned features, we trained our network to obtain 15.8% accuracy in recognizing 20,000 object categories from ImageNet, a leap of 70% relative improvement over the previous state-of-the-art.\n\n\n[1]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history1.jpg\n[2]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history2.jpg\n[3]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history3.jpg\n[4]:http://www.robotics.stanford.edu/~ang/papers/icml12-HighLevelFeaturesUsingUnsupervisedLearning.pdf",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 19, 2016 10:18:09 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -89,7 +91,7 @@
           "scatter": {}
         },
         "enabled": true,
-        "editorMode": "ace/mode/scala",
+        "editorMode": "ace/mode/markdown",
         "title": true
       },
       "settings": {
@@ -98,7 +100,43 @@
       },
       "jobName": "paragraph_1466347148720_1358632379",
       "id": "20160619-073908_838103779",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history1.jpg\" alt\u003d\"ML history-1\" /\u003e\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history2.jpg\" alt\u003d\"ML history-2\" /\u003e\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history3.jpg\" alt\u003d\"ML history-3\" /\u003e\u003c/p\u003e\n\u003ch5\u003e2012 - Now: New Period\u003c/h5\u003e\n\u003cp\u003eAndrew Ng and his team made major breakthough in face detector from unlabeled images: from \u003ca href\u003d\"http://www.robotics.stanford.edu/~ang/papers/icml12-HighLevelFeaturesUsingUnsupervisedLearning.pdf\"\u003ethis artical\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eWe train a 9-layered locally connected sparse autoencoder with pooling and local contrast normalization on a large dataset of images (the model has 1 billion connections, the dataset has 10 million 200x200 pixel images downloaded from the Internet). We train this network using model parallelism and asynchronous SGD on a cluster with 1,000 machines (16,000 cores) for three days.\u003c/p\u003e\n\u003cp\u003eContrary to what appears to be a widely-held intuition, our experimental results reveal that it is possible to train a face detector without having to label images as containing a face or not. Control experiments show that this feature detector is robust not only to translation but also to scaling and out-of-plane rotation. We also find that the same network is sensitive to other high-level concepts such as cat faces and human bodies. Starting with these learned features, we trained our network to obtain 15.8% accuracy in recognizing 20,000 object categories from ImageNet, a leap of 70% relative improvement over the previous state-of-the-art.\u003c/p\u003e\n"
+      },
       "dateCreated": "Jun 19, 2016 7:39:08 AM",
+      "dateStarted": "Jun 19, 2016 10:17:40 AM",
+      "dateFinished": "Jun 19, 2016 10:17:40 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": " New Period of Machine Learning",
+      "text": "%md\n#### 2012\n\nAndrew Ng and his team made major breakthough in face detector from unlabeled images: from the article [Building High-level Features Using Large Scale Unsupervised Learning][1]\n\nWe train a 9-layered locally connected sparse autoencoder with pooling and local contrast normalization on a large dataset of images (the model has 1 billion connections, the dataset has 10 million 200x200 pixel images downloaded from the Internet). We train this network using model parallelism and asynchronous SGD on a cluster with 1,000 machines (16,000 cores) for three days. \n\nContrary to what appears to be a widely-held intuition, our experimental results reveal that it is possible to train a face detector without having to label images as containing a face or not. Control experiments show that this feature detector is robust not only to translation but also to scaling and out-of-plane rotation. We also find that the same network is sensitive to other high-level concepts such as cat faces and human bodies. Starting with these learned features, we trained our network to obtain 15.8% accuracy in recognizing 20,000 object categories from ImageNet, a leap of 70% relative improvement over the previous state-of-the-art.\n\n#### 2015\nStanford University worked on Neural Network which can tell the story of unlabeled photo.\n\n![unlabeled photo][2]\n\n[1]:http://www.robotics.stanford.edu/~ang/papers/icml12-HighLevelFeaturesUsingUnsupervisedLearning.pdf\n[2]:",
+      "dateUpdated": "Jun 19, 2016 10:29:54 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466356627758_1670211564",
+      "id": "20160619-101707_841385530",
+      "dateCreated": "Jun 19, 2016 10:17:07 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     },
