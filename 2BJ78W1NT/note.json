@@ -820,9 +820,9 @@
     },
     {
       "title": "Activation Function",
-      "text": "There are different \n\n![types of activation functions][1]. \n\nMost of those functions have \"mathematics convience\", which simplifies the downstream equation calculation. \n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Neural_Networks__1___Basics_-_YouTube-ActivationFunction.jpg",
+      "text": "%md\nThere are different types of activation functions.\n\n![types of activation functions][1]. \n\nMost of those functions have \"mathematics convience\", which simplifies the downstream equation calculation. \n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Neural_Networks__1___Basics_-_YouTube-ActivationFunction.png",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 20, 2016 7:56:18 AM",
+      "dateUpdated": "Jun 20, 2016 8:00:25 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -835,7 +835,7 @@
           "scatter": {}
         },
         "enabled": true,
-        "editorMode": "ace/mode/scala",
+        "editorMode": "ace/mode/markdown",
         "title": true
       },
       "settings": {
@@ -845,14 +845,14 @@
       "jobName": "paragraph_1466433841294_1746076109",
       "id": "20160620-074401_1877965878",
       "result": {
-        "code": "ERROR",
-        "type": "TEXT",
-        "msg": "\u003cconsole\u003e:28: error: not found: value There\n              There are different \n              ^\n"
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eThere are different types of activation functions.\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Neural_Networks__1___Basics_-_YouTube-ActivationFunction.png\" alt\u003d\"types of activation functions\" /\u003e.\u003c/p\u003e\n\u003cp\u003eMost of those functions have \u0026ldquo;mathematics convience\u0026rdquo;, which simplifies the downstream equation calculation.\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 20, 2016 7:44:01 AM",
-      "dateStarted": "Jun 20, 2016 7:56:18 AM",
-      "dateFinished": "Jun 20, 2016 7:56:18 AM",
-      "status": "ERROR",
+      "dateStarted": "Jun 20, 2016 8:00:25 AM",
+      "dateFinished": "Jun 20, 2016 8:00:25 AM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
