@@ -820,8 +820,9 @@
     },
     {
       "title": "Activation Function",
-      "text": "\n[1]: ",
-      "dateUpdated": "Jun 20, 2016 7:45:30 AM",
+      "text": "There are different \n\n![types of activation functions][1]. \n\nMost of those functions have \"mathematics convience\", which simplifies the downstream equation calculation. \n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Neural_Networks__1___Basics_-_YouTube-ActivationFunction.jpg",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 20, 2016 7:56:18 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -843,8 +844,15 @@
       },
       "jobName": "paragraph_1466433841294_1746076109",
       "id": "20160620-074401_1877965878",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "\u003cconsole\u003e:28: error: not found: value There\n              There are different \n              ^\n"
+      },
       "dateCreated": "Jun 20, 2016 7:44:01 AM",
-      "status": "READY",
+      "dateStarted": "Jun 20, 2016 7:56:18 AM",
+      "dateFinished": "Jun 20, 2016 7:56:18 AM",
+      "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },
     {
