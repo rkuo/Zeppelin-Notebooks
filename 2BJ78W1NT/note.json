@@ -3,7 +3,7 @@
     {
       "text": "%md\n# Learning Machine Learning\nThere are many good free online college level classes for Machine line. The course offered by Stanford Professor, Andrew Ng is the one I took from Coursera. I am continue suppliment my learning from other online classes and YouTube video and blog. This note is to share the learning experience.\n\n![coursera logo][2]\n![ML logo][3]   \n\n\nInstructors:\n### Andrew Ng\n\nAssociate Professor, Stanford University; Chief Scientist, Baidu; Chairman and Co-founder, Coursera\n\n[1]: https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/e3/cebbb0d0a311e39b31794df7e5d956/Coursera-SUSig_StnfrdUStack_SQ.png?auto\u003dformat\u0026dpr\u003d1.7999999523162842\u0026w\u003d56px\u0026h\u003d56px\u0026auto\u003dformat\u0026dpr\u003d2\u0026w\u003d\u0026h\u003d\n[2]: https://encrypted-tbn3.gstatic.com/images?q\u003dtbn:ANd9GcTVnfsoG42SrUKHQOZ6q6_Jmu5Scwcwg3GCx7HIkckL8nLTGnKzTw\n[3]: https://coursera.s3.amazonaws.com/topics/ml/large-icon.png\n\n[4]: https://www.google.com/webhp?sourceid\u003dchrome-instant\u0026ion\u003d1\u0026espv\u003d2\u0026ie\u003dUTF-8#q\u003dAndrew+Ng\n",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:36 AM",
+      "dateUpdated": "Jun 19, 2016 11:10:57 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -31,8 +31,8 @@
         "msg": "\u003ch1\u003eLearning Machine Learning\u003c/h1\u003e\n\u003cp\u003eThere are many good free online college level classes for Machine line. The course offered by Stanford Professor, Andrew Ng is the one I took from Coursera. I am continue suppliment my learning from other online classes and YouTube video and blog. This note is to share the learning experience.\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://encrypted-tbn3.gstatic.com/images?q\u003dtbn:ANd9GcTVnfsoG42SrUKHQOZ6q6_Jmu5Scwcwg3GCx7HIkckL8nLTGnKzTw\" alt\u003d\"coursera logo\" /\u003e\n\u003cbr  /\u003e\u003cimg src\u003d\"https://coursera.s3.amazonaws.com/topics/ml/large-icon.png\" alt\u003d\"ML logo\" /\u003e\u003c/p\u003e\n\u003cp\u003eInstructors:\u003c/p\u003e\n\u003ch3\u003eAndrew Ng\u003c/h3\u003e\n\u003cp\u003eAssociate Professor, Stanford University; Chief Scientist, Baidu; Chairman and Co-founder, Coursera\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 6, 2016 4:17:13 PM",
-      "dateStarted": "Jun 19, 2016 11:08:36 AM",
-      "dateFinished": "Jun 19, 2016 11:08:36 AM",
+      "dateStarted": "Jun 19, 2016 11:10:57 AM",
+      "dateFinished": "Jun 19, 2016 11:10:57 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -40,7 +40,7 @@
       "title": "Courses",
       "text": "%md\n### [Course Contents][1]\n\n### Pre-requistes  \n(They will be reviwed in class):\n* [Linear Algebra][2]   \n* [Octave][3]   \n  ![octave-gui][4]\n\n\n[1]:https://www.coursera.org/learn/machine-learning\n[2]:https://www.khanacademy.org/math/linear-algebra\n[3]:http://wiki.octave.org/Video_tutorials\n[4]:https://www.gnu.org/software/octave/images/screenshot.png",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:36 AM",
+      "dateUpdated": "Jun 19, 2016 11:10:57 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -69,16 +69,16 @@
         "msg": "\u003ch3\u003e\u003ca href\u003d\"https://www.coursera.org/learn/machine-learning\"\u003eCourse Contents\u003c/a\u003e\u003c/h3\u003e\n\u003ch3\u003ePre-requistes\u003c/h3\u003e\n\u003cp\u003e(They will be reviwed in class):\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"https://www.khanacademy.org/math/linear-algebra\"\u003eLinear Algebra\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://wiki.octave.org/Video_tutorials\"\u003eOctave\u003c/a\u003e\n\u003cbr  /\u003e\u003cimg src\u003d\"https://www.gnu.org/software/octave/images/screenshot.png\" alt\u003d\"octave-gui\" /\u003e\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Apr 6, 2016 4:17:57 PM",
-      "dateStarted": "Jun 19, 2016 11:08:36 AM",
-      "dateFinished": "Jun 19, 2016 11:08:36 AM",
+      "dateStarted": "Jun 19, 2016 11:10:57 AM",
+      "dateFinished": "Jun 19, 2016 11:10:57 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "History of Machine Learning",
-      "text": "%md\n\n![ML history-1][1]\n![ML history-2][2]\n![ML history-3][3]\n\n#### 2012 - Now: New Period\n\nAndrew Ng and his team made major breakthough in face detector from unlabeled images: from [this artical][4]\n\nWe train a 9-layered locally connected sparse autoencoder with pooling and local contrast normalization on a large dataset of images (the model has 1 billion connections, the dataset has 10 million 200x200 pixel images downloaded from the Internet). We train this network using model parallelism and asynchronous SGD on a cluster with 1,000 machines (16,000 cores) for three days. \n\nContrary to what appears to be a widely-held intuition, our experimental results reveal that it is possible to train a face detector without having to label images as containing a face or not. Control experiments show that this feature detector is robust not only to translation but also to scaling and out-of-plane rotation. We also find that the same network is sensitive to other high-level concepts such as cat faces and human bodies. Starting with these learned features, we trained our network to obtain 15.8% accuracy in recognizing 20,000 object categories from ImageNet, a leap of 70% relative improvement over the previous state-of-the-art.\n\n\n[1]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history1.jpg\n[2]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history2.jpg\n[3]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history3.jpg\n[4]:http://www.robotics.stanford.edu/~ang/papers/icml12-HighLevelFeaturesUsingUnsupervisedLearning.pdf",
+      "text": "%md\n\n![ML history-1][1]\n![ML history-2][2]\n![ML history-3][3]\n\n[1]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history1.jpg\n[2]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history2.jpg\n[3]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history3.jpg",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:36 AM",
+      "dateUpdated": "Jun 20, 2016 4:28:44 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -104,11 +104,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history1.jpg\" alt\u003d\"ML history-1\" /\u003e\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history2.jpg\" alt\u003d\"ML history-2\" /\u003e\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history3.jpg\" alt\u003d\"ML history-3\" /\u003e\u003c/p\u003e\n\u003ch4\u003e2012 - Now: New Period\u003c/h4\u003e\n\u003cp\u003eAndrew Ng and his team made major breakthough in face detector from unlabeled images: from \u003ca href\u003d\"http://www.robotics.stanford.edu/~ang/papers/icml12-HighLevelFeaturesUsingUnsupervisedLearning.pdf\"\u003ethis artical\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eWe train a 9-layered locally connected sparse autoencoder with pooling and local contrast normalization on a large dataset of images (the model has 1 billion connections, the dataset has 10 million 200x200 pixel images downloaded from the Internet). We train this network using model parallelism and asynchronous SGD on a cluster with 1,000 machines (16,000 cores) for three days.\u003c/p\u003e\n\u003cp\u003eContrary to what appears to be a widely-held intuition, our experimental results reveal that it is possible to train a face detector without having to label images as containing a face or not. Control experiments show that this feature detector is robust not only to translation but also to scaling and out-of-plane rotation. We also find that the same network is sensitive to other high-level concepts such as cat faces and human bodies. Starting with these learned features, we trained our network to obtain 15.8% accuracy in recognizing 20,000 object categories from ImageNet, a leap of 70% relative improvement over the previous state-of-the-art.\u003c/p\u003e\n"
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history1.jpg\" alt\u003d\"ML history-1\" /\u003e\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history2.jpg\" alt\u003d\"ML history-2\" /\u003e\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history3.jpg\" alt\u003d\"ML history-3\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 19, 2016 7:39:08 AM",
-      "dateStarted": "Jun 19, 2016 11:08:36 AM",
-      "dateFinished": "Jun 19, 2016 11:08:36 AM",
+      "dateStarted": "Jun 20, 2016 4:28:41 AM",
+      "dateFinished": "Jun 20, 2016 4:28:41 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -116,7 +116,7 @@
       "title": " New Period of Machine Learning",
       "text": "%md\n#### 2012\n\nAndrew Ng and his team made major breakthough in face detector from unlabeled images: from the article [Building High-level Features Using Large Scale Unsupervised Learning][1]\n\nWe train a 9-layered locally connected sparse autoencoder with pooling and local contrast normalization on a large dataset of images (the model has 1 billion connections, the dataset has 10 million 200x200 pixel images downloaded from the Internet). We train this network using model parallelism and asynchronous SGD on a cluster with 1,000 machines (16,000 cores) for three days. \n\nContrary to what appears to be a widely-held intuition, our experimental results reveal that it is possible to train a face detector without having to label images as containing a face or not. Control experiments show that this feature detector is robust not only to translation but also to scaling and out-of-plane rotation. We also find that the same network is sensitive to other high-level concepts such as cat faces and human bodies. Starting with these learned features, we trained our network to obtain 15.8% accuracy in recognizing 20,000 object categories from ImageNet, a leap of 70% relative improvement over the previous state-of-the-art.\n\n#### 2015\nStanford University worked on Neural Network which can explain unlabeled photo. For example:\n\n![unlabeled photo][2]\n\n[1]:http://www.robotics.stanford.edu/~ang/papers/icml12-HighLevelFeaturesUsingUnsupervisedLearning.pdf\n[2]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Gigaom___Google__Stanford_build_hybrid_neural_networks_that_can_explain_photos.jpg",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:36 AM",
+      "dateUpdated": "Jun 20, 2016 4:27:59 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -131,7 +131,7 @@
         "enabled": true,
         "editorMode": "ace/mode/markdown",
         "title": true,
-        "editorHide": true
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -145,8 +145,8 @@
         "msg": "\u003ch4\u003e2012\u003c/h4\u003e\n\u003cp\u003eAndrew Ng and his team made major breakthough in face detector from unlabeled images: from the article \u003ca href\u003d\"http://www.robotics.stanford.edu/~ang/papers/icml12-HighLevelFeaturesUsingUnsupervisedLearning.pdf\"\u003eBuilding High-level Features Using Large Scale Unsupervised Learning\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eWe train a 9-layered locally connected sparse autoencoder with pooling and local contrast normalization on a large dataset of images (the model has 1 billion connections, the dataset has 10 million 200x200 pixel images downloaded from the Internet). We train this network using model parallelism and asynchronous SGD on a cluster with 1,000 machines (16,000 cores) for three days.\u003c/p\u003e\n\u003cp\u003eContrary to what appears to be a widely-held intuition, our experimental results reveal that it is possible to train a face detector without having to label images as containing a face or not. Control experiments show that this feature detector is robust not only to translation but also to scaling and out-of-plane rotation. We also find that the same network is sensitive to other high-level concepts such as cat faces and human bodies. Starting with these learned features, we trained our network to obtain 15.8% accuracy in recognizing 20,000 object categories from ImageNet, a leap of 70% relative improvement over the previous state-of-the-art.\u003c/p\u003e\n\u003ch4\u003e2015\u003c/h4\u003e\n\u003cp\u003eStanford University worked on Neural Network which can explain unlabeled photo. For example:\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Gigaom___Google__Stanford_build_hybrid_neural_networks_that_can_explain_photos.jpg\" alt\u003d\"unlabeled photo\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 19, 2016 10:17:07 AM",
-      "dateStarted": "Jun 19, 2016 11:08:36 AM",
-      "dateFinished": "Jun 19, 2016 11:08:36 AM",
+      "dateStarted": "Jun 19, 2016 11:10:57 AM",
+      "dateFinished": "Jun 19, 2016 11:10:57 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -154,7 +154,7 @@
       "title": "What is Machine Learning?",
       "text": "%md \nMachine Learning is concerned with the development, the analysis, and the application of algorithms that allow computers to learn.\n\nLearning:\n* A computer program is said to learn from experience (E) with some class of tasks (T) and a performance measure (P) if its performance at tasks in T as measured by P improves with E. (i.e. by collecting data)\n* Extracting a model of a system from the sole observation (or the simulation) of this system in some situations.\n    * A model \u003d some relationships between the variables used to describe the system.\n\n* Two main goals: make prediction and better understand the system.",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:36 AM",
+      "dateUpdated": "Jun 19, 2016 11:10:57 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -183,8 +183,8 @@
         "msg": "\u003cp\u003eMachine Learning is concerned with the development, the analysis, and the application of algorithms that allow computers to learn.\u003c/p\u003e\n\u003cp\u003eLearning:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cp\u003eA computer program is said to learn from experience (E) with some class of tasks (T) and a performance measure (P) if its performance at tasks in T as measured by P improves with E. (i.e. by collecting data)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eExtracting a model of a system from the sole observation (or the simulation) of this system in some situations.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eA model \u003d some relationships between the variables used to describe the system.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eTwo main goals: make prediction and better understand the system.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Apr 6, 2016 4:33:31 PM",
-      "dateStarted": "Jun 19, 2016 11:08:36 AM",
-      "dateFinished": "Jun 19, 2016 11:08:36 AM",
+      "dateStarted": "Jun 19, 2016 11:10:57 AM",
+      "dateFinished": "Jun 19, 2016 11:10:57 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -192,7 +192,7 @@
       "title": "Definition of Machine Learning",
       "text": "%md\n\n![Components of ML][1]   \n\u003c/br\u003e   \n      \n        \n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/b338147d26ad9b27d9f165529fc4972f0a6e31aa/2BAJAQBSK/images/practical_definition_ML.png",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:36 AM",
+      "dateUpdated": "Jun 19, 2016 11:10:57 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -221,8 +221,8 @@
         "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/b338147d26ad9b27d9f165529fc4972f0a6e31aa/2BAJAQBSK/images/practical_definition_ML.png\" alt\u003d\"Components of ML\" /\u003e\n\u003cbr  /\u003e\u003c/br\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 8, 2016 2:18:11 AM",
-      "dateStarted": "Jun 19, 2016 11:08:36 AM",
-      "dateFinished": "Jun 19, 2016 11:08:36 AM",
+      "dateStarted": "Jun 19, 2016 11:10:57 AM",
+      "dateFinished": "Jun 19, 2016 11:10:57 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -230,7 +230,7 @@
       "title": "Components of Machine Learning",
       "text": "%md \n#### problem: unknown target function, ***f***\n* to find out the pattern for approving the credit card that benefit to a bank. A target function ***f***, which maps applicant ***X*** (information about different application) that leads to outcome of ***Y*** (different out comes).\n\n#### training examples, ***D***\n* input: information of each applicant, x: age, salary, exist debts,etc\n* output: out come of each applicant, y: good or bad for bank/late payment/default\n* collected data, ***D***: {(x1, y1), (x2, y2), ... (xn, yn)}\n\n#### hypothesis set, ***H***\n* There is a set of h in ***H***, we like to find a specific h, good skill, hopefully have good performance. We select the best h, we call it ***g***\n* function ***g***, is part of H \u003d {hk}, that can map ***X -\u003e Y*** with good accuracy\n\n#### learning algorithm, ***A***\n* Use data to compute the best hypothesis, ***g***, which approximates to ***f***  \n\n#### target fountion, ***g***  \n* will be used to forecast future applicants.\n\n#### Learning Model ####\nlearning algorithm, ***A*** and hypothesis set, ***H***",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:36 AM",
+      "dateUpdated": "Jun 20, 2016 4:30:18 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -244,7 +244,7 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/markdown",
-        "editorHide": false,
+        "editorHide": true,
         "title": true
       },
       "settings": {
@@ -259,15 +259,28 @@
         "msg": "\u003ch4\u003eproblem: unknown target function, \u003cstrong\u003e\u003cem\u003ef\u003c/em\u003e\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003eto find out the pattern for approving the credit card that benefit to a bank. A target function \u003cstrong\u003e\u003cem\u003ef\u003c/em\u003e\u003c/strong\u003e, which maps applicant \u003cstrong\u003e\u003cem\u003eX\u003c/em\u003e\u003c/strong\u003e (information about different application) that leads to outcome of \u003cstrong\u003e\u003cem\u003eY\u003c/em\u003e\u003c/strong\u003e (different out comes).\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003etraining examples, \u003cstrong\u003e\u003cem\u003eD\u003c/em\u003e\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003einput: information of each applicant, x: age, salary, exist debts,etc\u003c/li\u003e\n\u003cli\u003eoutput: out come of each applicant, y: good or bad for bank/late payment/default\u003c/li\u003e\n\u003cli\u003ecollected data, \u003cstrong\u003e\u003cem\u003eD\u003c/em\u003e\u003c/strong\u003e: {(x1, y1), (x2, y2), \u0026hellip; (xn, yn)}\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003ehypothesis set, \u003cstrong\u003e\u003cem\u003eH\u003c/em\u003e\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003eThere is a set of h in \u003cstrong\u003e\u003cem\u003eH\u003c/em\u003e\u003c/strong\u003e, we like to find a specific h, good skill, hopefully have good performance. We select the best h, we call it \u003cstrong\u003e\u003cem\u003eg\u003c/em\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003efunction \u003cstrong\u003e\u003cem\u003eg\u003c/em\u003e\u003c/strong\u003e, is part of H \u003d {hk}, that can map \u003cstrong\u003e\u003cem\u003eX -\u003e Y\u003c/em\u003e\u003c/strong\u003e with good accuracy\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003elearning algorithm, \u003cstrong\u003e\u003cem\u003eA\u003c/em\u003e\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003eUse data to compute the best hypothesis, \u003cstrong\u003e\u003cem\u003eg\u003c/em\u003e\u003c/strong\u003e, which approximates to \u003cstrong\u003e\u003cem\u003ef\u003c/em\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003etarget fountion, \u003cstrong\u003e\u003cem\u003eg\u003c/em\u003e\u003c/strong\u003e\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003ewill be used to forecast future applicants.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003eLearning Model\u003c/h4\u003e\n\u003cp\u003elearning algorithm, \u003cstrong\u003e\u003cem\u003eA\u003c/em\u003e\u003c/strong\u003e and hypothesis set, \u003cstrong\u003e\u003cem\u003eH\u003c/em\u003e\u003c/strong\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 8, 2016 2:19:03 AM",
-      "dateStarted": "Jun 19, 2016 11:08:36 AM",
-      "dateFinished": "Jun 19, 2016 11:08:36 AM",
+      "dateStarted": "Jun 20, 2016 4:30:17 AM",
+      "dateFinished": "Jun 20, 2016 4:30:17 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n### Why ML?  \n* Increase of data Volume, Variety, Velocity, and Veracity.\n![4v][1]\n   \n* Increase of computing power with dedicate hardware, Deep Learning Supercomputer in a box.  \n  ![dgx1][2]\n    * [MIT\u0027s 168-core chip could give big brains to mobile devices and robots][3].\n    * [Nvidia Tesla P100][4] ![tesla p100][7]\n    * A chip startup [Movidius][6] makes low-power chips it calls vision processing units (or VPUs), which can be part of mobile device.\n\n* More machine learning algorithms and theories are developed by researchers.\n* More industry support.\n\n[1]: https://www-01.ibm.com/software/data/bigdata/images/4-Vs-of-big-data.jpg\n[2]: http://images.nvidia.com/content/technologies/deep-learning/images/dgx1-header.jpg\n[3]: http://www.pcworld.com/article/3029972/components-processors/mits-168-core-chip-could-make-mobile-devices-robots-smarter.html\n[4]: https://www.technologyreview.com/s/601195/a-2-billion-chip-to-accelerate-artificial-intelligence/\n[5]: http://www.forbes.com/sites/aarontilley/2016/01/27/google-partners-with-chip-startup-to-take-machine-learning-out-of-the-cloud-and-into-your-pocket/#1760f30933e5  \n[6]: http://www.movidius.com/\n[7]: http://www.digitimes.com/NewsShow/20160408PD205_files/1_r.jpg",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466422465592_-1095769126",
+      "id": "20160620-043425_1111254628",
+      "dateCreated": "Jun 20, 2016 4:34:25 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Why ML Now?  ",
+      "text": "%md\n\n* Increase of data Volume, Variety, Velocity, and Veracity.\n![4v][1]\n   \n* Increase of computing power with dedicate hardware, Deep Learning Supercomputer in a box.  \n  ![dgx1][2]\n    * [MIT\u0027s 168-core chip could give big brains to mobile devices and robots][3].\n    * [Nvidia Tesla P100][4] ![tesla p100][7]\n    * A chip startup [Movidius][6] makes low-power chips it calls vision processing units (or VPUs), which can be part of mobile device.\n\n* More machine learning algorithms and theories are developed by researchers.\n* More industry support.\n\n[1]: https://www-01.ibm.com/software/data/bigdata/images/4-Vs-of-big-data.jpg\n[2]: http://images.nvidia.com/content/technologies/deep-learning/images/dgx1-header.jpg\n[3]: http://www.pcworld.com/article/3029972/components-processors/mits-168-core-chip-could-make-mobile-devices-robots-smarter.html\n[4]: https://www.technologyreview.com/s/601195/a-2-billion-chip-to-accelerate-artificial-intelligence/\n[5]: http://www.forbes.com/sites/aarontilley/2016/01/27/google-partners-with-chip-startup-to-take-machine-learning-out-of-the-cloud-and-into-your-pocket/#1760f30933e5  \n[6]: http://www.movidius.com/\n[7]: http://www.digitimes.com/NewsShow/20160408PD205_files/1_r.jpg",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:36 AM",
+      "dateUpdated": "Jun 20, 2016 4:33:38 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -281,7 +294,8 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/markdown",
-        "editorHide": true
+        "editorHide": true,
+        "title": true
       },
       "settings": {
         "params": {},
@@ -292,18 +306,19 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch3\u003eWhy ML?\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cp\u003eIncrease of data Volume, Variety, Velocity, and Veracity.\n\u003cbr  /\u003e\u003cimg src\u003d\"https://www-01.ibm.com/software/data/bigdata/images/4-Vs-of-big-data.jpg\" alt\u003d\"4v\" /\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eIncrease of computing power with dedicate hardware, Deep Learning Supercomputer in a box.\n\u003cbr  /\u003e\u003cimg src\u003d\"http://images.nvidia.com/content/technologies/deep-learning/images/dgx1-header.jpg\" alt\u003d\"dgx1\" /\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"http://www.pcworld.com/article/3029972/components-processors/mits-168-core-chip-could-make-mobile-devices-robots-smarter.html\"\u003eMIT\u0027s 168-core chip could give big brains to mobile devices and robots\u003c/a\u003e.\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://www.technologyreview.com/s/601195/a-2-billion-chip-to-accelerate-artificial-intelligence/\"\u003eNvidia Tesla P100\u003c/a\u003e \u003cimg src\u003d\"http://www.digitimes.com/NewsShow/20160408PD205_files/1_r.jpg\" alt\u003d\"tesla p100\" /\u003e\u003c/li\u003e\n\u003cli\u003eA chip startup \u003ca href\u003d\"http://www.movidius.com/\"\u003eMovidius\u003c/a\u003e makes low-power chips it calls vision processing units (or VPUs), which can be part of mobile device.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eMore machine learning algorithms and theories are developed by researchers.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eMore industry support.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n"
+        "msg": "\u003cul\u003e\n\u003cli\u003e\u003cp\u003eIncrease of data Volume, Variety, Velocity, and Veracity.\n\u003cbr  /\u003e\u003cimg src\u003d\"https://www-01.ibm.com/software/data/bigdata/images/4-Vs-of-big-data.jpg\" alt\u003d\"4v\" /\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eIncrease of computing power with dedicate hardware, Deep Learning Supercomputer in a box.\n\u003cbr  /\u003e\u003cimg src\u003d\"http://images.nvidia.com/content/technologies/deep-learning/images/dgx1-header.jpg\" alt\u003d\"dgx1\" /\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"http://www.pcworld.com/article/3029972/components-processors/mits-168-core-chip-could-make-mobile-devices-robots-smarter.html\"\u003eMIT\u0027s 168-core chip could give big brains to mobile devices and robots\u003c/a\u003e.\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://www.technologyreview.com/s/601195/a-2-billion-chip-to-accelerate-artificial-intelligence/\"\u003eNvidia Tesla P100\u003c/a\u003e \u003cimg src\u003d\"http://www.digitimes.com/NewsShow/20160408PD205_files/1_r.jpg\" alt\u003d\"tesla p100\" /\u003e\u003c/li\u003e\n\u003cli\u003eA chip startup \u003ca href\u003d\"http://www.movidius.com/\"\u003eMovidius\u003c/a\u003e makes low-power chips it calls vision processing units (or VPUs), which can be part of mobile device.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eMore machine learning algorithms and theories are developed by researchers.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eMore industry support.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Apr 6, 2016 6:18:28 PM",
-      "dateStarted": "Jun 19, 2016 11:08:36 AM",
-      "dateFinished": "Jun 19, 2016 11:08:36 AM",
+      "dateStarted": "Jun 20, 2016 4:33:26 AM",
+      "dateFinished": "Jun 20, 2016 4:33:27 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md \n### When?\n\n* We cannot fully predict the problem and human expertise does not exist (navigating on Mars).\n* Humans are unable to explain their expertise (speech recognition, play chess or go).\n* Solution changes in time (routing on a computer network).\n* Solution needs to be adapted to particular cases (user biometrics, recommendations).\n* ...",
+      "title": "When to Used?",
+      "text": "%md \n\n* We cannot fully predict the problem and human expertise does not exist (navigating on Mars).\n* Humans are unable to explain their expertise (speech recognition, play chess or go).\n* Solution changes in time (routing on a computer network).\n* Solution needs to be adapted to particular cases (user biometrics, recommendations).\n* ...",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:36 AM",
+      "dateUpdated": "Jun 20, 2016 4:31:46 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -317,7 +332,8 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/markdown",
-        "editorHide": true
+        "editorHide": true,
+        "title": true
       },
       "settings": {
         "params": {},
@@ -328,11 +344,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch3\u003eWhen?\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eWe cannot fully predict the problem and human expertise does not exist (navigating on Mars).\u003c/li\u003e\n\u003cli\u003eHumans are unable to explain their expertise (speech recognition, play chess or go).\u003c/li\u003e\n\u003cli\u003eSolution changes in time (routing on a computer network).\u003c/li\u003e\n\u003cli\u003eSolution needs to be adapted to particular cases (user biometrics, recommendations).\u003c/li\u003e\n\u003cli\u003e\u0026hellip;\u003c/li\u003e\n\u003c/ul\u003e\n"
+        "msg": "\u003cul\u003e\n\u003cli\u003eWe cannot fully predict the problem and human expertise does not exist (navigating on Mars).\u003c/li\u003e\n\u003cli\u003eHumans are unable to explain their expertise (speech recognition, play chess or go).\u003c/li\u003e\n\u003cli\u003eSolution changes in time (routing on a computer network).\u003c/li\u003e\n\u003cli\u003eSolution needs to be adapted to particular cases (user biometrics, recommendations).\u003c/li\u003e\n\u003cli\u003e\u0026hellip;\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Apr 8, 2016 1:31:59 AM",
-      "dateStarted": "Jun 19, 2016 11:08:36 AM",
-      "dateFinished": "Jun 19, 2016 11:08:36 AM",
+      "dateStarted": "Jun 20, 2016 4:31:43 AM",
+      "dateFinished": "Jun 20, 2016 4:31:43 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -340,7 +356,7 @@
       "title": "Computer Language for Big Data and Machine Learning",
       "text": "%md\nThere is a [quora disussion notes][2]\n\nA performace table from [Julia website][3] can be used as reference.\n![julia perfromace table][4]\n\n[1]: http://machinelearningmastery.com/best-programming-language-for-machine-learning/\n[2]: https://www.quora.com/What-is-the-best-language-to-use-while-learning-machine-learning-for-the-first-time\n[3]: http://julialang.org/\n[4]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/edf50ea0c1af465db5172d4439a0183df4763b62/2BJ78W1NT/images/The_Julia_Language.png",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:36 AM",
+      "dateUpdated": "Jun 19, 2016 11:10:57 AM",
       "config": {
         "colWidth": 7.0,
         "graph": {
@@ -369,8 +385,8 @@
         "msg": "\u003cp\u003eThere is a \u003ca href\u003d\"https://www.quora.com/What-is-the-best-language-to-use-while-learning-machine-learning-for-the-first-time\"\u003equora disussion notes\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eA performace table from \u003ca href\u003d\"http://julialang.org/\"\u003eJulia website\u003c/a\u003e can be used as reference.\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/edf50ea0c1af465db5172d4439a0183df4763b62/2BJ78W1NT/images/The_Julia_Language.png\" alt\u003d\"julia perfromace table\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 7, 2016 3:54:36 PM",
-      "dateStarted": "Jun 19, 2016 11:08:37 AM",
-      "dateFinished": "Jun 19, 2016 11:08:37 AM",
+      "dateStarted": "Jun 19, 2016 11:10:57 AM",
+      "dateFinished": "Jun 19, 2016 11:10:57 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -378,7 +394,7 @@
       "title": "Algorithm - scikit-learn",
       "text": "%md\n\n![sci-learn cheatsheet][1]    \n\u003c/br\u003e\n\n[1]: http://scikit-learn.org/stable/_static/ml_map.png",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:37 AM",
+      "dateUpdated": "Jun 19, 2016 11:10:57 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -407,8 +423,8 @@
         "msg": "\u003cp\u003e\u003cimg src\u003d\"http://scikit-learn.org/stable/_static/ml_map.png\" alt\u003d\"sci-learn cheatsheet\" /\u003e\n\u003cbr  /\u003e\u003c/br\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 7, 2016 3:44:46 PM",
-      "dateStarted": "Jun 19, 2016 11:08:37 AM",
-      "dateFinished": "Jun 19, 2016 11:08:37 AM",
+      "dateStarted": "Jun 19, 2016 11:10:57 AM",
+      "dateFinished": "Jun 19, 2016 11:10:57 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -416,7 +432,7 @@
       "title": "Algorithm - Microsoft Azure Machine Learning",
       "text": "%md\n![azure algorithm cheat sheet][3]   \n\u003c/br\u003e\n\u003c/br\u003e\n\u003c/br\u003e\n\n[3]: https://acom.azurecomcdn.net/80C57D/cdn/mediahandler/docarticles/dpsmedia-prod/azure.microsoft.com/en-us/documentation/articles/machine-learning-algorithm-cheat-sheet/20160331010724/machine-learning-algorithm-cheat-sheet-small_v_0_6-01.png\n",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:37 AM",
+      "dateUpdated": "Jun 19, 2016 11:10:57 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -445,46 +461,8 @@
         "msg": "\u003cp\u003e\u003cimg src\u003d\"https://acom.azurecomcdn.net/80C57D/cdn/mediahandler/docarticles/dpsmedia-prod/azure.microsoft.com/en-us/documentation/articles/machine-learning-algorithm-cheat-sheet/20160331010724/machine-learning-algorithm-cheat-sheet-small_v_0_6-01.png\" alt\u003d\"azure algorithm cheat sheet\" /\u003e\n\u003cbr  /\u003e\u003c/br\u003e\n\u003cbr  /\u003e\u003c/br\u003e\n\u003cbr  /\u003e\u003c/br\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 8, 2016 2:17:35 PM",
-      "dateStarted": "Jun 19, 2016 11:08:37 AM",
-      "dateFinished": "Jun 19, 2016 11:08:37 AM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "title": "Algorithm",
-      "text": "%md\n\nA subset of machine learing algorithm.   \n![ML algorithm mindmap][4]\n\u003c/br\u003e\n[4]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/MachineLearningMindMap2.png",
-      "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:37 AM",
-      "config": {
-        "colWidth": 6.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/markdown",
-        "editorHide": true,
-        "title": true
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1460125065129_1018306677",
-      "id": "20160408-141745_96654384",
-      "result": {
-        "code": "SUCCESS",
-        "type": "HTML",
-        "msg": "\u003cp\u003eA subset of machine learing algorithm.\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/MachineLearningMindMap2.png\" alt\u003d\"ML algorithm mindmap\" /\u003e\n\u003cbr  /\u003e\u003c/br\u003e\u003c/p\u003e\n"
-      },
-      "dateCreated": "Apr 8, 2016 2:17:45 PM",
-      "dateStarted": "Jun 19, 2016 11:08:37 AM",
-      "dateFinished": "Jun 19, 2016 11:08:37 AM",
+      "dateStarted": "Jun 19, 2016 11:10:58 AM",
+      "dateFinished": "Jun 19, 2016 11:10:58 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -492,7 +470,7 @@
       "title": "Learning Machine Learning",
       "text": "%md\nAn ecosystem for learning machine learning.\n![ML mindmap][1]\n\n[1]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/MachineLearning-ecosystem.jpg",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:37 AM",
+      "dateUpdated": "Jun 19, 2016 11:10:58 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -521,8 +499,46 @@
         "msg": "\u003cp\u003eAn ecosystem for learning machine learning.\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/MachineLearning-ecosystem.jpg\" alt\u003d\"ML mindmap\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 7, 2016 3:58:17 PM",
-      "dateStarted": "Jun 19, 2016 11:08:37 AM",
-      "dateFinished": "Jun 19, 2016 11:08:37 AM",
+      "dateStarted": "Jun 19, 2016 11:10:58 AM",
+      "dateFinished": "Jun 19, 2016 11:10:58 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Algorithm",
+      "text": "%md\n\nA subset of machine learing algorithm.   \n![ML algorithm mindmap][4]\n\u003c/br\u003e\n[4]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/MachineLearningMindMap2.png",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 19, 2016 11:10:58 AM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1460125065129_1018306677",
+      "id": "20160408-141745_96654384",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eA subset of machine learing algorithm.\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/MachineLearningMindMap2.png\" alt\u003d\"ML algorithm mindmap\" /\u003e\n\u003cbr  /\u003e\u003c/br\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Apr 8, 2016 2:17:45 PM",
+      "dateStarted": "Jun 19, 2016 11:10:58 AM",
+      "dateFinished": "Jun 19, 2016 11:10:58 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -530,7 +546,7 @@
       "title": "eBook",
       "text": "%md\n\n[machine learning ebooks][1], \n[deep learning][2]\n[data science books][3]   \n[neural network and deep learning][4]   \n[hacker lists - free machine learning books][5]\n\n[1]: https://github.com/rasbt/pattern_classification/blob/master/resources/machine_learning_ebooks.md   \n[2]: http://www.deeplearningbook.org/   \n[3]: http://www.wzchen.com/data-science-books/   \n[4]: http://neuralnetworksanddeeplearning.com/chap1.html   \n[5]: https://hackerlists.com/free-machine-learning-books/   ",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:37 AM",
+      "dateUpdated": "Jun 20, 2016 4:35:26 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -544,7 +560,7 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/markdown",
-        "editorHide": false,
+        "editorHide": true,
         "title": true
       },
       "settings": {
@@ -559,18 +575,18 @@
         "msg": "\u003cp\u003e\u003ca href\u003d\"https://github.com/rasbt/pattern_classification/blob/master/resources/machine_learning_ebooks.md\"\u003emachine learning ebooks\u003c/a\u003e,\n\u003cbr  /\u003e\u003ca href\u003d\"http://www.deeplearningbook.org/\"\u003edeep learning\u003c/a\u003e\n\u003cbr  /\u003e\u003ca href\u003d\"http://www.wzchen.com/data-science-books/\"\u003edata science books\u003c/a\u003e\n\u003cbr  /\u003e\u003ca href\u003d\"http://neuralnetworksanddeeplearning.com/chap1.html\"\u003eneural network and deep learning\u003c/a\u003e\n\u003cbr  /\u003e\u003ca href\u003d\"https://hackerlists.com/free-machine-learning-books/\"\u003ehacker lists - free machine learning books\u003c/a\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 8, 2016 2:43:43 AM",
-      "dateStarted": "Jun 19, 2016 11:08:37 AM",
-      "dateFinished": "Jun 19, 2016 11:08:37 AM",
+      "dateStarted": "Jun 19, 2016 11:10:58 AM",
+      "dateFinished": "Jun 19, 2016 11:10:58 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Vectorization",
-      "text": "%md\nIt makes coding easier and more readable.\n![vectorization-octave][1]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Vectorization_in_Octave_Matlab__-_YouTube_vectorize.png",
+      "text": "%md\n[Vectorization][2] makes coding easier and more readable. Many [languages][4] support [Array Programming][3].\n\n![vectorization-octave][1]    \n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Vectorization_in_Octave_Matlab__-_YouTube_vectorize.png\n[2]: https://en.wikipedia.org/wiki/Vectorization_(mathematics)\n[3]: https://en.wikipedia.org/wiki?curid\u003d890887\n[4]: https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Array_language",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:37 AM",
+      "dateUpdated": "Jun 20, 2016 7:43:01 AM",
       "config": {
-        "colWidth": 7.0,
+        "colWidth": 6.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
@@ -594,19 +610,45 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003cp\u003eIt makes coding easier and more readable.\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Vectorization_in_Octave_Matlab__-_YouTube_vectorize.png\" alt\u003d\"vectorization-octave\" /\u003e\u003c/p\u003e\n"
+        "msg": "\u003cp\u003e\u003ca href\u003d\"https://en.wikipedia.org/wiki/Vectorization_(mathematics)\"\u003eVectorization\u003c/a\u003e makes coding easier and more readable. Many \u003ca href\u003d\"https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Array_language\"\u003elanguages\u003c/a\u003e support \u003ca href\u003d\"https://en.wikipedia.org/wiki?curid\u003d890887\"\u003eArray Programming\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Vectorization_in_Octave_Matlab__-_YouTube_vectorize.png\" alt\u003d\"vectorization-octave\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 7, 2016 5:45:12 AM",
-      "dateStarted": "Jun 19, 2016 11:08:37 AM",
-      "dateFinished": "Jun 19, 2016 11:08:37 AM",
+      "dateStarted": "Jun 20, 2016 7:42:52 AM",
+      "dateFinished": "Jun 20, 2016 7:42:52 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
+      "dateUpdated": "Jun 20, 2016 7:40:18 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466433472666_-2052640606",
+      "id": "20160620-073752_238925782",
+      "dateCreated": "Jun 20, 2016 7:37:52 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
       "title": "Learning from Nature",
-      "text": "%md\n![neural network][1]\n![airplane bio][2]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Lecture_10_-_Neural_Networks_-_YouTube-bio1.png\n[2]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Lecture_10_-_Neural_Networks_-_YouTube-bio2.png",
+      "text": "%md\n![neural network][1]\n![airplane bio][2]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Lecture_10_-_Neural_Networks_-_YouTube-bio1.png\n[2]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Lecture_10_-_Neural_Networks_-_YouTube-bio2.png\n",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:37 AM",
+      "dateUpdated": "Jun 20, 2016 4:58:03 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -635,16 +677,16 @@
         "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Lecture_10_-_Neural_Networks_-_YouTube-bio1.png\" alt\u003d\"neural network\" /\u003e\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Lecture_10_-_Neural_Networks_-_YouTube-bio2.png\" alt\u003d\"airplane bio\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 10, 2016 3:41:33 PM",
-      "dateStarted": "Jun 19, 2016 11:08:37 AM",
-      "dateFinished": "Jun 19, 2016 11:08:37 AM",
+      "dateStarted": "Jun 20, 2016 4:58:01 AM",
+      "dateFinished": "Jun 20, 2016 4:58:01 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Bio Neural Network",
-      "text": "%md\n\n![Neural][1]\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Model_Representation_I_-_Stanford_University___Coursera-neuronbrain.png",
+      "text": "%md\n\n![Neuron][1]   \n[Artificial Neuron Wiki][2]   \n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Model_Representation_I_-_Stanford_University___Coursera-neuronbrain.png\n[2]: https://en.wikipedia.org/wiki/Artificial_neuron#Comparison_to_biological_neurons",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:37 AM",
+      "dateUpdated": "Jun 20, 2016 4:57:55 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -670,18 +712,44 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Model_Representation_I_-_Stanford_University___Coursera-neuronbrain.png\" alt\u003d\"Neural\" /\u003e\u003c/p\u003e\n"
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Model_Representation_I_-_Stanford_University___Coursera-neuronbrain.png\" alt\u003d\"Neuron\" /\u003e\n\u003cbr  /\u003e\u003ca href\u003d\"https://en.wikipedia.org/wiki/Artificial_neuron#Comparison_to_biological_neurons\"\u003eArtificial Neuron Wiki\u003c/a\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 8, 2016 4:08:30 PM",
-      "dateStarted": "Jun 19, 2016 11:08:37 AM",
-      "dateFinished": "Jun 19, 2016 11:08:37 AM",
+      "dateStarted": "Jun 20, 2016 4:57:53 AM",
+      "dateFinished": "Jun 20, 2016 4:57:53 AM",
       "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "dateUpdated": "Jun 20, 2016 7:40:15 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466433507814_-930282092",
+      "id": "20160620-073827_1559995105",
+      "dateCreated": "Jun 20, 2016 7:38:27 AM",
+      "status": "READY",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n![neuron unit][1]\nThe first layer can be considered as a (trained) feature layer, then second layer is feature-feature layer,...\n\u003c/br\u003e\n\u003c/br\u003e\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Model_Representation_I_-_Stanford_University___Coursera_LogisticUnit.png",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:37 AM",
+      "dateUpdated": "Jun 19, 2016 11:10:58 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -709,15 +777,15 @@
         "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Model_Representation_I_-_Stanford_University___Coursera_LogisticUnit.png\" alt\u003d\"neuron unit\" /\u003e\n\u003cbr  /\u003eThe first layer can be considered as a (trained) feature layer, then second layer is feature-feature layer,\u0026hellip;\n\u003cbr  /\u003e\u003c/br\u003e\n\u003cbr  /\u003e\u003c/br\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 8, 2016 4:44:22 PM",
-      "dateStarted": "Jun 19, 2016 11:08:37 AM",
-      "dateFinished": "Jun 19, 2016 11:08:37 AM",
+      "dateStarted": "Jun 19, 2016 11:10:58 AM",
+      "dateFinished": "Jun 19, 2016 11:10:58 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n![single cell][1]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/6_2_-_Hypothesis_Representation_-___Machine_Learning___By_Andrew_Ng_-_YouTube_gFunction.png",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:37 AM",
+      "dateUpdated": "Jun 19, 2016 11:10:58 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -745,15 +813,71 @@
         "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/6_2_-_Hypothesis_Representation_-___Machine_Learning___By_Andrew_Ng_-_YouTube_gFunction.png\" alt\u003d\"single cell\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 8, 2016 4:13:47 PM",
-      "dateStarted": "Jun 19, 2016 11:08:37 AM",
-      "dateFinished": "Jun 19, 2016 11:08:37 AM",
+      "dateStarted": "Jun 19, 2016 11:10:58 AM",
+      "dateFinished": "Jun 19, 2016 11:10:58 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n![4ward representation][1]\n\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Model_Representation_I_-_Stanford_University___Coursera_4wardRep.png",
+      "title": "Activation Function",
+      "text": "\n[1]: ",
+      "dateUpdated": "Jun 20, 2016 7:45:30 AM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466433841294_1746076109",
+      "id": "20160620-074401_1877965878",
+      "dateCreated": "Jun 20, 2016 7:44:01 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "dateUpdated": "Jun 20, 2016 7:40:11 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466433553651_-816365245",
+      "id": "20160620-073913_825745477",
+      "dateCreated": "Jun 20, 2016 7:39:13 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n![4ward representation][1]  \n[Artificial Neural Network][2]   \n[Deep Learning][3]  \n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Model_Representation_I_-_Stanford_University___Coursera_4wardRep.png\n[2]: https://en.wikipedia.org/wiki/Artificial_neural_network\n[3]: https://en.wikipedia.org/wiki/Deep_learning#Deep_neural_networks",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:37 AM",
+      "dateUpdated": "Jun 20, 2016 4:59:43 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -778,18 +902,18 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Model_Representation_I_-_Stanford_University___Coursera_4wardRep.png\" alt\u003d\"4ward representation\" /\u003e\u003c/p\u003e\n"
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Model_Representation_I_-_Stanford_University___Coursera_4wardRep.png\" alt\u003d\"4ward representation\" /\u003e\n\u003cbr  /\u003e\u003ca href\u003d\"https://en.wikipedia.org/wiki/Artificial_neural_network\"\u003eArtificial Neural Network\u003c/a\u003e\n\u003cbr  /\u003e\u003ca href\u003d\"https://en.wikipedia.org/wiki/Deep_learning#Deep_neural_networks\"\u003eDeep Learning\u003c/a\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 8, 2016 4:27:55 PM",
-      "dateStarted": "Jun 19, 2016 11:08:37 AM",
-      "dateFinished": "Jun 19, 2016 11:08:37 AM",
+      "dateStarted": "Jun 20, 2016 4:59:00 AM",
+      "dateFinished": "Jun 20, 2016 4:59:00 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n![cost function for multi-classification][1]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Cost_Function_-_Stanford_University___Coursera_CostF-neuron.pnghttps://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Cost_Function_-_Stanford_University___Coursera_CostF-neuron.png",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:37 AM",
+      "dateUpdated": "Jun 19, 2016 11:10:58 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -817,15 +941,15 @@
         "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Cost_Function_-_Stanford_University___Coursera_CostF-neuron.pnghttps://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Cost_Function_-_Stanford_University___Coursera_CostF-neuron.png\" alt\u003d\"cost function for multi-classification\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 8, 2016 4:40:26 PM",
-      "dateStarted": "Jun 19, 2016 11:08:37 AM",
-      "dateFinished": "Jun 19, 2016 11:08:37 AM",
+      "dateStarted": "Jun 19, 2016 11:10:58 AM",
+      "dateFinished": "Jun 19, 2016 11:10:58 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n![forward propagation][1]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Backpropagation_Intuition_-_Stanford_University___Coursera_Forward.png",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:37 AM",
+      "dateUpdated": "Jun 19, 2016 11:10:58 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -853,15 +977,15 @@
         "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Backpropagation_Intuition_-_Stanford_University___Coursera_Forward.png\" alt\u003d\"forward propagation\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 8, 2016 5:25:36 PM",
-      "dateStarted": "Jun 19, 2016 11:08:37 AM",
-      "dateFinished": "Jun 19, 2016 11:08:37 AM",
+      "dateStarted": "Jun 19, 2016 11:10:58 AM",
+      "dateFinished": "Jun 19, 2016 11:10:58 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n![gradient descent for backward propagation][1]\n\u003c/br\u003e\nSee MIT 6.034 lecture-12 for derivation of gradient descent formula; a3 .* (1 - a3)\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Backpropagation_Algorithm_-_Stanford_University___Coursera_GridentD.png\n",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:37 AM",
+      "dateUpdated": "Jun 19, 2016 11:10:58 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -889,15 +1013,15 @@
         "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Backpropagation_Algorithm_-_Stanford_University___Coursera_GridentD.png\" alt\u003d\"gradient descent for backward propagation\" /\u003e\n\u003cbr  /\u003e\u003c/br\u003e\n\u003cbr  /\u003eSee MIT 6.034 lecture-12 for derivation of gradient descent formula; a3 .* (1 - a3)\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 8, 2016 4:57:35 PM",
-      "dateStarted": "Jun 19, 2016 11:08:38 AM",
-      "dateFinished": "Jun 19, 2016 11:08:38 AM",
+      "dateStarted": "Jun 19, 2016 11:10:58 AM",
+      "dateFinished": "Jun 19, 2016 11:10:58 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n![backpropagation][1]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Backpropagation_Intuition_-_Stanford_University___Coursera_%F0%9F%94%8A.png\n\u003c/br\u003e\nMore detailed computation steps.",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:38 AM",
+      "dateUpdated": "Jun 19, 2016 11:10:58 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -925,14 +1049,14 @@
         "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Backpropagation_Intuition_-_Stanford_University___Coursera_%F0%9F%94%8A.png\" alt\u003d\"backpropagation\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003c/br\u003e\n\u003cbr  /\u003eMore detailed computation steps.\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 8, 2016 9:45:23 PM",
-      "dateStarted": "Jun 19, 2016 11:08:38 AM",
-      "dateFinished": "Jun 19, 2016 11:08:38 AM",
+      "dateStarted": "Jun 19, 2016 11:10:58 AM",
+      "dateFinished": "Jun 19, 2016 11:10:58 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:38 AM",
+      "dateUpdated": "Jun 20, 2016 7:40:05 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -945,7 +1069,8 @@
           "scatter": {}
         },
         "enabled": true,
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/scala",
+        "editorHide": true
       },
       "settings": {
         "params": {},
@@ -959,15 +1084,15 @@
         "msg": ""
       },
       "dateCreated": "Apr 10, 2016 8:28:39 PM",
-      "dateStarted": "Jun 19, 2016 11:08:38 AM",
-      "dateFinished": "Jun 19, 2016 11:08:38 AM",
+      "dateStarted": "Jun 19, 2016 11:10:58 AM",
+      "dateFinished": "Jun 19, 2016 11:10:58 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n### [Caltech CS 156 Machine Learning - Learning from Data lecture-10][1]\n\n![combining preceptron][2]\nOne simple logistic regression can not separate the testing data. There are many different activation functions can be used here, tanh(s) is here. See [selection approach][5] \n\u003c/br\u003e\n\n![creating layer][3]\nWe have to use two separate nodes to cover the problem space. \n\u003c/br\u003e\n\n\n![mult-layer][4]\nThis is two features (n\u003d2), two hiden layers (L\u003d2), one classification (K\u003d1) \n\u003c/br\u003e\n\n[1]: http://work.caltech.edu/telecourse.html\n[2]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Lecture_10_-_Neural_Networks_-_YouTube-neuron-preceptron-and-or.png\n[3]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Lecture_10_-_Neural_Networks_-_YouTube-neuron-creating-layer.png\n[4]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Lecture_10_-_Neural_Networks_-_YouTube-fullLayer.png\n[5]: http://stats.stackexchange.com/questions/101560/tanh-activation-function-vs-sigmoid-activation-function\n",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:38 AM",
+      "dateUpdated": "Jun 19, 2016 11:10:58 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -995,15 +1120,15 @@
         "msg": "\u003ch3\u003e\u003ca href\u003d\"http://work.caltech.edu/telecourse.html\"\u003eCaltech CS 156 Machine Learning - Learning from Data lecture-10\u003c/a\u003e\u003c/h3\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Lecture_10_-_Neural_Networks_-_YouTube-neuron-preceptron-and-or.png\" alt\u003d\"combining preceptron\" /\u003e\n\u003cbr  /\u003eOne simple logistic regression can not separate the testing data. There are many different activation functions can be used here, tanh(s) is here. See \u003ca href\u003d\"http://stats.stackexchange.com/questions/101560/tanh-activation-function-vs-sigmoid-activation-function\"\u003eselection approach\u003c/a\u003e\n\u003cbr  /\u003e\u003c/br\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Lecture_10_-_Neural_Networks_-_YouTube-neuron-creating-layer.png\" alt\u003d\"creating layer\" /\u003e\n\u003cbr  /\u003eWe have to use two separate nodes to cover the problem space.\n\u003cbr  /\u003e\u003c/br\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Lecture_10_-_Neural_Networks_-_YouTube-fullLayer.png\" alt\u003d\"mult-layer\" /\u003e\n\u003cbr  /\u003eThis is two features (n\u003d2), two hiden layers (L\u003d2), one classification (K\u003d1)\n\u003cbr  /\u003e\u003c/br\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 10, 2016 4:22:32 PM",
-      "dateStarted": "Jun 19, 2016 11:08:38 AM",
-      "dateFinished": "Jun 19, 2016 11:08:38 AM",
+      "dateStarted": "Jun 19, 2016 11:10:59 AM",
+      "dateFinished": "Jun 19, 2016 11:10:59 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n### [MIT Course Number 6.034 lecture-12][0]\n\n![model][1]    \nx1,...xn is input, \nz1,...zn is outpu, which equalvent to y1, ...yn in prof. Ng\u0027s lecture, and (x1, z1) is a pair.\nd is y hat, it is the value calculated based on hypothesis.  \nP is performance, is a cost function. \ny is a2 in prof. Ng\u0027s notes.\n   \n\u003c/br\u003e   \n![find w][2]\nThere is a typo in picture, x and y should be w1 and w2.\n   \n\u003c/br\u003e      \n![x][3]  \nw1 is input layer, consider x is a single variable or a vector.  \nw2 is hiden layer,  \nz is output layer,  \np is error, cost function.  \nThis model is set for proving backpropagation.\n   \n\u003c/br\u003e      \n![y][4]\n   \nThis exercise proves the performance improvement is local dependency, e.g. for $$$\\partial(p/w2)$$$ is dependent on (d-z), y, and $$$\\partial(z/p2)$$$. \u003c/br\u003e  \n$$\\partial(z/p2) \u003d z*(1-z)$$\n\n[0]: https://www.youtube.com/watch?v\u003dq0pm3BrIUFo\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/12__Learning__Neural_Nets__Back_Propagation_-0a.png\n[2]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/12__Learning__Neural_Nets__Back_Propagation_-0b.png\n[3]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/12__Learning__Neural_Nets__Back_Propagation_-1.png\n[4]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/12__Learning__Neural_Nets__Back_Propagation_-2.png",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:38 AM",
+      "dateUpdated": "Jun 19, 2016 11:10:59 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -1032,8 +1157,8 @@
         "msg": "\u003ch3\u003e\u003ca href\u003d\"https://www.youtube.com/watch?v\u003dq0pm3BrIUFo\"\u003eMIT Course Number 6.034 lecture-12\u003c/a\u003e\u003c/h3\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/12__Learning__Neural_Nets__Back_Propagation_-0a.png\" alt\u003d\"model\" /\u003e\n\u003cbr  /\u003ex1,\u0026hellip;xn is input,\n\u003cbr  /\u003ez1,\u0026hellip;zn is outpu, which equalvent to y1, \u0026hellip;yn in prof. Ng\u0027s lecture, and (x1, z1) is a pair.\n\u003cbr  /\u003ed is y hat, it is the value calculated based on hypothesis.\n\u003cbr  /\u003eP is performance, is a cost function.\n\u003cbr  /\u003ey is a2 in prof. Ng\u0027s notes.\u003c/p\u003e\n\u003cp\u003e\u003c/br\u003e\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/12__Learning__Neural_Nets__Back_Propagation_-0b.png\" alt\u003d\"find w\" /\u003e\n\u003cbr  /\u003eThere is a typo in picture, x and y should be w1 and w2.\u003c/p\u003e\n\u003cp\u003e\u003c/br\u003e\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/12__Learning__Neural_Nets__Back_Propagation_-1.png\" alt\u003d\"x\" /\u003e\n\u003cbr  /\u003ew1 is input layer, consider x is a single variable or a vector.\n\u003cbr  /\u003ew2 is hiden layer,\n\u003cbr  /\u003ez is output layer,\n\u003cbr  /\u003ep is error, cost function.\n\u003cbr  /\u003eThis model is set for proving backpropagation.\u003c/p\u003e\n\u003cp\u003e\u003c/br\u003e\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/12__Learning__Neural_Nets__Back_Propagation_-2.png\" alt\u003d\"y\" /\u003e\u003c/p\u003e\n\u003cp\u003eThis exercise proves the performance improvement is local dependency, e.g. for $$$\\partial(p/w2)$$$ is dependent on (d-z), y, and $$$\\partial(z/p2)$$$. \u003c/br\u003e\n\u003cbr  /\u003e$$\\partial(z/p2) \u003d z*(1-z)$$\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 9, 2016 1:23:11 PM",
-      "dateStarted": "Jun 19, 2016 11:08:38 AM",
-      "dateFinished": "Jun 19, 2016 11:08:38 AM",
+      "dateStarted": "Jun 19, 2016 11:10:59 AM",
+      "dateFinished": "Jun 19, 2016 11:10:59 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -1041,7 +1166,7 @@
       "title": "Use Cases",
       "text": "%md\n\n* equipment failure prediction\n* facial recognition\n* speech recognition\n* text classification\n* self-driving car\n* smart home\n* surveillance and security\n* medical image and diagnostic\n* spam discovery and filtering\n* predictive maintenance\n* ...\n",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:38 AM",
+      "dateUpdated": "Jun 19, 2016 11:10:59 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -1070,8 +1195,8 @@
         "msg": "\u003cul\u003e\n\u003cli\u003eequipment failure prediction\u003c/li\u003e\n\u003cli\u003efacial recognition\u003c/li\u003e\n\u003cli\u003espeech recognition\u003c/li\u003e\n\u003cli\u003etext classification\u003c/li\u003e\n\u003cli\u003eself-driving car\u003c/li\u003e\n\u003cli\u003esmart home\u003c/li\u003e\n\u003cli\u003esurveillance and security\u003c/li\u003e\n\u003cli\u003emedical image and diagnostic\u003c/li\u003e\n\u003cli\u003espam discovery and filtering\u003c/li\u003e\n\u003cli\u003epredictive maintenance\u003c/li\u003e\n\u003cli\u003e\u0026hellip;\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Apr 8, 2016 9:46:27 PM",
-      "dateStarted": "Jun 19, 2016 11:08:38 AM",
-      "dateFinished": "Jun 19, 2016 11:08:38 AM",
+      "dateStarted": "Jun 19, 2016 11:10:59 AM",
+      "dateFinished": "Jun 19, 2016 11:10:59 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -1079,7 +1204,7 @@
       "title": "Versions",
       "text": "%md\nA study note about Learning Machine Learning, \n* v.0.0.1, April-10 2016, initial version, Richard Kuo, at La Boulanger, Mountain View, CA\n* v.0.0.2, June-20 2016, add history and update mindmap, Richard Kuo, at La Boulanger, Mountain View, CA",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:38 AM",
+      "dateUpdated": "Jun 19, 2016 11:10:59 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -1108,14 +1233,14 @@
         "msg": "\u003cp\u003eA study note about Learning Machine Learning,\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003ev.0.0.1, April-10 2016, initial version, Richard Kuo, at La Boulanger, Mountain View, CA\u003c/li\u003e\n\u003cli\u003ev.0.0.2, June-20 2016, add history and update mindmap, Richard Kuo, at La Boulanger, Mountain View, CA\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Apr 8, 2016 11:41:50 PM",
-      "dateStarted": "Jun 19, 2016 11:08:38 AM",
-      "dateFinished": "Jun 19, 2016 11:08:38 AM",
+      "dateStarted": "Jun 19, 2016 11:10:59 AM",
+      "dateFinished": "Jun 19, 2016 11:10:59 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:08:38 AM",
+      "dateUpdated": "Jun 19, 2016 11:10:59 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -1142,8 +1267,8 @@
         "msg": ""
       },
       "dateCreated": "Apr 10, 2016 6:14:32 PM",
-      "dateStarted": "Jun 19, 2016 11:08:38 AM",
-      "dateFinished": "Jun 19, 2016 11:08:38 AM",
+      "dateStarted": "Jun 19, 2016 11:10:59 AM",
+      "dateFinished": "Jun 19, 2016 11:10:59 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     }

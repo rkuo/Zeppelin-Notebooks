@@ -48,7 +48,7 @@
       "progressUpdateIntervalMs": 500
     }
   ],
-  "name": "WordCount",
+  "name": "WordCount in Python",
   "id": "2BJV6A2B3",
   "angularObjects": {
     "2BJNWTGVX:shared_process": [],
@@ -70,6 +70,8 @@
     "2BJSW731A:shared_process": [],
     "2BJDU2EXK:shared_process": []
   },
-  "config": {},
+  "config": {
+    "looknfeel": "default"
+  },
   "info": {}
 }
