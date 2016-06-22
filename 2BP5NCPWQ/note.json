@@ -1,9 +1,10 @@
 {
   "paragraphs": [
     {
+      "title": "1.0 The Basic",
       "text": "%md\n# Scala \n\nThis study note is based on the book [Scala for the Impatient][2] and [Programming Scala-First Edition][1]; also see [First Step in Scala for First Time Programmers][3]\n\n[1]:https://www.amazon.com/Programming-Scala-Updated-2-12/dp/0981531687/ref\u003dsr_1_1?s\u003dbooks\u0026ie\u003dUTF8\u0026qid\u003d1466181835\u0026sr\u003d1-1\u0026keywords\u003dscala+programming\n[2]:https://www.amazon.com/Scala-Impatient-Cay-S-Horstmann/dp/0321774094/ref\u003dsr_1_1?s\u003dbooks\u0026ie\u003dUTF8\u0026qid\u003d1466182192\u0026sr\u003d1-1\u0026keywords\u003dscala+impatient\n[3]:http://bcomposes.com/2011/08/22/first-steps-in-scala-for-first-time-programmers-part-1/",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 17, 2016 10:23:31 AM",
+      "dateUpdated": "Jun 21, 2016 5:36:53 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -17,7 +18,8 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/markdown",
-        "editorHide": false
+        "editorHide": false,
+        "title": false
       },
       "settings": {
         "params": {},
@@ -31,8 +33,46 @@
         "msg": "\u003ch1\u003eScala\u003c/h1\u003e\n\u003cp\u003eThis study note is based on the book \u003ca href\u003d\"https://www.amazon.com/Scala-Impatient-Cay-S-Horstmann/dp/0321774094/ref\u003dsr_1_1?s\u003dbooks\u0026amp;ie\u003dUTF8\u0026amp;qid\u003d1466182192\u0026amp;sr\u003d1-1\u0026amp;keywords\u003dscala+impatient\"\u003eScala for the Impatient\u003c/a\u003e and \u003ca href\u003d\"https://www.amazon.com/Programming-Scala-Updated-2-12/dp/0981531687/ref\u003dsr_1_1?s\u003dbooks\u0026amp;ie\u003dUTF8\u0026amp;qid\u003d1466181835\u0026amp;sr\u003d1-1\u0026amp;keywords\u003dscala+programming\"\u003eProgramming Scala-First Edition\u003c/a\u003e; also see \u003ca href\u003d\"http://bcomposes.com/2011/08/22/first-steps-in-scala-for-first-time-programmers-part-1/\"\u003eFirst Step in Scala for First Time Programmers\u003c/a\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 17, 2016 9:39:31 AM",
-      "dateStarted": "Jun 17, 2016 10:23:31 AM",
-      "dateFinished": "Jun 17, 2016 10:23:31 AM",
+      "dateStarted": "Jun 21, 2016 8:45:53 AM",
+      "dateFinished": "Jun 21, 2016 8:45:53 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Chapter 1 The Basic",
+      "text": "%md\nTo learn:\n* Defining variables with var and val\n* Numeric types\n* Using operators and functions\n* Navigating Scaladoc\n",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 21, 2016 5:39:19 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466555840153_1243059058",
+      "id": "20160621-173720_1888989735",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eTo learn:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eDefining variables with var and val\u003c/li\u003e\n\u003cli\u003eNumeric types\u003c/li\u003e\n\u003cli\u003eUsing operators and functions\u003c/li\u003e\n\u003cli\u003eNavigating Scaladoc\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Jun 21, 2016 5:37:20 PM",
+      "dateStarted": "Jun 21, 2016 5:39:19 PM",
+      "dateFinished": "Jun 21, 2016 5:39:19 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -40,7 +80,7 @@
       "title": "1.1 Scala Interpreter",
       "text": "%md\nSince Zeppelin supports Scala in default, there is not additional interpreter flag (%) is needed. We can use it as Read-Eval-Print-Loop (REPL) out of box.",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 17, 2016 10:45:50 AM",
+      "dateUpdated": "Jun 21, 2016 8:45:53 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -55,7 +95,7 @@
         "enabled": true,
         "title": true,
         "editorMode": "ace/mode/markdown",
-        "editorHide": false
+        "editorHide": true
       },
       "settings": {
         "params": {},
@@ -66,18 +106,18 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003cp\u003eSince Zeppelin supports Scala in default, there is not additional ?? is needed. We can use it as Read-Eval-Print-Loop (REPL) out of box.\u003c/p\u003e\n"
+        "msg": "\u003cp\u003eSince Zeppelin supports Scala in default, there is not additional interpreter flag (%) is needed. We can use it as Read-Eval-Print-Loop (REPL) out of box.\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 17, 2016 9:51:02 AM",
-      "dateStarted": "Jun 17, 2016 9:58:20 AM",
-      "dateFinished": "Jun 17, 2016 9:58:20 AM",
+      "dateStarted": "Jun 21, 2016 8:45:53 AM",
+      "dateFinished": "Jun 21, 2016 8:45:53 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "8 * 5 + 2",
+      "text": "8 * 5 + 2   //The interpreter will assign a variable like `res0` to hold the result. The number is created in sequence. Each time we run the paragraph, we get a next number. ",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 17, 2016 9:58:52 AM",
+      "dateUpdated": "Jun 21, 2016 5:08:46 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -101,18 +141,18 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "res265: Int \u003d 42\n"
+        "msg": "res66: Int \u003d 42\n"
       },
       "dateCreated": "Jun 17, 2016 9:58:32 AM",
-      "dateStarted": "Jun 17, 2016 9:58:52 AM",
-      "dateFinished": "Jun 17, 2016 9:58:52 AM",
+      "dateStarted": "Jun 21, 2016 5:08:46 PM",
+      "dateFinished": "Jun 21, 2016 5:08:46 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "0.5 * res265 ",
+      "text": "0.5 * res66   //follow the name, res??, generated above ",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 17, 2016 10:03:42 AM",
+      "dateUpdated": "Jun 21, 2016 5:13:01 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -136,18 +176,18 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "res267: Double \u003d 21.0\n"
+        "msg": "res72: Double \u003d 21.0\n"
       },
       "dateCreated": "Jun 17, 2016 10:02:55 AM",
-      "dateStarted": "Jun 17, 2016 10:03:42 AM",
-      "dateFinished": "Jun 17, 2016 10:03:42 AM",
+      "dateStarted": "Jun 21, 2016 5:13:01 PM",
+      "dateFinished": "Jun 21, 2016 5:13:01 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "\"Hello, \" + res265",
+      "text": "\"Hello, \" + res66",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 17, 2016 10:05:31 AM",
+      "dateUpdated": "Jun 21, 2016 5:09:13 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -171,18 +211,18 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "res271: String \u003d Hello, 42\n"
+        "msg": "res70: String \u003d Hello, 42\n"
       },
       "dateCreated": "Jun 17, 2016 10:03:47 AM",
-      "dateStarted": "Jun 17, 2016 10:05:31 AM",
-      "dateFinished": "Jun 17, 2016 10:05:31 AM",
+      "dateStarted": "Jun 21, 2016 5:09:13 PM",
+      "dateFinished": "Jun 21, 2016 5:09:13 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\nThe interpreter automatically convert 42 value to String and display the type of result: String. Zeppelin also includes a _tab completion_, use key `ctnl+.`. We can try by typing `res265.to` then hit \u0027cntl+.`. We will get a list of choices such as `toString`, `toShort`, `toLong`,... we can use upper-arrow or down-arrow key to select the choice then hit enter key.",
+      "text": "%md\nThe interpreter automatically convert 42 value to String and display the type of result: String. Zeppelin also includes a _tab completion_, use key `ctnl+.`. We can try by typing `res0.to` then hit `cntl+.`. We will get a list of choices such as `toString`, `toShort`, `toLong`,... we can use upper-arrow or down-arrow key to select the choice then hit enter key.",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 17, 2016 10:30:42 AM",
+      "dateUpdated": "Jun 21, 2016 5:10:03 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -195,7 +235,8 @@
           "scatter": {}
         },
         "enabled": true,
-        "editorMode": "ace/mode/markdown"
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
       },
       "settings": {
         "params": {},
@@ -206,17 +247,18 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003cp\u003eThe interpreter automatically convert 42 value to String and display the type of result: String. Zeppelin also includes a \u003cem\u003etab completion\u003c/em\u003e, use key \u003ccode\u003ectnl+.\u003c/code\u003e. We can try by typing \u003ccode\u003eres265.to\u003c/code\u003e then hit \u0027cntl+.\u003ccode\u003e. We will get a list of choices such as\u003c/code\u003etoString\u003ccode\u003e,\u003c/code\u003etoShort\u003ccode\u003e,\u003c/code\u003etoLong`,\u0026hellip;\u003c/p\u003e\n"
+        "msg": "\u003cp\u003eThe interpreter automatically convert 42 value to String and display the type of result: String. Zeppelin also includes a \u003cem\u003etab completion\u003c/em\u003e, use key \u003ccode\u003ectnl+.\u003c/code\u003e. We can try by typing \u003ccode\u003eres0.to\u003c/code\u003e then hit \u003ccode\u003ecntl+.\u003c/code\u003e. We will get a list of choices such as \u003ccode\u003etoString\u003c/code\u003e, \u003ccode\u003etoShort\u003c/code\u003e, \u003ccode\u003etoLong\u003c/code\u003e,\u0026hellip; we can use upper-arrow or down-arrow key to select the choice then hit enter key.\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 17, 2016 10:06:08 AM",
-      "dateStarted": "Jun 17, 2016 10:29:09 AM",
-      "dateFinished": "Jun 17, 2016 10:29:09 AM",
+      "dateStarted": "Jun 21, 2016 5:10:00 PM",
+      "dateFinished": "Jun 21, 2016 5:10:00 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "// put cursor after `to` then hit `cntl+.` to see choices.\nres265.to",
-      "dateUpdated": "Jun 17, 2016 10:39:45 AM",
+      "text": "// put cursor after `to` then hit `cntl+.` to see choices. \nres66.to",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 21, 2016 5:11:20 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -237,15 +279,22 @@
       },
       "jobName": "paragraph_1466184389913_409586744",
       "id": "20160617-102629_1399349947",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "\u003cconsole\u003e:34: error: ambiguous reference to overloaded definition,\nboth method to in class RichInt of type (end: Int, step: Int)scala.collection.immutable.Range.Inclusive\nand  method to in class RichInt of type (end: Int)scala.collection.immutable.Range.Inclusive\nmatch expected type ?\n              res9.to\n                   ^\n"
+      },
       "dateCreated": "Jun 17, 2016 10:26:29 AM",
-      "status": "READY",
+      "dateStarted": "Jun 21, 2016 8:47:05 AM",
+      "dateFinished": "Jun 21, 2016 8:47:05 AM",
+      "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "1.2 Declaring Values and Variables",
       "text": "%md\nInstead accepting system generate name, `res0`, `res1`, `res2`,..., we can define our own names.",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 17, 2016 11:11:03 AM",
+      "dateUpdated": "Jun 21, 2016 8:45:54 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -274,15 +323,15 @@
         "msg": "\u003cp\u003eInstead accepting system generate name, \u003ccode\u003eres0\u003c/code\u003e, \u003ccode\u003eres1\u003c/code\u003e, \u003ccode\u003eres2\u003c/code\u003e,\u0026hellip;, we can define our own names.\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 17, 2016 10:46:00 AM",
-      "dateStarted": "Jun 17, 2016 10:49:45 AM",
-      "dateFinished": "Jun 17, 2016 10:49:45 AM",
+      "dateStarted": "Jun 21, 2016 8:45:54 AM",
+      "dateFinished": "Jun 21, 2016 8:45:54 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "val answer \u003d 8 * 5 + 2",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 17, 2016 10:51:54 AM",
+      "dateUpdated": "Jun 21, 2016 8:45:54 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -309,15 +358,15 @@
         "msg": "answer: Int \u003d 42\n"
       },
       "dateCreated": "Jun 17, 2016 10:51:25 AM",
-      "dateStarted": "Jun 17, 2016 10:51:54 AM",
-      "dateFinished": "Jun 17, 2016 10:51:54 AM",
+      "dateStarted": "Jun 21, 2016 8:45:54 AM",
+      "dateFinished": "Jun 21, 2016 8:45:54 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "0.5 * answer",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 17, 2016 10:54:11 AM",
+      "dateUpdated": "Jun 21, 2016 8:45:54 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -341,18 +390,18 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "res274: Double \u003d 21.0\n"
+        "msg": "res16: Double \u003d 21.0\n"
       },
       "dateCreated": "Jun 17, 2016 10:53:39 AM",
-      "dateStarted": "Jun 17, 2016 10:54:11 AM",
-      "dateFinished": "Jun 17, 2016 10:54:11 AM",
+      "dateStarted": "Jun 21, 2016 8:45:54 AM",
+      "dateFinished": "Jun 21, 2016 8:45:54 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md \nValue declared with `val` is constant, which cannot be changed. We will get error message, if we do.",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 17, 2016 11:13:46 AM",
+      "dateUpdated": "Jun 21, 2016 8:45:54 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -380,15 +429,15 @@
         "msg": "\u003cp\u003eValue declared with \u003ccode\u003eval\u003c/code\u003e is constant, which cannot be changed. We will get error message, if we do.\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 17, 2016 10:54:29 AM",
-      "dateStarted": "Jun 17, 2016 11:13:45 AM",
-      "dateFinished": "Jun 17, 2016 11:13:45 AM",
+      "dateStarted": "Jun 21, 2016 8:45:54 AM",
+      "dateFinished": "Jun 21, 2016 8:45:54 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "answer \u003d 0",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 17, 2016 11:08:51 AM",
+      "dateUpdated": "Jun 21, 2016 8:45:54 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -415,15 +464,15 @@
         "msg": "\u003cconsole\u003e:29: error: reassignment to val\n         answer \u003d 0\n                ^\n"
       },
       "dateCreated": "Jun 17, 2016 11:08:36 AM",
-      "dateStarted": "Jun 17, 2016 11:08:51 AM",
-      "dateFinished": "Jun 17, 2016 11:08:51 AM",
+      "dateStarted": "Jun 21, 2016 8:45:54 AM",
+      "dateFinished": "Jun 21, 2016 8:45:54 AM",
       "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\nWe can declare a name to hold the value as variable.",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 17, 2016 11:13:41 AM",
+      "dateUpdated": "Jun 21, 2016 8:45:54 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -451,15 +500,15 @@
         "msg": "\u003cp\u003eWe can declare a name to hold the value as variable.\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 17, 2016 11:09:18 AM",
-      "dateStarted": "Jun 17, 2016 11:13:39 AM",
-      "dateFinished": "Jun 17, 2016 11:13:39 AM",
+      "dateStarted": "Jun 21, 2016 8:45:54 AM",
+      "dateFinished": "Jun 21, 2016 8:45:54 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "// this is ok\nvar counter \u003d 0\nvar counter \u003d 1\n",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 17, 2016 11:20:40 AM",
+      "dateUpdated": "Jun 21, 2016 8:45:54 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -486,15 +535,15 @@
         "msg": "counter: Int \u003d 0\ncounter: Int \u003d 1\n"
       },
       "dateCreated": "Jun 17, 2016 11:10:56 AM",
-      "dateStarted": "Jun 17, 2016 11:20:40 AM",
-      "dateFinished": "Jun 17, 2016 11:20:40 AM",
+      "dateStarted": "Jun 21, 2016 8:45:55 AM",
+      "dateFinished": "Jun 21, 2016 8:45:55 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\nWe do not need to specify the type of variable or value. The type is inferred from the expression of initialization. We can also initialize several variables/values at the same time. Different from Java, Scala declares the type after the name of variable/value. ",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 17, 2016 11:20:44 AM",
+      "dateUpdated": "Jun 21, 2016 8:45:54 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -522,8 +571,8 @@
         "msg": "\u003cp\u003eWe do not need to specify the type of variable or value. The type is inferred from the expression of initialization. We can also initialize several variables/values at the same time. Different from Java, Scala declares the type after the name of variable/value.\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 17, 2016 11:14:40 AM",
-      "dateStarted": "Jun 17, 2016 11:20:43 AM",
-      "dateFinished": "Jun 17, 2016 11:20:43 AM",
+      "dateStarted": "Jun 21, 2016 8:45:54 AM",
+      "dateFinished": "Jun 21, 2016 8:45:54 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -531,7 +580,7 @@
       "title": "1.3 Commonly Used Types",
       "text": "%md\nScala has seven different numeric types: Byte, Char, Short, Int, Long, Float, Double, and Boolean type. In Scala, type is class. We can call its methods on numbers. ",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 17, 2016 11:28:06 AM",
+      "dateUpdated": "Jun 21, 2016 8:45:54 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -560,14 +609,15 @@
         "msg": "\u003cp\u003eScala has seven different numeric types: Byte, Char, Short, Int, Long, Float, Double, and Boolean type. In Scala, type is class. We can call its methods on numbers.\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 17, 2016 11:21:03 AM",
-      "dateStarted": "Jun 17, 2016 11:28:04 AM",
-      "dateFinished": "Jun 17, 2016 11:28:04 AM",
+      "dateStarted": "Jun 21, 2016 8:45:54 AM",
+      "dateFinished": "Jun 21, 2016 8:45:54 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "1.toString // yields a string \"1\"\n1.to(10)   // yields a range (1,2,3,...10)",
-      "dateUpdated": "Jun 17, 2016 7:35:02 PM",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 21, 2016 8:45:54 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -588,14 +638,21 @@
       },
       "jobName": "paragraph_1466188089464_590701664",
       "id": "20160617-112809_492116530",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "res20: String \u003d 1\nres21: scala.collection.immutable.Range.Inclusive \u003d Range(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)\n"
+      },
       "dateCreated": "Jun 17, 2016 11:28:09 AM",
-      "status": "READY",
+      "dateStarted": "Jun 21, 2016 8:45:55 AM",
+      "dateFinished": "Jun 21, 2016 8:45:55 AM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "(1 to 4).map(_+3)\n        .filter(_\u003e5)\n        .foldRight(2)(_+_)",
+      "text": "(1 to 4).map(_+3)  //[4,5,6,7]\n        .filter(_\u003e5)  //[6,7]\n        .foldRight(2)(_+_)  //2+6+7\u003d15",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 17, 2016 7:36:26 PM",
+      "dateUpdated": "Jun 21, 2016 8:45:54 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -619,17 +676,162 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "res287: Int \u003d 15\n"
+        "msg": "res23: Int \u003d 15\n"
       },
       "dateCreated": "Jun 17, 2016 7:32:11 PM",
-      "dateStarted": "Jun 17, 2016 7:36:26 PM",
-      "dateFinished": "Jun 17, 2016 7:36:26 PM",
+      "dateStarted": "Jun 21, 2016 8:45:55 AM",
+      "dateFinished": "Jun 21, 2016 8:45:56 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "title": "Chapter 2 - Control Structure and Function",
-      "dateUpdated": "Jun 17, 2016 9:54:22 AM",
+      "text": "%md\n//this converts to StringOps, which serves as a wrapper providing Strings with all the operations found in indexed sequences.\n//see more details http://lampwww.epfl.ch/~hmiller/scaladoc/library/scala/collection/immutable/StringOps.html\n\"hello\".intersect(\"world\")",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 21, 2016 8:45:55 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466516948558_-543059339",
+      "id": "20160621-064908_1505975593",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e//this converts to StringOps, which serves as a wrapper providing Strings with all the operations found in indexed sequences.\n\u003cbr  /\u003e//see more details http://lampwww.epfl.ch/~hmiller/scaladoc/library/scala/collection/immutable/StringOps.html\n\u003cbr  /\u003e\u0026ldquo;hello\u0026rdquo;.intersect(\u0026ldquo;world\u0026rdquo;)\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 21, 2016 6:49:08 AM",
+      "dateStarted": "Jun 21, 2016 8:45:55 AM",
+      "dateFinished": "Jun 21, 2016 8:45:55 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "1.4 Arithmetic and Operator Overloading",
+      "text": "%md\nThe + - * / are operators, which actually is method of some class. For example:",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 21, 2016 5:29:07 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466517259526_-841379299",
+      "id": "20160621-065419_925978201",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eThe + - * / are operators, which actually is method of some class. For example:\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 21, 2016 6:54:19 AM",
+      "dateStarted": "Jun 21, 2016 8:45:55 AM",
+      "dateFinished": "Jun 21, 2016 8:45:55 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "val c \u003d 5 + 8 //or\n5 .+ (8)      //should not write like 5.+(8), which interprets 5. as double",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 21, 2016 8:45:55 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466517483425_-2022280419",
+      "id": "20160621-065803_1266618855",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "c: Int \u003d 13\nres25: Int \u003d 13\n"
+      },
+      "dateCreated": "Jun 21, 2016 6:58:03 AM",
+      "dateStarted": "Jun 21, 2016 8:45:56 AM",
+      "dateFinished": "Jun 21, 2016 8:45:56 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "// Scala does not have ++ or --, instead, it has +\u003d and -+\nvar counter \u003d 0\ncounter +\u003d 1\nprint(counter)",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 21, 2016 8:45:55 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466517775354_-1049405337",
+      "id": "20160621-070255_352676842",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "counter: Int \u003d 0\n1"
+      },
+      "dateCreated": "Jun 21, 2016 7:02:55 AM",
+      "dateStarted": "Jun 21, 2016 8:45:56 AM",
+      "dateFinished": "Jun 21, 2016 8:45:57 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "1.5 Calling Functions and Methods",
+      "text": "//Scala does not have static method. For math function, we just have to import the library\nimport scala.math._  //means all math function\nsqrt(2)\nmax(3, 4)\nmin(3, Pi)  //P is uppercase",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 21, 2016 8:45:55 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -649,14 +851,635 @@
         "params": {},
         "forms": {}
       },
+      "jobName": "paragraph_1466519731892_103692574",
+      "id": "20160621-073531_1245246499",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "import scala.math._\nres32: Double \u003d 1.4142135623730951\nres33: Int \u003d 4\nres34: Double \u003d 3.0\n"
+      },
+      "dateCreated": "Jun 21, 2016 7:35:31 AM",
+      "dateStarted": "Jun 21, 2016 8:45:56 AM",
+      "dateFinished": "Jun 21, 2016 8:45:57 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "\"hello\".distinct  //when there is no parameter, () can be eliminated",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 21, 2016 8:45:55 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466520038082_-606124819",
+      "id": "20160621-074038_1339644817",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "res36: String \u003d helo\n"
+      },
+      "dateCreated": "Jun 21, 2016 7:40:38 AM",
+      "dateStarted": "Jun 21, 2016 8:45:57 AM",
+      "dateFinished": "Jun 21, 2016 8:45:57 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "1.6 The Apply Method",
+      "text": "%md\nWe often see the syntax like function call, for example, s(i); this is ith element in String s; like s[i] in C++, or like s.charAt(i) in Java. We can also think this is an overloaded () operator. For example:",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 21, 2016 5:26:36 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "title": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466520287650_1210996619",
+      "id": "20160621-074447_1851116974",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eWe often see the syntax like function call, for example, s(i); this is ith element in String s; like s[i] in C++, or like s.charAt(i) in Java. We can also think this is an overloaded () operator. For example:\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 21, 2016 7:44:47 AM",
+      "dateStarted": "Jun 21, 2016 5:26:31 PM",
+      "dateFinished": "Jun 21, 2016 5:26:31 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "\"hello\"(4)  //() is an operator\n",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 21, 2016 8:45:55 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466522224968_2122038210",
+      "id": "20160621-081704_1718784432",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "res38: Char \u003d o\n"
+      },
+      "dateCreated": "Jun 21, 2016 8:17:04 AM",
+      "dateStarted": "Jun 21, 2016 8:45:57 AM",
+      "dateFinished": "Jun 21, 2016 8:45:57 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "\"hello\"(4)  //is a shortcut for\n//http://www.scala-lang.org/api/current/index.html#scala.collection.immutable.StringOps\n\"hello\".apply(4)  //StringOps has a method `apply`; return element at index n",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 21, 2016 8:45:55 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466522414119_-1019776980",
+      "id": "20160621-082014_1272568394",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "res40: Char \u003d o\nres41: Char \u003d o\n"
+      },
+      "dateCreated": "Jun 21, 2016 8:20:14 AM",
+      "dateStarted": "Jun 21, 2016 8:45:57 AM",
+      "dateFinished": "Jun 21, 2016 8:45:58 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "1.7 ScalaDoc",
+      "text": "%md\n[scaladoc][1]\n\n[1]: http://www.scala-lang.org/api",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 21, 2016 8:45:55 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466523629545_-1428804455",
+      "id": "20160621-084029_1373392124",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003ca href\u003d\"http://www.scala-lang.org/api\"\u003escaladoc\u003c/a\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 21, 2016 8:40:29 AM",
+      "dateStarted": "Jun 21, 2016 8:45:55 AM",
+      "dateFinished": "Jun 21, 2016 8:45:55 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Chapter 2 - Control Structure and Function",
+      "text": "%md\nTo learn:\n* expression vs statement\n* if expression as a value\n* block has a value - the value of the last expression\n* for loop like enhanced Java for-loop\n* semi-colons are optional, avoid using return in a function, void in Java is Unit in scala.\n* aware missing \u003d sign in function definition\n* exception works just like in Java, except we use pattern match to catch, there is no checked exceptions",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 21, 2016 5:30:25 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
       "jobName": "paragraph_1466182398483_800658024",
       "id": "20160617-095318_684837004",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eTo learn:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eexpression vs statement\u003c/li\u003e\n\u003cli\u003eif expression as a value\u003c/li\u003e\n\u003cli\u003eblock has a value - the value of the last expression\u003c/li\u003e\n\u003cli\u003efor loop like enhanced Java for-loop\u003c/li\u003e\n\u003cli\u003esemi-colons are optional, avoid using return in a function, void in Java is Unit in scala.\u003c/li\u003e\n\u003cli\u003eaware missing \u003d sign in function definition\u003c/li\u003e\n\u003cli\u003eexception works just like in Java, except we use pattern match to catch, there is no checked exceptions\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
       "dateCreated": "Jun 17, 2016 9:53:18 AM",
+      "dateStarted": "Jun 21, 2016 5:26:52 PM",
+      "dateFinished": "Jun 21, 2016 5:26:52 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "2.1 Conditional Expressions",
+      "text": "%md\nEverything \"evaluates\" to a value. Every possible value is an object (so every expression evaluates to an object). By the way, functions, as first-class citizens in Scala, are objects, too. We can group multiple expressions and statements to form a larger expression using curly braces. A multi-line expression will always take the value of its last subexpression. \n\nA statement is one that does not return a value, e.g. class Foo { } is a statement, and does not evaluate to any value.",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 21, 2016 6:04:52 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "title": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466525813389_1176811378",
+      "id": "20160621-091653_326861084",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eEverything \u0026ldquo;evaluates\u0026rdquo; to a value. Every possible value is an object (so every expression evaluates to an object). By the way, functions, as first-class citizens in Scala, are objects, too. We can group multiple expressions and statements to form a larger expression using curly braces. A multi-line expression will always take the value of its last subexpression.\u003c/p\u003e\n\u003cp\u003eA statement is one that does not return a value, e.g. class Foo { } is a statement, and does not evaluate to any value.\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 21, 2016 9:16:53 AM",
+      "dateStarted": "Jun 21, 2016 6:04:52 PM",
+      "dateFinished": "Jun 21, 2016 6:04:52 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "// 3 different ways to write if expression.\n// it returns a value, so it is expression.\nval x \u003d 1\nif (x \u003e 0) 1 else -1",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 21, 2016 6:42:09 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466556975771_-859171706",
+      "id": "20160621-175615_1363748408",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "x: Int \u003d 1\nres78: Int \u003d 1\n"
+      },
+      "dateCreated": "Jun 21, 2016 5:56:15 PM",
+      "dateStarted": "Jun 21, 2016 6:42:09 PM",
+      "dateFinished": "Jun 21, 2016 6:42:09 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "// You can put that value in a variable:\rval s \u003d if (x \u003e 0) 1 else -1",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 21, 2016 6:42:15 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466558607414_-1054928463",
+      "id": "20160621-182327_1787472879",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "s: Int \u003d 1\n"
+      },
+      "dateCreated": "Jun 21, 2016 6:23:27 PM",
+      "dateStarted": "Jun 21, 2016 6:42:15 PM",
+      "dateFinished": "Jun 21, 2016 6:42:15 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "// or we can write like, but we have to use `var`\nvar s \u003d 0\nif (x \u003e 0) s \u003d 1 else s \u003d -1",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 21, 2016 7:05:01 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466559660144_-646220627",
+      "id": "20160621-184100_1844217894",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "s: Int \u003d 0\n"
+      },
+      "dateCreated": "Jun 21, 2016 6:41:00 PM",
+      "dateStarted": "Jun 21, 2016 6:47:07 PM",
+      "dateFinished": "Jun 21, 2016 6:47:07 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "// but, if we have two different types of return value\nvar t: Any \u003d 0   //allows any type of value to return\nif (x \u003e 0) t \u003d \"positive\" else t \u003d -1  // there is a mixed return types",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 22, 2016 3:20:40 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466559837445_-135965320",
+      "id": "20160621-184357_1500916419",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "t: Any \u003d 0\n"
+      },
+      "dateCreated": "Jun 21, 2016 6:43:57 PM",
+      "dateStarted": "Jun 21, 2016 7:15:54 PM",
+      "dateFinished": "Jun 21, 2016 7:15:54 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md \nIn Scala, every expression is supposed to have some value and has a type.\n\nIf the else part is omitted, for example in ",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 22, 2016 4:08:06 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466561341934_-108891690",
+      "id": "20160621-190901_1694521830",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eIn Scala, every expression is supposed to have some value and has a type.\u003c/p\u003e\n\u003cp\u003eIf the else part is omitted, for example in\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 21, 2016 7:09:01 PM",
+      "dateStarted": "Jun 22, 2016 4:08:03 AM",
+      "dateFinished": "Jun 22, 2016 4:08:03 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "if (x \u003e 0) 1",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 22, 2016 3:50:32 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466592622491_-291984844",
+      "id": "20160622-035022_526886279",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "res97: AnyVal \u003d 1\n"
+      },
+      "dateCreated": "Jun 22, 2016 3:50:22 AM",
+      "dateStarted": "Jun 22, 2016 3:50:32 AM",
+      "dateFinished": "Jun 22, 2016 3:50:32 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\nthen it is possible that the if statement yields no value.  This is finessed by introducing a class Unit that has one value, written as (). The if statement without an else is equivalent to",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 22, 2016 4:07:29 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466592632520_1509424830",
+      "id": "20160622-035032_248922900",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003ethen it is possible that the if statement yields no value.  This is finessed by introducing a class Unit that has one value, written as (). The if statement without an else is equivalent to\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 22, 2016 3:50:32 AM",
+      "dateStarted": "Jun 22, 2016 4:07:27 AM",
+      "dateFinished": "Jun 22, 2016 4:07:27 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "if (x \u003e 0) 1 else ()",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 22, 2016 3:53:48 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466592758110_-386466152",
+      "id": "20160622-035238_1381166461",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "res99: AnyVal \u003d 1\n"
+      },
+      "dateCreated": "Jun 22, 2016 3:52:38 AM",
+      "dateStarted": "Jun 22, 2016 3:53:48 AM",
+      "dateFinished": "Jun 22, 2016 3:53:48 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\nThink of () as a placeholder for “no useful value,” and think of Unit as the analog of void in Java or C++.",
+      "dateUpdated": "Jun 22, 2016 3:54:59 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466592828035_411026373",
+      "id": "20160622-035348_2096231728",
+      "dateCreated": "Jun 22, 2016 3:53:48 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "2.2 Statement Termination",
+      "text": "%md\nIn Scala—like in JavaScript and other scripting languages—a semicolon is never required if it falls just before the end of the line. A semicolon is also optional before an }, an else, and similar locations where it is clear from context that the end of a statement has been reached.",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 22, 2016 5:10:21 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466594651799_-45081152",
+      "id": "20160622-042411_168213217",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eIn Scala—like in JavaScript and other scripting languages—a semicolon is never required if it falls just before the end of the line. A semicolon is also optional before an }, an else, and similar locations where it is clear from context that the end of a statement has been reached.\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 22, 2016 4:24:11 AM",
+      "dateStarted": "Jun 22, 2016 5:10:21 AM",
+      "dateFinished": "Jun 22, 2016 5:10:21 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466597421271_273878608",
+      "id": "20160622-051021_1717388683",
+      "dateCreated": "Jun 22, 2016 5:10:21 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
   ],
-  "name": "Scala",
+  "name": "Scala - 1 Basic",
   "id": "2BP5NCPWQ",
   "angularObjects": {
     "2BJNWTGVX:shared_process": [],
@@ -678,6 +1501,8 @@
     "2BJSW731A:shared_process": [],
     "2BJDU2EXK:shared_process": []
   },
-  "config": {},
+  "config": {
+    "looknfeel": "default"
+  },
   "info": {}
 }

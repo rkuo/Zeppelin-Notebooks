@@ -75,12 +75,12 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "title": "History of Machine Learning",
-      "text": "%md\n\n![ML history-1][1]\n![ML history-2][2]\n![ML history-3][3]\n\n[1]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history1.jpg\n[2]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history2.jpg\n[3]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history3.jpg",
+      "title": "History of Machine Learning - Winter 1",
+      "text": "%md\n![ML history-1][1]\n\n[1]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history1.jpg\n",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 20, 2016 4:28:44 AM",
+      "dateUpdated": "Jun 20, 2016 8:56:00 PM",
       "config": {
-        "colWidth": 12.0,
+        "colWidth": 6.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
@@ -104,21 +104,21 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history1.jpg\" alt\u003d\"ML history-1\" /\u003e\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history2.jpg\" alt\u003d\"ML history-2\" /\u003e\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history3.jpg\" alt\u003d\"ML history-3\" /\u003e\u003c/p\u003e\n"
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history1.jpg\" alt\u003d\"ML history-1\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 19, 2016 7:39:08 AM",
-      "dateStarted": "Jun 20, 2016 4:28:41 AM",
-      "dateFinished": "Jun 20, 2016 4:28:41 AM",
+      "dateStarted": "Jun 20, 2016 8:55:19 PM",
+      "dateFinished": "Jun 20, 2016 8:55:19 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "title": " New Period of Machine Learning",
-      "text": "%md\n#### 2012\n\nAndrew Ng and his team made major breakthough in face detector from unlabeled images: from the article [Building High-level Features Using Large Scale Unsupervised Learning][1]\n\nWe train a 9-layered locally connected sparse autoencoder with pooling and local contrast normalization on a large dataset of images (the model has 1 billion connections, the dataset has 10 million 200x200 pixel images downloaded from the Internet). We train this network using model parallelism and asynchronous SGD on a cluster with 1,000 machines (16,000 cores) for three days. \n\nContrary to what appears to be a widely-held intuition, our experimental results reveal that it is possible to train a face detector without having to label images as containing a face or not. Control experiments show that this feature detector is robust not only to translation but also to scaling and out-of-plane rotation. We also find that the same network is sensitive to other high-level concepts such as cat faces and human bodies. Starting with these learned features, we trained our network to obtain 15.8% accuracy in recognizing 20,000 object categories from ImageNet, a leap of 70% relative improvement over the previous state-of-the-art.\n\n#### 2015\nStanford University worked on Neural Network which can explain unlabeled photo. For example:\n\n![unlabeled photo][2]\n\n[1]:http://www.robotics.stanford.edu/~ang/papers/icml12-HighLevelFeaturesUsingUnsupervisedLearning.pdf\n[2]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Gigaom___Google__Stanford_build_hybrid_neural_networks_that_can_explain_photos.jpg",
+      "title": "History of Machine Learning - Winter 2",
+      "text": "%md\n\n![ML history-2][2]   \n\n \n[2]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history2.jpg\n\n\n",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 20, 2016 4:27:59 AM",
+      "dateUpdated": "Jun 20, 2016 8:58:33 PM",
       "config": {
-        "colWidth": 12.0,
+        "colWidth": 6.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
@@ -131,7 +131,110 @@
         "enabled": true,
         "editorMode": "ace/mode/markdown",
         "title": true,
-        "editorHide": false
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466481162611_1113035447",
+      "id": "20160620-205242_1324152957",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history2.jpg\" alt\u003d\"ML history-2\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 20, 2016 8:52:42 PM",
+      "dateStarted": "Jun 20, 2016 8:58:32 PM",
+      "dateFinished": "Jun 20, 2016 8:58:32 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "dateUpdated": "Jun 20, 2016 8:59:00 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466481537360_-695180403",
+      "id": "20160620-205857_1753259656",
+      "dateCreated": "Jun 20, 2016 8:58:57 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "History of Machine Learning - Winter 3",
+      "text": "%md\n\n![ML history-3][3]\n[3]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history3.jpg",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 20, 2016 8:56:35 PM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466481156782_-1482865382",
+      "id": "20160620-205236_824694432",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/AI__Deep_Learning__and_Machine_Learning__A_Primer_%E2%80%93_Andreessen_Horowitz-history3.jpg\" alt\u003d\"ML history-3\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 20, 2016 8:52:36 PM",
+      "dateStarted": "Jun 20, 2016 8:56:32 PM",
+      "dateFinished": "Jun 20, 2016 8:56:32 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": " New Period of Machine Learning",
+      "text": "%md\n#### 2012\n\nAndrew Ng and his team made major breakthough in face detector from unlabeled images: from the article [Building High-level Features Using Large Scale Unsupervised Learning][1]\n\nWe train a 9-layered locally connected sparse autoencoder with pooling and local contrast normalization on a large dataset of images (the model has 1 billion connections, the dataset has 10 million 200x200 pixel images downloaded from the Internet). We train this network using model parallelism and asynchronous SGD on a cluster with 1,000 machines (16,000 cores) for three days. \n\nContrary to what appears to be a widely-held intuition, our experimental results reveal that it is possible to train a face detector without having to label images as containing a face or not. Control experiments show that this feature detector is robust not only to translation but also to scaling and out-of-plane rotation. We also find that the same network is sensitive to other high-level concepts such as cat faces and human bodies. Starting with these learned features, we trained our network to obtain 15.8% accuracy in recognizing 20,000 object categories from ImageNet, a leap of 70% relative improvement over the previous state-of-the-art.\n\n#### 2015\nStanford University worked on Neural Network which can explain unlabeled photo. For example:\n\n![unlabeled photo][2]\n\n[1]:http://www.robotics.stanford.edu/~ang/papers/icml12-HighLevelFeaturesUsingUnsupervisedLearning.pdf\n[2]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Gigaom___Google__Stanford_build_hybrid_neural_networks_that_can_explain_photos.jpg",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 20, 2016 8:57:37 PM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true,
+        "editorHide": true
       },
       "settings": {
         "params": {},
@@ -265,22 +368,46 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "%md\n### Why Now?",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 21, 2016 3:19:38 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
-      "jobName": "paragraph_1466422465592_-1095769126",
-      "id": "20160620-043425_1111254628",
-      "dateCreated": "Jun 20, 2016 4:34:25 AM",
-      "status": "READY",
+      "jobName": "paragraph_1466488987225_1751875602",
+      "id": "20160620-230307_960455062",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003ch3\u003eWhy Now?\u003c/h3\u003e\n"
+      },
+      "dateCreated": "Jun 20, 2016 11:03:07 PM",
+      "dateStarted": "Jun 21, 2016 3:19:33 AM",
+      "dateFinished": "Jun 21, 2016 3:19:33 AM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "title": "Why ML Now?  ",
-      "text": "%md\n\n* Increase of data Volume, Variety, Velocity, and Veracity.\n![4v][1]\n   \n* Increase of computing power with dedicate hardware, Deep Learning Supercomputer in a box.  \n  ![dgx1][2]\n    * [MIT\u0027s 168-core chip could give big brains to mobile devices and robots][3].\n    * [Nvidia Tesla P100][4] ![tesla p100][7]\n    * A chip startup [Movidius][6] makes low-power chips it calls vision processing units (or VPUs), which can be part of mobile device.\n\n* More machine learning algorithms and theories are developed by researchers.\n* More industry support.\n\n[1]: https://www-01.ibm.com/software/data/bigdata/images/4-Vs-of-big-data.jpg\n[2]: http://images.nvidia.com/content/technologies/deep-learning/images/dgx1-header.jpg\n[3]: http://www.pcworld.com/article/3029972/components-processors/mits-168-core-chip-could-make-mobile-devices-robots-smarter.html\n[4]: https://www.technologyreview.com/s/601195/a-2-billion-chip-to-accelerate-artificial-intelligence/\n[5]: http://www.forbes.com/sites/aarontilley/2016/01/27/google-partners-with-chip-startup-to-take-machine-learning-out-of-the-cloud-and-into-your-pocket/#1760f30933e5  \n[6]: http://www.movidius.com/\n[7]: http://www.digitimes.com/NewsShow/20160408PD205_files/1_r.jpg",
+      "title": "More Data",
+      "text": "%md\n\n* Increase of data **Volume, Variety, Velocity, and Veracity**\n\n![4v][1]\n   \n\n[1]: https://www-01.ibm.com/software/data/bigdata/images/4-Vs-of-big-data.jpg\n",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 20, 2016 4:33:38 AM",
+      "dateUpdated": "Jun 21, 2016 3:21:29 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -306,12 +433,189 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003cul\u003e\n\u003cli\u003e\u003cp\u003eIncrease of data Volume, Variety, Velocity, and Veracity.\n\u003cbr  /\u003e\u003cimg src\u003d\"https://www-01.ibm.com/software/data/bigdata/images/4-Vs-of-big-data.jpg\" alt\u003d\"4v\" /\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eIncrease of computing power with dedicate hardware, Deep Learning Supercomputer in a box.\n\u003cbr  /\u003e\u003cimg src\u003d\"http://images.nvidia.com/content/technologies/deep-learning/images/dgx1-header.jpg\" alt\u003d\"dgx1\" /\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"http://www.pcworld.com/article/3029972/components-processors/mits-168-core-chip-could-make-mobile-devices-robots-smarter.html\"\u003eMIT\u0027s 168-core chip could give big brains to mobile devices and robots\u003c/a\u003e.\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://www.technologyreview.com/s/601195/a-2-billion-chip-to-accelerate-artificial-intelligence/\"\u003eNvidia Tesla P100\u003c/a\u003e \u003cimg src\u003d\"http://www.digitimes.com/NewsShow/20160408PD205_files/1_r.jpg\" alt\u003d\"tesla p100\" /\u003e\u003c/li\u003e\n\u003cli\u003eA chip startup \u003ca href\u003d\"http://www.movidius.com/\"\u003eMovidius\u003c/a\u003e makes low-power chips it calls vision processing units (or VPUs), which can be part of mobile device.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eMore machine learning algorithms and theories are developed by researchers.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eMore industry support.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n"
+        "msg": "\u003cul\u003e\n\u003cli\u003eIncrease of data \u003cstrong\u003eVolume, Variety, Velocity, and Veracity\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://www-01.ibm.com/software/data/bigdata/images/4-Vs-of-big-data.jpg\" alt\u003d\"4v\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 6, 2016 6:18:28 PM",
-      "dateStarted": "Jun 20, 2016 4:33:26 AM",
-      "dateFinished": "Jun 20, 2016 4:33:27 AM",
+      "dateStarted": "Jun 21, 2016 3:21:26 AM",
+      "dateFinished": "Jun 21, 2016 3:21:26 AM",
       "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Dedicate Machine Learning Hardware",
+      "text": "%md\n* Increase of computing power with dedicate hardware, Deep Learning Supercomputer in a box.  \n  ![dgx1][1]\n    * [Nvidia Tesla P100][2] ![tesla p100][3]\n\n[1]: http://images.nvidia.com/content/technologies/deep-learning/images/dgx1-header.jpg\n[2]: https://www.technologyreview.com/s/601195/a-2-billion-chip-to-accelerate-artificial-intelligence/\n[3]: http://www.digitimes.com/NewsShow/20160408PD205_files/1_r.jpg\n",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 20, 2016 11:01:58 PM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466481594249_587095736",
+      "id": "20160620-205954_1034895498",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cul\u003e\n\u003cli\u003eIncrease of computing power with dedicate hardware, Deep Learning Supercomputer in a box.\n\u003cbr  /\u003e\u003cimg src\u003d\"http://images.nvidia.com/content/technologies/deep-learning/images/dgx1-header.jpg\" alt\u003d\"dgx1\" /\u003e\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"https://www.technologyreview.com/s/601195/a-2-billion-chip-to-accelerate-artificial-intelligence/\"\u003eNvidia Tesla P100\u003c/a\u003e \u003cimg src\u003d\"http://www.digitimes.com/NewsShow/20160408PD205_files/1_r.jpg\" alt\u003d\"tesla p100\" /\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Jun 20, 2016 8:59:54 PM",
+      "dateStarted": "Jun 20, 2016 9:55:32 PM",
+      "dateFinished": "Jun 20, 2016 9:55:32 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Google TPU",
+      "text": "%md\nTPU runs using 8-bit integer math, instead of the higher-precision floating-point math for which most modern CPUs and GPUs are designed. Most machine-learning algorithms can get by fine with lower resolution data, which means the chip can handle more operations in a given area and tackle more complex models efficiently. \n\n![Google TPU][8]   \n![performance improvement][9]\n\n[8]: http://www6.pcmag.com/media/images/504395-google-tpu.jpg?thumb\u003dy\n[9]: http://www1.pcmag.com/media/images/504394-tpu-performance-googleio2016.jpg?thumb\u003dy\u0026width\u003d480",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 20, 2016 11:03:27 PM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466484461802_-1231733861",
+      "id": "20160620-214741_1634303451",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eTPU runs using 8-bit integer math, instead of the higher-precision floating-point math for which most modern CPUs and GPUs are designed. Most machine-learning algorithms can get by fine with lower resolution data, which means the chip can handle more operations in a given area and tackle more complex models efficiently.\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"http://www6.pcmag.com/media/images/504395-google-tpu.jpg?thumb\u003dy\" alt\u003d\"Google TPU\" /\u003e\n\u003cbr  /\u003e\u003cimg src\u003d\"http://www1.pcmag.com/media/images/504394-tpu-performance-googleio2016.jpg?thumb\u003dy\u0026amp;width\u003d480\" alt\u003d\"performance improvement\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jun 20, 2016 9:47:41 PM",
+      "dateStarted": "Jun 20, 2016 10:09:24 PM",
+      "dateFinished": "Jun 20, 2016 10:09:24 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "More AI Related Chips",
+      "text": "%md\n* [MIT\u0027s 168-core chip could give big brains to mobile devices and robots][1]. MIT says its chips would require a fraction of the resources, and is 10 times more power efficient than a mobile graphics processor. It would be possible to use the chip in wearables, smartphones and battery-operated robots.\n\n    Eyeriss will bring self-contained AI capabilities to devices with most of the processing happening locally on a device. Wi-Fi or cellular connections won’t be needed to tap into cloud services or servers for image or object recognition.\n\n* A chip startup [Movidius][2] makes low-power chips it calls vision processing units (or VPUs), which can be part of mobile device.\n\n![Myriad 2][3]\n\n* Intel purchased Altera, a leading maker of FPGAs (field-programmable gate arrays), which are somewhere in the middle; they\u0027re not as general purpose as GPUs or as specifically designed for TensorFlow as Google\u0027s chip, but can be programmed to do a variety of tasks. Microsoft has been experimenting with Altera FPGAs for deep learning. \n* IBM is developing its TrueNorth Neurosynaptic chip designed specifically for neural nets, which has recently begun to be used in a variety of applications. \n* Cadence (Tensilica), Freescale, and Synopsys are pushing their DSPs (digital-signal processors) to run these models; \n* Mobileye and NXP recently announced chips designed specifically for ADAS and self-driving cars; \n* Nervana have announced plans for chips specifically designed for AI.\n\n[1]: http://www.pcworld.com/article/3029972/components-processors/mits-168-core-chip-could-make-mobile-devices-robots-smarter.html\n[2]: http://www.movidius.com/\n[3]: http://cache.movidius.com/images/remote/http_cache.movidius.com/images/remote/http_movidius-uploads.s3.amazonaws.com/1441790258-vision-processing-unit.jpg\n",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 21, 2016 3:12:02 AM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466484465930_-1578377296",
+      "id": "20160620-214745_1917171964",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cul\u003e\n\u003cli\u003e\u003cp\u003e\u003ca href\u003d\"http://www.pcworld.com/article/3029972/components-processors/mits-168-core-chip-could-make-mobile-devices-robots-smarter.html\"\u003eMIT\u0027s 168-core chip could give big brains to mobile devices and robots\u003c/a\u003e. MIT says its chips would require a fraction of the resources, and is 10 times more power efficient than a mobile graphics processor. It would be possible to use the chip in wearables, smartphones and battery-operated robots.\u003c/p\u003e\n\u003cp\u003eEyeriss will bring self-contained AI capabilities to devices with most of the processing happening locally on a device. Wi-Fi or cellular connections won’t be needed to tap into cloud services or servers for image or object recognition.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eA chip startup \u003ca href\u003d\"http://www.movidius.com/\"\u003eMovidius\u003c/a\u003e makes low-power chips it calls vision processing units (or VPUs), which can be part of mobile device.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg src\u003d\"http://cache.movidius.com/images/remote/http_cache.movidius.com/images/remote/http_movidius-uploads.s3.amazonaws.com/1441790258-vision-processing-unit.jpg\" alt\u003d\"Myriad 2\" /\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eIntel purchased Altera, a leading maker of FPGAs (field-programmable gate arrays), which are somewhere in the middle; they\u0027re not as general purpose as GPUs or as specifically designed for TensorFlow as Google\u0027s chip, but can be programmed to do a variety of tasks. Microsoft has been experimenting with Altera FPGAs for deep learning.\u003c/li\u003e\n\u003cli\u003eIBM is developing its TrueNorth Neurosynaptic chip designed specifically for neural nets, which has recently begun to be used in a variety of applications.\u003c/li\u003e\n\u003cli\u003eCadence (Tensilica), Freescale, and Synopsys are pushing their DSPs (digital-signal processors) to run these models;\u003c/li\u003e\n\u003cli\u003eMobileye and NXP recently announced chips designed specifically for ADAS and self-driving cars;\u003c/li\u003e\n\u003cli\u003eNervana have announced plans for chips specifically designed for AI.\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Jun 20, 2016 9:47:45 PM",
+      "dateStarted": "Jun 21, 2016 3:10:45 AM",
+      "dateFinished": "Jun 21, 2016 3:10:45 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "More Algorithm Development and Communities",
+      "text": "%md\n* More machine learning algorithms and theories are developed by researchers.\n* More industry support.\n    * [OpenAI][1]\n[1]: https://openai.com/blog/openai-technical-goals/",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 21, 2016 3:17:46 AM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466481856520_320235409",
+      "id": "20160620-210416_1339963987",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cul\u003e\n\u003cli\u003eMore machine learning algorithms and theories are developed by researchers.\u003c/li\u003e\n\u003cli\u003eMore industry support.\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"https://openai.com/blog/openai-technical-goals/\"\u003eOpenAI\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Jun 20, 2016 9:04:16 PM",
+      "dateStarted": "Jun 21, 2016 3:17:46 AM",
+      "dateFinished": "Jun 21, 2016 3:17:46 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "dateUpdated": "Jun 21, 2016 3:24:54 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466422465592_-1095769126",
+      "id": "20160620-043425_1111254628",
+      "dateCreated": "Jun 20, 2016 4:34:25 AM",
+      "status": "READY",
       "progressUpdateIntervalMs": 500
     },
     {
@@ -356,9 +660,9 @@
       "title": "Computer Language for Big Data and Machine Learning",
       "text": "%md\nThere is a [quora disussion notes][2]\n\nA performace table from [Julia website][3] can be used as reference.\n![julia perfromace table][4]\n\n[1]: http://machinelearningmastery.com/best-programming-language-for-machine-learning/\n[2]: https://www.quora.com/What-is-the-best-language-to-use-while-learning-machine-learning-for-the-first-time\n[3]: http://julialang.org/\n[4]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/edf50ea0c1af465db5172d4439a0183df4763b62/2BJ78W1NT/images/The_Julia_Language.png",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:10:57 AM",
+      "dateUpdated": "Jun 21, 2016 3:22:46 AM",
       "config": {
-        "colWidth": 7.0,
+        "colWidth": 6.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
@@ -783,9 +1087,9 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n![single cell][1]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/6_2_-_Hypothesis_Representation_-___Machine_Learning___By_Andrew_Ng_-_YouTube_gFunction.png",
+      "text": "%md\n![single cell][1]\n\n\n\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/6_2_-_Hypothesis_Representation_-___Machine_Learning___By_Andrew_Ng_-_YouTube_gFunction.png",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 19, 2016 11:10:58 AM",
+      "dateUpdated": "Jun 21, 2016 6:40:51 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -813,8 +1117,8 @@
         "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/6_2_-_Hypothesis_Representation_-___Machine_Learning___By_Andrew_Ng_-_YouTube_gFunction.png\" alt\u003d\"single cell\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Apr 8, 2016 4:13:47 PM",
-      "dateStarted": "Jun 19, 2016 11:10:58 AM",
-      "dateFinished": "Jun 19, 2016 11:10:58 AM",
+      "dateStarted": "Jun 21, 2016 6:40:45 AM",
+      "dateFinished": "Jun 21, 2016 6:40:45 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -822,7 +1126,7 @@
       "title": "Activation Function",
       "text": "%md\nThere are different types of activation functions.\n\n![types of activation functions][1]. \n\nMost of those functions have \"mathematics convience\", which simplifies the downstream equation calculation. \n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Neural_Networks__1___Basics_-_YouTube-ActivationFunction.png",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 20, 2016 8:00:25 AM",
+      "dateUpdated": "Jun 21, 2016 3:25:56 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -836,7 +1140,8 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/markdown",
-        "title": true
+        "title": true,
+        "editorHide": true
       },
       "settings": {
         "params": {},
@@ -850,8 +1155,8 @@
         "msg": "\u003cp\u003eThere are different types of activation functions.\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BJ78W1NT/images/Neural_Networks__1___Basics_-_YouTube-ActivationFunction.png\" alt\u003d\"types of activation functions\" /\u003e.\u003c/p\u003e\n\u003cp\u003eMost of those functions have \u0026ldquo;mathematics convience\u0026rdquo;, which simplifies the downstream equation calculation.\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 20, 2016 7:44:01 AM",
-      "dateStarted": "Jun 20, 2016 8:00:25 AM",
-      "dateFinished": "Jun 20, 2016 8:00:25 AM",
+      "dateStarted": "Jun 21, 2016 3:25:52 AM",
+      "dateFinished": "Jun 21, 2016 3:25:52 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
