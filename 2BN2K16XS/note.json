@@ -1,0 +1,94 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md\nKey points to learn:\nUse an Array if the length is fixed, and an ArrayBuffer if the length can vary.\n* Don’t use new when supplying initial values.\n* Use () to access elements.\n* Use for (elem \u003c- arr) to traverse the elements.\n* Use for (elem \u003c- arr if . . . ) . . . yield . . . to transform into a new array.\n* Scala and Java arrays are interoperable; with `ArrayBuffer`, use `scala.collection.JavaConversions`.",
+      "authenticationInfo": {},
+      "dateUpdated": "Jun 23, 2016 9:28:44 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466742265985_1301119924",
+      "id": "20160623-212425_137523685",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eKey points to learn:\n\u003cbr  /\u003eUse an Array if the length is fixed, and an ArrayBuffer if the length can vary.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eDon’t use new when supplying initial values.\u003c/li\u003e\n\u003cli\u003eUse () to access elements.\u003c/li\u003e\n\u003cli\u003eUse for (elem \u0026lt;- arr) to traverse the elements.\u003c/li\u003e\n\u003cli\u003eUse for (elem \u0026lt;- arr if . . . ) . . . yield . . . to transform into a new array.\u003c/li\u003e\n\u003cli\u003eScala and Java arrays are interoperable; with \u003ccode\u003eArrayBuffer\u003c/code\u003e, use \u003ccode\u003escala.collection.JavaConversions\u003c/code\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Jun 23, 2016 9:24:25 PM",
+      "dateStarted": "Jun 23, 2016 9:28:41 PM",
+      "dateFinished": "Jun 23, 2016 9:28:41 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "",
+      "dateUpdated": "Jun 27, 2016 7:23:33 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1466742521236_2087129634",
+      "id": "20160623-212841_1301598624",
+      "dateCreated": "Jun 23, 2016 9:28:41 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "Scala - 3 Working with Arrays",
+  "id": "2BN2K16XS",
+  "angularObjects": {
+    "2BJNWTGVX:shared_process": [],
+    "2BHQR9UME:shared_process": [],
+    "2BKZJ4SRP:shared_process": [],
+    "2BME5YFFH:shared_process": [],
+    "2BN58QNE3:shared_process": [],
+    "2BKB225AF:shared_process": [],
+    "2BK2WJSB5:shared_process": [],
+    "2BJUP28CV:shared_process": [],
+    "2BM3A9BK4:shared_process": [],
+    "2BJ14398P:shared_process": [],
+    "2BN46FG7A:shared_process": [],
+    "2BJEPGMRU:shared_process": [],
+    "2BM6T2CVF:shared_process": [],
+    "2BK1W54BQ:shared_process": [],
+    "2BMYC3FF3:shared_process": [],
+    "2BKZFCDHR:shared_process": [],
+    "2BJSW731A:shared_process": [],
+    "2BJDU2EXK:shared_process": []
+  },
+  "config": {
+    "looknfeel": "default"
+  },
+  "info": {}
+}

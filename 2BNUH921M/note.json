@@ -1,9 +1,9 @@
 {
   "paragraphs": [
     {
-      "text": "%md\n# Functional Programming - Function Composition\n\nmore description [here][1]\n[1]:https://en.wikipedia.org/wiki/Function_composition",
+      "text": "%md\n# Functional Programming - Function Composition\n\nmore description [here][1]\n\nNotes from [stackoverflow][2]\n* A function can be invoked with a list of arguments to produce a result. A function has a parameter list, a body, and a result type. \n* Functions that are members of a class, trait, or singleton object are called methods. \n* Functions defined inside other functions are called local functions. \n* Functions with the result type of Unit are called procedures. \n* Anonymous functions in source code are called function literals. At run time, function literals are instantiated into objects called function values.\n\n[1]:https://en.wikipedia.org/wiki/Function_composition\n[2]:http://stackoverflow.com/questions/2529184/difference-between-method-and-function-in-scala",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 22, 2016 7:37:06 AM",
+      "dateUpdated": "Jun 30, 2016 2:07:27 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -28,11 +28,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch1\u003eFunctional Programming - Function Composition\u003c/h1\u003e\n\u003cp\u003emore description \u003ca href\u003d\"https://en.wikipedia.org/wiki/Function_composition\"\u003ehere\u003c/a\u003e\u003c/p\u003e\n"
+        "msg": "\u003ch1\u003eFunctional Programming - Function Composition\u003c/h1\u003e\n\u003cp\u003emore description \u003ca href\u003d\"https://en.wikipedia.org/wiki/Function_composition\"\u003ehere\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eNotes from \u003ca href\u003d\"http://stackoverflow.com/questions/2529184/difference-between-method-and-function-in-scala\"\u003estackoverflow\u003c/a\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eA function can be invoked with a list of arguments to produce a result. A function has a parameter list, a body, and a result type.\u003c/li\u003e\n\u003cli\u003eFunctions that are members of a class, trait, or singleton object are called methods.\u003c/li\u003e\n\u003cli\u003eFunctions defined inside other functions are called local functions.\u003c/li\u003e\n\u003cli\u003eFunctions with the result type of Unit are called procedures.\u003c/li\u003e\n\u003cli\u003eAnonymous functions in source code are called function literals. At run time, function literals are instantiated into objects called function values.\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Jun 16, 2016 1:03:17 PM",
-      "dateStarted": "Jun 22, 2016 7:37:06 AM",
-      "dateFinished": "Jun 22, 2016 7:37:06 AM",
+      "dateStarted": "Jun 30, 2016 2:07:23 PM",
+      "dateFinished": "Jun 30, 2016 2:07:23 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -74,12 +74,12 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "title": "Functions (should read as Method)",
+      "title": "Functions",
       "text": "// Functions \u003c- this really a method\ndef f(x:Int): Int \u003d {\n    x+1\n}   //f provides a service: to transform input value 2 with function f\n\nf(2)\n\ndef g(x:Int) : Int \u003d {\n    x*2\n}\n\ng(2) //transform input value 2 with a different function g",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 22, 2016 7:37:06 AM",
+      "dateUpdated": "Jun 30, 2016 2:27:05 PM",
       "config": {
-        "colWidth": 12.0,
+        "colWidth": 6.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
@@ -108,6 +108,32 @@
       "dateStarted": "Jun 22, 2016 7:37:06 AM",
       "dateFinished": "Jun 22, 2016 7:37:07 AM",
       "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "dateUpdated": "Jun 30, 2016 2:27:25 PM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467322035851_907456165",
+      "id": "20160630-142715_304747022",
+      "dateCreated": "Jun 30, 2016 2:27:15 PM",
+      "status": "READY",
       "progressUpdateIntervalMs": 500
     },
     {

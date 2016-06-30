@@ -2373,9 +2373,9 @@
     },
     {
       "title": "2.12 Exception",
-      "text": "%md\nAs in Java, the objects that you throw need to belong to a subclass of `java.lang.Throwable`. However, unlike Java, Scala has no “checked” exceptions—you never have to declare that a function or method might throw an exception.\n\nThe try/finally statement lets you dispose of a resource whether or not an\nexception has occurred. For example:",
+      "text": "%md\nAs in Java, the objects that you throw need to belong to a subclass of `java.lang.Throwable`. However, unlike Java, Scala has no “checked” exceptions—you never have to declare that a function or method might throw an exception.",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 23, 2016 7:55:18 PM",
+      "dateUpdated": "Jun 23, 2016 10:37:35 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -2390,7 +2390,7 @@
         "enabled": true,
         "title": true,
         "editorMode": "ace/mode/markdown",
-        "editorHide": false
+        "editorHide": true
       },
       "settings": {
         "params": {},
@@ -2410,50 +2410,14 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n```\nimport java.net.URL\n\ntry {\n    var in \u003d new URL(\"http://horstmann.com/fred.gif\").openStream()\n    process(in)\n} finally {\n    in.close()\n}\n```",
-      "authenticationInfo": {},
-      "dateUpdated": "Jun 23, 2016 8:36:12 PM",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/markdown",
-        "editorHide": true
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1466737048767_1197404716",
-      "id": "20160623-195728_936770419",
-      "result": {
-        "code": "SUCCESS",
-        "type": "HTML",
-        "msg": "\u003cpre\u003e\u003ccode\u003eimport java.net.URL\n\ntry {\n    var in \u003d new URL(\"http://horstmann.com/fred.gif\").openStream()\n    process(in)\n} finally {\n    in.close()\n}\n\u003c/code\u003e\u003c/pre\u003e\n"
-      },
-      "dateCreated": "Jun 23, 2016 7:57:28 PM",
-      "dateStarted": "Jun 23, 2016 8:36:06 PM",
-      "dateFinished": "Jun 23, 2016 8:36:07 PM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
       "config": {},
       "settings": {
         "params": {},
         "forms": {}
       },
-      "jobName": "paragraph_1466737293058_1316043651",
-      "id": "20160623-200133_261577547",
-      "dateCreated": "Jun 23, 2016 8:01:33 PM",
+      "jobName": "paragraph_1466703438837_-2021590127",
+      "id": "20160623-103718_1739362826",
+      "dateCreated": "Jun 23, 2016 10:37:18 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
