@@ -1,0 +1,210 @@
+{
+  "paragraphs": [
+    {
+      "title": "RESTful",
+      "text": "%md \nFrom [Demystifying REST][1]\n\nThe main new ideas of REST (REpresentional State Transfer):\n\n* Services are organized around resources\n* Resources have unique URL\n* Resources can be manipulated through HTTP\n* The encoding of the resources can be determined by the client\n* The introduction of Hypertext (or more correct Hypermedia) to the API\n* The clients and service providers share a common information model and the client activation of the services takes the form of requests for lookup, updates or creation of information in the shared information model. \n* The information model takes the form of sets of resources and their relationship. \n\n[1]:http://pettergraff.blogspot.com/2015/10/rest-series-demystifying-rest.html",
+      "dateUpdated": "Jul 9, 2016 4:12:20 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1468096911750_2076790867",
+      "id": "20160709-134151_1672880651",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eFrom \u003ca href\u003d\"http://pettergraff.blogspot.com/2015/10/rest-series-demystifying-rest.html\"\u003eDemystifying REST\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eThe main new ideas of REST:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eServices are organized around resources\u003c/li\u003e\n\u003cli\u003eResources have unique URL\u003c/li\u003e\n\u003cli\u003eResources can be manipulated through HTTP\u003c/li\u003e\n\u003cli\u003eThe encoding of the resources can be determined by the client\u003c/li\u003e\n\u003cli\u003eThe introduction of Hypertext (or more correct Hypermedia) to the API\u003c/li\u003e\n\u003cli\u003eThe clients and service providers share a common information model and the client activation of the services takes the form of requests for lookup, updates or creation of information in the shared information model.\u003c/li\u003e\n\u003cli\u003eThe information model takes the form of sets of resources and their relationship.\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Jul 9, 2016 1:41:51 PM",
+      "dateStarted": "Jul 9, 2016 3:34:24 PM",
+      "dateFinished": "Jul 9, 2016 3:34:24 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Resource",
+      "text": "%md \n\nCentral to the idea of REST is the concept of a resource.\n\n* Resource-Set\nA resource-set is a collection of resource instances. When communicating with a service provider a client would address the resource set to perform operations such as\n    * Create a new resource instance\n    * Find a resource instance\n    For those of you with an object-oriented background, imagine the resource-set as a class\n    For those of you that have a relational database background, imagine the resource-set as a table\n\n* Resource-Instance\nA resource-instance represents an individual conceptual object that a client and the server agree upon. Our operations on resource-instances are typically\n    * Read its state (or information)\n    * Update its state (or information)\n    * Remove it from our conceptual resource-set\n    For those of you with an object-oriented background, a good analogy would be an instance/object\n    For those of you with a relational database background, think of the resource-instance as a record\n\nThe fact that we have a resource-set called Patients, does not necessary mean we have a table called patient in our implementation. All we are saying is that as a service provider (e.g., a hospital-admittence server), we understand what you mean by Patient and we have an API that allows clients to manipulate patients. We may for example provide a resource-set upon the URI http://api.hospitals.com/patients which allows you to lookup all our know patients instances (or resource-instances).\n\nWhether a client is referring to a resource-set or a resource-instance is clear in every service invocation by the URI that they use. \n\nA service provider will publish one URI that refers to the resource-set. A resource-instance is always addressed by adding a unique identifier to the resource set. For example, At PayPal we have a resource-set that can be addressed at:\n`https://api.paypal.com/v1/wallet/payments`\n\nIf I wanted to create new payments or find payments, I would use this URI. However if I wanted to read an resource-instance, in this case a specific payment, I would address that at:\n\n`https://api.paypal.com/v1/wallet/payments/293759715`\n\nURI of the `resource-instance` is identified by the `resouce-set` + `“/“` + `the identifier of the payment`.",
+      "dateUpdated": "Jul 9, 2016 4:41:30 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1468104500547_-1420163480",
+      "id": "20160709-154820_1500865687",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eCentral to the idea of REST is the concept of a resource.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cp\u003eResource-Set\n\u003cbr  /\u003eA resource-set is a collection of resource instances. When communicating with a service provider a client would address the resource set to perform operations such as\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eCreate a new resource instance\u003c/li\u003e\n\u003cli\u003eFind a resource instance\n\u003cbr  /\u003eFor those of you with an object-oriented background, imagine the resource-set as a class\n\u003cbr  /\u003eFor those of you that have a relational database background, imagine the resource-set as a table\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eResource-Instance\n\u003cbr  /\u003eA resource-instance represents an individual conceptual object that a client and the server agree upon. Our operations on resource-instances are typically\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eRead its state (or information)\u003c/li\u003e\n\u003cli\u003eUpdate its state (or information)\u003c/li\u003e\n\u003cli\u003eRemove it from our conceptual resource-set\n\u003cbr  /\u003eFor those of you with an object-oriented background, a good analogy would be an instance/object\n\u003cbr  /\u003eFor those of you with a relational database background, think of the resource-instance as a record\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eThe fact that we have a resource-set called Patients, does not necessary mean we have a table called patient in our implementation. All we are saying is that as a service provider (e.g., a hospital-admittence server), we understand what you mean by Patient and we have an API that allows clients to manipulate patients. We may for example provide a resource-set upon the URI http://api.hospitals.com/patients which allows you to lookup all our know patients instances (or resource-instances).\u003c/p\u003e\n\u003cp\u003eWhether a client is referring to a resource-set or a resource-instance is clear in every service invocation by the URI that they use.\u003c/p\u003e\n\u003cp\u003eA service provider will publish one URI that refers to the resource-set. A resource-instance is always addressed by adding a unique identifier to the resource set. For example, At PayPal we have a resource-set that can be addressed at:\n\u003cbr  /\u003e\u003ccode\u003ehttps://api.paypal.com/v1/wallet/payments\u003c/code\u003e\u003c/p\u003e\n\u003cp\u003eIf I wanted to create new payments or find payments, I would use this URI. However if I wanted to read an resource-instance, in this case a specific payment, I would address that at:\u003c/p\u003e\n\u003cp\u003e\u003ccode\u003ehttps://api.paypal.com/v1/wallet/payments/293759715\u003c/code\u003e\u003c/p\u003e\n\u003cp\u003eURI of the \u003ccode\u003eresource-instance\u003c/code\u003e is identified by the \u003ccode\u003eresouce-set\u003c/code\u003e + \u003ccode\u003e“/“\u003c/code\u003e + \u003ccode\u003ethe identifier of the payment\u003c/code\u003e.\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jul 9, 2016 3:48:20 PM",
+      "dateStarted": "Jul 9, 2016 4:28:36 PM",
+      "dateFinished": "Jul 9, 2016 4:28:36 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "The CRUDF idea of REST",
+      "text": "%md \n\nREST suggest that most of the things we do as clients of services is to manipulate these conceptual resource-instances. In particular, we may Create, Read, Update, Delete and Find instances. \n\nAnother idea in REST is that we’ll identify what we want to do by a combination of URI and HTTP verbs. That is, we can clearly see if the intention of any client request by simply knowing the URI and which _HTTP verb_. HTTP supports a set of verbs. Not all of them are used in REST. Most of us are familiar with the difference between GET and POST (GET is typically used to open a page in your browser, POST is often used to submit a form from your browser). In addition to the GET and POST, we also use PUT, PATCH and DELETE.",
+      "dateUpdated": "Jul 9, 2016 5:59:34 PM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1468111986227_-1467693231",
+      "id": "20160709-175306_1080791500",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eREST suggest that most of the things we do as clients of services is to manipulate these conceptual resource-instances. In particular, we may Create, Read, Update, Delete and Find instances.\u003c/p\u003e\n\u003cp\u003eAnother idea in REST is that we’ll identify what we want to do by a combination of URI and HTTP verbs. That is, we can clearly see if the intention of any client request by simply knowing the URI and which \u003cem\u003eHTTP verb\u003c/em\u003e. HTTP supports a set of verbs. Not all of them are used in REST. Most of us are familiar with the difference between GET and POST (GET is typically used to open a page in your browser, POST is often used to submit a form from your browser). In addition to the GET and POST, we also use PUT, PATCH and DELETE.\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jul 9, 2016 5:53:06 PM",
+      "dateStarted": "Jul 9, 2016 5:59:31 PM",
+      "dateFinished": "Jul 9, 2016 5:59:31 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md \n\n![REST interface types][1]\n\n[1]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/REST_Series__Demystifying_REST___Petter_s_Random_Thoughts_on_Software-URITable.png",
+      "dateUpdated": "Jul 9, 2016 5:59:39 PM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1468105949969_815332134",
+      "id": "20160709-161229_801908914",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/REST_Series__Demystifying_REST___Petter_s_Random_Thoughts_on_Software-URITable.png\" alt\u003d\"REST interface types\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jul 9, 2016 4:12:29 PM",
+      "dateStarted": "Jul 9, 2016 5:51:28 PM",
+      "dateFinished": "Jul 9, 2016 5:51:29 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "REST with UML",
+      "text": "%md ",
+      "dateUpdated": "Jul 9, 2016 1:43:55 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1468097011386_1102175930",
+      "id": "20160709-134331_1877049963",
+      "dateCreated": "Jul 9, 2016 1:43:31 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "RESTful API",
+  "id": "2BPAC2MQF",
+  "lastReplName": {
+    "value": "md"
+  },
+  "angularObjects": {
+    "2BRKFDTAG:shared_process": [],
+    "2BQQC4SBJ:shared_process": [],
+    "2BPA86SJN:shared_process": [],
+    "2BQXP1N48:shared_process": [],
+    "2BS635YF4:shared_process": [],
+    "2BS8S9TWZ:shared_process": [],
+    "2BT1FV53K:shared_process": [],
+    "2BRG4EDQT:shared_process": [],
+    "2BRBKMV6G:shared_process": [],
+    "2BPX9HXK8:shared_process": [],
+    "2BPCX21MY:shared_process": [],
+    "2BP9JV898:shared_process": [],
+    "2BR9MHZJ2:shared_process": [],
+    "2BPA7NY6F:shared_process": [],
+    "2BPMUQW6X:shared_process": [],
+    "2BREB797U:shared_process": [],
+    "2BRNDK1X2:shared_process": []
+  },
+  "config": {},
+  "info": {}
+}
