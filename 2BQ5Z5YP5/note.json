@@ -298,8 +298,9 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\nmove data\nbackup, \ngreen field is not alot\n\nauto-tiering -\u003e SLA define and auto adjust.QoS requirement\nManagement function (adjust SLA, data-core?,  \n\nvendors\nmindmap - standard, vendor, application, technology\n\nLinux (RedHat | Suse ) + ceph\n\nVirtualize thru hypervisor\n\n\n\n",
-      "dateUpdated": "Jun 29, 2016 7:44:37 AM",
+      "text": "%md\nmove data\nbackup, \ngreen field is not alot\n\nauto-tiering -\u003e SLA define and auto adjust.QoS requirement\nManagement function (adjust SLA, data-core?,  \n\nvendors\nmindmap - standard, vendor, application, technology\n\nLinux (RedHat | Suse ) + ceph\n\nVirtualize thru hypervisor\n\nuser -\u003e \n\nAutomation: it is not just automate the current process, we should cut out the bottleneck, eliminate some steps.\n* provide user self-services to initiate the process\n* increase options/SLAs\n* provide the process visibility, monitor and log, present the status to service chain providers and user \n* provide mechanism for intervention or feedback QoS for adjusting process\n* design a organization to support the operation and incremental improvement\n",
+      "authenticationInfo": {},
+      "dateUpdated": "Jul 4, 2016 10:21:46 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -321,8 +322,15 @@
       },
       "jobName": "paragraph_1467203609614_1725918882",
       "id": "20160629-053329_1695352227",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003emove data\n\u003cbr  /\u003ebackup,\n\u003cbr  /\u003egreen field is not alot\u003c/p\u003e\n\u003cp\u003eauto-tiering -\u003e SLA define and auto adjust.QoS requirement\n\u003cbr  /\u003eManagement function (adjust SLA, data-core?,\u003c/p\u003e\n\u003cp\u003evendors\n\u003cbr  /\u003emindmap - standard, vendor, application, technology\u003c/p\u003e\n\u003cp\u003eLinux (RedHat | Suse ) + ceph\u003c/p\u003e\n\u003cp\u003eVirtualize thru hypervisor\u003c/p\u003e\n\u003cp\u003euser -\u003e\u003c/p\u003e\n\u003cp\u003eAutomation: it is not just automate the current process, we should cut out the bottleneck, eliminate some steps.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eprovide user self-services to initiate the process\u003c/li\u003e\n\u003cli\u003eincrease options/SLAs\u003c/li\u003e\n\u003cli\u003eprovide the process visibility, monitor and log, present the status to service chain providers and user\u003c/li\u003e\n\u003cli\u003eprovide mechanism for intervention or feedback QoS for adjusting process\u003c/li\u003e\n\u003cli\u003edesign a organization to support the operation and incremental improvement\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
       "dateCreated": "Jun 29, 2016 5:33:29 AM",
-      "status": "READY",
+      "dateStarted": "Jul 4, 2016 10:21:46 AM",
+      "dateFinished": "Jul 4, 2016 10:21:46 AM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
@@ -403,9 +411,9 @@
     },
     {
       "title": "1.1.6 Data Platform",
-      "text": "%md\n![big-data platform]\n\n[1]: http://www.ec-leasing.ru/img/solution-centers/ibm_bigdata_platform-eng.jpg",
+      "text": "%md\n![big-data platform][1]\n\n[1]: http://www.ec-leasing.ru/img/solution-centers/ibm_bigdata_platform-eng.jpg",
       "authenticationInfo": {},
-      "dateUpdated": "Jun 27, 2016 7:52:44 AM",
+      "dateUpdated": "Jul 4, 2016 10:13:40 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -430,11 +438,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003cp\u003e![big-data platform]\u003c/p\u003e\n"
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"http://www.ec-leasing.ru/img/solution-centers/ibm_bigdata_platform-eng.jpg\" alt\u003d\"big-data platform\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 25, 2016 10:30:23 AM",
-      "dateStarted": "Jun 27, 2016 7:48:28 AM",
-      "dateFinished": "Jun 27, 2016 7:48:28 AM",
+      "dateStarted": "Jul 4, 2016 10:13:40 AM",
+      "dateFinished": "Jul 4, 2016 10:13:40 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -725,14 +733,90 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "title": "Open Source - working",
+      "text": "%md\n![rising barn][1]\n[1]:http://thefarmatwalnutcreek.com/images/barn-raising-the-farm-at-walnut-creek-ohio-Large.jpg",
+      "authenticationInfo": {},
+      "dateUpdated": "Jul 4, 2016 9:56:54 AM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "title": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
       "settings": {
         "params": {},
         "forms": {}
       },
       "jobName": "paragraph_1467041224515_1021457227",
       "id": "20160627-082704_1256369037",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"http://thefarmatwalnutcreek.com/images/barn-raising-the-farm-at-walnut-creek-ohio-Large.jpg\" alt\u003d\"rising barn\" /\u003e\u003c/p\u003e\n"
+      },
       "dateCreated": "Jun 27, 2016 8:27:04 AM",
+      "dateStarted": "Jul 4, 2016 9:56:49 AM",
+      "dateFinished": "Jul 4, 2016 9:56:49 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Open Source - community",
+      "text": "%md\n![rising barn][1]\n\n[1]:https://upload.wikimedia.org/wikipedia/commons/a/ab/Barn_raising_in_Lansing.jpg",
+      "authenticationInfo": {},
+      "dateUpdated": "Jul 4, 2016 9:56:02 AM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467651250362_-513128293",
+      "id": "20160704-095410_2023978502",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://upload.wikimedia.org/wikipedia/commons/a/ab/Barn_raising_in_Lansing.jpg\" alt\u003d\"rising barn\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jul 4, 2016 9:54:10 AM",
+      "dateStarted": "Jul 4, 2016 9:55:05 AM",
+      "dateFinished": "Jul 4, 2016 9:55:05 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1467651130552_-1129800870",
+      "id": "20160704-095210_977628771",
+      "dateCreated": "Jul 4, 2016 9:52:10 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
