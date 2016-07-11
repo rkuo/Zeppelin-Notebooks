@@ -2,8 +2,8 @@
   "paragraphs": [
     {
       "title": "RESTful",
-      "text": "%md \nFrom [Demystifying REST][1]\n\nThe main new ideas of REST (REpresentional State Transfer):\n\n* Services are organized around resources\n* Resources have unique URL\n* Resources can be manipulated through HTTP\n* The encoding of the resources can be determined by the client\n* The introduction of Hypertext (or more correct Hypermedia) to the API\n* The clients and service providers share a common information model and the client activation of the services takes the form of requests for lookup, updates or creation of information in the shared information model. \n* The information model takes the form of sets of resources and their relationship. \n\n[1]:http://pettergraff.blogspot.com/2015/10/rest-series-demystifying-rest.html",
-      "dateUpdated": "Jul 9, 2016 4:12:20 PM",
+      "text": "%md \nBased on [Demystifying REST][1]\n\nThe main new ideas of REST (REpresentional State Transfer):\n\n* Services are organized around resources\n* Resources have unique URL\n* Resources can be manipulated through HTTP\n* The encoding of the resources can be determined by the client\n* The introduction of Hypertext (or more correct Hypermedia) to the API\n* The clients and service providers share a common information model and the client activation of the services takes the form of requests for lookup, updates or creation of information in the shared information model. \n* The information model takes the form of sets of resources and their relationship. \n\n[1]:http://pettergraff.blogspot.com/2015/10/rest-series-demystifying-rest.html",
+      "dateUpdated": "Jul 10, 2016 8:21:51 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -30,11 +30,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003cp\u003eFrom \u003ca href\u003d\"http://pettergraff.blogspot.com/2015/10/rest-series-demystifying-rest.html\"\u003eDemystifying REST\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eThe main new ideas of REST:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eServices are organized around resources\u003c/li\u003e\n\u003cli\u003eResources have unique URL\u003c/li\u003e\n\u003cli\u003eResources can be manipulated through HTTP\u003c/li\u003e\n\u003cli\u003eThe encoding of the resources can be determined by the client\u003c/li\u003e\n\u003cli\u003eThe introduction of Hypertext (or more correct Hypermedia) to the API\u003c/li\u003e\n\u003cli\u003eThe clients and service providers share a common information model and the client activation of the services takes the form of requests for lookup, updates or creation of information in the shared information model.\u003c/li\u003e\n\u003cli\u003eThe information model takes the form of sets of resources and their relationship.\u003c/li\u003e\n\u003c/ul\u003e\n"
+        "msg": "\u003cp\u003eBased on \u003ca href\u003d\"http://pettergraff.blogspot.com/2015/10/rest-series-demystifying-rest.html\"\u003eDemystifying REST\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eThe main new ideas of REST (REpresentional State Transfer):\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eServices are organized around resources\u003c/li\u003e\n\u003cli\u003eResources have unique URL\u003c/li\u003e\n\u003cli\u003eResources can be manipulated through HTTP\u003c/li\u003e\n\u003cli\u003eThe encoding of the resources can be determined by the client\u003c/li\u003e\n\u003cli\u003eThe introduction of Hypertext (or more correct Hypermedia) to the API\u003c/li\u003e\n\u003cli\u003eThe clients and service providers share a common information model and the client activation of the services takes the form of requests for lookup, updates or creation of information in the shared information model.\u003c/li\u003e\n\u003cli\u003eThe information model takes the form of sets of resources and their relationship.\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Jul 9, 2016 1:41:51 PM",
-      "dateStarted": "Jul 9, 2016 3:34:24 PM",
-      "dateFinished": "Jul 9, 2016 3:34:24 PM",
+      "dateStarted": "Jul 10, 2016 8:21:40 AM",
+      "dateFinished": "Jul 10, 2016 8:21:40 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -78,8 +78,8 @@
     },
     {
       "title": "The CRUDF idea of REST",
-      "text": "%md \n\nREST suggest that most of the things we do as clients of services is to manipulate these conceptual resource-instances. In particular, we may Create, Read, Update, Delete and Find instances. \n\nAnother idea in REST is that we’ll identify what we want to do by a combination of URI and HTTP verbs. That is, we can clearly see if the intention of any client request by simply knowing the URI and which _HTTP verb_. HTTP supports a set of verbs. Not all of them are used in REST. Most of us are familiar with the difference between GET and POST (GET is typically used to open a page in your browser, POST is often used to submit a form from your browser). In addition to the GET and POST, we also use PUT, PATCH and DELETE.",
-      "dateUpdated": "Jul 9, 2016 5:59:34 PM",
+      "text": "%md \n\nREST suggest that most of the things we do as clients of services is to manipulate these conceptual resource-instances. In particular, we may Create, Read, Update, Delete and Find instances. \n\nAnother idea in REST is that we’ll identify what we want to do by a combination of URI and HTTP verbs. That is, we can clearly see if the intention of any client request by simply knowing the URI and which _HTTP verb_. HTTP supports a set of verbs.\n\n* GET is used to retrieve  a representation of a resource.  It is a read-only,  idempotent  and safe operation.\n* PUT is used to update a reference to a resource on the  server and  it is idempotent  as well.\n* POST is used to create a resource on the server based on the data  included in the body request. It is the only nonidempotent and  unsafe operation of HTTP.\n* DELETE is used to remove a resource on the server.  It is idempotent  as well.\n* HEAD is similar to GET but returning only a response code and the header associated with the request.\n* OPTIONS is used to request information about the communication options of the addressed resource (e.g., security capabilities such as CORS).\n",
+      "dateUpdated": "Jul 9, 2016 9:27:31 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -106,17 +106,17 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003cp\u003eREST suggest that most of the things we do as clients of services is to manipulate these conceptual resource-instances. In particular, we may Create, Read, Update, Delete and Find instances.\u003c/p\u003e\n\u003cp\u003eAnother idea in REST is that we’ll identify what we want to do by a combination of URI and HTTP verbs. That is, we can clearly see if the intention of any client request by simply knowing the URI and which \u003cem\u003eHTTP verb\u003c/em\u003e. HTTP supports a set of verbs. Not all of them are used in REST. Most of us are familiar with the difference between GET and POST (GET is typically used to open a page in your browser, POST is often used to submit a form from your browser). In addition to the GET and POST, we also use PUT, PATCH and DELETE.\u003c/p\u003e\n"
+        "msg": "\u003cp\u003eREST suggest that most of the things we do as clients of services is to manipulate these conceptual resource-instances. In particular, we may Create, Read, Update, Delete and Find instances.\u003c/p\u003e\n\u003cp\u003eAnother idea in REST is that we’ll identify what we want to do by a combination of URI and HTTP verbs. That is, we can clearly see if the intention of any client request by simply knowing the URI and which \u003cem\u003eHTTP verb\u003c/em\u003e. HTTP supports a set of verbs.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eGET is used to retrieve  a representation of a resource.  It is a read-only,  idempotent  and safe operation.\u003c/li\u003e\n\u003cli\u003ePUT is used to update a reference to a resource on the  server and  it is idempotent  as well.\u003c/li\u003e\n\u003cli\u003ePOST is used to create a resource on the server based on the data  included in the body request. It is the only nonidempotent and  unsafe operation of HTTP.\u003c/li\u003e\n\u003cli\u003eDELETE is used to remove a resource on the server.  It is idempotent  as well.\u003c/li\u003e\n\u003cli\u003eHEAD is similar to GET but returning only a response code and the header associated with the request.\u003c/li\u003e\n\u003cli\u003eOPTIONS is used to request information about the communication options of the addressed resource (e.g., security capabilities such as CORS).\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Jul 9, 2016 5:53:06 PM",
-      "dateStarted": "Jul 9, 2016 5:59:31 PM",
-      "dateFinished": "Jul 9, 2016 5:59:31 PM",
+      "dateStarted": "Jul 9, 2016 9:26:19 PM",
+      "dateFinished": "Jul 9, 2016 9:26:19 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md \n\n![REST interface types][1]\n\n[1]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/REST_Series__Demystifying_REST___Petter_s_Random_Thoughts_on_Software-URITable.png",
-      "dateUpdated": "Jul 9, 2016 5:59:39 PM",
+      "text": "%md \nOftenly used combination.\n\n![REST interface types][1]\n\n[1]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/REST_Series__Demystifying_REST___Petter_s_Random_Thoughts_on_Software-URITable.png",
+      "dateUpdated": "Jul 9, 2016 9:27:25 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -142,18 +142,132 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/REST_Series__Demystifying_REST___Petter_s_Random_Thoughts_on_Software-URITable.png\" alt\u003d\"REST interface types\" /\u003e\u003c/p\u003e\n"
+        "msg": "\u003cp\u003eOftenly used combination.\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/REST_Series__Demystifying_REST___Petter_s_Random_Thoughts_on_Software-URITable.png\" alt\u003d\"REST interface types\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Jul 9, 2016 4:12:29 PM",
-      "dateStarted": "Jul 9, 2016 5:51:28 PM",
-      "dateFinished": "Jul 9, 2016 5:51:29 PM",
+      "dateStarted": "Jul 9, 2016 9:27:20 PM",
+      "dateFinished": "Jul 9, 2016 9:27:20 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "title": "REST with UML",
-      "text": "%md ",
-      "dateUpdated": "Jul 9, 2016 1:43:55 PM",
+      "title": "API Role",
+      "text": "%md \n\n![api role][1]\n\n* Application has OO model and data model\n* RESTful style is leverage data model from service prospective\n\n[1]:http://restful-api-design.readthedocs.io/en/latest/_images/scope.png",
+      "dateUpdated": "Jul 11, 2016 10:22:59 AM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true,
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1468252899691_574657706",
+      "id": "20160711-090139_1886855178",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"http://restful-api-design.readthedocs.io/en/latest/_images/scope.png\" alt\u003d\"api role\" /\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eApplication has OO model and data model\u003c/li\u003e\n\u003cli\u003eRESTful style is leverage data model\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Jul 11, 2016 9:01:39 AM",
+      "dateStarted": "Jul 11, 2016 9:05:13 AM",
+      "dateFinished": "Jul 11, 2016 9:05:13 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Converting a Functional API to REST",
+      "text": "%md \nBased on [Converting a Functional API to REST][2]\n\nA UML diagram for AddressBookService class/interface:\n\n![addressbook][1]\n\nThe interface may manifest itself as a set of Ajax calls or perhaps a simple API in some programming language. E.g. as an interface in Java:\n\n```\ninterface AddressBookService {\n\n  public void addContact(Contact c);\n\n  public Collection\u003cContact\u003e getAllContacts();\n\n  public Contact findById(String contactId);\n\n  public Collection\u003cContact\u003e findByName(String name);\n \n  public Collection\u003cContact\u003e findByAreaCode(String areaCode);\n\n  public void removeContact(String contactId);\n \n  public void updateContact(String contactId, Contact contact);\n \n  public Call callContact(Contact c);\n\n  public Call dialNumber(String digits);\n}\n```\nFrom the interface, we can see `contacts` is a `\u003c\u003cresource-set\u003e\u003e` and `contact` is  `\u003c\u003cresource-instance\u003e\u003e`, and we treat `calls` as another `\u003c\u003cresource-set\u003e\u003e`.\n\n[1]:https://lh3.googleusercontent.com/-9LPqxcQXXxA/VhQlx2_OwlI/AAAAAAAABIc/qtQP1XcqcME/NewImage.png?imgmax\u003d800\n[2]:http://pettergraff.blogspot.com/2015/10/rest-api-part-ii-converting-functional.html\n",
+      "dateUpdated": "Jul 10, 2016 10:33:12 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1468199787717_1771910605",
+      "id": "20160710-181627_955345729",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eBased on \u003ca href\u003d\"http://pettergraff.blogspot.com/2015/10/rest-api-part-ii-converting-functional.html\"\u003eConverting a Functional API to REST\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eA UML diagram for AddressBookService class/interface:\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://lh3.googleusercontent.com/-9LPqxcQXXxA/VhQlx2_OwlI/AAAAAAAABIc/qtQP1XcqcME/NewImage.png?imgmax\u003d800\" alt\u003d\"addressbook\" /\u003e\u003c/p\u003e\n\u003cp\u003eThe interface may manifest itself as a set of Ajax calls or perhaps a simple API in some programming language. E.g. as an interface in Java:\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003einterface AddressBookService {\n\n  public void addContact(Contact c);\n\n  public Collection\u0026lt;Contact\u0026gt; getAllContacts();\n\n  public Contact findById(String contactId);\n\n  public Collection\u0026lt;Contact\u0026gt; findByName(String name);\n\n  public Collection\u0026lt;Contact\u0026gt; findByAreaCode(String areaCode);\n\n  public void removeContact(String contactId);\n\n  public void updateContact(String contactId, Contact contact);\n\n  public Call callContact(Contact c);\n\n  public Call dialNumber(String digits);\n}\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eFrom the interface, we can see \u003ccode\u003econtacts\u003c/code\u003e is a \u003ccode\u003e\u0026lt;\u0026lt;resource-set\u0026gt;\u0026gt;\u003c/code\u003e and \u003ccode\u003econtact\u003c/code\u003e is  \u003ccode\u003e\u0026lt;\u0026lt;resource-instance\u0026gt;\u0026gt;\u003c/code\u003e, and we treat \u003ccode\u003ecalls\u003c/code\u003e as another \u003ccode\u003e\u0026lt;\u0026lt;resource-set\u0026gt;\u0026gt;\u003c/code\u003e.\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jul 10, 2016 6:16:27 PM",
+      "dateStarted": "Jul 10, 2016 10:33:11 PM",
+      "dateFinished": "Jul 10, 2016 10:33:11 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Tools",
+      "text": "%md \nCommon API Language with Tools\n* [Swagger][1]\n* [RAML][2]\n* [APIBluePrint][3]\n\nTools\n* [genmymodel][6] free online modeling tool for EMF, BPMN,... \n* [EMF-REST][4] can generate API from EMF model   \n* [restlet][5] supports both Swagger and RAML   \n\n[1]:http://swagger.io/\n[2]:http://raml.org/\n[3]:https://apiblueprint.org/\n[4]:http://som-research.uoc.edu/tools/emf-rest/\n[5]:https://studio.restlet.com/apis/local/info\n[6]:https://www.genmymodel.com/",
+      "dateUpdated": "Jul 11, 2016 6:48:30 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1468200436457_-1807109030",
+      "id": "20160710-182716_220580290",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eCommon API Language with Tools\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"http://swagger.io/\"\u003eSwagger\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://raml.org/\"\u003eRAML\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://apiblueprint.org/\"\u003eAPIBluePrint\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eTools\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"https://www.genmymodel.com/\"\u003egenmymodel\u003c/a\u003e free online modeling tool for EMF, BPMN,\u0026hellip;\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://som-research.uoc.edu/tools/emf-rest/\"\u003eEMF-REST\u003c/a\u003e can generate API from EMF model\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://studio.restlet.com/apis/local/info\"\u003erestlet\u003c/a\u003e supports both Swagger and RAML\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Jul 10, 2016 6:27:16 PM",
+      "dateStarted": "Jul 11, 2016 6:48:28 AM",
+      "dateFinished": "Jul 11, 2016 6:48:28 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Restlet",
+      "text": "%md \nLearning \n* [video][1]    \n\n1. click `APIs` menu -\u003e `clear` to start a blank form.\n2. enter general information, then `save`.\n3. click `add` button in endpoint [create entrypoint in restlet][2], enter `Domain name`, for example `exmple.com` and `Base path`, for example, `/api/v1`  \n2. [create product section][3]\n\n\n[1]:https://vimeo.com/161117920\n[2]:entry point restlet\n[3]:",
+      "dateUpdated": "Jul 11, 2016 11:32:23 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -174,9 +288,121 @@
         "forms": {}
       },
       "apps": [],
+      "jobName": "paragraph_1468251164649_1397384960",
+      "id": "20160711-083244_2118325054",
+      "dateCreated": "Jul 11, 2016 8:32:44 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Swagger",
+      "text": "%md   \n\n",
+      "dateUpdated": "Jul 11, 2016 6:49:57 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1468200478058_-1642943843",
+      "id": "20160710-182758_741941385",
+      "dateCreated": "Jul 10, 2016 6:27:58 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "RAML",
+      "text": "%md ",
+      "dateUpdated": "Jul 10, 2016 6:29:15 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1468200468316_-1746087197",
+      "id": "20160710-182748_1555552249",
+      "dateCreated": "Jul 10, 2016 6:27:48 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "REST with UML",
+      "text": "%md \n\n![Design and implement RESTful web services with Rational Software Architect][2]   \n* [Modelling a REST API with UML and keeping it agile][3] describes how to model API with general UML tool; [IBM Rational Software Architect][6] and [Visual Paradigm][5] tools have tis feature   \n* [emf-rest][4] a plugin can be used to model with EMF and to generate API, a more complete document [EMF-REST: Generation of RESTful APIs from Models][7]   \n* [Modeling RESTful applications][8]   \n* [A conversation based approach for modeling REST APIs][9]   \n* [UML-based Model-Driven REST API Development][10]   \n* [Modeling RESTful applications][11]    \n\n[1]:http://www.ibm.com/developerworks/rational/library/design-implement-restful-web-services/\n[2]:http://www.ibm.com/developerworks/rational/library/design-implement-restful-web-services/image001.jpg\n[3]:http://callistaenterprise.se/blogg/teknik/2014/08/05/modelling-a-rest-api-with-uml-and-keeping-it-agile/\n[4]:http://som-research.uoc.edu/tools/emf-rest/install.html\n[5]:https://www.visual-paradigm.com/support/documents/vpuserguide/276/3420/85154_modelingrest.html\n[6]:https://www.ibm.com/developerworks/rational/library/design-implement-restful-web-services/\n[7]:http://arxiv.org/pdf/1504.03498.pdf\n[8]:http://ws-rest.org/2011/proc/a4-schreier.pdf\n[9]:http://www.iaas.uni-stuttgart.de/RUS-data/INPROC-2015-10%20-%20A%20conversation%20based%20approach%20for%20modeling%20REST%20APIs.pdf\n[10]:http://www.scitepress.org/DigitalLibrary/PublicationsDetail.aspx?ID\u003d1Gjb858+pxE%3d\u0026t\u003d1\n[11]:http://ws-rest.org/2011/proc/a4-schreier.pdf\n",
+      "dateUpdated": "Jul 11, 2016 8:53:36 AM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
       "jobName": "paragraph_1468097011386_1102175930",
       "id": "20160709-134331_1877049963",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"http://www.ibm.com/developerworks/rational/library/design-implement-restful-web-services/image001.jpg\" alt\u003d\"Design and implement RESTful web services with Rational Software Architect\" /\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"http://callistaenterprise.se/blogg/teknik/2014/08/05/modelling-a-rest-api-with-uml-and-keeping-it-agile/\"\u003eModelling a REST API with UML and keeping it agile\u003c/a\u003e describes how to model API with general UML tool; \u003ca href\u003d\"https://www.ibm.com/developerworks/rational/library/design-implement-restful-web-services/\"\u003eIBM Rational Software Architect\u003c/a\u003e and \u003ca href\u003d\"https://www.visual-paradigm.com/support/documents/vpuserguide/276/3420/85154_modelingrest.html\"\u003eVisual Paradigm\u003c/a\u003e tools have tis feature\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://som-research.uoc.edu/tools/emf-rest/install.html\"\u003eemf-rest\u003c/a\u003e a plugin can be used to model with EMF and to generate API, a more complete document \u003ca href\u003d\"http://arxiv.org/pdf/1504.03498.pdf\"\u003eEMF-REST: Generation of RESTful APIs from Models\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://ws-rest.org/2011/proc/a4-schreier.pdf\"\u003eModeling RESTful applications\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://www.iaas.uni-stuttgart.de/RUS-data/INPROC-2015-10%20-%20A%20conversation%20based%20approach%20for%20modeling%20REST%20APIs.pdf\"\u003eA conversation based approach for modeling REST APIs\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://www.scitepress.org/DigitalLibrary/PublicationsDetail.aspx?ID\u003d1Gjb858+pxE%3d\u0026amp;t\u003d1\"\u003eUML-based Model-Driven REST API Development\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://ws-rest.org/2011/proc/a4-schreier.pdf\"\u003eModeling RESTful applications\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
       "dateCreated": "Jul 9, 2016 1:43:31 PM",
+      "dateStarted": "Jul 11, 2016 8:53:26 AM",
+      "dateFinished": "Jul 11, 2016 8:53:26 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ",
+      "dateUpdated": "Jul 11, 2016 8:41:31 AM",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1468251691364_-633769070",
+      "id": "20160711-084131_460954024",
+      "dateCreated": "Jul 11, 2016 8:41:31 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
