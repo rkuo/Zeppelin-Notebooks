@@ -39,7 +39,7 @@
     {
       "title": "Input Data ",
       "text": "%spark\nval ls \u003d List(1,2,3,4)      //this is good for numbers are not in sequence\nval ls0 \u003d (1 to 4).toList   //this is good for numbers are in sequence, and long list",
-      "dateUpdated": "Jul 9, 2016 12:54:22 AM",
+      "dateUpdated": "Jul 9, 2016 12:54:22 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -69,8 +69,8 @@
         "msg": "ls: List[Int] \u003d List(1, 2, 3, 4)\nls0: List[Int] \u003d List(1, 2, 3, 4)\n"
       },
       "dateCreated": "Jun 15, 2016 1:41:55 AM",
-      "dateStarted": "Jul 9, 2016 12:54:22 AM",
-      "dateFinished": "Jul 9, 2016 12:54:23 AM",
+      "dateStarted": "Jul 9, 2016 12:54:22 PM",
+      "dateFinished": "Jul 9, 2016 12:54:23 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -149,8 +149,23 @@
       "progressUpdateIntervalMs": 500
     },
     {
+      "text": "%spark ",
+      "dateUpdated": "Jul 13, 2016 12:24:18 PM",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1468437858867_-1030433807",
+      "id": "20160713-122418_221905602",
+      "dateCreated": "Jul 13, 2016 12:24:18 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
       "text": "%md\n![function f][1]\n[1]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BNUH921M/images/f.png ",
-      "dateUpdated": "Jul 9, 2016 12:54:23 AM",
+      "dateUpdated": "Jul 9, 2016 12:54:23 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -179,14 +194,14 @@
         "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BNUH921M/images/f.png\" alt\u003d\"function f\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 30, 2016 2:27:15 AM",
-      "dateStarted": "Jul 9, 2016 12:54:23 AM",
-      "dateFinished": "Jul 9, 2016 12:54:23 AM",
+      "dateStarted": "Jul 9, 2016 12:54:23 PM",
+      "dateFinished": "Jul 9, 2016 12:54:23 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n![function g][1]\n\n[1]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BNUH921M/images/g.png",
-      "dateUpdated": "Jul 9, 2016 12:54:23 AM",
+      "dateUpdated": "Jul 9, 2016 12:54:23 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -215,15 +230,15 @@
         "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BNUH921M/images/g.png\" alt\u003d\"function g\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 30, 2016 2:38:14 AM",
-      "dateStarted": "Jul 9, 2016 12:54:23 AM",
-      "dateFinished": "Jul 9, 2016 12:54:23 AM",
+      "dateStarted": "Jul 9, 2016 12:54:23 PM",
+      "dateFinished": "Jul 9, 2016 12:54:23 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Method vs Function",
       "text": "%spark\n// method vs function\n// http://jim-mcbeath.blogspot.com/2009/05/scala-functions-vs-methods.html\n\ndef m1(x:Int) \u003d x+3       //method\nm1(2)\nval f1 \u003d (x:Int) \u003d\u003e x+3   //function\nf1(2)\nval f2 \u003d m1 _             //reuse method\nf2(2)",
-      "dateUpdated": "Jul 9, 2016 12:54:23 AM",
+      "dateUpdated": "Jul 9, 2016 12:54:23 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -254,8 +269,8 @@
         "msg": "m1: (x: Int)Int\nres7: Int \u003d 5\nf1: Int \u003d\u003e Int \u003d \u003cfunction1\u003e\nres8: Int \u003d 5\nf2: Int \u003d\u003e Int \u003d \u003cfunction1\u003e\nres9: Int \u003d 5\n"
       },
       "dateCreated": "Jun 15, 2016 11:53:38 AM",
-      "dateStarted": "Jul 9, 2016 12:54:23 AM",
-      "dateFinished": "Jul 9, 2016 12:54:24 AM",
+      "dateStarted": "Jul 9, 2016 12:54:23 PM",
+      "dateFinished": "Jul 9, 2016 12:54:24 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -298,7 +313,7 @@
     },
     {
       "text": "%md\n\n![filter][1]\n\n[1]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BNUH921M/images/filter2.png",
-      "dateUpdated": "Jul 9, 2016 12:54:23 AM",
+      "dateUpdated": "Jul 9, 2016 12:54:23 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -327,8 +342,8 @@
         "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BNUH921M/images/filter2.png\" alt\u003d\"filter\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Jul 1, 2016 7:11:48 AM",
-      "dateStarted": "Jul 9, 2016 12:54:23 AM",
-      "dateFinished": "Jul 9, 2016 12:54:23 AM",
+      "dateStarted": "Jul 9, 2016 12:54:23 PM",
+      "dateFinished": "Jul 9, 2016 12:54:23 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -371,7 +386,7 @@
     },
     {
       "text": "%md\n\n![compose andThen][1]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BNUH921M/images/composeAndThen.png\n",
-      "dateUpdated": "Jul 9, 2016 12:54:23 AM",
+      "dateUpdated": "Jul 9, 2016 12:54:23 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -401,8 +416,8 @@
         "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BNUH921M/images/composeAndThen.png\" alt\u003d\"compose andThen\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 30, 2016 2:40:36 AM",
-      "dateStarted": "Jul 9, 2016 12:54:23 AM",
-      "dateFinished": "Jul 9, 2016 12:54:23 AM",
+      "dateStarted": "Jul 9, 2016 12:54:23 PM",
+      "dateFinished": "Jul 9, 2016 12:54:23 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -546,14 +561,14 @@
         "msg": "res11: scala.collection.immutable.IndexedSeq[Int] \u003d Vector(8, 10)\nres12: Int \u003d\u003e Boolean \u003d \u003cfunction1\u003e\nres13: Int \u003d\u003e Int \u003d \u003cfunction1\u003e\nres14: Int \u003d\u003e Int \u003d \u003cfunction1\u003e\nres15: Int \u003d\u003e Int \u003d \u003cfunction1\u003e\nres16: scala.collection.immutable.IndexedSeq[Int] \u003d Vector(8, 10)\nres17: scala.collection.immutable.IndexedSeq[Int] \u003d Vector(7, 9)\nres18: scala.collection.immutable.IndexedSeq[Int] \u003d Vector(7, 9)\n"
       },
       "dateCreated": "Jun 17, 2016 10:29:23 AM",
-      "dateStarted": "Jul 9, 2016 12:54:25 AM",
-      "dateFinished": "Jul 9, 2016 12:54:28 AM",
+      "dateStarted": "Jul 9, 2016 12:54:25 PM",
+      "dateFinished": "Jul 9, 2016 12:54:28 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n![chaining][1]\n\n[1]: https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BNUH921M/images/chaining.png",
-      "dateUpdated": "Jul 9, 2016 12:54:23 AM",
+      "dateUpdated": "Jul 9, 2016 12:54:23 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -582,13 +597,13 @@
         "msg": "\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BNUH921M/images/chaining.png\" alt\u003d\"chaining\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 30, 2016 2:49:58 AM",
-      "dateStarted": "Jul 9, 2016 12:54:23 AM",
-      "dateFinished": "Jul 9, 2016 12:54:23 AM",
+      "dateStarted": "Jul 9, 2016 12:54:23 PM",
+      "dateFinished": "Jul 9, 2016 12:54:23 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "dateUpdated": "Jul 9, 2016 12:54:23 AM",
+      "dateUpdated": "Jul 9, 2016 12:54:23 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -618,7 +633,7 @@
     {
       "title": "Fold vs For Loop",
       "text": "%md\n![foldLft and foldRight][1]\nfrom [here][2]\n[1]:http://cdn-ak.f.st-hatena.com/images/fotolife/t/tototoshi/20121223/20121223021039.jpg\n[2]:http://tototoshi.hatenablog.com/entry/20121223/1356197321",
-      "dateUpdated": "Jul 9, 2016 12:54:23 AM",
+      "dateUpdated": "Jul 9, 2016 12:54:23 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -648,15 +663,15 @@
         "msg": "\u003cp\u003e\u003cimg src\u003d\"http://cdn-ak.f.st-hatena.com/images/fotolife/t/tototoshi/20121223/20121223021039.jpg\" alt\u003d\"foldLft and foldRight\" /\u003e\n\u003cbr  /\u003efrom \u003ca href\u003d\"http://tototoshi.hatenablog.com/entry/20121223/1356197321\"\u003ehere\u003c/a\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 16, 2016 2:42:10 AM",
-      "dateStarted": "Jul 9, 2016 12:54:23 AM",
-      "dateFinished": "Jul 9, 2016 12:54:23 AM",
+      "dateStarted": "Jul 9, 2016 12:54:23 PM",
+      "dateFinished": "Jul 9, 2016 12:54:23 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "foldLeft and foldRight",
       "text": "%md\n![foldLeft and foldRight][1]\n\n[1]:https://joelneely.files.wordpress.com/2008/04/foldlfoldr1.jpg?w\u003d398\u0026h\u003d200",
-      "dateUpdated": "Jul 9, 2016 12:54:23 AM",
+      "dateUpdated": "Jul 9, 2016 12:54:23 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -686,8 +701,8 @@
         "msg": "\u003cp\u003e\u003cimg src\u003d\"https://joelneely.files.wordpress.com/2008/04/foldlfoldr1.jpg?w\u003d398\u0026amp;h\u003d200\" alt\u003d\"foldLeft and foldRight\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 16, 2016 2:28:33 AM",
-      "dateStarted": "Jul 9, 2016 12:54:23 AM",
-      "dateFinished": "Jul 9, 2016 12:54:23 AM",
+      "dateStarted": "Jul 9, 2016 12:54:23 PM",
+      "dateFinished": "Jul 9, 2016 12:54:23 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -723,13 +738,13 @@
         "msg": "res20: List[Int] \u003d List(1, 2, 3, 4)\ns4: Int \u003d 10\ns5: Int \u003d 10\ns6: Int \u003d 24\ns7: Int \u003d 10\ns8: Int \u003d 80\ns9: Int \u003d 80\n"
       },
       "dateCreated": "Jun 15, 2016 7:20:30 AM",
-      "dateStarted": "Jul 9, 2016 12:54:28 AM",
-      "dateFinished": "Jul 9, 2016 12:54:28 AM",
+      "dateStarted": "Jul 9, 2016 12:54:28 PM",
+      "dateFinished": "Jul 9, 2016 12:54:28 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "dateUpdated": "Jul 9, 2016 12:54:23 AM",
+      "dateUpdated": "Jul 9, 2016 12:54:23 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -766,7 +781,7 @@
     {
       "title": "Reduce",
       "text": "%md\nIf op for each node is different, then we can use `reduce`.\n\n![reduce][1]\n\nreduce(((val1 op1 val2) op2 val3) op3 val4)\n[1]:http://thecannycoder.files.wordpress.com/2014/08/foldleft.jpg?w\u003d272\u0026h\u003d300",
-      "dateUpdated": "Jul 9, 2016 12:54:23 AM",
+      "dateUpdated": "Jul 9, 2016 12:54:23 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -796,14 +811,14 @@
         "msg": "\u003cp\u003eIf op for each node is different, then we can use \u003ccode\u003ereduce\u003c/code\u003e.\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"http://thecannycoder.files.wordpress.com/2014/08/foldleft.jpg?w\u003d272\u0026amp;h\u003d300\" alt\u003d\"reduce\" /\u003e\u003c/p\u003e\n\u003cp\u003ereduce(((val1 op1 val2) op2 val3) op3 val4)\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 15, 2016 11:06:59 AM",
-      "dateStarted": "Jul 9, 2016 12:54:24 AM",
-      "dateFinished": "Jul 9, 2016 12:54:24 AM",
+      "dateStarted": "Jul 9, 2016 12:54:24 PM",
+      "dateFinished": "Jul 9, 2016 12:54:24 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%spark\n\nls\nls.reduce((r,c) \u003d\u003e r + c)\nList(1,2).reduce(_ + _)\nList(1,2).reduce(_ * _) \n\n// define a computation function\nval op1 \u003d (x:Int, y:Int) \u003d\u003e { x * 3 + y }  \nval op2 \u003d (x:Int, y:Int) \u003d\u003e { x * 2 - y }  \n\n// 1 * 3 + 2 \u003d 5 is (1 op1 2) \u003d z\n(1 to 2).reduce(op1) \n// 5 * 3 + 3 \u003d 18, ((1 op1 2) op1 3)\n(1 to 3).reduce(op1)  \n",
-      "dateUpdated": "Jul 9, 2016 12:54:24 AM",
+      "dateUpdated": "Jul 9, 2016 12:54:24 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -831,13 +846,13 @@
         "msg": "res21: List[Int] \u003d List(1, 2, 3, 4)\nres22: Int \u003d 10\nres23: Int \u003d 3\nres24: Int \u003d 2\nop1: (Int, Int) \u003d\u003e Int \u003d \u003cfunction2\u003e\nop2: (Int, Int) \u003d\u003e Int \u003d \u003cfunction2\u003e\nres25: Int \u003d 5\nres26: Int \u003d 18\n"
       },
       "dateCreated": "Jun 16, 2016 8:25:41 AM",
-      "dateStarted": "Jul 9, 2016 12:54:28 AM",
-      "dateFinished": "Jul 9, 2016 12:54:29 AM",
+      "dateStarted": "Jul 9, 2016 12:54:28 PM",
+      "dateFinished": "Jul 9, 2016 12:54:29 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "dateUpdated": "Jul 9, 2016 12:54:24 AM",
+      "dateUpdated": "Jul 9, 2016 12:54:24 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -895,7 +910,7 @@
     "2BRNDK1X2:shared_process": []
   },
   "config": {
-    "looknfeel": "report"
+    "looknfeel": "default"
   },
   "info": {}
 }

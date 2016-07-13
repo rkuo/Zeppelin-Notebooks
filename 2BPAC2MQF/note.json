@@ -3,7 +3,7 @@
     {
       "title": "RESTful API",
       "text": "%md \nFrom [Model-Driven Development of REST APIs][2]\n\nREST is an acronym for REpresentational State Transfer and it is an ”architectural style for distributed hypermedia systems”(Fielding, 2000). REST is not considered to be an architecture but it is described as a ”set of constraints applied to elements within the archi- tecture”(Fielding, 2000). \n\nFielding describes the constraints in his dissertation as:\n\n* Client-Server - This is nothing else than separation of concerns. The client should focus on how to show the data and the server on how to provide and store the data. There is no space for overlapping.\n* Stateless - The client should provide all the information needed to handle the request. There should be no dependency on the previous communication between these two.\n* Cache - The data provided by the server shall be cacheable. This means that the data shall be marked with cacheable or non-cacheable. If the response is cacheable, the client can store the data and use it later. This constraint improves the efficiency of the network.\n* Uniform interface - All the services shall have an uniform interface. The only drawback of this is that the data are sent in a standardized form which does not always correspond with the application’s needs. \n* Layered system - Every component of the system shall know exactly one layer of the system. This helps encapsulate the legacy services and legacy clients. The draw- back of the layered systems is the fact that they suffer from latency. This problem can be solved with caching the data.\n* Code-on-demand - This is an optional constraint of REST. Fielding says that the clients shall be able to download scripts from the server and execute them in order to simplify the clients.\n\nThe main new ideas of REST (REpresentional State Transfer), based on [Demystifying REST][1]:\n\n* Services are organized around resources\n* Resources have unique URL\n* Resources can be manipulated through HTTP\n* The encoding of the resources can be determined by the client\n* The introduction of Hypertext (or more correct Hypermedia) to the API\n* The clients and service providers share a common information model and the client activation of the services takes the form of requests for lookup, updates or creation of information in the shared information model. \n* The information model takes the form of sets of resources and their relationship. \n\n[1]:http://pettergraff.blogspot.com/2015/10/rest-series-demystifying-rest.html\n[2]:https://daim.idi.ntnu.no/masteroppgaver/013/13585/masteroppgave.pdf\n",
-      "dateUpdated": "Jul 12, 2016 10:02:58 AM",
+      "dateUpdated": "Jul 13, 2016 1:03:24 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -18,7 +18,7 @@
         "enabled": true,
         "editorMode": "ace/mode/markdown",
         "title": true,
-        "editorHide": false
+        "editorHide": true
       },
       "settings": {
         "params": {},
@@ -32,9 +32,9 @@
         "type": "HTML",
         "msg": "\u003cp\u003eFrom \u003ca href\u003d\"https://daim.idi.ntnu.no/masteroppgaver/013/13585/masteroppgave.pdf\"\u003eModel-Driven Development of REST APIs\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eREST is an acronym for REpresentational State Transfer and it is an ”architectural style for distributed hypermedia systems”(Fielding, 2000). REST is not considered to be an architecture but it is described as a ”set of constraints applied to elements within the archi- tecture”(Fielding, 2000).\u003c/p\u003e\n\u003cp\u003eFielding describes the constraints in his dissertation as:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eClient-Server - This is nothing else than separation of concerns. The client should focus on how to show the data and the server on how to provide and store the data. There is no space for overlapping.\u003c/li\u003e\n\u003cli\u003eStateless - The client should provide all the information needed to handle the request. There should be no dependency on the previous communication between these two.\u003c/li\u003e\n\u003cli\u003eCache - The data provided by the server shall be cacheable. This means that the data shall be marked with cacheable or non-cacheable. If the response is cacheable, the client can store the data and use it later. This constraint improves the efficiency of the network.\u003c/li\u003e\n\u003cli\u003eUniform interface - All the services shall have an uniform interface. The only drawback of this is that the data are sent in a standardized form which does not always correspond with the application’s needs.\u003c/li\u003e\n\u003cli\u003eLayered system - Every component of the system shall know exactly one layer of the system. This helps encapsulate the legacy services and legacy clients. The draw- back of the layered systems is the fact that they suffer from latency. This problem can be solved with caching the data.\u003c/li\u003e\n\u003cli\u003eCode-on-demand - This is an optional constraint of REST. Fielding says that the clients shall be able to download scripts from the server and execute them in order to simplify the clients.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eThe main new ideas of REST (REpresentional State Transfer), based on \u003ca href\u003d\"http://pettergraff.blogspot.com/2015/10/rest-series-demystifying-rest.html\"\u003eDemystifying REST\u003c/a\u003e:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eServices are organized around resources\u003c/li\u003e\n\u003cli\u003eResources have unique URL\u003c/li\u003e\n\u003cli\u003eResources can be manipulated through HTTP\u003c/li\u003e\n\u003cli\u003eThe encoding of the resources can be determined by the client\u003c/li\u003e\n\u003cli\u003eThe introduction of Hypertext (or more correct Hypermedia) to the API\u003c/li\u003e\n\u003cli\u003eThe clients and service providers share a common information model and the client activation of the services takes the form of requests for lookup, updates or creation of information in the shared information model.\u003c/li\u003e\n\u003cli\u003eThe information model takes the form of sets of resources and their relationship.\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
-      "dateCreated": "Jul 9, 2016 1:41:51 PM",
-      "dateStarted": "Jul 12, 2016 10:02:58 AM",
-      "dateFinished": "Jul 12, 2016 10:02:58 AM",
+      "dateCreated": "Jul 9, 2016 1:41:51 AM",
+      "dateStarted": "Jul 13, 2016 1:03:22 PM",
+      "dateFinished": "Jul 13, 2016 1:03:22 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -70,7 +70,7 @@
         "type": "HTML",
         "msg": "\u003cp\u003eCentral to the idea of REST is the concept of a resource.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cp\u003eResource-Set\n\u003cbr  /\u003eA resource-set is a collection of resource instances. When communicating with a service provider a client would address the resource set to perform operations such as\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eCreate a new resource instance\u003c/li\u003e\n\u003cli\u003eFind a resource instance\n\u003cbr  /\u003eFor those of you with an object-oriented background, imagine the resource-set as a class\n\u003cbr  /\u003eFor those of you that have a relational database background, imagine the resource-set as a table\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eResource-Instance\n\u003cbr  /\u003eA resource-instance represents an individual conceptual object that a client and the server agree upon. Our operations on resource-instances are typically\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eRead its state (or information)\u003c/li\u003e\n\u003cli\u003eUpdate its state (or information)\u003c/li\u003e\n\u003cli\u003eRemove it from our conceptual resource-set\n\u003cbr  /\u003eFor those of you with an object-oriented background, a good analogy would be an instance/object\n\u003cbr  /\u003eFor those of you with a relational database background, think of the resource-instance as a record\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eThe fact that we have a resource-set called Patients, does not necessary mean we have a table called patient in our implementation. All we are saying is that as a service provider (e.g., a hospital-admittence server), we understand what you mean by Patient and we have an API that allows clients to manipulate patients. We may for example provide a resource-set upon the URI http://api.hospitals.com/patients which allows you to lookup all our know patients instances (or resource-instances).\u003c/p\u003e\n\u003cp\u003eWhether a client is referring to a resource-set or a resource-instance is clear in every service invocation by the URI that they use.\u003c/p\u003e\n\u003cp\u003eA service provider will publish one URI that refers to the resource-set. A resource-instance is always addressed by adding a unique identifier to the resource set. For example, At PayPal we have a resource-set that can be addressed at:\n\u003cbr  /\u003e\u003ccode\u003ehttps://api.paypal.com/v1/wallet/payments\u003c/code\u003e\u003c/p\u003e\n\u003cp\u003eIf I wanted to create new payments or find payments, I would use this URI. However if I wanted to read an resource-instance, in this case a specific payment, I would address that at:\u003c/p\u003e\n\u003cp\u003e\u003ccode\u003ehttps://api.paypal.com/v1/wallet/payments/293759715\u003c/code\u003e\u003c/p\u003e\n\u003cp\u003eURI of the \u003ccode\u003eresource-instance\u003c/code\u003e is identified by the \u003ccode\u003eresouce-set\u003c/code\u003e + \u003ccode\u003e“/“\u003c/code\u003e + \u003ccode\u003ethe identifier of the payment\u003c/code\u003e.\u003c/p\u003e\n"
       },
-      "dateCreated": "Jul 9, 2016 3:48:20 PM",
+      "dateCreated": "Jul 9, 2016 3:48:20 AM",
       "dateStarted": "Jul 11, 2016 12:52:01 PM",
       "dateFinished": "Jul 11, 2016 12:52:01 PM",
       "status": "FINISHED",
@@ -79,7 +79,7 @@
     {
       "title": "Best Practices When Creating URIs",
       "text": "%md \n\nMark Mass describes in his book ([Masse ́, 2012][1]) several rules which should be considered when creating URIs:\n\n1. Forward slash separator (/) must be used to indicate a hierarchy \n2. A trailing forward slash (/) should not be included in URIs\n3. Hyphens (-) should be used to improve the readability of URIs \n4. Underscores (_) should not be used in URIs\n5. Lowercase letters should be preferred in URI paths \n6. File extensions should not be included in URIs\n7. A singular noun should be used for document names \n8. A plural noun should be used for collection names\n9. A plural noun should be used for store names\n10. A verb or verb phrase should be used for controller names\n11. Variable path segments may be substituted with identity-based \n12. CRUD function names should not be used in URIs\n\nThe following figure illustrates the rules on a valid URI.\n\n![URI example][2]\n\nThe URI above is using slashes as a separator (rule number 1), has no slash at the end (rule number 2) and is using hyphens instead of underscores (rule number 3). As it can be seen, only the plural nouns are used (rule number 8 and 9) and the action on the resource is specified by a verb (rule number 10). The last rule, number 11, is illustrated with using IDs as a variable.\n\nSee page 15 of [REST API Design Rulebook][3] and [StackOverFlow][4] discussion for the difference of `collection` and `store`\n\n![uri structure][5]\n\nAccording to both resources there are three different types of URIs:\n\n1. URIs with a _plural noun_ at the end returning a collection for example /cars or /universities/123/departments\n2. URIs with a _variable_ at the end returning a single object for example /cars/342 or /universities/123/departments/456\n3. URIs with a _verb_ at the end describing an action /cars/123/wreck or /universi- ties/123/rank\n\n[1]:https://www.safaribooksonline.com/library/view/rest-api-design/9781449317904/\n[2]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/masteroppgave-validURI.png\n[3]:https://books.google.ca/books?id\u003d4lZcsRwXo6MC\u0026printsec\u003dfrontcover#v\u003donepage\u0026q\u0026f\u003dfalse\n[4]:http://stackoverflow.com/questions/27847548/whats-the-difference-between-a-collection-and-a-store-in-rest\n[5]:https://www.safaribooksonline.com/library/view/rest-api-design/9781449317904/httpatomoreillycomsourceoreillyimages926292.png",
-      "dateUpdated": "Jul 12, 2016 2:14:04 PM",
+      "dateUpdated": "Jul 13, 2016 1:03:39 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -93,7 +93,8 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/markdown",
-        "title": true
+        "title": true,
+        "editorHide": true
       },
       "settings": {
         "params": {},
@@ -108,8 +109,8 @@
         "msg": "\u003cp\u003eMark Mass describes in his book (\u003ca href\u003d\"https://www.safaribooksonline.com/library/view/rest-api-design/9781449317904/\"\u003eMasse ́, 2012\u003c/a\u003e) several rules which should be considered when creating URIs:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eForward slash separator (/) must be used to indicate a hierarchy\u003c/li\u003e\n\u003cli\u003eA trailing forward slash (/) should not be included in URIs\u003c/li\u003e\n\u003cli\u003eHyphens (-) should be used to improve the readability of URIs\u003c/li\u003e\n\u003cli\u003eUnderscores (_) should not be used in URIs\u003c/li\u003e\n\u003cli\u003eLowercase letters should be preferred in URI paths\u003c/li\u003e\n\u003cli\u003eFile extensions should not be included in URIs\u003c/li\u003e\n\u003cli\u003eA singular noun should be used for document names\u003c/li\u003e\n\u003cli\u003eA plural noun should be used for collection names\u003c/li\u003e\n\u003cli\u003eA plural noun should be used for store names\u003c/li\u003e\n\u003cli\u003eA verb or verb phrase should be used for controller names\u003c/li\u003e\n\u003cli\u003eVariable path segments may be substituted with identity-based\u003c/li\u003e\n\u003cli\u003eCRUD function names should not be used in URIs\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eThe following figure illustrates the rules on a valid URI.\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/masteroppgave-validURI.png\" alt\u003d\"URI example\" /\u003e\u003c/p\u003e\n\u003cp\u003eThe URI above is using slashes as a separator (rule number 1), has no slash at the end (rule number 2) and is using hyphens instead of underscores (rule number 3). As it can be seen, only the plural nouns are used (rule number 8 and 9) and the action on the resource is specified by a verb (rule number 10). The last rule, number 11, is illustrated with using IDs as a variable.\u003c/p\u003e\n\u003cp\u003eSee page 15 of \u003ca href\u003d\"https://books.google.ca/books?id\u003d4lZcsRwXo6MC\u0026amp;printsec\u003dfrontcover#v\u003donepage\u0026amp;q\u0026amp;f\u003dfalse\"\u003eREST API Design Rulebook\u003c/a\u003e and \u003ca href\u003d\"http://stackoverflow.com/questions/27847548/whats-the-difference-between-a-collection-and-a-store-in-rest\"\u003eStackOverFlow\u003c/a\u003e discussion for the difference of \u003ccode\u003ecollection\u003c/code\u003e and \u003ccode\u003estore\u003c/code\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://www.safaribooksonline.com/library/view/rest-api-design/9781449317904/httpatomoreillycomsourceoreillyimages926292.png\" alt\u003d\"uri structure\" /\u003e\u003c/p\u003e\n\u003cp\u003eAccording to both resources there are three different types of URIs:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eURIs with a \u003cem\u003eplural noun\u003c/em\u003e at the end returning a collection for example /cars or /universities/123/departments\u003c/li\u003e\n\u003cli\u003eURIs with a \u003cem\u003evariable\u003c/em\u003e at the end returning a single object for example /cars/342 or /universities/123/departments/456\u003c/li\u003e\n\u003cli\u003eURIs with a \u003cem\u003everb\u003c/em\u003e at the end describing an action /cars/123/wreck or /universi- ties/123/rank\u003c/li\u003e\n\u003c/ol\u003e\n"
       },
       "dateCreated": "Jul 12, 2016 10:04:47 AM",
-      "dateStarted": "Jul 12, 2016 12:01:37 PM",
-      "dateFinished": "Jul 12, 2016 12:01:37 PM",
+      "dateStarted": "Jul 13, 2016 1:03:38 PM",
+      "dateFinished": "Jul 13, 2016 1:03:38 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -145,7 +146,7 @@
         "type": "HTML",
         "msg": "\u003cp\u003eREST suggest that most of the things we do as clients of services is to manipulate these conceptual resource-instances. In particular, we may Create, Read, Update, Delete and Find instances.\u003c/p\u003e\n\u003cp\u003eAnother idea in REST is that we’ll identify what we want to do by a combination of URI and HTTP verbs. That is, we can clearly see if the intention of any client request by simply knowing the URI and which \u003cem\u003eHTTP verb\u003c/em\u003e. HTTP supports a set of verbs.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eGET is used to retrieve  a representation of a resource.  It is a read-only,  idempotent  and safe operation.\u003c/li\u003e\n\u003cli\u003ePUT is used to update a reference to a resource on the  server and  it is idempotent  as well.\u003c/li\u003e\n\u003cli\u003ePOST is used to create a resource on the server based on the data  included in the body request. It is the only nonidempotent and  unsafe operation of HTTP.\u003c/li\u003e\n\u003cli\u003eDELETE is used to remove a resource on the server.  It is idempotent  as well.\u003c/li\u003e\n\u003cli\u003eHEAD is similar to GET but returning only a response code and the header associated with the request.\u003c/li\u003e\n\u003cli\u003eOPTIONS is used to request information about the communication options of the addressed resource (e.g., security capabilities such as CORS).\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
-      "dateCreated": "Jul 9, 2016 5:53:06 PM",
+      "dateCreated": "Jul 9, 2016 5:53:06 AM",
       "dateStarted": "Jul 11, 2016 12:52:01 PM",
       "dateFinished": "Jul 11, 2016 12:52:01 PM",
       "status": "FINISHED",
@@ -181,16 +182,53 @@
         "type": "HTML",
         "msg": "\u003cp\u003eOftenly used combination.\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/REST_Series__Demystifying_REST___Petter_s_Random_Thoughts_on_Software-URITable.png\" alt\u003d\"REST interface types\" /\u003e\u003c/p\u003e\n"
       },
-      "dateCreated": "Jul 9, 2016 4:12:29 PM",
+      "dateCreated": "Jul 9, 2016 4:12:29 AM",
       "dateStarted": "Jul 11, 2016 12:52:01 PM",
       "dateFinished": "Jul 11, 2016 12:52:01 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
+      "title": "HTTP Methods",
+      "text": "%md \n![][1]\n\n[1]:https://github.com/rkuo/Zeppelin-Notebooks/blob/master/2BPAC2MQF/images/masteroppgave-apiMethodExpectation.png\n",
+      "dateUpdated": "Jul 13, 2016 2:33:43 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1468443387452_1796689231",
+      "id": "20160713-135627_1288278325",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://github.com/rkuo/Zeppelin-Notebooks/blob/master/2BPAC2MQF/images/masteroppgave-apiMethodExpectation.png\" alt\u003d\"\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jul 13, 2016 1:56:27 PM",
+      "dateStarted": "Jul 13, 2016 2:33:43 PM",
+      "dateFinished": "Jul 13, 2016 2:33:43 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
       "title": "API Role",
-      "text": "%md \n\n![api role][1]\n\n* Application has OO model and data model\n* RESTful style is leverage data model from service prospective\n\n[1]:http://restful-api-design.readthedocs.io/en/latest/_images/scope.png",
-      "dateUpdated": "Jul 11, 2016 12:52:01 PM",
+      "text": "%md \n\n![api role][1]\n\n* Application has object model and data model\n* RESTful style is leverage data model from service prospective, object has to deliver behavior\n\n[1]:http://restful-api-design.readthedocs.io/en/latest/_images/scope.png",
+      "dateUpdated": "Jul 13, 2016 2:33:07 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -217,11 +255,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003cp\u003e\u003cimg src\u003d\"http://restful-api-design.readthedocs.io/en/latest/_images/scope.png\" alt\u003d\"api role\" /\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eApplication has OO model and data model\u003c/li\u003e\n\u003cli\u003eRESTful style is leverage data model from service prospective\u003c/li\u003e\n\u003c/ul\u003e\n"
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"http://restful-api-design.readthedocs.io/en/latest/_images/scope.png\" alt\u003d\"api role\" /\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eApplication has object model and data model\u003c/li\u003e\n\u003cli\u003eRESTful style is leverage data model from service prospective, object has to deliver behavior\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Jul 11, 2016 9:01:39 AM",
-      "dateStarted": "Jul 11, 2016 12:52:01 PM",
-      "dateFinished": "Jul 11, 2016 12:52:01 PM",
+      "dateStarted": "Jul 12, 2016 8:24:16 AM",
+      "dateFinished": "Jul 12, 2016 8:24:16 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -257,7 +295,7 @@
         "type": "HTML",
         "msg": "\u003cp\u003eBased on \u003ca href\u003d\"http://pettergraff.blogspot.com/2015/10/rest-api-part-ii-converting-functional.html\"\u003eConverting a Functional API to REST\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eA UML diagram for AddressBookService class/interface:\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://lh3.googleusercontent.com/-9LPqxcQXXxA/VhQlx2_OwlI/AAAAAAAABIc/qtQP1XcqcME/NewImage.png?imgmax\u003d800\" alt\u003d\"addressbook\" /\u003e\u003c/p\u003e\n\u003cp\u003eThe interface may manifest itself as a set of Ajax calls or perhaps a simple API in some programming language. E.g. as an interface in Java:\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003einterface AddressBookService {\n\n  public void addContact(Contact c);\n\n  public Collection\u0026lt;Contact\u0026gt; getAllContacts();\n\n  public Contact findById(String contactId);\n\n  public Collection\u0026lt;Contact\u0026gt; findByName(String name);\n\n  public Collection\u0026lt;Contact\u0026gt; findByAreaCode(String areaCode);\n\n  public void removeContact(String contactId);\n\n  public void updateContact(String contactId, Contact contact);\n\n  public Call callContact(Contact c);\n\n  public Call dialNumber(String digits);\n}\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eFrom the interface, we can see \u003ccode\u003econtacts\u003c/code\u003e is a \u003ccode\u003e\u0026lt;\u0026lt;resource-set\u0026gt;\u0026gt;\u003c/code\u003e and \u003ccode\u003econtact\u003c/code\u003e is  \u003ccode\u003e\u0026lt;\u0026lt;resource-instance\u0026gt;\u0026gt;\u003c/code\u003e, and we treat \u003ccode\u003ecalls\u003c/code\u003e as another \u003ccode\u003e\u0026lt;\u0026lt;resource-set\u0026gt;\u0026gt;\u003c/code\u003e.\u003c/p\u003e\n"
       },
-      "dateCreated": "Jul 10, 2016 6:16:27 PM",
+      "dateCreated": "Jul 10, 2016 6:16:27 AM",
       "dateStarted": "Jul 11, 2016 12:52:01 PM",
       "dateFinished": "Jul 11, 2016 12:52:01 PM",
       "status": "FINISHED",
@@ -265,8 +303,8 @@
     },
     {
       "title": "Tools",
-      "text": "%md \nCommon API Language with Tools\n* [Swagger][1]\n* [RAML][2]\n* [APIBluePrint][3]\n\nTools\n* [genmymodel][6] free online modeling tool for EMF, BPMN,... \n* [EMF-REST][4] can generate API from EMF model   \n* [restlet][5] supports both Swagger and RAML   \n\n[1]:http://swagger.io/\n[2]:http://raml.org/\n[3]:https://apiblueprint.org/\n[4]:http://som-research.uoc.edu/tools/emf-rest/\n[5]:https://studio.restlet.com/apis/local/info\n[6]:https://www.genmymodel.com/",
-      "dateUpdated": "Jul 11, 2016 4:56:09 PM",
+      "text": "%md \nCommon API Language with Tools\n* [Swagger][1];\n* [RAML][2]; RAML has an indentation based syntax so it does not force the user to use any curly brackets.\n* [APIBluePrint][3]; \n\nTools\n* [genmymodel][6] free online modeling tool for EMF, BPMN,... \n* [EMF-REST][4] can generate API from EMF model   \n* [restlet][5] supports both Swagger and RAML   \n\n[1]:http://swagger.io/\n[2]:http://raml.org/\n[3]:https://apiblueprint.org/\n[4]:http://som-research.uoc.edu/tools/emf-rest/\n[5]:https://studio.restlet.com/apis/local/info\n[6]:https://www.genmymodel.com/",
+      "dateUpdated": "Jul 13, 2016 1:54:42 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -281,7 +319,7 @@
         "enabled": true,
         "editorMode": "ace/mode/markdown",
         "title": true,
-        "editorHide": true
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -295,16 +333,16 @@
         "type": "HTML",
         "msg": "\u003cp\u003eCommon API Language with Tools\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"http://swagger.io/\"\u003eSwagger\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://raml.org/\"\u003eRAML\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://apiblueprint.org/\"\u003eAPIBluePrint\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eTools\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"https://www.genmymodel.com/\"\u003egenmymodel\u003c/a\u003e free online modeling tool for EMF, BPMN,\u0026hellip;\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://som-research.uoc.edu/tools/emf-rest/\"\u003eEMF-REST\u003c/a\u003e can generate API from EMF model\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://studio.restlet.com/apis/local/info\"\u003erestlet\u003c/a\u003e supports both Swagger and RAML\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
-      "dateCreated": "Jul 10, 2016 6:27:16 PM",
-      "dateStarted": "Jul 11, 2016 4:55:59 PM",
-      "dateFinished": "Jul 11, 2016 4:55:59 PM",
+      "dateCreated": "Jul 10, 2016 6:27:16 AM",
+      "dateStarted": "Jul 11, 2016 4:55:59 AM",
+      "dateFinished": "Jul 11, 2016 4:55:59 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Restlet - define",
       "text": "%md \nLearning \n* [video][1]   \n\nSteps:   \n1. click `APIs` menu -\u003e `clear` to start a blank form.\n2. enter general information, then `save`.\n3. click `add` button in endpoint [create entrypoint in restlet][2], enter `Domain name`, for example `exmple.com` and `Base path`, for example, `/api/v1`  \n4. click `add` button in section [create product section][3] to create data model, called `Product`\n5. select `Product` in section then click `add` button in Representation, enter `Product` in prompt, this is what we get in `Design`, `Swagger` and `RAML` tabs\n   ![Design-addRepresentations][4],\n   ![Swagger-addRepresentations][5],\n   ![RAML-addRepresentations][6]\n\n6. select `Product` in Representation, then click `add properties`, then type `property name` (id), `property description` (id). `type` (integer) and select the checkbox required.\n7. click `add properties` again to add a `name` for the product and select `string` type.  \n8. click `add resource`, add `relative path` (/products), `name` (ProductsListResource) and select `method`. This is `\u003c\u003cresource-set\u003e\u003e` ![7]\n9. do the same for productid, which is a `\u003c\u003cresource-instance\u003e\u003e` ![8]\n10. add path variable ![9]\n11. modify `post` method of `products` resource; add input and response field (`name`, `status`, and `output`) ![10]\n12. modify `get` method of `products` resource; add response field (`name`(OK), `status`(200 - OK), and `output`(Product)) ![11]\n13. modify `get` method of `products/{productid}` resource; add response field (`name`(OK), `status`(200 - OK), and `output`(Product)) ![12]\n14. do the same for `put`   \n \n15. add Error Representation `Name` (name) ![add Error Representation][12]   \n16. use [Error in post] Response `Name` (bad request), `Status code` (400 - error), and `output` (error) ![13]  \n\nAt end, RAML file is much easier to read.\n![raml file][14]   \n\n[1]:https://vimeo.com/161117920\n[2]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Design_an_API_from_scratch_with_Restlet_Studio_on_Vimeo-createEntryPoint.png\n[3]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Design_an_API_from_scratch_with_Restlet_Studio_on_Vimeo-addSection.png\n[4]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Design_an_API_from_scratch_with_Restlet_Studio_on_Vimeo-addRepresentatons.png\n[5]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Design_an_API_from_scratch_with_Restlet_Studio_on_Vimeo-addRepresentatons-Swagger.png\n[6]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Design_an_API_from_scratch_with_Restlet_Studio_on_Vimeo-addRepresentatons-RAML.png\n[7]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Design_an_API_from_scratch_with_Restlet_Studio_on_Vimeo-addResource.png\n[8]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Design_an_API_from_scratch_with_Restlet_Studio_on_Vimeo-productid.png\n[9]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Design_an_API_from_scratch_with_Restlet_Studio_on_Vimeo-productidPath.png\n[10]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Design_an_API_from_scratch_with_Restlet_Studio_on_Vimeo-postProduct.png\n[11]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Design_an_API_from_scratch_with_Restlet_Studio_on_Vimeo-getProduct.png\n[12]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Design_an_API_from_scratch_with_Restlet_Studio_on_Vimeo-errorRepresentatons.png\n[13]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Design_an_API_from_scratch_with_Restlet_Studio_on_Vimeo-errorResource.png\n[14]:https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Untitled_-_Restlet_Studio-RAML.png",
-      "dateUpdated": "Jul 11, 2016 7:08:24 PM",
+      "dateUpdated": "Jul 11, 2016 7:08:24 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -334,15 +372,15 @@
         "msg": "\u003cp\u003eLearning\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"https://vimeo.com/161117920\"\u003evideo\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eSteps:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e\u003cp\u003eclick \u003ccode\u003eAPIs\u003c/code\u003e menu -\u003e \u003ccode\u003eclear\u003c/code\u003e to start a blank form.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eenter general information, then \u003ccode\u003esave\u003c/code\u003e.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eclick \u003ccode\u003eadd\u003c/code\u003e button in endpoint \u003ca href\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Design_an_API_from_scratch_with_Restlet_Studio_on_Vimeo-createEntryPoint.png\"\u003ecreate entrypoint in restlet\u003c/a\u003e, enter \u003ccode\u003eDomain name\u003c/code\u003e, for example \u003ccode\u003eexmple.com\u003c/code\u003e and \u003ccode\u003eBase path\u003c/code\u003e, for example, \u003ccode\u003e/api/v1\u003c/code\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eclick \u003ccode\u003eadd\u003c/code\u003e button in section \u003ca href\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Design_an_API_from_scratch_with_Restlet_Studio_on_Vimeo-addSection.png\"\u003ecreate product section\u003c/a\u003e to create data model, called \u003ccode\u003eProduct\u003c/code\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eselect \u003ccode\u003eProduct\u003c/code\u003e in section then click \u003ccode\u003eadd\u003c/code\u003e button in Representation, enter \u003ccode\u003eProduct\u003c/code\u003e in prompt, this is what we get in \u003ccode\u003eDesign\u003c/code\u003e, \u003ccode\u003eSwagger\u003c/code\u003e and \u003ccode\u003eRAML\u003c/code\u003e tabs\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Design_an_API_from_scratch_with_Restlet_Studio_on_Vimeo-addRepresentatons.png\" alt\u003d\"Design-addRepresentations\" /\u003e,\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Design_an_API_from_scratch_with_Restlet_Studio_on_Vimeo-addRepresentatons-Swagger.png\" alt\u003d\"Swagger-addRepresentations\" /\u003e,\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Design_an_API_from_scratch_with_Restlet_Studio_on_Vimeo-addRepresentatons-RAML.png\" alt\u003d\"RAML-addRepresentations\" /\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eselect \u003ccode\u003eProduct\u003c/code\u003e in Representation, then click \u003ccode\u003eadd properties\u003c/code\u003e, then type \u003ccode\u003eproperty name\u003c/code\u003e (id), \u003ccode\u003eproperty description\u003c/code\u003e (id). \u003ccode\u003etype\u003c/code\u003e (integer) and select the checkbox required.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eclick \u003ccode\u003eadd properties\u003c/code\u003e again to add a \u003ccode\u003ename\u003c/code\u003e for the product and select \u003ccode\u003estring\u003c/code\u003e type.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eclick \u003ccode\u003eadd resource\u003c/code\u003e, add \u003ccode\u003erelative path\u003c/code\u003e (/products), \u003ccode\u003ename\u003c/code\u003e (ProductsListResource) and select \u003ccode\u003emethod\u003c/code\u003e. This is \u003ccode\u003e\u0026lt;\u0026lt;resource-set\u0026gt;\u0026gt;\u003c/code\u003e \u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Design_an_API_from_scratch_with_Restlet_Studio_on_Vimeo-addResource.png\" alt\u003d\"7\" /\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003edo the same for productid, which is a \u003ccode\u003e\u0026lt;\u0026lt;resource-instance\u0026gt;\u0026gt;\u003c/code\u003e \u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Design_an_API_from_scratch_with_Restlet_Studio_on_Vimeo-productid.png\" alt\u003d\"8\" /\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eadd path variable \u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Design_an_API_from_scratch_with_Restlet_Studio_on_Vimeo-productidPath.png\" alt\u003d\"9\" /\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003emodify \u003ccode\u003epost\u003c/code\u003e method of \u003ccode\u003eproducts\u003c/code\u003e resource; add input and response field (\u003ccode\u003ename\u003c/code\u003e, \u003ccode\u003estatus\u003c/code\u003e, and \u003ccode\u003eoutput\u003c/code\u003e) \u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Design_an_API_from_scratch_with_Restlet_Studio_on_Vimeo-postProduct.png\" alt\u003d\"10\" /\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003emodify \u003ccode\u003eget\u003c/code\u003e method of \u003ccode\u003eproducts\u003c/code\u003e resource; add response field (\u003ccode\u003ename\u003c/code\u003e(OK), \u003ccode\u003estatus\u003c/code\u003e(200 - OK), and \u003ccode\u003eoutput\u003c/code\u003e(Product)) \u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Design_an_API_from_scratch_with_Restlet_Studio_on_Vimeo-getProduct.png\" alt\u003d\"11\" /\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003emodify \u003ccode\u003eget\u003c/code\u003e method of \u003ccode\u003eproducts/{productid}\u003c/code\u003e resource; add response field (\u003ccode\u003ename\u003c/code\u003e(OK), \u003ccode\u003estatus\u003c/code\u003e(200 - OK), and \u003ccode\u003eoutput\u003c/code\u003e(Product)) \u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Design_an_API_from_scratch_with_Restlet_Studio_on_Vimeo-errorRepresentatons.png\" alt\u003d\"12\" /\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003edo the same for \u003ccode\u003eput\u003c/code\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eadd Error Representation \u003ccode\u003eName\u003c/code\u003e (name) \u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Design_an_API_from_scratch_with_Restlet_Studio_on_Vimeo-errorRepresentatons.png\" alt\u003d\"add Error Representation\" /\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003euse [Error in post] Response \u003ccode\u003eName\u003c/code\u003e (bad request), \u003ccode\u003eStatus code\u003c/code\u003e (400 - error), and \u003ccode\u003eoutput\u003c/code\u003e (error) \u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Design_an_API_from_scratch_with_Restlet_Studio_on_Vimeo-errorResource.png\" alt\u003d\"13\" /\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eAt end, RAML file is much easier to read.\n\u003cbr  /\u003e\u003cimg src\u003d\"https://raw.githubusercontent.com/rkuo/Zeppelin-Notebooks/master/2BPAC2MQF/images/Untitled_-_Restlet_Studio-RAML.png\" alt\u003d\"raml file\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Jul 11, 2016 8:32:44 AM",
-      "dateStarted": "Jul 11, 2016 7:07:29 PM",
-      "dateFinished": "Jul 11, 2016 7:07:29 PM",
+      "dateStarted": "Jul 11, 2016 7:07:29 AM",
+      "dateFinished": "Jul 11, 2016 7:07:29 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "RAML",
       "text": "%md \n[introduction RAML][1]\n\n[1]:https://www.youtube.com/watch?v\u003d_RI5iZgOtis",
-      "dateUpdated": "Jul 11, 2016 7:14:55 PM",
+      "dateUpdated": "Jul 11, 2016 7:14:55 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -370,9 +408,9 @@
         "type": "HTML",
         "msg": "\u003cp\u003e\u003ca href\u003d\"https://www.youtube.com/watch?v\u003d_RI5iZgOtis\"\u003eintroduction RAML\u003c/a\u003e\u003c/p\u003e\n"
       },
-      "dateCreated": "Jul 10, 2016 6:27:48 PM",
-      "dateStarted": "Jul 11, 2016 7:14:55 PM",
-      "dateFinished": "Jul 11, 2016 7:14:55 PM",
+      "dateCreated": "Jul 10, 2016 6:27:48 AM",
+      "dateStarted": "Jul 11, 2016 7:14:55 AM",
+      "dateFinished": "Jul 11, 2016 7:14:55 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -407,7 +445,7 @@
         "type": "TEXT",
         "msg": ""
       },
-      "dateCreated": "Jul 10, 2016 6:27:58 PM",
+      "dateCreated": "Jul 10, 2016 6:27:58 AM",
       "dateStarted": "Jul 11, 2016 12:52:01 PM",
       "dateFinished": "Jul 11, 2016 12:52:01 PM",
       "status": "FINISHED",
@@ -416,7 +454,7 @@
     {
       "title": "REST with UML",
       "text": "%md \n\n![Design and implement RESTful web services with Rational Software Architect][2]   \n* [Modelling a REST API with UML and keeping it agile][3] describes how to model API with general UML tool; [IBM Rational Software Architect][6] and [Visual Paradigm][5] tools have tis feature   \n* [emf-rest][4] a plugin can be used to model with EMF and to generate API, a more complete document [EMF-REST: Generation of RESTful APIs from Models][7]   \n* [Modeling RESTful applications][8]   \n* [A conversation based approach for modeling REST APIs][9]   \n* [UML-based Model-Driven REST API Development][10]   \n* [Modeling RESTful applications][11]\n* [Model-Driven Development of REST APIs][12] read this one first, it has complete overview\n* [Model-driven Testing of RESTful APIs][13]\n* [Design and Implementation of a Model-Driven Approach for Restful APIs][14]\n* [Restalk][15]   \n* [Modeling Behavioral RESTful Web Service Interfaces in UML][16]\n\n[1]:http://www.ibm.com/developerworks/rational/library/design-implement-restful-web-services/\n[2]:http://www.ibm.com/developerworks/rational/library/design-implement-restful-web-services/image001.jpg\n[3]:http://callistaenterprise.se/blogg/teknik/2014/08/05/modelling-a-rest-api-with-uml-and-keeping-it-agile/\n[4]:http://som-research.uoc.edu/tools/emf-rest/install.html\n[5]:https://www.visual-paradigm.com/support/documents/vpuserguide/276/3420/85154_modelingrest.html\n[6]:https://www.ibm.com/developerworks/rational/library/design-implement-restful-web-services/\n[7]:http://arxiv.org/pdf/1504.03498.pdf\n[8]:http://ws-rest.org/2011/proc/a4-schreier.pdf\n[9]:http://www.iaas.uni-stuttgart.de/RUS-data/INPROC-2015-10%20-%20A%20conversation%20based%20approach%20for%20modeling%20REST%20APIs.pdf\n[10]:http://www.scitepress.org/DigitalLibrary/PublicationsDetail.aspx?ID\u003d1Gjb858+pxE%3d\u0026t\u003d1\n[11]:http://ws-rest.org/2011/proc/a4-schreier.pdf\n[12]:https://daim.idi.ntnu.no/masteroppgaver/013/13585/masteroppgave.pdf\n[13]:http://www.www2015.it/documents/proceedings/companion/p1497.pdf\n[14]:http://www.ieee-student-conference.de/fileadmin/papers/2014/ieeegsc2014_submission_8.pdf\n[15]:http://design.inf.unisi.ch/sites/default/files/biblio/RESTalk-SoSyM2016.pdf\n[16]:https://www.researchgate.net/publication/220999891_Modeling_behavioral_RESTful_web_service_interfaces_in_UML",
-      "dateUpdated": "Jul 12, 2016 9:45:41 AM",
+      "dateUpdated": "Jul 13, 2016 1:34:52 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -431,7 +469,7 @@
         "enabled": true,
         "editorMode": "ace/mode/markdown",
         "title": true,
-        "editorHide": false
+        "editorHide": true
       },
       "settings": {
         "params": {},
@@ -445,9 +483,9 @@
         "type": "HTML",
         "msg": "\u003cp\u003e\u003cimg src\u003d\"http://www.ibm.com/developerworks/rational/library/design-implement-restful-web-services/image001.jpg\" alt\u003d\"Design and implement RESTful web services with Rational Software Architect\" /\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"http://callistaenterprise.se/blogg/teknik/2014/08/05/modelling-a-rest-api-with-uml-and-keeping-it-agile/\"\u003eModelling a REST API with UML and keeping it agile\u003c/a\u003e describes how to model API with general UML tool; \u003ca href\u003d\"https://www.ibm.com/developerworks/rational/library/design-implement-restful-web-services/\"\u003eIBM Rational Software Architect\u003c/a\u003e and \u003ca href\u003d\"https://www.visual-paradigm.com/support/documents/vpuserguide/276/3420/85154_modelingrest.html\"\u003eVisual Paradigm\u003c/a\u003e tools have tis feature\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://som-research.uoc.edu/tools/emf-rest/install.html\"\u003eemf-rest\u003c/a\u003e a plugin can be used to model with EMF and to generate API, a more complete document \u003ca href\u003d\"http://arxiv.org/pdf/1504.03498.pdf\"\u003eEMF-REST: Generation of RESTful APIs from Models\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://ws-rest.org/2011/proc/a4-schreier.pdf\"\u003eModeling RESTful applications\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://www.iaas.uni-stuttgart.de/RUS-data/INPROC-2015-10%20-%20A%20conversation%20based%20approach%20for%20modeling%20REST%20APIs.pdf\"\u003eA conversation based approach for modeling REST APIs\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://www.scitepress.org/DigitalLibrary/PublicationsDetail.aspx?ID\u003d1Gjb858+pxE%3d\u0026amp;t\u003d1\"\u003eUML-based Model-Driven REST API Development\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://ws-rest.org/2011/proc/a4-schreier.pdf\"\u003eModeling RESTful applications\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://daim.idi.ntnu.no/masteroppgaver/013/13585/masteroppgave.pdf\"\u003eModel-Driven Development of REST APIs\u003c/a\u003e read this one first, it has complete overview\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://www.www2015.it/documents/proceedings/companion/p1497.pdf\"\u003eModel-driven Testing of RESTful APIs\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://www.ieee-student-conference.de/fileadmin/papers/2014/ieeegsc2014_submission_8.pdf\"\u003eDesign and Implementation of a Model-Driven Approach for Restful APIs\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://design.inf.unisi.ch/sites/default/files/biblio/RESTalk-SoSyM2016.pdf\"\u003eRestalk\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://www.researchgate.net/publication/220999891_Modeling_behavioral_RESTful_web_service_interfaces_in_UML\"\u003eModeling Behavioral RESTful Web Service Interfaces in UML\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
-      "dateCreated": "Jul 9, 2016 1:43:31 PM",
-      "dateStarted": "Jul 12, 2016 7:20:21 AM",
-      "dateFinished": "Jul 12, 2016 7:20:21 AM",
+      "dateCreated": "Jul 9, 2016 1:43:31 AM",
+      "dateStarted": "Jul 13, 2016 1:34:49 PM",
+      "dateFinished": "Jul 13, 2016 1:34:49 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
