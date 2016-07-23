@@ -76,8 +76,8 @@
     },
     {
       "title": "Function - example",
-      "text": "%spark\n// Functions \u003c- this really a method\ndef f(x:Int): Int \u003d {\n    x+1\n}   //f provides a service: to transform input value 2 with function f\n\nf(2)\n",
-      "dateUpdated": "Jul 9, 2016 12:03:13 PM",
+      "text": "%spark\n// Functions \u003c- this really a method\ndef f(x:Int): Int \u003d {\n    x+1\n}   //f provides a service: to transform input value 2 with function f\n\nf(2)\n\n// Functions \u003c- this really a method\ndef fs(x:String): String \u003d {\n    x+1\n}   //althrough the body of the function is the same, it concatenates  input \"x\" and 1 \n\nfs(\"2\")\n",
+      "dateUpdated": "Jul 19, 2016 9:36:16 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -91,7 +91,8 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/scala",
-        "title": true
+        "title": true,
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -103,11 +104,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "f: (x: Int)Int\nres31: Int \u003d 3\n"
+        "msg": "f: (x: Int)Int\nres20: Int \u003d 3\nfs: (x: String)String\nres21: String \u003d 21\n"
       },
       "dateCreated": "Jun 15, 2016 1:33:56 AM",
-      "dateStarted": "Jul 9, 2016 12:03:13 PM",
-      "dateFinished": "Jul 9, 2016 12:03:13 PM",
+      "dateStarted": "Jul 19, 2016 9:36:16 AM",
+      "dateFinished": "Jul 19, 2016 9:36:16 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },

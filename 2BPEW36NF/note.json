@@ -2,8 +2,7 @@
   "paragraphs": [
     {
       "text": "%md\n![ceph logo][1]\n[document][3], [download][2]\n\n[1]:http://docs.ceph.com/docs/hammer/_static/logo.png\n[2]:http://ceph.com/\n[3]:http://docs.ceph.com/docs/master/",
-      "authenticationInfo": {},
-      "dateUpdated": "Jul 6, 2016 2:59:48 PM",
+      "dateUpdated": "Jul 6, 2016 2:59:48 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -23,6 +22,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467691766405_450074919",
       "id": "20160704-210926_927070803",
       "result": {
@@ -30,16 +30,15 @@
         "type": "HTML",
         "msg": "\u003cp\u003e\u003cimg src\u003d\"http://docs.ceph.com/docs/hammer/_static/logo.png\" alt\u003d\"ceph logo\" /\u003e\n\u003cbr  /\u003e\u003ca href\u003d\"http://docs.ceph.com/docs/master/\"\u003edocument\u003c/a\u003e, \u003ca href\u003d\"http://ceph.com/\"\u003edownload\u003c/a\u003e\u003c/p\u003e\n"
       },
-      "dateCreated": "Jul 4, 2016 9:09:26 PM",
-      "dateStarted": "Jul 6, 2016 2:59:48 PM",
-      "dateFinished": "Jul 6, 2016 2:59:48 PM",
+      "dateCreated": "Jul 4, 2016 9:09:26 AM",
+      "dateStarted": "Jul 6, 2016 2:59:48 AM",
+      "dateFinished": "Jul 6, 2016 2:59:48 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Background",
       "text": "%md\nCeph was started by Sage Weil for his PhD dissertation at the University of California, Santa Cruz in the Storage Systems Research Center in the Jack Baskin School of Engineering. The lab is funded by the DOE/NNSA involving LLNL (Lawrence Livermore National Labs), LANL (Los Alamos National Labs), and Sandia National Laboratories. He graduated in the fall of 2007 and has kept developing Ceph. \n",
-      "authenticationInfo": {},
       "dateUpdated": "Jul 7, 2016 11:46:47 AM",
       "config": {
         "colWidth": 12.0,
@@ -61,6 +60,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467818504962_-1920816322",
       "id": "20160706-082144_1026214640",
       "result": {
@@ -69,16 +69,15 @@
         "msg": "\u003cp\u003eCeph was started by Sage Weil for his PhD dissertation at the University of California, Santa Cruz in the Storage Systems Research Center in the Jack Baskin School of Engineering. The lab is funded by the DOE/NNSA involving LLNL (Lawrence Livermore National Labs), LANL (Los Alamos National Labs), and Sandia National Laboratories. He graduated in the fall of 2007 and has kept developing Ceph.\u003c/p\u003e\n"
       },
       "dateCreated": "Jul 6, 2016 8:21:44 AM",
-      "dateStarted": "Jul 6, 2016 2:59:48 PM",
-      "dateFinished": "Jul 6, 2016 2:59:48 PM",
+      "dateStarted": "Jul 6, 2016 2:59:48 AM",
+      "dateFinished": "Jul 6, 2016 2:59:48 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Design Approach",
       "text": "%md\nFrom [Ceph: The Distributed File System Creature from the Object Lagoon][1]\n\n* It has designed for scalability, reliability, and performance. \n* It assumes that hardware will fail or have hardware added, so it has a design that can adapt to these situations. \n* Ceph breaks the file system into two pieces: (1) metadata, and (2) data. This allows each piece to be designed in the most efficient manner to achieve these three goals of Ceph.\n\nCeph uses a dynamic distributed metadata server (MDS) that is not only clustered but also adapts to the changing workload. It will automatically distribute portions of the hierarchical directory tree to other MDS servers in the cluster to better load balance as the workload changes. In addition, if a MDS server is added, it will move portions of the metadata to that new box, again, better distributing the load.\n\nThe concept of replication is used along with Object Server Devices (OSD’s) so that all the space on all the drives is used (no parity drives, no spare drives). During the writing of an object to Ceph, it is automatically replicated to other OSD’s so that the loss of an OSD(s) won’t result in the loss of data. If an OSD is lost, the objects are again re-replicated so that the number of copies of the objects is maintained.\n\nWhile the Ceph client is included Linux kernal since 2.6.34.\n\n[1]:http://www.linux-mag.com/id/7744/",
-      "authenticationInfo": {},
-      "dateUpdated": "Jul 6, 2016 2:59:48 PM",
+      "dateUpdated": "Jul 6, 2016 2:59:48 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -99,6 +98,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467828577050_-495197188",
       "id": "20160706-110937_1565739438",
       "result": {
@@ -107,16 +107,15 @@
         "msg": "\u003cp\u003eFrom \u003ca href\u003d\"http://www.linux-mag.com/id/7744/\"\u003eCeph: The Distributed File System Creature from the Object Lagoon\u003c/a\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eIt has designed for scalability, reliability, and performance.\u003c/li\u003e\n\u003cli\u003eIt assumes that hardware will fail or have hardware added, so it has a design that can adapt to these situations.\u003c/li\u003e\n\u003cli\u003eCeph breaks the file system into two pieces: (1) metadata, and (2) data. This allows each piece to be designed in the most efficient manner to achieve these three goals of Ceph.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eCeph uses a dynamic distributed metadata server (MDS) that is not only clustered but also adapts to the changing workload. It will automatically distribute portions of the hierarchical directory tree to other MDS servers in the cluster to better load balance as the workload changes. In addition, if a MDS server is added, it will move portions of the metadata to that new box, again, better distributing the load.\u003c/p\u003e\n\u003cp\u003eThe concept of replication is used along with Object Server Devices (OSD’s) so that all the space on all the drives is used (no parity drives, no spare drives). During the writing of an object to Ceph, it is automatically replicated to other OSD’s so that the loss of an OSD(s) won’t result in the loss of data. If an OSD is lost, the objects are again re-replicated so that the number of copies of the objects is maintained.\u003c/p\u003e\n\u003cp\u003eWhile the Ceph client is included Linux kernal since 2.6.34.\u003c/p\u003e\n"
       },
       "dateCreated": "Jul 6, 2016 11:09:37 AM",
-      "dateStarted": "Jul 6, 2016 2:59:48 PM",
-      "dateFinished": "Jul 6, 2016 2:59:48 PM",
+      "dateStarted": "Jul 6, 2016 2:59:48 AM",
+      "dateFinished": "Jul 6, 2016 2:59:48 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Features",
-      "text": "%md\n\n* distributed\n* redundency\n* efficiently scale out (to exabyte scale, 1 EB \u003d 1000 petabytes \u003d 1 billion gigabytes)\n* build on commondity hardware\n* self-healing\n* self-management\n* no bottleneck, no single point of failure\n",
-      "authenticationInfo": {},
-      "dateUpdated": "Jul 6, 2016 2:59:48 PM",
+      "text": "%md\n\n* distributed\n* redundancy\n* efficiently scale out (to exabyte scale, 1 EB \u003d 1000 petabytes \u003d 1 billion gigabytes)\n* build on commodity hardware\n* self-healing\n* self-management\n* no bottleneck, no single point of failure\n",
+      "dateUpdated": "Jul 22, 2016 3:00:27 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -137,23 +136,23 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467815373504_1245637075",
       "id": "20160706-072933_401845041",
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003cul\u003e\n\u003cli\u003edistributed\u003c/li\u003e\n\u003cli\u003eredundency\u003c/li\u003e\n\u003cli\u003eefficiently scale out (to exabyte scale, 1 EB \u003d 1000 petabytes \u003d 1 billion gigabytes)\u003c/li\u003e\n\u003cli\u003ebuild on commondity hardware\u003c/li\u003e\n\u003cli\u003eself-healing\u003c/li\u003e\n\u003cli\u003eself-management\u003c/li\u003e\n\u003cli\u003eno bottleneck, no single point of failure\u003c/li\u003e\n\u003c/ul\u003e\n"
+        "msg": "\u003cul\u003e\n\u003cli\u003edistributed\u003c/li\u003e\n\u003cli\u003eredundancy\u003c/li\u003e\n\u003cli\u003eefficiently scale out (to exabyte scale, 1 EB \u003d 1000 petabytes \u003d 1 billion gigabytes)\u003c/li\u003e\n\u003cli\u003ebuild on commodity hardware\u003c/li\u003e\n\u003cli\u003eself-healing\u003c/li\u003e\n\u003cli\u003eself-management\u003c/li\u003e\n\u003cli\u003eno bottleneck, no single point of failure\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Jul 6, 2016 7:29:33 AM",
-      "dateStarted": "Jul 6, 2016 2:59:48 PM",
-      "dateFinished": "Jul 6, 2016 2:59:48 PM",
+      "dateStarted": "Jul 22, 2016 3:00:25 AM",
+      "dateFinished": "Jul 22, 2016 3:00:25 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n![1]\n[1]:http://image.slidesharecdn.com/cephandopenstack-feb2014-140221140049-phpapp01/95/ceph-and-openstack-feb-2014-6-638.jpg?cb\u003d1392991355",
-      "authenticationInfo": {},
-      "dateUpdated": "Jul 6, 2016 2:59:48 PM",
+      "dateUpdated": "Jul 22, 2016 3:00:29 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -173,6 +172,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467754406950_1427615890",
       "id": "20160705-143326_610499702",
       "result": {
@@ -180,17 +180,16 @@
         "type": "HTML",
         "msg": "\u003cp\u003e\u003cimg src\u003d\"http://image.slidesharecdn.com/cephandopenstack-feb2014-140221140049-phpapp01/95/ceph-and-openstack-feb-2014-6-638.jpg?cb\u003d1392991355\" alt\u003d\"1\" /\u003e\u003c/p\u003e\n"
       },
-      "dateCreated": "Jul 5, 2016 2:33:26 PM",
-      "dateStarted": "Jul 6, 2016 2:59:48 PM",
-      "dateFinished": "Jul 6, 2016 2:59:48 PM",
+      "dateCreated": "Jul 5, 2016 2:33:26 AM",
+      "dateStarted": "Jul 6, 2016 2:59:48 AM",
+      "dateFinished": "Jul 6, 2016 2:59:48 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Store and Access the Data",
       "text": "%md\nStore  \n* RADOS: as an object, default storage mecanism.\n* RBD: as a block device. The linux kernel RBD (rados block device) driver allows striping a linux block device over multiple distributed object store data objects. It is compatible with the kvm RBD image.\n* CephFS: as a file, POSIX-compliant filesystem.\nCeph exposes its distributed object store (RADOS) and it can be accessed via multiple interfaces:\n\nAccess\n* RADOS Gateway: Swift and Amazon-S3 compatible RESTful interface. For further information.\n* librados and the related C/C++ bindings.\n* rbd and QEMU-RBD: linux kernel and QEMU block devices that stripe data across multiple objects.\n",
-      "authenticationInfo": {},
-      "dateUpdated": "Jul 6, 2016 2:59:48 PM",
+      "dateUpdated": "Jul 6, 2016 2:59:48 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -211,6 +210,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467735295399_136632772",
       "id": "20160705-091455_1594833227",
       "result": {
@@ -219,16 +219,15 @@
         "msg": "\u003cp\u003eStore\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eRADOS: as an object, default storage mecanism.\u003c/li\u003e\n\u003cli\u003eRBD: as a block device. The linux kernel RBD (rados block device) driver allows striping a linux block device over multiple distributed object store data objects. It is compatible with the kvm RBD image.\u003c/li\u003e\n\u003cli\u003eCephFS: as a file, POSIX-compliant filesystem.\n\u003cbr  /\u003eCeph exposes its distributed object store (RADOS) and it can be accessed via multiple interfaces:\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eAccess\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eRADOS Gateway: Swift and Amazon-S3 compatible RESTful interface. For further information.\u003c/li\u003e\n\u003cli\u003elibrados and the related C/C++ bindings.\u003c/li\u003e\n\u003cli\u003erbd and QEMU-RBD: linux kernel and QEMU block devices that stripe data across multiple objects.\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Jul 5, 2016 9:14:55 AM",
-      "dateStarted": "Jul 6, 2016 2:59:48 PM",
-      "dateFinished": "Jul 6, 2016 2:59:48 PM",
+      "dateStarted": "Jul 6, 2016 2:59:48 AM",
+      "dateFinished": "Jul 6, 2016 2:59:48 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Store and Access",
       "text": "%md\n\n![Architecture Stack][1]\n\nCeph is basically a reliable, easy to manage, distributed object storage cluster, that stores/handles data as objects. There are three interface:\n\n* Ceph Object Gateway\nA powerful Amazon S3 and Swift compatible gateway that brings the power of Ceph Object Store to modern applications. If you want an application to communicate with the Ceph Object Store using objects, you do it via the Ceph Object Gateway.\n\n* Ceph Block Device\nA distributed virtual block device that delivers high performance, cost effective storage for virtual machines and related applications. If you want a Virtual Machine/Disk to communicate with the Ceph Object Store, you do it using the Ceph Block Device gateway.\n\n* Ceph File System\nA distributed, scale out file system with POSIX semantics that provides storage for legacy and modern applications. If you want files and directories to be able to communicate with the Ceph Object Store, you do it via the Ceph File System Gateway.\n\n[1]:http://docs.ceph.com/docs/jewel/_images/stack.png",
-      "authenticationInfo": {},
-      "dateUpdated": "Jul 6, 2016 2:59:48 PM",
+      "dateUpdated": "Jul 22, 2016 8:34:24 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -249,6 +248,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467679835653_-339201827",
       "id": "20160704-175035_625092877",
       "result": {
@@ -256,17 +256,16 @@
         "type": "HTML",
         "msg": "\u003cp\u003e\u003cimg src\u003d\"http://docs.ceph.com/docs/jewel/_images/stack.png\" alt\u003d\"Architecture Stack\" /\u003e\u003c/p\u003e\n\u003cp\u003eCeph is basically a reliable, easy to manage, distributed object storage cluster, that stores/handles data as objects. There are three interface:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cp\u003eCeph Object Gateway\n\u003cbr  /\u003eA powerful Amazon S3 and Swift compatible gateway that brings the power of Ceph Object Store to modern applications. If you want an application to communicate with the Ceph Object Store using objects, you do it via the Ceph Object Gateway.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eCeph Block Device\n\u003cbr  /\u003eA distributed virtual block device that delivers high performance, cost effective storage for virtual machines and related applications. If you want a Virtual Machine/Disk to communicate with the Ceph Object Store, you do it using the Ceph Block Device gateway.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eCeph File System\n\u003cbr  /\u003eA distributed, scale out file system with POSIX semantics that provides storage for legacy and modern applications. If you want files and directories to be able to communicate with the Ceph Object Store, you do it via the Ceph File System Gateway.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
-      "dateCreated": "Jul 4, 2016 5:50:35 PM",
-      "dateStarted": "Jul 6, 2016 2:59:48 PM",
-      "dateFinished": "Jul 6, 2016 2:59:48 PM",
+      "dateCreated": "Jul 4, 2016 5:50:35 AM",
+      "dateStarted": "Jul 6, 2016 2:59:48 AM",
+      "dateFinished": "Jul 6, 2016 2:59:48 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Components",
       "text": "%md\nFrom [CEPH – Part 3 – Technical Architecture and Components][2]\n\n### RADOS    \nReliable Autonomous Distributed Object Store\nRados is reliable, autonomous distributed object store that is capable of or includes self healing, self managing and intelligent storage nodes.  RADOS forms the entire storage cluster for Ceph. All the nodes that are configured as Ceph storage collectively forms the RADOS cluster. \n\n![ceph OSD and MON][1]\n\n\n#### OSD\n\nThe disks can be individual disks from each node or can even be raid groups. On top of these disks, File systems are implemented. Currently Ceph supports   \n* btrfs, ext4 and xfs file systems. \n\nThen on top of this file system a new software layer is added named OSD(Object Storage Daemon), to make the disk a part of the Ceph storage cluster.\n\nOSD is a software or an application that turns that corresponding disk/node a part of Ceph cluster. We will interact with the entire cluster as a logical unit and not as individual nodes or storage locations.\n\nIt is the software that gives access to our data in the cluster. All the OSD’s collectively forms the Storage Cluster.\n\n* Generally we can have 10 to 10,000’s of OSD’s in a cluster.\n* One OSD per disk/SSD or one per Raid group. One OSD per PATH.\n* Serve stored objects to application or clients. If an application requests a data from the cluster, its the OSD that provides the data from the cluster.\n\nIt intelligently peers to perform replication and also performs recovery tasks. When a node is down or in maintenance, it performs replication and recovery in a peer to peer fashion among the OSD’s to re-balance the cluster state.\n\n#### MONITORS\n\nMonitors doesn’t form the part of storage cluster, as they are not performing any storing here. Instead they are integral part of Ceph by monitoring the OSD status and generating cluster map. It monitors of all the OSD’s in a storage cluster.\n\nIt maintains the cluster map state ie; Storage cluster clients/app retrieves a copy of the cluster map from the Ceph Monitor\n\n* has odd and limited in number\n* Provides consensus for distributed decision making. When more than one OSD’s are to be peered or replicated, the monitor provides the decision of its own on how to do the peering rather than the ODS’s deciding themselves.\n* A Ceph OSD Daemon checks its own state and the state of other OSDs and reports back to monitors.\n\nSo this is RADOS and everything else in Ceph is built on top of this.\n\n### LIBRADOS - Library to access RADOS  \n\nLIBRADOS is a group of libraries or an API that has the ability/functionality to communicate with the Ceph storage cluster (RADOS). Any application that needs to communicate with the Ceph storage cluster must do it via the librados API.\n\nOnly LIBRADOS is having direct access to the storage cluster.\nCurrently, it supports C, C++, Java, Python, Ruby and PHP.\n\nUsing LIBRADOS API, you can create your own interface to access the storage cluster (RADOS) apart from the \n* RESTful(RGW), \n* Block(RBD) or \n* POSIX(CephFS) semantics.\n\n![ceph librados][3]\n\n### RADOSGW – Rados Gateway\nIn order to use the Ceph cluster (RADOS) for object storage, the RADOS Gateway Daemon named radosgw is used.\n\nIt is an HTTP gateway based on REST API for the RADOS object store. The radosgw is a FastCGI module, and can be used along with any FastCGI capable webserver.\n\nRADOS Object Storage architecture supports two interfaces\n\n* S3-compatible: Provides object storage functionality with an interface that is compatible with the Amazon S3 RESTful API.\n* Swift-compatible: Provides object storage functionality with an interface that is compatible with the OpenStack Swift API.\n\n![ceph RadosGW][4]\n\n### RBD – Rados Block Device\n\nA RADOS Block Device (RBD) is software that facilitates the storage of block–based data in the Ceph distributed storage cluster.\n\nIts a reliable and fully distributed block device that supports Linux kernel clients and QEMU/KVM virtualization driver. Ceph block devices are thin-provisioned, resizeable and store data striped/spread over multiple OSDs in a Ceph cluster. If you want to store the data into RADOS as blocks, RBD does that.\n\nA block is a sequence of bytes (for example, a 512-byte block of data). Block-based storage interfaces are the most common way to store data with rotating media such as hard disks, CDs, floppy disks etc. RBD strips the disk to small chunks of volumes and spread it across the OSD’s in the RADOS cluster and when needed librbd takes the chunks and provide them back as a virtual disk.\n\nCeph’s RADOS Block Devices (RBD) interact with OSD’s using kernel module KRBD or the librbd library that Ceph provides. KRBD provides block devices to a Linux hosts and librbd provides block storage to VM’s. RBD’s are most commonly used by virtual machines. It gives the virtualization environment added feature like migrating the VM across container on the go.\n\n![ceph block device][5]\n\nHere the small black boxes inside OSD’s are the little 10MB chunks of storage volume. What librbd does is, it links with the virtualization container and provides that as a single disk to the VM.\n\nAs in the image librbd is linked with LIBRADOS to get in communication with the RADOS cluster and also linked with the virtualization container. The librbd provides the virtual disk volume to the VM’s by linking itself the virtualization container.\n\nThe main advantage of this architecture is that, since the data or the image of a virtual machine is not stored on the container Node (its stored in RADOS cluster), we can easily migrate the VM’s by suspending it on one container and then again bringing it up on an another container on the fly as shown in the image below:\n\n![ceph vm][6]\n\n### CEPHFS – Ceph File System\n\nCEPHFS is a distributed file system which is POSIX- compliant, with a Linux kernel and supports file system on user space (FUSE). It allows data to be stored in files and directories as a normal file system does. It provides a traditional file system interface with POSIX semantics.\n\nThe growing technology uses object storage rather than a file system, but Ceph provides a legacy file system to the end user and storing the data as objects on the back end.\n\n![ceph file system][7]\n\n[1]:http://sebastien-han.fr/images/ceph-topo.jpg\n[2]:https://www.supportsages.com/blog/2015/11/ceph-part-3-technical-architecture-and-components/\n[3]:https://www.supportsages.com/sscontent/uploads/2015/10/Screenshot-from-2015-10-28-121603.png\n[4]:https://www.supportsages.com/sscontent/uploads/2015/10/Screenshot-from-2015-10-28-144617.png\n[5]:https://www.supportsages.com/sscontent/uploads/2015/10/Screenshot-from-2015-10-28-162716.png\n[6]:https://www.supportsages.com/sscontent/uploads/2015/10/Screenshot-from-2015-10-28-164247.png\n[7]:https://www.supportsages.com/sscontent/uploads/2015/10/Screenshot-from-2015-10-28-173848.png\n",
-      "authenticationInfo": {},
-      "dateUpdated": "Jul 7, 2016 11:47:40 AM",
+      "dateUpdated": "Jul 22, 2016 8:34:33 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -287,6 +286,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467754145868_373805621",
       "id": "20160705-142905_2039941026",
       "result": {
@@ -294,16 +294,15 @@
         "type": "HTML",
         "msg": "\u003cp\u003eFrom \u003ca href\u003d\"https://www.supportsages.com/blog/2015/11/ceph-part-3-technical-architecture-and-components/\"\u003eCEPH – Part 3 – Technical Architecture and Components\u003c/a\u003e\u003c/p\u003e\n\u003ch3\u003eRADOS\u003c/h3\u003e\n\u003cp\u003eReliable Autonomous Distributed Object Store\n\u003cbr  /\u003eRados is reliable, autonomous distributed object store that is capable of or includes self healing, self managing and intelligent storage nodes.  RADOS forms the entire storage cluster for Ceph. All the nodes that are configured as Ceph storage collectively forms the RADOS cluster.\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"http://sebastien-han.fr/images/ceph-topo.jpg\" alt\u003d\"ceph OSD and MON\" /\u003e\u003c/p\u003e\n\u003ch4\u003eOSD\u003c/h4\u003e\n\u003cp\u003eThe disks can be individual disks from each node or can even be raid groups. On top of these disks, File systems are implemented. Currently Ceph supports\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003ebtrfs, ext4 and xfs file systems.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eThen on top of this file system a new software layer is added named OSD(Object Storage Daemon), to make the disk a part of the Ceph storage cluster.\u003c/p\u003e\n\u003cp\u003eOSD is a software or an application that turns that corresponding disk/node a part of Ceph cluster. We will interact with the entire cluster as a logical unit and not as individual nodes or storage locations.\u003c/p\u003e\n\u003cp\u003eIt is the software that gives access to our data in the cluster. All the OSD’s collectively forms the Storage Cluster.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eGenerally we can have 10 to 10,000’s of OSD’s in a cluster.\u003c/li\u003e\n\u003cli\u003eOne OSD per disk/SSD or one per Raid group. One OSD per PATH.\u003c/li\u003e\n\u003cli\u003eServe stored objects to application or clients. If an application requests a data from the cluster, its the OSD that provides the data from the cluster.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eIt intelligently peers to perform replication and also performs recovery tasks. When a node is down or in maintenance, it performs replication and recovery in a peer to peer fashion among the OSD’s to re-balance the cluster state.\u003c/p\u003e\n\u003ch4\u003eMONITORS\u003c/h4\u003e\n\u003cp\u003eMonitors doesn’t form the part of storage cluster, as they are not performing any storing here. Instead they are integral part of Ceph by monitoring the OSD status and generating cluster map. It monitors of all the OSD’s in a storage cluster.\u003c/p\u003e\n\u003cp\u003eIt maintains the cluster map state ie; Storage cluster clients/app retrieves a copy of the cluster map from the Ceph Monitor\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003ehas odd and limited in number\u003c/li\u003e\n\u003cli\u003eProvides consensus for distributed decision making. When more than one OSD’s are to be peered or replicated, the monitor provides the decision of its own on how to do the peering rather than the ODS’s deciding themselves.\u003c/li\u003e\n\u003cli\u003eA Ceph OSD Daemon checks its own state and the state of other OSDs and reports back to monitors.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eSo this is RADOS and everything else in Ceph is built on top of this.\u003c/p\u003e\n\u003ch3\u003eLIBRADOS - Library to access RADOS\u003c/h3\u003e\n\u003cp\u003eLIBRADOS is a group of libraries or an API that has the ability/functionality to communicate with the Ceph storage cluster (RADOS). Any application that needs to communicate with the Ceph storage cluster must do it via the librados API.\u003c/p\u003e\n\u003cp\u003eOnly LIBRADOS is having direct access to the storage cluster.\n\u003cbr  /\u003eCurrently, it supports C, C++, Java, Python, Ruby and PHP.\u003c/p\u003e\n\u003cp\u003eUsing LIBRADOS API, you can create your own interface to access the storage cluster (RADOS) apart from the\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eRESTful(RGW),\u003c/li\u003e\n\u003cli\u003eBlock(RBD) or\u003c/li\u003e\n\u003cli\u003ePOSIX(CephFS) semantics.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://www.supportsages.com/sscontent/uploads/2015/10/Screenshot-from-2015-10-28-121603.png\" alt\u003d\"ceph librados\" /\u003e\u003c/p\u003e\n\u003ch3\u003eRADOSGW – Rados Gateway\u003c/h3\u003e\n\u003cp\u003eIn order to use the Ceph cluster (RADOS) for object storage, the RADOS Gateway Daemon named radosgw is used.\u003c/p\u003e\n\u003cp\u003eIt is an HTTP gateway based on REST API for the RADOS object store. The radosgw is a FastCGI module, and can be used along with any FastCGI capable webserver.\u003c/p\u003e\n\u003cp\u003eRADOS Object Storage architecture supports two interfaces\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eS3-compatible: Provides object storage functionality with an interface that is compatible with the Amazon S3 RESTful API.\u003c/li\u003e\n\u003cli\u003eSwift-compatible: Provides object storage functionality with an interface that is compatible with the OpenStack Swift API.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://www.supportsages.com/sscontent/uploads/2015/10/Screenshot-from-2015-10-28-144617.png\" alt\u003d\"ceph RadosGW\" /\u003e\u003c/p\u003e\n\u003ch3\u003eRBD – Rados Block Device\u003c/h3\u003e\n\u003cp\u003eA RADOS Block Device (RBD) is software that facilitates the storage of block–based data in the Ceph distributed storage cluster.\u003c/p\u003e\n\u003cp\u003eIts a reliable and fully distributed block device that supports Linux kernel clients and QEMU/KVM virtualization driver. Ceph block devices are thin-provisioned, resizeable and store data striped/spread over multiple OSDs in a Ceph cluster. If you want to store the data into RADOS as blocks, RBD does that.\u003c/p\u003e\n\u003cp\u003eA block is a sequence of bytes (for example, a 512-byte block of data). Block-based storage interfaces are the most common way to store data with rotating media such as hard disks, CDs, floppy disks etc. RBD strips the disk to small chunks of volumes and spread it across the OSD’s in the RADOS cluster and when needed librbd takes the chunks and provide them back as a virtual disk.\u003c/p\u003e\n\u003cp\u003eCeph’s RADOS Block Devices (RBD) interact with OSD’s using kernel module KRBD or the librbd library that Ceph provides. KRBD provides block devices to a Linux hosts and librbd provides block storage to VM’s. RBD’s are most commonly used by virtual machines. It gives the virtualization environment added feature like migrating the VM across container on the go.\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://www.supportsages.com/sscontent/uploads/2015/10/Screenshot-from-2015-10-28-162716.png\" alt\u003d\"ceph block device\" /\u003e\u003c/p\u003e\n\u003cp\u003eHere the small black boxes inside OSD’s are the little 10MB chunks of storage volume. What librbd does is, it links with the virtualization container and provides that as a single disk to the VM.\u003c/p\u003e\n\u003cp\u003eAs in the image librbd is linked with LIBRADOS to get in communication with the RADOS cluster and also linked with the virtualization container. The librbd provides the virtual disk volume to the VM’s by linking itself the virtualization container.\u003c/p\u003e\n\u003cp\u003eThe main advantage of this architecture is that, since the data or the image of a virtual machine is not stored on the container Node (its stored in RADOS cluster), we can easily migrate the VM’s by suspending it on one container and then again bringing it up on an another container on the fly as shown in the image below:\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://www.supportsages.com/sscontent/uploads/2015/10/Screenshot-from-2015-10-28-164247.png\" alt\u003d\"ceph vm\" /\u003e\u003c/p\u003e\n\u003ch3\u003eCEPHFS – Ceph File System\u003c/h3\u003e\n\u003cp\u003eCEPHFS is a distributed file system which is POSIX- compliant, with a Linux kernel and supports file system on user space (FUSE). It allows data to be stored in files and directories as a normal file system does. It provides a traditional file system interface with POSIX semantics.\u003c/p\u003e\n\u003cp\u003eThe growing technology uses object storage rather than a file system, but Ceph provides a legacy file system to the end user and storing the data as objects on the back end.\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"https://www.supportsages.com/sscontent/uploads/2015/10/Screenshot-from-2015-10-28-173848.png\" alt\u003d\"ceph file system\" /\u003e\u003c/p\u003e\n"
       },
-      "dateCreated": "Jul 5, 2016 2:29:05 PM",
-      "dateStarted": "Jul 7, 2016 11:47:39 AM",
-      "dateFinished": "Jul 7, 2016 11:47:39 AM",
+      "dateCreated": "Jul 5, 2016 2:29:05 AM",
+      "dateStarted": "Jul 22, 2016 8:34:31 AM",
+      "dateFinished": "Jul 22, 2016 8:34:31 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n![ceph design][2]\n\n[2]:https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ceph_components.svg/840px-Ceph_components.svg.png",
-      "authenticationInfo": {},
-      "dateUpdated": "Jul 6, 2016 2:59:48 PM",
+      "dateUpdated": "Jul 22, 2016 7:50:11 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -317,12 +316,13 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/markdown",
-        "editorHide": true
+        "editorHide": false
       },
       "settings": {
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467828921428_-1158597881",
       "id": "20160706-111521_1423531329",
       "result": {
@@ -331,16 +331,15 @@
         "msg": "\u003cp\u003e\u003cimg src\u003d\"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ceph_components.svg/840px-Ceph_components.svg.png\" alt\u003d\"ceph design\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Jul 6, 2016 11:15:21 AM",
-      "dateStarted": "Jul 6, 2016 2:59:48 PM",
-      "dateFinished": "Jul 6, 2016 2:59:48 PM",
+      "dateStarted": "Jul 6, 2016 2:59:48 AM",
+      "dateFinished": "Jul 6, 2016 2:59:48 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "CRUSH",
       "text": "%md\nCRUSH  (Controlled Replication Under Scaling Hashing)\n\n![RADOS][1]\n\nA file is broken into objects and then these objects are mapped into placement groups (PG’s) using a simple hash function. \nThen the placement groups are assigned to OSD’s using a component of Ceph called CRUSH (Controlled Replication Under Scaling Hashing). CRUSH is a pseudo-random data distribution function that efficiently maps each PG to an ordered list of OSD’s where copies of the object are stored. \n\nOne feature of CRUSH is that it is a globally known function so any component of Ceph (client, MDS, OSD) can compute the location of an object. This means that you don’t have to involve the MDS to compute the location of an object.\n\n\n\n[1]:http://www.linux-mag.com/s/i/articles/7744/Distributed-Object-Store.png",
-      "authenticationInfo": {},
-      "dateUpdated": "Jul 7, 2016 11:08:39 AM",
+      "dateUpdated": "Jul 22, 2016 8:03:21 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -361,6 +360,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467753869725_1129069357",
       "id": "20160705-142429_592810759",
       "result": {
@@ -368,15 +368,14 @@
         "type": "HTML",
         "msg": "\u003cp\u003eCRUSH  (Controlled Replication Under Scaling Hashing)\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"http://www.linux-mag.com/s/i/articles/7744/Distributed-Object-Store.png\" alt\u003d\"RADOS\" /\u003e\u003c/p\u003e\n\u003cp\u003eA file is broken into objects and then these objects are mapped into placement groups (PG’s) using a simple hash function.\n\u003cbr  /\u003eThen the placement groups are assigned to OSD’s using a component of Ceph called CRUSH (Controlled Replication Under Scaling Hashing). CRUSH is a pseudo-random data distribution function that efficiently maps each PG to an ordered list of OSD’s where copies of the object are stored.\u003c/p\u003e\n\u003cp\u003eOne feature of CRUSH is that it is a globally known function so any component of Ceph (client, MDS, OSD) can compute the location of an object. This means that you don’t have to involve the MDS to compute the location of an object.\u003c/p\u003e\n"
       },
-      "dateCreated": "Jul 5, 2016 2:24:29 PM",
-      "dateStarted": "Jul 6, 2016 2:59:48 PM",
-      "dateFinished": "Jul 6, 2016 2:59:48 PM",
+      "dateCreated": "Jul 5, 2016 2:24:29 AM",
+      "dateStarted": "Jul 6, 2016 2:59:48 AM",
+      "dateFinished": "Jul 6, 2016 2:59:48 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "authenticationInfo": {},
-      "dateUpdated": "Jul 6, 2016 2:59:48 PM",
+      "dateUpdated": "Jul 6, 2016 2:59:48 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -395,6 +394,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467767119385_27328208",
       "id": "20160705-180519_331904016",
       "result": {
@@ -402,16 +402,15 @@
         "type": "TEXT",
         "msg": ""
       },
-      "dateCreated": "Jul 5, 2016 6:05:19 PM",
-      "dateStarted": "Jul 6, 2016 2:59:49 PM",
-      "dateFinished": "Jul 6, 2016 2:59:49 PM",
+      "dateCreated": "Jul 5, 2016 6:05:19 AM",
+      "dateStarted": "Jul 6, 2016 2:59:49 AM",
+      "dateFinished": "Jul 6, 2016 2:59:49 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\n![ceph components][1]\n\nFrom [CEPH 框架图][2]\n\n[1]:http://www.selinuxplus.com/wp-content/uploads/2015/03/ceph1.png\n[2]:http://www.selinuxplus.com/?cat\u003d84",
-      "authenticationInfo": {},
-      "dateUpdated": "Jul 7, 2016 9:59:27 AM",
+      "dateUpdated": "Jul 22, 2016 7:58:51 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -425,12 +424,13 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/markdown",
-        "editorHide": true
+        "editorHide": false
       },
       "settings": {
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467910341197_1904663964",
       "id": "20160707-095221_1152760068",
       "result": {
@@ -445,8 +445,7 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "authenticationInfo": {},
-      "dateUpdated": "Jul 6, 2016 2:59:49 PM",
+      "dateUpdated": "Jul 6, 2016 2:59:49 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -466,6 +465,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467775243300_148801746",
       "id": "20160705-202043_136315157",
       "result": {
@@ -473,17 +473,16 @@
         "type": "TEXT",
         "msg": ""
       },
-      "dateCreated": "Jul 5, 2016 8:20:43 PM",
-      "dateStarted": "Jul 6, 2016 2:59:49 PM",
-      "dateFinished": "Jul 6, 2016 2:59:49 PM",
+      "dateCreated": "Jul 5, 2016 8:20:43 AM",
+      "dateStarted": "Jul 6, 2016 2:59:49 AM",
+      "dateFinished": "Jul 6, 2016 2:59:49 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "The OpenStack Ceph Galaxy",
       "text": "%md\n\n![state of the integration of Ceph into OpenStack][1]\n\n[1]:https://www.sebastien-han.fr/blog/images/openstack-ceph-galaxy.png",
-      "authenticationInfo": {},
-      "dateUpdated": "Jul 6, 2016 2:59:49 PM",
+      "dateUpdated": "Jul 6, 2016 2:59:49 AM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -504,6 +503,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467751801159_-1932318513",
       "id": "20160705-135001_257737263",
       "result": {
@@ -511,16 +511,15 @@
         "type": "HTML",
         "msg": "\u003cp\u003e\u003cimg src\u003d\"https://www.sebastien-han.fr/blog/images/openstack-ceph-galaxy.png\" alt\u003d\"state of the integration of Ceph into OpenStack\" /\u003e\u003c/p\u003e\n"
       },
-      "dateCreated": "Jul 5, 2016 1:50:01 PM",
-      "dateStarted": "Jul 6, 2016 2:59:49 PM",
-      "dateFinished": "Jul 6, 2016 2:59:49 PM",
+      "dateCreated": "Jul 5, 2016 1:50:01 AM",
+      "dateStarted": "Jul 6, 2016 2:59:49 AM",
+      "dateFinished": "Jul 6, 2016 2:59:49 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Reference \u0026 Tutorial",
       "text": "%md\n\n* [HowTo CEPH Quick Start/Installation Ubuntu video][1]\n* [Ceph Intro and Architectural Overview by Ross Turk][2] and [slide][3]\n* vm [Try-Ceph quickest and fastest way to get your Ceph cluster Up and Running][4], [slide][5], and [github repo][6]\n* [Demo: running Ceph in Docker containers][7] and [github repo][8]\n* [Introducing Ceph to OpenStack][9] has hands on command line and installation script.\n* [Software Defined Compute, Network and Storage with Docker, Open vSwitch \u0026 Ceph][10]  \n\n[1]:https://www.youtube.com/watch?v\u003d49Ug5QrC2Jg\n[2]:https://www.youtube.com/watch?v\u003dOyH1C0C4HzM\n[3]:http://www.slideshare.net/buildacloud/ceph-intro-and-architectural-overview-by-ross-turk\n[4]:https://www.youtube.com/watch?v\u003dCs_92qxVhzg\u0026feature\u003dyoutu.be\n[5]:http://slides.com/karansingh-1/deck#/\n[6]:https://github.com/ksingh7/Try-Ceph\n[7]:https://www.youtube.com/watch?v\u003dFUSTjTBA8f8\n[8]:https://github.com/ceph/ceph-docker\n[9]:http://www.sebastien-han.fr/blog/2012/06/10/introducing-ceph-to-openstack/\n[10]:http://fbevmware.blogspot.com/2014/05/software-defined-compute-network-and.html\n",
-      "authenticationInfo": {},
       "dateUpdated": "Jul 7, 2016 11:48:00 AM",
       "config": {
         "colWidth": 12.0,
@@ -542,6 +541,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467680040879_-583442402",
       "id": "20160704-175400_1987002250",
       "result": {
@@ -549,15 +549,14 @@
         "type": "HTML",
         "msg": "\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"https://www.youtube.com/watch?v\u003d49Ug5QrC2Jg\"\u003eHowTo CEPH Quick Start/Installation Ubuntu video\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://www.youtube.com/watch?v\u003dOyH1C0C4HzM\"\u003eCeph Intro and Architectural Overview by Ross Turk\u003c/a\u003e and \u003ca href\u003d\"http://www.slideshare.net/buildacloud/ceph-intro-and-architectural-overview-by-ross-turk\"\u003eslide\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003evm \u003ca href\u003d\"https://www.youtube.com/watch?v\u003dCs_92qxVhzg\u0026amp;feature\u003dyoutu.be\"\u003eTry-Ceph quickest and fastest way to get your Ceph cluster Up and Running\u003c/a\u003e, \u003ca href\u003d\"http://slides.com/karansingh-1/deck#/\"\u003eslide\u003c/a\u003e, and \u003ca href\u003d\"https://github.com/ksingh7/Try-Ceph\"\u003egithub repo\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"https://www.youtube.com/watch?v\u003dFUSTjTBA8f8\"\u003eDemo: running Ceph in Docker containers\u003c/a\u003e and \u003ca href\u003d\"https://github.com/ceph/ceph-docker\"\u003egithub repo\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://www.sebastien-han.fr/blog/2012/06/10/introducing-ceph-to-openstack/\"\u003eIntroducing Ceph to OpenStack\u003c/a\u003e has hands on command line and installation script.\u003c/li\u003e\n\u003cli\u003e\u003ca href\u003d\"http://fbevmware.blogspot.com/2014/05/software-defined-compute-network-and.html\"\u003eSoftware Defined Compute, Network and Storage with Docker, Open vSwitch \u0026amp; Ceph\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
-      "dateCreated": "Jul 4, 2016 5:54:00 PM",
+      "dateCreated": "Jul 4, 2016 5:54:00 AM",
       "dateStarted": "Jul 7, 2016 11:47:57 AM",
       "dateFinished": "Jul 7, 2016 11:47:57 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "authenticationInfo": {},
-      "dateUpdated": "Jul 6, 2016 2:59:49 PM",
+      "dateUpdated": "Jul 6, 2016 2:59:49 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -575,6 +574,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467679980360_-1770266876",
       "id": "20160704-175300_1771181393",
       "result": {
@@ -582,35 +582,39 @@
         "type": "TEXT",
         "msg": ""
       },
-      "dateCreated": "Jul 4, 2016 5:53:00 PM",
-      "dateStarted": "Jul 6, 2016 2:59:49 PM",
-      "dateFinished": "Jul 6, 2016 2:59:49 PM",
+      "dateCreated": "Jul 4, 2016 5:53:00 AM",
+      "dateStarted": "Jul 6, 2016 2:59:49 AM",
+      "dateFinished": "Jul 6, 2016 2:59:49 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     }
   ],
   "name": "Ceph",
   "id": "2BPEW36NF",
-  "angularObjects": {
-    "2BJNWTGVX:shared_process": [],
-    "2BHQR9UME:shared_process": [],
-    "2BKZJ4SRP:shared_process": [],
-    "2BME5YFFH:shared_process": [],
-    "2BN58QNE3:shared_process": [],
-    "2BKB225AF:shared_process": [],
-    "2BK2WJSB5:shared_process": [],
-    "2BJUP28CV:shared_process": [],
-    "2BM3A9BK4:shared_process": [],
-    "2BJ14398P:shared_process": [],
-    "2BN46FG7A:shared_process": [],
-    "2BJEPGMRU:shared_process": [],
-    "2BM6T2CVF:shared_process": [],
-    "2BK1W54BQ:shared_process": [],
-    "2BMYC3FF3:shared_process": [],
-    "2BKZFCDHR:shared_process": [],
-    "2BJSW731A:shared_process": [],
-    "2BJDU2EXK:shared_process": []
+  "lastReplName": {
+    "value": "md"
   },
-  "config": {},
+  "angularObjects": {
+    "2BRKFDTAG:shared_process": [],
+    "2BQQC4SBJ:shared_process": [],
+    "2BPA86SJN:shared_process": [],
+    "2BQXP1N48:shared_process": [],
+    "2BS635YF4:shared_process": [],
+    "2BS8S9TWZ:shared_process": [],
+    "2BT1FV53K:shared_process": [],
+    "2BRG4EDQT:shared_process": [],
+    "2BRBKMV6G:shared_process": [],
+    "2BPX9HXK8:shared_process": [],
+    "2BPCX21MY:shared_process": [],
+    "2BP9JV898:shared_process": [],
+    "2BR9MHZJ2:shared_process": [],
+    "2BPA7NY6F:shared_process": [],
+    "2BPMUQW6X:shared_process": [],
+    "2BREB797U:shared_process": [],
+    "2BRNDK1X2:shared_process": []
+  },
+  "config": {
+    "looknfeel": "default"
+  },
   "info": {}
 }

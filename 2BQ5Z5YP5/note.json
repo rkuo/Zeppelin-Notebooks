@@ -3,7 +3,6 @@
     {
       "title": "1.0 Software-Defined Storage",
       "text": "%md\nFrom [wikipedia-Software Defined Storage][1]\n\nSoftware-defined storage (SDS) is an evolving concept for computer data storage software to manage policy-based provisioning and management of data storage independent of the underlying hardware. \n\nSoftware-defined storage definitions typically include a form of storage virtualization to separate the storage hardware from the software that manages the storage infrastructure. \n\nThe software enabling a software-defined storage environment may also provide policy management for feature options such as deduplication, replication, thin provisioning, snapshots and backup. SDS definitions are sometimes compared with those of Software-based Storage.\n\nSDS software is separate from the hardware it is managing. \n* That hardware may or may not also have \n    * abstraction, \n    * pooling, or \n    * automation software embedded. \n* This philosophical span has made software-defined storage difficult to categorize. \n    * When implemented as software only in conjunction with commodity servers with internal disks, it may suggest software such as a virtual or global file system. \n    * If it is software layered over sophisticated large storage arrays, it suggests software such as storage virtualization or storage resource management, categories of products that address separate and different problems. \n    * If the policy and management functions within the software-defined storage solution also include a form of artificial intelligence to automate protection and recovery functions, it can be considered as [intelligent abstraction][2].\n* Software-defined storage may be implemented via appliances over \n    * a traditional Storage Area Network (SAN), or \n    * implemented as part of a scale-out Network-Attached Storage (NAS) solution, or \n    * as the basis of an Object-based storage solution. \n\nIn March 2014 SNIA began a Draft Technical Work available for public review on [Software-Defined Storage][3].\n\n[1]: https://en.wikipedia.org/wiki/Software-defined_storage\n[2]: http://www.computerworld.com/article/2476040/cloud-computing/the-foundation-of-clouds--intelligent-abstraction.html\n[3]: http://www.snia.org/sites/default/files/SNIA%20Software%20Defined%20Storage%20White%20Paper-%20v1.0k-DRAFT.pdf",
-      "authenticationInfo": {},
       "dateUpdated": "Jun 27, 2016 7:48:28 AM",
       "config": {
         "colWidth": 12.0,
@@ -25,6 +24,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1466781471671_49481599",
       "id": "20160624-081751_1989187705",
       "result": {
@@ -41,7 +41,6 @@
     {
       "title": "1.1.1 Situations and Trends",
       "text": "%md\n\n* IoT generates more data \n    * gathering, store, analysis, presentation \n    * more exposures of privacy and security \n* Data in motion\n    * mobility, location, real-time, streaming \n* Additional data availabe in workflow\n    * data mining, machine learning\n* Responsive application\n    * Fluid architecture and infrastructure  ",
-      "authenticationInfo": {},
       "dateUpdated": "Jun 27, 2016 7:48:28 AM",
       "config": {
         "colWidth": 6.0,
@@ -63,6 +62,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1466867737842_-2029975934",
       "id": "20160625-081537_831048873",
       "result": {
@@ -78,7 +78,6 @@
     },
     {
       "text": "%md\n![ibm 4v][1]\ncourtesy of IBM\n\n[1]:https://www-01.ibm.com/software/data/bigdata/images/4-Vs-of-big-data.jpg",
-      "authenticationInfo": {},
       "dateUpdated": "Jun 29, 2016 5:34:51 AM",
       "config": {
         "colWidth": 6.0,
@@ -99,6 +98,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1466868088028_-2827569",
       "id": "20160625-082128_1985560698",
       "result": {
@@ -114,9 +114,8 @@
     },
     {
       "title": "1.1.2 Challenges",
-      "text": "%md\n* Legacy storage technology\n* hedwig",
-      "authenticationInfo": {},
-      "dateUpdated": "Jun 29, 2016 3:13:38 PM",
+      "text": "%md\n* Legacy storage technology created complexity for management\n* ",
+      "dateUpdated": "Jul 18, 2016 3:21:16 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -136,6 +135,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1466874763218_957803350",
       "id": "20160625-101243_1964960215",
       "result": {
@@ -152,7 +152,6 @@
     {
       "title": "1.1.3 Opportunity - Storage",
       "text": "%md\n\nVirtualized storage with a service management interface. SDS includes pools of storage with data service characteristics that may be applied to meet the requirements specified through the service management interface. View more SNIA SDS educational resources.\n\nSDS is more than storage virtualization in the following ways:\n\n* Storage Virtualization provides a capacity pool must include:\n    * Automation– Simplified management that reduces the cost of maintaining the storage infrastructure\n    * Standard Interfaces – APIs for the management, provisioning and maintenance of storage devices and services\n    * Virtualized Data Path – Block, File and/or Object interfaces that support applications written to these interfaces\n    * Scalability– Seamless ability to scale the storage infrastructure without disruption to the specified availability or performance\n    * Transparency – The ability for storage consumers to monitor and manage their own storage consumption against available resources and costs\n* SDS requires a standardized storage management interface, such as SNIA’s Storage Management Initiative Specification (SMI-S).\n* SDS is an integral component of the Software Defined Data Center, it is the software brain for the storage and hardware infrastructure in the cloud or as part of a more traditional data center. \n* SDS must enable DevOps to use a variety of data management tools to communicate their storage requirements through interfaces such as SNIA’s Cloud Data Management Interface (CDMI).\n* Data Services can be executed either in servers, storage appliances, or both, removing the historical boundaries of where they execute.",
-      "authenticationInfo": {},
       "dateUpdated": "Jun 27, 2016 7:48:28 AM",
       "config": {
         "colWidth": 6.0,
@@ -174,6 +173,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467020516703_2112370827",
       "id": "20160627-024156_581187114",
       "result": {
@@ -190,8 +190,7 @@
     {
       "title": "1.1.4 Storage Abstraction and Virtualization",
       "text": "%md\n### Abstraction\n\n\n\n### Virtualization\nStorage virtualization (is not a good term for this, hypervisor is more accurate) is the pooling of physical storage from multiple network storage devices into what appears to be a single storage device that is managed from a central console. \n\nWith virtualization what happens is the hardware no longer exists for the operating system.  At some level it does, on the host system, but the host system creates an abstraction of the hardware level allowing an os to run on the software rather than the hardware.  \n\nLong story short abstraction adds layers, with virtualization you have a software-hardware layer that the virtualized guest is running on. You accomplish more with less because a single hardware set can run several operating system instances.\n\n### Hypervior\nFrom wikipedia\n\n\"A hypervisor ~~or virtual machine monitor (VMM)~~ is a piece of computer software, firmware or hardware that creates and runs virtual machines.\nA computer on which a hypervisor is running one or more virtual machines is defined as a host machine. ...\n\nEach operating system appears to have the host\u0027s processor, memory, and other resources all to itself. However, the hypervisor is actually controlling the host processor and resources, allocating what is needed to each operating system in turn and making sure that the guest operating systems (called virtual machines) cannot disrupt each other.\" \n\nIn container world, we can consider Docker/LXC/LXD... as a hypervisor, which creates and manages container (an isolated processs).\n\n*Tradeoff*\n\nAbstraction comes at a cost, in the case of programming, for every abstract line of code you write there are multiple lower level instructions being processed from a couple to hundreds or thousands. For virtualization it lowers performance for the virtualized operating system.  The trade off there is you can have multiple operation systems running well enough on a single piece of hardware thus saving you money on hardware and electricity.\n\n### Device Intelligence\n\n[Difference between abstraction and virtualization][1]\n\n[1]: https://46and2bits.com/2015/07/20/the-cloud-between-virtualization-and-abstraction/ \n",
-      "authenticationInfo": {},
-      "dateUpdated": "Jun 30, 2016 6:56:04 AM",
+      "dateUpdated": "Jul 18, 2016 3:20:02 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -206,101 +205,29 @@
         "enabled": true,
         "editorMode": "ace/mode/markdown",
         "title": true,
-        "editorHide": false
+        "editorHide": true
       },
       "settings": {
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467029599211_-511433976",
       "id": "20160627-051319_421386918",
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003ch3\u003eAbstraction\u003c/h3\u003e\n\u003ch3\u003eVirtualization\u003c/h3\u003e\n\u003cp\u003eStorage virtualization ( \u0026lt;- virtualization is not good term for this, hypervisor is more accurate) is the pooling of physical storage from multiple network storage devices into what appears to be a single storage device that is managed from a central console.\u003c/p\u003e\n\u003cp\u003eWith virtualization what happens is the hardware no longer exists for the operating system.  At some level it does, on the host system, but the host system creates an abstraction of the hardware level allowing an os to run on the software rather than the hardware.\u003c/p\u003e\n\u003cp\u003eLong story short abstraction adds layers, with virtualization you have a software-hardware layer that the virtualized guest is running on. You accomplish more with less because a single hardware set can run several operating system instances.\u003c/p\u003e\n\u003ch3\u003eHypervior\u003c/h3\u003e\n\u003cp\u003eFrom wikipedia\u003c/p\u003e\n\u003cp\u003e\u0026ldquo;A hypervisor \u003cs\u003eor virtual machine monitor (VMM)\u003c/s\u003e is a piece of computer software, firmware or hardware that creates and runs virtual machines.\n\u003cbr  /\u003eA computer on which a hypervisor is running one or more virtual machines is defined as a host machine. \u0026hellip;\u003c/p\u003e\n\u003cp\u003eEach operating system appears to have the host\u0027s processor, memory, and other resources all to itself. However, the hypervisor is actually controlling the host processor and resources, allocating what is needed to each operating system in turn and making sure that the guest operating systems (called virtual machines) cannot disrupt each other.\u0026rdquo;\u003c/p\u003e\n\u003cp\u003eIn container world, we can consider Docker/LXC/LXD\u0026hellip; as a hypervisor, which creates and manages container (an isolated processs).\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eTradeoff\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003eAbstraction comes at a cost, in the case of programming, for every abstract line of code you write there are multiple lower level instructions being processed from a couple to hundreds or thousands. For virtualization it lowers performance for the virtualized operating system.  The trade off there is you can have multiple operation systems running well enough on a single piece of hardware thus saving you money on hardware and electricity.\u003c/p\u003e\n\u003ch3\u003eDevice Intelligence\u003c/h3\u003e\n\u003cp\u003e\u003ca href\u003d\"https://46and2bits.com/2015/07/20/the-cloud-between-virtualization-and-abstraction/\"\u003eDifference between abstraction and virtualization\u003c/a\u003e\u003c/p\u003e\n"
+        "msg": "\u003ch3\u003eAbstraction\u003c/h3\u003e\n\u003ch3\u003eVirtualization\u003c/h3\u003e\n\u003cp\u003eStorage virtualization (is not a good term for this, hypervisor is more accurate) is the pooling of physical storage from multiple network storage devices into what appears to be a single storage device that is managed from a central console.\u003c/p\u003e\n\u003cp\u003eWith virtualization what happens is the hardware no longer exists for the operating system.  At some level it does, on the host system, but the host system creates an abstraction of the hardware level allowing an os to run on the software rather than the hardware.\u003c/p\u003e\n\u003cp\u003eLong story short abstraction adds layers, with virtualization you have a software-hardware layer that the virtualized guest is running on. You accomplish more with less because a single hardware set can run several operating system instances.\u003c/p\u003e\n\u003ch3\u003eHypervior\u003c/h3\u003e\n\u003cp\u003eFrom wikipedia\u003c/p\u003e\n\u003cp\u003e\u0026ldquo;A hypervisor \u003cs\u003eor virtual machine monitor (VMM)\u003c/s\u003e is a piece of computer software, firmware or hardware that creates and runs virtual machines.\n\u003cbr  /\u003eA computer on which a hypervisor is running one or more virtual machines is defined as a host machine. \u0026hellip;\u003c/p\u003e\n\u003cp\u003eEach operating system appears to have the host\u0027s processor, memory, and other resources all to itself. However, the hypervisor is actually controlling the host processor and resources, allocating what is needed to each operating system in turn and making sure that the guest operating systems (called virtual machines) cannot disrupt each other.\u0026rdquo;\u003c/p\u003e\n\u003cp\u003eIn container world, we can consider Docker/LXC/LXD\u0026hellip; as a hypervisor, which creates and manages container (an isolated processs).\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eTradeoff\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003eAbstraction comes at a cost, in the case of programming, for every abstract line of code you write there are multiple lower level instructions being processed from a couple to hundreds or thousands. For virtualization it lowers performance for the virtualized operating system.  The trade off there is you can have multiple operation systems running well enough on a single piece of hardware thus saving you money on hardware and electricity.\u003c/p\u003e\n\u003ch3\u003eDevice Intelligence\u003c/h3\u003e\n\u003cp\u003e\u003ca href\u003d\"https://46and2bits.com/2015/07/20/the-cloud-between-virtualization-and-abstraction/\"\u003eDifference between abstraction and virtualization\u003c/a\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 27, 2016 5:13:19 AM",
-      "dateStarted": "Jun 30, 2016 6:55:09 AM",
-      "dateFinished": "Jun 30, 2016 6:55:09 AM",
+      "dateStarted": "Jul 18, 2016 3:19:58 PM",
+      "dateFinished": "Jul 18, 2016 3:19:58 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n\n![traditional complexity involved in requesting for a storage service][1]\n\n[1]: https://markkulacz.files.wordpress.com/2015/07/storage_direction_1.jpg?w\u003d900",
-      "authenticationInfo": {},
-      "dateUpdated": "Jun 29, 2016 5:32:44 AM",
-      "config": {
-        "colWidth": 6.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/markdown",
-        "editorHide": true
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1467203245487_1461443146",
-      "id": "20160629-052725_2013868229",
-      "result": {
-        "code": "SUCCESS",
-        "type": "HTML",
-        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://markkulacz.files.wordpress.com/2015/07/storage_direction_1.jpg?w\u003d900\" alt\u003d\"traditional complexity involved in requesting for a storage service\" /\u003e\u003c/p\u003e\n"
-      },
-      "dateCreated": "Jun 29, 2016 5:27:25 AM",
-      "dateStarted": "Jun 29, 2016 5:32:41 AM",
-      "dateFinished": "Jun 29, 2016 5:32:41 AM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "text": "%md\n\n![all of the complexity over understanding media types can be removed from the application level][1]\n\n[1]: https://markkulacz.files.wordpress.com/2015/07/storage_direction_2.jpg?w\u003d900",
-      "authenticationInfo": {},
-      "dateUpdated": "Jun 29, 2016 5:32:47 AM",
-      "config": {
-        "colWidth": 6.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/markdown",
-        "editorHide": true
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1467203241324_-188744887",
-      "id": "20160629-052721_186014390",
-      "result": {
-        "code": "SUCCESS",
-        "type": "HTML",
-        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://markkulacz.files.wordpress.com/2015/07/storage_direction_2.jpg?w\u003d900\" alt\u003d\"all of the complexity over understanding media types can be removed from the application level\" /\u003e\u003c/p\u003e\n"
-      },
-      "dateCreated": "Jun 29, 2016 5:27:21 AM",
-      "dateStarted": "Jun 29, 2016 5:32:26 AM",
-      "dateFinished": "Jun 29, 2016 5:32:26 AM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "text": "%md\nmove data\nbackup, \ngreen field is not alot\n\nauto-tiering -\u003e SLA define and auto adjust.QoS requirement\nManagement function (adjust SLA, data-core?,  \n\nvendors\nmindmap - standard, vendor, application, technology\n\nLinux (RedHat | Suse ) + ceph\n\nVirtualize thru hypervisor\n\nuser -\u003e \n\nAutomation: it is not just automate the current process, we should cut out the bottleneck, eliminate some steps.\n* provide user self-services to initiate the process\n* increase options/SLAs\n* provide the process visibility, monitor and log, present the status to service chain providers and user \n* provide mechanism for intervention or feedback QoS for adjusting process\n* design a organization to support the operation and incremental improvement\n",
-      "authenticationInfo": {},
-      "dateUpdated": "Jul 4, 2016 10:21:46 AM",
+      "text": "%md\n\nOS (CoreOS | RedHat | Suse ) + ceph\n\nAutomation: it is not just automate the current process, we should cut out the bottleneck, eliminate some steps.\n* provide user self-services to initiate the process\n* increase options/SLAs\n* provide the process visibility, monitor and log, present the status to service chain providers and user \n* provide mechanism for intervention or feedback QoS for adjusting process\n* design a organization to support the operation and incremental improvement\n",
+      "dateUpdated": "Jul 18, 2016 3:17:43 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -314,29 +241,29 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/markdown",
-        "editorHide": false
+        "editorHide": true
       },
       "settings": {
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467203609614_1725918882",
       "id": "20160629-053329_1695352227",
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003cp\u003emove data\n\u003cbr  /\u003ebackup,\n\u003cbr  /\u003egreen field is not alot\u003c/p\u003e\n\u003cp\u003eauto-tiering -\u003e SLA define and auto adjust.QoS requirement\n\u003cbr  /\u003eManagement function (adjust SLA, data-core?,\u003c/p\u003e\n\u003cp\u003evendors\n\u003cbr  /\u003emindmap - standard, vendor, application, technology\u003c/p\u003e\n\u003cp\u003eLinux (RedHat | Suse ) + ceph\u003c/p\u003e\n\u003cp\u003eVirtualize thru hypervisor\u003c/p\u003e\n\u003cp\u003euser -\u003e\u003c/p\u003e\n\u003cp\u003eAutomation: it is not just automate the current process, we should cut out the bottleneck, eliminate some steps.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eprovide user self-services to initiate the process\u003c/li\u003e\n\u003cli\u003eincrease options/SLAs\u003c/li\u003e\n\u003cli\u003eprovide the process visibility, monitor and log, present the status to service chain providers and user\u003c/li\u003e\n\u003cli\u003eprovide mechanism for intervention or feedback QoS for adjusting process\u003c/li\u003e\n\u003cli\u003edesign a organization to support the operation and incremental improvement\u003c/li\u003e\n\u003c/ul\u003e\n"
+        "msg": "\u003cp\u003eOS (CoreOS | RedHat | Suse ) + ceph\u003c/p\u003e\n\u003cp\u003eAutomation: it is not just automate the current process, we should cut out the bottleneck, eliminate some steps.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eprovide user self-services to initiate the process\u003c/li\u003e\n\u003cli\u003eincrease options/SLAs\u003c/li\u003e\n\u003cli\u003eprovide the process visibility, monitor and log, present the status to service chain providers and user\u003c/li\u003e\n\u003cli\u003eprovide mechanism for intervention or feedback QoS for adjusting process\u003c/li\u003e\n\u003cli\u003edesign a organization to support the operation and incremental improvement\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Jun 29, 2016 5:33:29 AM",
-      "dateStarted": "Jul 4, 2016 10:21:46 AM",
-      "dateFinished": "Jul 4, 2016 10:21:46 AM",
+      "dateStarted": "Jul 18, 2016 3:17:40 PM",
+      "dateFinished": "Jul 18, 2016 3:17:40 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "1.1.5 Characteristics of Software-Defined Storage",
       "text": "%md\n* Abstraction of logical storage services and capabilities from the underlying physical storage systems, and in some cases pooling across multiple different implementations. \n    * Storage virtualization,  \n    * Virtual volumes (vVols)\n    * Parallel \n* Automation with policy-driven storage provisioning with service-level agreements replacing technology details, a control plane.\n* Commodity hardware with storage logic abstracted into a software layer.",
-      "authenticationInfo": {},
       "dateUpdated": "Jun 27, 2016 7:52:52 AM",
       "config": {
         "colWidth": 6.0,
@@ -358,6 +285,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467021667066_1295038804",
       "id": "20160627-030107_519200607",
       "result": {
@@ -374,7 +302,6 @@
     {
       "title": "Why",
       "text": "%md\n\n* Enable different storage devices to communicate with one another\n* Separate advances in software from advances in hardware\n* Pool all storage capacity and provide centralized management\n* Make hardware maintenance, data migrations, and hardware refreshes easy\n\n",
-      "authenticationInfo": {},
       "dateUpdated": "Jun 28, 2016 8:59:33 AM",
       "config": {
         "colWidth": 6.0,
@@ -396,6 +323,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467123731065_-40163430",
       "id": "20160628-072211_364467696",
       "result": {
@@ -412,8 +340,7 @@
     {
       "title": "1.1.6 Data Platform",
       "text": "%md\n![big-data platform][1]\n\n[1]: http://www.ec-leasing.ru/img/solution-centers/ibm_bigdata_platform-eng.jpg",
-      "authenticationInfo": {},
-      "dateUpdated": "Jul 4, 2016 10:13:40 AM",
+      "dateUpdated": "Jul 18, 2016 3:21:36 PM",
       "config": {
         "colWidth": 6.0,
         "graph": {
@@ -427,12 +354,14 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/markdown",
-        "title": true
+        "title": true,
+        "editorHide": true
       },
       "settings": {
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1466875823267_1483884267",
       "id": "20160625-103023_1452160150",
       "result": {
@@ -441,14 +370,14 @@
         "msg": "\u003cp\u003e\u003cimg src\u003d\"http://www.ec-leasing.ru/img/solution-centers/ibm_bigdata_platform-eng.jpg\" alt\u003d\"big-data platform\" /\u003e\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 25, 2016 10:30:23 AM",
-      "dateStarted": "Jul 4, 2016 10:13:40 AM",
-      "dateFinished": "Jul 4, 2016 10:13:40 AM",
+      "dateStarted": "Jul 18, 2016 3:21:35 PM",
+      "dateFinished": "Jul 18, 2016 3:21:35 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%md\n### Open Source SDS\n* ",
-      "dateUpdated": "Jun 29, 2016 7:10:08 AM",
+      "text": "%md\n### Open Source SDS\n* Ceph\n* ",
+      "dateUpdated": "Jul 18, 2016 3:21:59 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -467,6 +396,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467209358542_1694748167",
       "id": "20160629-070918_1586484649",
       "dateCreated": "Jun 29, 2016 7:09:18 AM",
@@ -475,7 +405,6 @@
     },
     {
       "title": "1.2.0 Software - Defined Network and Network Function Virtualization",
-      "authenticationInfo": {},
       "dateUpdated": "Jun 27, 2016 7:48:28 AM",
       "config": {
         "colWidth": 12.0,
@@ -496,6 +425,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467030771023_1150931393",
       "id": "20160627-053251_23820422",
       "result": {
@@ -511,7 +441,6 @@
     },
     {
       "title": "1.3.0 Software - Defined Computing",
-      "authenticationInfo": {},
       "dateUpdated": "Jun 27, 2016 7:48:28 AM",
       "config": {
         "colWidth": 12.0,
@@ -532,6 +461,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467035941569_833012941",
       "id": "20160627-065901_1618015112",
       "result": {
@@ -547,7 +477,6 @@
     },
     {
       "title": "1.4.1 Software - Defined Data Center",
-      "authenticationInfo": {},
       "dateUpdated": "Jun 27, 2016 7:48:28 AM",
       "config": {
         "colWidth": 12.0,
@@ -568,6 +497,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1466940369511_1256041166",
       "id": "20160626-042609_1961329225",
       "result": {
@@ -584,8 +514,7 @@
     {
       "title": "2.0 Cloud Computing",
       "text": "%md\n\nCloud computing is a model for enabling _**ubiquitous**_, convenient, _**on-demand**_ network access to a _**shared pool**_ of _**configurable computing resources**_ (e.g., networks, servers, storage, applications, and services) that can be _**rapidly provisioned**_ and released with _**minimal management effort**_ or service provider interaction.\n\nFrom NIST SP800-145, September 2011, \n\n[1]: NITS",
-      "authenticationInfo": {},
-      "dateUpdated": "Jun 27, 2016 7:48:28 AM",
+      "dateUpdated": "Jul 18, 2016 3:22:17 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -599,12 +528,14 @@
         },
         "enabled": true,
         "editorMode": "ace/mode/markdown",
-        "title": true
+        "title": true,
+        "editorHide": true
       },
       "settings": {
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467030407727_-502808036",
       "id": "20160627-052647_340072413",
       "result": {
@@ -613,15 +544,14 @@
         "msg": "\u003cp\u003eCloud computing is a model for enabling \u003cem\u003e\u003cstrong\u003eubiquitous\u003c/strong\u003e\u003c/em\u003e, convenient, \u003cem\u003e\u003cstrong\u003eon-demand\u003c/strong\u003e\u003c/em\u003e network access to a \u003cem\u003e\u003cstrong\u003eshared pool\u003c/strong\u003e\u003c/em\u003e of \u003cem\u003e\u003cstrong\u003econfigurable computing resources\u003c/strong\u003e\u003c/em\u003e (e.g., networks, servers, storage, applications, and services) that can be \u003cem\u003e\u003cstrong\u003erapidly provisioned\u003c/strong\u003e\u003c/em\u003e and released with \u003cem\u003e\u003cstrong\u003eminimal management effort\u003c/strong\u003e\u003c/em\u003e or service provider interaction.\u003c/p\u003e\n\u003cp\u003eFrom NIST SP800-145, September 2011,\u003c/p\u003e\n"
       },
       "dateCreated": "Jun 27, 2016 5:26:47 AM",
-      "dateStarted": "Jun 27, 2016 7:48:28 AM",
-      "dateFinished": "Jun 27, 2016 7:48:28 AM",
+      "dateStarted": "Jul 18, 2016 3:22:15 PM",
+      "dateFinished": "Jul 18, 2016 3:22:15 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "2.1.1 NIST Cloud Reference Architecture",
       "text": "%md\n![NIST Cloud Reference Architecture][1]\nFor more detailed slides see [Computing Reference Architecture from NIST and IBM Cloud][2]\n\n[1]: http://www.kurzweilai.net/images/Cloud-Computing.png\n[2]: http://www.slideshare.net/rkuo/cloud-computing-reference-architecture-from-nist-and-ibm",
-      "authenticationInfo": {},
       "dateUpdated": "Jun 27, 2016 8:12:11 AM",
       "config": {
         "colWidth": 6.0,
@@ -643,6 +573,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467031847069_1092584712",
       "id": "20160627-055047_1571764410",
       "result": {
@@ -659,7 +590,6 @@
     {
       "title": "2.1.2 Cloud Reference Architecture",
       "text": "%md\n![cloud reference architecture][1]\n\ncourtesy [A SIMPLE MINDED CLOUD REFERENCE ARCHITECTURE – PART II][2]\n[1]: https://doubleclix.files.wordpress.com/2010/01/slide5.jpg?w\u003d1168\n[2]: https://doubleclix.wordpress.com/2010/01/21/a-simple-minded-cloud-reference-architecture-part-ii/",
-      "authenticationInfo": {},
       "dateUpdated": "Jun 27, 2016 8:18:55 AM",
       "config": {
         "colWidth": 6.0,
@@ -681,6 +611,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467037364354_-1052823664",
       "id": "20160627-072244_148513323",
       "result": {
@@ -696,9 +627,8 @@
     },
     {
       "title": "Patterns",
-      "text": "%md\nAbstract -\u003e create a general model of hardware and let differences to be handled by configuration and provisioning -\u003e to avoid detailed complexity\nVirtualize -\u003e create a model to represent the real thing -\u003e emulate the behaviors of the real world\nDriver -\u003e interface to real world -\u003e connecto to real world to make things happen\n\nWe have data plane, control plane, and management plane.\n\nWorker -\u003e perform real tasks.\nFactory -\u003e a provider who creates the model per perameters -\u003e make sure every entity works efficiently, monitor its state, create only what we need and have better response by pre-creating workers.\n\nManager -\u003e coordinate factory floor activities -\u003e make sure factory is clean, resource recovery -\u003e make sure rules/policies are followed, handle the abnormal situration.\n\nOrchestration -\u003e coordinate across domains knowledge -\u003e ?? \nSecurity -\u003e ensure AAA (Authentication, Authorizationa Accounting) responsibility is followed, no mis-behavior.\n\nWe create groups for our convenient, e.g. `vm`, `container`, `pod`, `rack`, `secuirty group`, `data center`, `availability zone`, `services`, etc.\n\n* Envery entity is created for certain functions.\n* An entity belongs to a group or groups. There is purpose for a group and it has its charateristic and privilages.\n* All entities and groups need to be created, monitored during their life-cycle.\n",
-      "authenticationInfo": {},
-      "dateUpdated": "Jun 27, 2016 9:35:21 AM",
+      "text": "%md\nAbstract -\u003e create a general model of hardware and let differences to be handled by configuration and provisioning -\u003e to avoid detailed complexity   \nVirtualize -\u003e create a model to represent the real thing -\u003e emulate the behaviors of the real world   \nDriver -\u003e interface to real world -\u003e connecto to real world to make things happen   \n\nWe have data plane, control plane, and management plane.\n\nWorker -\u003e perform real tasks.   \nFactory -\u003e a provider who creates the model per perameters -\u003e make sure every entity works efficiently, monitor its state, create only what we need and have better response by pre-creating workers.   \n\nManager -\u003e coordinate factory floor activities -\u003e make sure factory is clean, resource recovery -\u003e make sure rules/policies are followed, handle the abnormal situration.   \n\nOrchestration -\u003e coordinate across domains knowledge -\u003e ??     \nSecurity -\u003e ensure AAA (Authentication, Authorizationa Accounting) responsibility is followed, no mis-behavior.    \n\nWe create groups for our convenient, e.g. `vm`, `container`, `pod`, `rack`, `secuirty group`, `data center`, `availability zone`, `services`, etc.\n\n* Envery entity is created for certain functions.  \n* An entity belongs to a group or groups. There is purpose for a group and it has its charateristic and privilages.\n* All entities and groups need to be created, monitored, rise flag at certain conditions/states, collect/dispose resources during their life-cycle.\n",
+      "dateUpdated": "Jul 18, 2016 7:22:28 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -713,29 +643,29 @@
         "enabled": true,
         "title": true,
         "editorMode": "ace/mode/markdown",
-        "editorHide": false
+        "editorHide": true
       },
       "settings": {
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467038908969_-1593189552",
       "id": "20160627-074828_895073418",
       "result": {
         "code": "SUCCESS",
         "type": "HTML",
-        "msg": "\u003cp\u003eAbstract -\u003e create a general model of hardware and let differences to be handled by configuration and provisioning -\u003e to avoid detailed complexity\n\u003cbr  /\u003eVirtualize -\u003e create a model to represent the real thing -\u003e emulate the behaviors of the real world\n\u003cbr  /\u003eDriver -\u003e interface to real world -\u003e connecto to real world to make things happen\u003c/p\u003e\n\u003cp\u003eWe have data plane, control plane, and management plane.\u003c/p\u003e\n\u003cp\u003eWorker -\u003e perform real tasks.\n\u003cbr  /\u003eFactory -\u003e a provider who creates the model per perameters -\u003e make sure every entity works efficiently, monitor its state, create only what we need and have better response by pre-creating workers.\u003c/p\u003e\n\u003cp\u003eManager -\u003e coordinate factory floor activities -\u003e make sure factory is clean, resource recovery -\u003e make sure rules/policies are followed, handle the abnormal situration.\u003c/p\u003e\n\u003cp\u003eOrchestration -\u003e coordinate across domains knowledge -\u003e ??\n\u003cbr  /\u003eSecurity -\u003e ensure AAA (Authentication, Authorizationa Accounting) responsibility is followed, no mis-behavior.\u003c/p\u003e\n\u003cp\u003eWe create groups for our convenient, e.g. \u003ccode\u003evm\u003c/code\u003e, \u003ccode\u003econtainer\u003c/code\u003e, \u003ccode\u003epod\u003c/code\u003e, \u003ccode\u003erack\u003c/code\u003e, \u003ccode\u003esecuirty group\u003c/code\u003e, \u003ccode\u003edata center\u003c/code\u003e, \u003ccode\u003eavailability zone\u003c/code\u003e, \u003ccode\u003eservices\u003c/code\u003e, etc.\u003c/p\u003e\n"
+        "msg": "\u003cp\u003eAbstract -\u003e create a general model of hardware and let differences to be handled by configuration and provisioning -\u003e to avoid detailed complexity\n\u003cbr  /\u003eVirtualize -\u003e create a model to represent the real thing -\u003e emulate the behaviors of the real world\n\u003cbr  /\u003eDriver -\u003e interface to real world -\u003e connecto to real world to make things happen\u003c/p\u003e\n\u003cp\u003eWe have data plane, control plane, and management plane.\u003c/p\u003e\n\u003cp\u003eWorker -\u003e perform real tasks.\n\u003cbr  /\u003eFactory -\u003e a provider who creates the model per perameters -\u003e make sure every entity works efficiently, monitor its state, create only what we need and have better response by pre-creating workers.\u003c/p\u003e\n\u003cp\u003eManager -\u003e coordinate factory floor activities -\u003e make sure factory is clean, resource recovery -\u003e make sure rules/policies are followed, handle the abnormal situration.\u003c/p\u003e\n\u003cp\u003eOrchestration -\u003e coordinate across domains knowledge -\u003e ??\n\u003cbr  /\u003eSecurity -\u003e ensure AAA (Authentication, Authorizationa Accounting) responsibility is followed, no mis-behavior.\u003c/p\u003e\n\u003cp\u003eWe create groups for our convenient, e.g. \u003ccode\u003evm\u003c/code\u003e, \u003ccode\u003econtainer\u003c/code\u003e, \u003ccode\u003epod\u003c/code\u003e, \u003ccode\u003erack\u003c/code\u003e, \u003ccode\u003esecuirty group\u003c/code\u003e, \u003ccode\u003edata center\u003c/code\u003e, \u003ccode\u003eavailability zone\u003c/code\u003e, \u003ccode\u003eservices\u003c/code\u003e, etc.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eEnvery entity is created for certain functions.\u003c/li\u003e\n\u003cli\u003eAn entity belongs to a group or groups. There is purpose for a group and it has its charateristic and privilages.\u003c/li\u003e\n\u003cli\u003eAll entities and groups need to be created, monitored, rise flag at certain conditions/states, collect/dispose resources during their life-cycle.\u003c/li\u003e\n\u003c/ul\u003e\n"
       },
       "dateCreated": "Jun 27, 2016 7:48:28 AM",
-      "dateStarted": "Jun 27, 2016 9:29:34 AM",
-      "dateFinished": "Jun 27, 2016 9:29:34 AM",
+      "dateStarted": "Jul 18, 2016 7:22:26 PM",
+      "dateFinished": "Jul 18, 2016 7:22:26 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Open Source - working",
       "text": "%md\n![rising barn][1]\n[1]:http://thefarmatwalnutcreek.com/images/barn-raising-the-farm-at-walnut-creek-ohio-Large.jpg",
-      "authenticationInfo": {},
       "dateUpdated": "Jul 4, 2016 9:56:54 AM",
       "config": {
         "colWidth": 6.0,
@@ -757,6 +687,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467041224515_1021457227",
       "id": "20160627-082704_1256369037",
       "result": {
@@ -773,7 +704,6 @@
     {
       "title": "Open Source - community",
       "text": "%md\n![rising barn][1]\n\n[1]:https://upload.wikimedia.org/wikipedia/commons/a/ab/Barn_raising_in_Lansing.jpg",
-      "authenticationInfo": {},
       "dateUpdated": "Jul 4, 2016 9:56:02 AM",
       "config": {
         "colWidth": 6.0,
@@ -795,6 +725,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467651250362_-513128293",
       "id": "20160704-095410_2023978502",
       "result": {
@@ -814,6 +745,7 @@
         "params": {},
         "forms": {}
       },
+      "apps": [],
       "jobName": "paragraph_1467651130552_-1129800870",
       "id": "20160704-095210_977628771",
       "dateCreated": "Jul 4, 2016 9:52:10 AM",
@@ -823,25 +755,27 @@
   ],
   "name": "Software-Defined Everything",
   "id": "2BQ5Z5YP5",
+  "lastReplName": {
+    "value": "md"
+  },
   "angularObjects": {
-    "2BJNWTGVX:shared_process": [],
-    "2BHQR9UME:shared_process": [],
-    "2BKZJ4SRP:shared_process": [],
-    "2BME5YFFH:shared_process": [],
-    "2BN58QNE3:shared_process": [],
-    "2BKB225AF:shared_process": [],
-    "2BK2WJSB5:shared_process": [],
-    "2BJUP28CV:shared_process": [],
-    "2BM3A9BK4:shared_process": [],
-    "2BJ14398P:shared_process": [],
-    "2BN46FG7A:shared_process": [],
-    "2BJEPGMRU:shared_process": [],
-    "2BM6T2CVF:shared_process": [],
-    "2BK1W54BQ:shared_process": [],
-    "2BMYC3FF3:shared_process": [],
-    "2BKZFCDHR:shared_process": [],
-    "2BJSW731A:shared_process": [],
-    "2BJDU2EXK:shared_process": []
+    "2BRKFDTAG:shared_process": [],
+    "2BQQC4SBJ:shared_process": [],
+    "2BPA86SJN:shared_process": [],
+    "2BQXP1N48:shared_process": [],
+    "2BS635YF4:shared_process": [],
+    "2BS8S9TWZ:shared_process": [],
+    "2BT1FV53K:shared_process": [],
+    "2BRG4EDQT:shared_process": [],
+    "2BRBKMV6G:shared_process": [],
+    "2BPX9HXK8:shared_process": [],
+    "2BPCX21MY:shared_process": [],
+    "2BP9JV898:shared_process": [],
+    "2BR9MHZJ2:shared_process": [],
+    "2BPA7NY6F:shared_process": [],
+    "2BPMUQW6X:shared_process": [],
+    "2BREB797U:shared_process": [],
+    "2BRNDK1X2:shared_process": []
   },
   "config": {
     "looknfeel": "default"

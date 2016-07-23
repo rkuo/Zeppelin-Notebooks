@@ -1,0 +1,412 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md \nMost of notes are shameless copied from the article:\nDjuric, D., Gaševic, D., Devedžic, V.,: \"The Tao of Modeling Spaces\", in Journal of Object Technology, vol. 5. no. 8, Novmeber-December 2006, pp. 125-147. http://www.jot.fm/issues/issue_2006_11/article4\n",
+      "dateUpdated": "Jul 23, 2016 8:07:11 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1468987207598_2041041330",
+      "id": "20160719-210007_280829329",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eMost of notes are shameless copied from the article:\n\u003cbr  /\u003eDjuric, D., Gaševic, D., Devedžic, V.,: \u0026ldquo;The Tao of Modeling Spaces\u0026rdquo;, in Journal of Object Technology, vol. 5. no. 8, Novmeber-December 2006, pp. 125-147. http://www.jot.fm/issues/issue_2006_11/article4\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jul 19, 2016 9:00:07 PM",
+      "dateStarted": "Jul 23, 2016 8:07:09 AM",
+      "dateFinished": "Jul 23, 2016 8:07:09 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "What is model?",
+      "text": "%md \n\nA model is the representation of a certain reality.\n* A model is a logical set of elements that represent something.\n* A model is expressed in a certain modeling language.\n* The model itself can be represented in various forms (graphical, textual).",
+      "dateUpdated": "Jul 23, 2016 8:07:33 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "title": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1468899811775_1671073812",
+      "id": "20160718-204331_87197652",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eA model is the representation of a certain reality.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eA model is a logical set of elements that represent something.\u003c/li\u003e\n\u003cli\u003eA model is expressed in a certain modeling language.\u003c/li\u003e\n\u003cli\u003eThe model itself can be represented in various forms (graphical, textual).\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Jul 18, 2016 8:43:31 PM",
+      "dateStarted": "Jul 23, 2016 8:07:31 AM",
+      "dateFinished": "Jul 23, 2016 8:07:31 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "What is meta-model?",
+      "text": "%md \n\n* Metamodeling is the analysis, construction and development of the frames, rules, constraints, models and theories applicable and useful for modeling a predefined class of problems.\n* A meta-model typically defines the languages and processes from which to form a model.\n* According to the Meta-Object Facility (MOF) standard, a metamodel is a model that defines the language for expressing a model.",
+      "dateUpdated": "Jul 23, 2016 8:08:14 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1468899855788_-1925696824",
+      "id": "20160718-204415_1916011981",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cul\u003e\n\u003cli\u003eMetamodeling is the analysis, construction and development of the frames, rules, constraints, models and theories applicable and useful for modeling a predefined class of problems.\u003c/li\u003e\n\u003cli\u003eA meta-model typically defines the languages and processes from which to form a model.\u003c/li\u003e\n\u003cli\u003eAccording to the Meta-Object Facility (MOF) standard, a metamodel is a model that defines the language for expressing a model.\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Jul 18, 2016 8:44:15 PM",
+      "dateStarted": "Jul 23, 2016 8:08:12 AM",
+      "dateFinished": "Jul 23, 2016 8:08:12 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "What is meta-meta-model?",
+      "text": "%md ",
+      "dateUpdated": "Jul 18, 2016 8:46:45 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1468899850323_-137984868",
+      "id": "20160718-204410_1473481591",
+      "dateCreated": "Jul 18, 2016 8:44:10 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md \n\n[The Tao of Modeling Spaces][1]\n\n[1]:http://www.jot.fm/issues/issue_2006_11/article4/",
+      "dateUpdated": "Jul 18, 2016 8:09:42 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1468895431909_-783198080",
+      "id": "20160718-193031_154589313",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003ca href\u003d\"http://www.jot.fm/issues/issue_2006_11/article4/\"\u003eThe Tao of Modeling Spaces\u003c/a\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jul 18, 2016 7:30:31 PM",
+      "dateStarted": "Jul 18, 2016 8:09:42 PM",
+      "dateFinished": "Jul 18, 2016 8:09:42 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Meta-Object Facility (MOF)",
+      "text": "%md \n\n![MOF][1]\n\n[1]:http://www.jot.fm/issues/issue_2006_11/article4/images/figure1.gif\n[2]:",
+      "dateUpdated": "Jul 19, 2016 10:23:31 AM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "title": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1468895064594_-1921389307",
+      "id": "20160718-192424_1518090525",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"http://www.jot.fm/issues/issue_2006_11/article4/images/figure1.gif\" alt\u003d\"MOF\" /\u003e\u003c/p\u003e\n\u003cp\u003e[2]:\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jul 18, 2016 7:24:24 PM",
+      "dateStarted": "Jul 19, 2016 10:23:30 AM",
+      "dateFinished": "Jul 19, 2016 10:23:30 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Non-Technical Models in a Layered Modeling Architecture",
+      "text": "%md \n![mona lisa and music][1]\n\n#### Music Example\n* M0 layer - a specific song (i.e. \"where is all the flowers gone\") are **things** from the real-world.  \n* M1 layer - a painting and a music sheet (樂譜), is obviously abstractions of real world things. Therefore, they are models and can be put at the model (M1) layer. \n* M2 layer - a music score (譜子), which is a written interpretation of a song, the metamodel (M2) is a set of **concepts** - stave (音樂五線譜),  note, etc. and rules that **define** what each note means and how we can arrange them on five staves. Metamodels are used to define these models. \n* M3 layer - a set of self-defined concepts that define stave, note etc, the meta-metamodel (M3). \n\n\n\n[1]:http://www.jot.fm/issues/issue_2006_11/article4/images/figure3.gif",
+      "dateUpdated": "Jul 19, 2016 10:26:51 AM",
+      "config": {
+        "colWidth": 6.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "title": true,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1468896534194_-1987390155",
+      "id": "20160718-194854_1417856233",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"http://www.jot.fm/issues/issue_2006_11/article4/images/figure3.gif\" alt\u003d\"mona lisa and music\" /\u003e\u003c/p\u003e\n\u003ch4\u003eMusic Example\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003eM0 layer - a specific song (i.e. \u0026ldquo;where is all the flowers gone\u0026rdquo;) are \u003cstrong\u003ethings\u003c/strong\u003e from the real-world.\u003c/li\u003e\n\u003cli\u003eM1 layer - a painting and a music sheet (樂譜), is obviously abstractions of real world things. Therefore, they are models and can be put at the model (M1) layer.\u003c/li\u003e\n\u003cli\u003eM2 layer - a music score (譜子), which is a written interpretation of a song, the metamodel (M2) is a set of \u003cstrong\u003econcepts\u003c/strong\u003e - stave (音樂五線譜),  note, etc. and rules that \u003cstrong\u003edefine\u003c/strong\u003e what each note means and how we can arrange them on five staves. Metamodels are used to define these models.\u003c/li\u003e\n\u003cli\u003eM3 layer - a set of self-defined concepts that define stave, note etc, the meta-metamodel (M3).\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Jul 18, 2016 7:48:54 PM",
+      "dateStarted": "Jul 19, 2016 10:26:45 AM",
+      "dateFinished": "Jul 19, 2016 10:26:45 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Model Space Essentials",
+      "text": "%md \nBased on [The Tao of Modeling Spaces][1]\n\n* Something can be taken as a model if it is an abstraction of things from the real world, but it is simultaneously a thing from the real world. Whether we take it as a model or as a real/world thing depends on the context, i.e. on the point of view. \n\n* Models can be defined using metamodeling concepts formally or implicitly. Since implicit metamodels cannot be precisely defined using formalisms, as in the case of art, in the rest of this discussion we analyze only formal models. Nevertheless, much of the conclusions can also be applied to implicit metamodels.\n\nM0:\nThe M0 layer is the real world which includes all possible things that we try to represent using the models residing at the M1 layer. That representation is more or less abstract and simplified, depending on how rich our models are. \n\nM1:\nModels are defined using concepts defined in metamodels, so each metamodel determines how expressive its models can be. \n\nM2:\nM2 is the layer where the metamodels are located. The metamodels are also defined using some concepts. \n\nM3:\nThe set of concepts used to define metamodels resides at the separate M3 layer at the top of this architecture and is called meta-metamodel. Meta-metamodel is nothing more than a metamodel that is used by convention to define other metamodels; it also defines itself. \n\n#### Modeling Space\n\nA modeling space is a modeling architecture defined by a particular meta-metamodel. Metamodels defined by the meta-metamodel and models defined by those metamodels represent the real world from one point of view, i.e. from the point of view of that modeling space. As the meta-metamodel defines the core concepts used in defining all other metamodeling concepts, it is defined by itself. If it was defined by some other concepts, it would not be a meta-metamodel; it would be an ordinary metamodel in some other modeling space.\n\n![a few examples of well-known modeling spaces][2]  \n\nThe most straightforward example from this picture is the MOF modeling space. It is defined by the MOF meta-metamodel, which in turn is defined by itself. It defines various metamodels, for instance Unified Modeling Language or Ontology Definition Metamodel, that are used to describe models that represent things from the real world. \n\nYou can loosely consider a Java programming code is a model, and Java grammar is metamodel. The same reality is described in the context of other modeling spaces, like RDF(S) or EBNF spaces. We can describe/model the relationship or event of wind, fire or weather with Java program, or XML or UML. An item in the real world can model described/modeled by different modeling spaces. If we model the same reality in another modeling space, we will describe it with different kinds of models, highlighting other characteristics when abstracting from reality. The models from the first modeling space (i.e. Java) will be a part of reality that we can model using the models from the second modeling space (i.e. UML).\n\nIn figure below, clarifies this duality by an example of the same thing being simultaneously a model (orange color) and a real-world thing. MOF MS sees EBNF MS as a set of things from the real world.\n\n![model is real world things][3]\n\nAlong the vertical axis, the world is modeled in the MOF modeling space. Along the horizontal axis is the EBNF space hierarchy, which is a real-world thing in the MOF space. An interesting observation here is that any modeling space, like the EBNF space or even the MOF space itself, is a part of the real world from the MOF-space point of view. In general, the way we model some business system or another \"real\" domain is pretty much the same as the way we model meta-metamodels, metamodels or models from another modeling space. Of course, these models involve a certain level of abstraction, so there is a possibility of losing some information.\n\nThe fact that M1-M3 layers (orange oval-green rectangular-blue rectangular) are fiction and above the M0 layer does not mean that meta-metamodels, metamodels and models are things outside of reality. Everything is in the real world; we just use a convention to put some things in layers, depending on the context.\n\n\n[1]:http://www.jot.fm/issues/issue_2006_11/article4/\n[2]:http://www.jot.fm/issues/issue_2006_11/article4/images/figure5.gif\n[3]:http://www.jot.fm/issues/issue_2006_11/article4/images/figure6.gif",
+      "dateUpdated": "Jul 20, 2016 9:41:28 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "title": true,
+        "editorHide": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1468897695507_-1382527134",
+      "id": "20160718-200815_1745457887",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eBased on \u003ca href\u003d\"http://www.jot.fm/issues/issue_2006_11/article4/\"\u003eThe Tao of Modeling Spaces\u003c/a\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cp\u003eSomething can be taken as a model if it is an abstraction of things from the real world, but it is simultaneously a thing from the real world. Whether we take it as a model or as a real/world thing depends on the context, i.e. on the point of view.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eModels can be defined using metamodeling concepts formally or implicitly. Since implicit metamodels cannot be precisely defined using formalisms, as in the case of art, in the rest of this discussion we analyze only formal models. Nevertheless, much of the conclusions can also be applied to implicit metamodels.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eM0:\n\u003cbr  /\u003eThe M0 layer is the real world which includes all possible things that we try to represent using the models residing at the M1 layer. That representation is more or less abstract and simplified, depending on how rich our models are.\u003c/p\u003e\n\u003cp\u003eM1:\n\u003cbr  /\u003eModels are defined using concepts defined in metamodels, so each metamodel determines how expressive its models can be.\u003c/p\u003e\n\u003cp\u003eM2:\n\u003cbr  /\u003eM2 is the layer where the metamodels are located. The metamodels are also defined using some concepts.\u003c/p\u003e\n\u003cp\u003eM3:\n\u003cbr  /\u003eThe set of concepts used to define metamodels resides at the separate M3 layer at the top of this architecture and is called meta-metamodel. Meta-metamodel is nothing more than a metamodel that is used by convention to define other metamodels; it also defines itself.\u003c/p\u003e\n\u003ch4\u003eModeling Space\u003c/h4\u003e\n\u003cp\u003eA modeling space is a modeling architecture defined by a particular meta-metamodel. Metamodels defined by the meta-metamodel and models defined by those metamodels represent the real world from one point of view, i.e. from the point of view of that modeling space. As the meta-metamodel defines the core concepts used in defining all other metamodeling concepts, it is defined by itself. If it was defined by some other concepts, it would not be a meta-metamodel; it would be an ordinary metamodel in some other modeling space.\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"http://www.jot.fm/issues/issue_2006_11/article4/images/figure5.gif\" alt\u003d\"a few examples of well-known modeling spaces\" /\u003e\u003c/p\u003e\n\u003cp\u003eThe most straightforward example from this picture is the MOF modeling space. It is defined by the MOF meta-metamodel, which in turn is defined by itself. It defines various metamodels, for instance Unified Modeling Language or Ontology Definition Metamodel, that are used to describe models that represent things from the real world.\u003c/p\u003e\n\u003cp\u003eYou can loosely consider a Java programming code is a model, and Java grammar is metamodel. The same reality is described in the context of other modeling spaces, like RDF(S) or EBNF spaces. We can describe/model the relationship or event of wind, fire or weather with Java program, or XML or UML. An item in the real world can model described/modeled by different modeling spaces. If we model the same reality in another modeling space, we will describe it with different kinds of models, highlighting other characteristics when abstracting from reality. The models from the first modeling space (i.e. Java) will be a part of reality that we can model using the models from the second modeling space (i.e. UML).\u003c/p\u003e\n\u003cp\u003eIn figure below, clarifies this duality by an example of the same thing being simultaneously a model (orange color) and a real-world thing. MOF MS sees EBNF MS as a set of things from the real world.\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"http://www.jot.fm/issues/issue_2006_11/article4/images/figure6.gif\" alt\u003d\"model is real world things\" /\u003e\u003c/p\u003e\n\u003cp\u003eAlong the vertical axis, the world is modeled in the MOF modeling space. Along the horizontal axis is the EBNF space hierarchy, which is a real-world thing in the MOF space. An interesting observation here is that any modeling space, like the EBNF space or even the MOF space itself, is a part of the real world from the MOF-space point of view. In general, the way we model some business system or another \u0026ldquo;real\u0026rdquo; domain is pretty much the same as the way we model meta-metamodels, metamodels or models from another modeling space. Of course, these models involve a certain level of abstraction, so there is a possibility of losing some information.\u003c/p\u003e\n\u003cp\u003eThe fact that M1-M3 layers (orange oval-green rectangular-blue rectangular) are fiction and above the M0 layer does not mean that meta-metamodels, metamodels and models are things outside of reality. Everything is in the real world; we just use a convention to put some things in layers, depending on the context.\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jul 18, 2016 8:08:15 PM",
+      "dateStarted": "Jul 20, 2016 7:52:24 PM",
+      "dateFinished": "Jul 20, 2016 7:52:24 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Modeling Spaces Illuminated",
+      "text": "%md \nThere are different levels of absraction.\n\n* _conceptual modeling spaces_: are focused on conceptual (abstract or semantic) things, like models, ontologies, mathematical logics, etc. They are not interested in techniques for representation or sharing their abstractions.\n\n* _concrete modeling spaces_: are techniques to materialize (or serialize) those modeling spaces,like  some syntax or databases, which are equipped with notation.  \n \nThe basic concepts of the MOF meta-metamodel - like Class, Association, Attribute, Package and the relations among them - are expressed using those concepts themselves. We can draw them using UML diagrams, but a group of boxes and lines is not a MOF model - it is a drawing of a MOF model. We can serialize them into XMI, enabling computers to process them and programs to share them - but then we leave the MOF modeling space and enter the EBNF modeling space. One can argue that these drawings, i.e. UML diagrams, or models serialized into XMI, are inside the MOF modeling space because they represent MOF concepts. Indeed, they do represent concepts from the MOF space. Simultaneously, they represent other things from the real world. It means that the MOF concepts are modeled in another modeling space.  \nBeing able to represent bare syntax, concrete modeling spaces need some means to express the semantics, i.e. the meaning of the data they carry. Conceptual modeling spaces, on the other hand, are able to represent semantics, but need a means to represent their information physically. Similarly, definitions of mathematical languages (i.e. logics) include two parts: syntax and semantics.  \n\n![two types of usage scenarios for different modeling spaces][1]\n\n* Parallel spaces - two modeling space models model the same set of real-world things differently. The relation between these modeling spaces is oriented towards pure transformation, bridging from one space to another. \n* \n* Examples of such parallel modeling spaces are MOF and ECore (ECore is a meta-metamodel very similar to but also different from MOF; although ECore is a little simpler than MOF, they are both based on similar object-oriented concepts).\n\n* Orthogonal spaces - some modeling space models concepts from another modeling space, taking them as real-world things, i.e. one MS is represented in another MS. This relation is often used in round-trip engineering to facilitate different stages of modeling some system.\n\n[1]:http://www.jot.fm/issues/issue_2006_11/article4/images/figure7.gif\n",
+      "dateUpdated": "Jul 21, 2016 6:08:57 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorHide": false,
+        "editorMode": "ace/mode/markdown",
+        "tableHide": false,
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1468950074393_-1283753625",
+      "id": "20160719-104114_1314385361",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eThere are different levels of absraction.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cp\u003e\u003cem\u003econceptual modeling spaces\u003c/em\u003e: are focused on conceptual (abstract or semantic) things, like models, ontologies, mathematical logics, etc. They are not interested in techniques for representation or sharing their abstractions.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003e\u003cem\u003econcrete modeling spaces\u003c/em\u003e: are techniques to materialize (or serialize) those modeling spaces,like  some syntax or databases, which are equipped with notation.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eThe basic concepts of the MOF meta-metamodel - like Class, Association, Attribute, Package and the relations among them - are expressed using those concepts themselves. We can draw them using UML diagrams, but a group of boxes and lines is not a MOF model - it is a drawing of a MOF model. We can serialize them into XMI, enabling computers to process them and programs to share them - but then we leave the MOF modeling space and enter the EBNF modeling space. One can argue that these drawings, i.e. UML diagrams, or models serialized into XMI, are inside the MOF modeling space because they represent MOF concepts. Indeed, they do represent concepts from the MOF space. Simultaneously, they represent other things from the real world. It means that the MOF concepts are modeled in another modeling space.\n\u003cbr  /\u003eBeing able to represent bare syntax, concrete modeling spaces need some means to express the semantics, i.e. the meaning of the data they carry. Conceptual modeling spaces, on the other hand, are able to represent semantics, but need a means to represent their information physically. Similarly, definitions of mathematical languages (i.e. logics) include two parts: syntax and semantics.\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"http://www.jot.fm/issues/issue_2006_11/article4/images/figure7.gif\" alt\u003d\"two types of usage scenarios for different modeling spaces\" /\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cp\u003eParallel spaces - two modeling space models model the same set of real-world things differently. The relation between these modeling spaces is oriented towards pure transformation, bridging from one space to another.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eExamples of such parallel modeling spaces are MOF and ECore (ECore is a meta-metamodel very similar to but also different from MOF; although ECore is a little simpler than MOF, they are both based on similar object-oriented concepts).\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eOrthogonal spaces - some modeling space models concepts from another modeling space, taking them as real-world things, i.e. one MS is represented in another MS. This relation is often used in round-trip engineering to facilitate different stages of modeling some system.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Jul 19, 2016 10:41:14 AM",
+      "dateStarted": "Jul 21, 2016 6:07:52 PM",
+      "dateFinished": "Jul 21, 2016 6:07:52 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "EMF Model Elements",
+      "text": "%md \n\n![EMF metamodel][2]\n\n[1]:https://eclipse.org/modeling/emf/\n[2]:http://assets.devx.com/articlefigs/03emp01.jpg",
+      "dateUpdated": "Jul 21, 2016 6:02:32 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1468895023527_1277367076",
+      "id": "20160718-192343_1055366650",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"http://assets.devx.com/articlefigs/03emp01.jpg\" alt\u003d\"EMF metamodel\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jul 18, 2016 7:23:43 PM",
+      "dateStarted": "Jul 21, 2016 6:02:32 PM",
+      "dateFinished": "Jul 21, 2016 6:02:32 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ",
+      "dateUpdated": "Jul 21, 2016 5:54:17 PM",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1469148857444_2098846829",
+      "id": "20160721-175417_569323375",
+      "dateCreated": "Jul 21, 2016 5:54:17 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "Model - The Tao of Modeling Spaces",
+  "id": "2BT484XN8",
+  "lastReplName": {
+    "value": "md"
+  },
+  "angularObjects": {
+    "2BRKFDTAG:shared_process": [],
+    "2BQQC4SBJ:shared_process": [],
+    "2BPA86SJN:shared_process": [],
+    "2BQXP1N48:shared_process": [],
+    "2BS635YF4:shared_process": [],
+    "2BS8S9TWZ:shared_process": [],
+    "2BT1FV53K:shared_process": [],
+    "2BRG4EDQT:shared_process": [],
+    "2BRBKMV6G:shared_process": [],
+    "2BPX9HXK8:shared_process": [],
+    "2BPCX21MY:shared_process": [],
+    "2BP9JV898:shared_process": [],
+    "2BR9MHZJ2:shared_process": [],
+    "2BPA7NY6F:shared_process": [],
+    "2BPMUQW6X:shared_process": [],
+    "2BREB797U:shared_process": [],
+    "2BRNDK1X2:shared_process": []
+  },
+  "config": {
+    "looknfeel": "default"
+  },
+  "info": {}
+}
