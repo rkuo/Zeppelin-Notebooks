@@ -2,7 +2,7 @@
   "paragraphs": [
     {
       "text": "%md\n# Functional Programming - Function Composition and Chaining\n\nmore description [here][1]\n\nNotes from [stackoverflow][2]\n\n* Function has type, it defined by its arity and parameter type and return type; for example in Scala, \n```\nval addOne: (Int) \u003d\u003e Int \u003d (x) \u003d\u003e x + 1\n```\nWe define a val (value), its name is `addOne`, which \ntakes one parameter of type `Int` and return vaule of type `Int`, this is the type of this function. If we gives `Int` as parameter and returns a `Boolean`, it will be different type. This `value` is in the form of `function`.\nthe function is implemented as described after `\u003d` sign.\nIn our example `x` is a parameter, can be any name,\nreturn `x + 1`\n\n* A function can be invoked with a list of arguments to produce a result. A function has a parameter list, a body, and a result type.\n* Functions that are members of a class, trait, or singleton object are called methods. \n* Functions defined inside other functions are called local functions. \n* Functions with the result type of Unit are called procedures. \n* Anonymous functions in source code are called function literals. At run time, function literals are instantiated into objects called function values.\n* Function can return a function; for [example][3]\n```\ndef deferTaxCalculation(emp: Employee): () \u003d\u003e Double \u003d { \n    reallySlowTaxCalculator(emp)\n}\n```\ndeferTaxCalculator takes one `Employee` as parameter, then returns \na function type `() \u003d Double`, take no parameter and return a Double.\n\n\n\n[1]:https://en.wikipedia.org/wiki/Function_composition\n[2]:http://stackoverflow.com/questions/2529184/difference-between-method-and-function-in-scala\n[3]:https://www.youtube.com/watch?v\u003dugHsIj60VfQ",
-      "dateUpdated": "Jul 9, 2016 12:00:41 PM",
+      "dateUpdated": "Jul 27, 2016 10:13:44 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -25,15 +25,12 @@
       "apps": [],
       "jobName": "paragraph_1466107397735_1142374544",
       "id": "20160616-130317_1939425602",
-      "result": {
-        "code": "SUCCESS",
-        "type": "HTML",
-        "msg": "\u003ch1\u003eFunctional Programming - Function Composition and Chaining\u003c/h1\u003e\n\u003cp\u003emore description \u003ca href\u003d\"https://en.wikipedia.org/wiki/Function_composition\"\u003ehere\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eNotes from \u003ca href\u003d\"http://stackoverflow.com/questions/2529184/difference-between-method-and-function-in-scala\"\u003estackoverflow\u003c/a\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cp\u003eFunction has type, it defined by its arity and parameter type and return type; for example in Scala,\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eval addOne: (Int) \u003d\u0026gt; Int \u003d (x) \u003d\u0026gt; x + 1\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003eWe define a val (value), its name is \u003ccode\u003eaddOne\u003c/code\u003e, which\n\u003cbr  /\u003etakes one parameter of type \u003ccode\u003eInt\u003c/code\u003e and return vaule of type \u003ccode\u003eInt\u003c/code\u003e, this is the type of this function. If we gives \u003ccode\u003eInt\u003c/code\u003e as parameter and returns a \u003ccode\u003eBoolean\u003c/code\u003e, it will be different type. This \u003ccode\u003evalue\u003c/code\u003e is in the form of \u003ccode\u003efunction\u003c/code\u003e.\n\u003cbr  /\u003ethe function is implemented as described after \u003ccode\u003e\u003d\u003c/code\u003e sign.\n\u003cbr  /\u003eIn our example \u003ccode\u003ex\u003c/code\u003e is a parameter, can be any name,\n\u003cbr  /\u003ereturn \u003ccode\u003ex + 1\u003c/code\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eA function can be invoked with a list of arguments to produce a result. A function has a parameter list, a body, and a result type.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eFunctions that are members of a class, trait, or singleton object are called methods.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eFunctions defined inside other functions are called local functions.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eFunctions with the result type of Unit are called procedures.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eAnonymous functions in source code are called function literals. At run time, function literals are instantiated into objects called function values.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eFunction can return a function; for \u003ca href\u003d\"https://www.youtube.com/watch?v\u003dugHsIj60VfQ\"\u003eexample\u003c/a\u003e\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003edef deferTaxCalculation(emp: Employee): () \u003d\u0026gt; Double \u003d { \nreallySlowTaxCalculator(emp)\n}\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003edeferTaxCalculator takes one \u003ccode\u003eEmployee\u003c/code\u003e as parameter, then returns\n\u003cbr  /\u003ea function type \u003ccode\u003e() \u003d Double\u003c/code\u003e, take no parameter and return a Double.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n"
-      },
+      "result": "org.apache.zeppelin.interpreter.InterpreterException: org.apache.thrift.transport.TTransportException: java.net.ConnectException: Connection refused",
       "dateCreated": "Jun 16, 2016 1:03:17 AM",
-      "dateStarted": "Jul 9, 2016 12:00:38 PM",
-      "dateFinished": "Jul 9, 2016 12:00:38 PM",
-      "status": "FINISHED",
+      "dateStarted": "Jul 27, 2016 10:13:44 AM",
+      "dateFinished": "Jul 27, 2016 10:14:15 AM",
+      "status": "ERROR",
+      "errorMessage": "java.net.ConnectException: Connection refused\n\tat java.net.PlainSocketImpl.socketConnect(Native Method)\n\tat java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)\n\tat java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)\n\tat java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)\n\tat java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)\n\tat java.net.Socket.connect(Socket.java:589)\n\tat org.apache.thrift.transport.TSocket.open(TSocket.java:182)\n\tat org.apache.zeppelin.interpreter.remote.ClientFactory.create(ClientFactory.java:51)\n\tat org.apache.zeppelin.interpreter.remote.ClientFactory.create(ClientFactory.java:37)\n\tat org.apache.commons.pool2.BasePooledObjectFactory.makeObject(BasePooledObjectFactory.java:60)\n\tat org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:861)\n\tat org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)\n\tat org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterProcess.getClient(RemoteInterpreterProcess.java:96)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreter.init(RemoteInterpreter.java:216)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreter.getFormType(RemoteInterpreter.java:383)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.getFormType(LazyOpenInterpreter.java:105)\n\tat org.apache.zeppelin.notebook.Paragraph.jobRun(Paragraph.java:290)\n\tat org.apache.zeppelin.scheduler.Job.run(Job.java:176)\n\tat org.apache.zeppelin.scheduler.RemoteScheduler$JobRunner.run(RemoteScheduler.java:329)\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\n",
       "progressUpdateIntervalMs": 500
     },
     {
@@ -889,26 +886,26 @@
   "name": "Functional Programming - Function Composition and Chaining",
   "id": "2BNUH921M",
   "lastReplName": {
-    "value": "spark"
+    "value": "md"
   },
   "angularObjects": {
-    "2BRKFDTAG:shared_process": [],
-    "2BQQC4SBJ:shared_process": [],
-    "2BPA86SJN:shared_process": [],
-    "2BQXP1N48:shared_process": [],
-    "2BS635YF4:shared_process": [],
-    "2BS8S9TWZ:shared_process": [],
-    "2BT1FV53K:shared_process": [],
-    "2BRG4EDQT:shared_process": [],
-    "2BRBKMV6G:shared_process": [],
-    "2BPX9HXK8:shared_process": [],
-    "2BPCX21MY:shared_process": [],
-    "2BP9JV898:shared_process": [],
-    "2BR9MHZJ2:shared_process": [],
-    "2BPA7NY6F:shared_process": [],
-    "2BPMUQW6X:shared_process": [],
-    "2BREB797U:shared_process": [],
-    "2BRNDK1X2:shared_process": []
+    "2BRF1PF38:shared_process": [],
+    "2BU45FT2H:shared_process": [],
+    "2BT7C6CEV:shared_process": [],
+    "2BQNRE5XK:shared_process": [],
+    "2BQZ8BGU6:shared_process": [],
+    "2BRAXBUEC:shared_process": [],
+    "2BTRHWQ4N:shared_process": [],
+    "2BS6HGFUV:shared_process": [],
+    "2BTXPZKU7:shared_process": [],
+    "2BU94VQCV:shared_process": [],
+    "2BUH8YZ7D:shared_process": [],
+    "2BRTB2TFV:shared_process": [],
+    "2BUGZV4PT:shared_process": [],
+    "2BS9R3U5X:shared_process": [],
+    "2BTY1T4KT:shared_process": [],
+    "2BT7HQDN3:shared_process": [],
+    "2BTPAKVPQ:shared_process": []
   },
   "config": {
     "looknfeel": "default"

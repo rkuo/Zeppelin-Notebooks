@@ -1,0 +1,326 @@
+{
+  "paragraphs": [
+    {
+      "title": "Use Cases",
+      "text": "%md \nThe figure below illustrates latency and bandwidth/data rate requirements of the various use cases which have been discussed in the context of 5G to date.\n\n[1]:",
+      "dateUpdated": "Aug 30, 2016 3:06:09 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1472550956821_1880672120",
+      "id": "20160830-025556_343036535",
+      "dateCreated": "Aug 30, 2016 2:55:56 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "5G technology requirements",
+      "text": "%md \n\n* 1-10Gbps connections to end points in the field (i.e. not theoretical maximum)\n* 1 millisecond end-to-end round trip delay (latency)\n* 1000x bandwidth per unit area\n* 10-100x number of connected devices\n* (Perception of) 99.999% availability\n* (Perception of) 100% coverage\n* 90% reduction in network energy usage\n* Up to ten year battery life for low power, machine-type devices",
+      "dateUpdated": "Aug 30, 2016 3:06:58 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1472551341524_2069367647",
+      "id": "20160830-030221_1777488188",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cul\u003e\n\u003cli\u003e1-10Gbps connections to end points in the field (i.e. not theoretical maximum)\u003c/li\u003e\n\u003cli\u003e1 millisecond end-to-end round trip delay (latency)\u003c/li\u003e\n\u003cli\u003e1000x bandwidth per unit area\u003c/li\u003e\n\u003cli\u003e10-100x number of connected devices\u003c/li\u003e\n\u003cli\u003e(Perception of) 99.999% availability\u003c/li\u003e\n\u003cli\u003e(Perception of) 100% coverage\u003c/li\u003e\n\u003cli\u003e90% reduction in network energy usage\u003c/li\u003e\n\u003cli\u003eUp to ten year battery life for low power, machine-type devices\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Aug 30, 2016 3:02:21 AM",
+      "dateStarted": "Aug 30, 2016 3:06:58 AM",
+      "dateFinished": "Aug 30, 2016 3:06:58 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Roadmap",
+      "text": "%md \n![roadmap][1]\n[1]:https://www.researchgate.net/profile/Valentin_Rakovic/publication/276204643/figure/fig2/AS:267601540546575@1440812587233/Figure-9-5G-roadmap-and-timeline.png",
+      "dateUpdated": "Aug 27, 2016 7:26:03 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1472349838402_-839900239",
+      "id": "20160827-190358_254775888",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003cimg src\u003d\"https://www.researchgate.net/profile/Valentin_Rakovic/publication/276204643/figure/fig2/AS:267601540546575@1440812587233/Figure-9-5G-roadmap-and-timeline.png\" alt\u003d\"roadmap\" /\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Aug 27, 2016 7:03:58 PM",
+      "dateStarted": "Aug 27, 2016 7:26:03 PM",
+      "dateFinished": "Aug 27, 2016 7:26:03 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Difference between 4G and 5G",
+      "text": "%md \nFrom: http://www.androidauthority.com/4g-and-5g-wireless-how-they-are-alike-and-how-they-differ-615709/ \n\n* Wireless networks till 4G mostly focused on the availability of raw bandwidth, while 5G is aiming on providing pervasive connectivity to lay grounds for fast and resilient access to the Internet users, whether they are on a top of a skyscraper or down under a subway station. Although LTE standard is incorporating a variant called machine type communications (MTC) for the IoT traffic, 5G technologies are being designed from grounds up to support MTC-like devices.\n\n* The 5G networks are not going to be a monolithic network entity and will be built around a combination of technologies: 2G, 3G, LTE, LTE-A, Wi-Fi, M2M, etc. In other words, 5G will be designed to support a variety of applications such as the IoT, connected wearables, augmented reality and immersive gaming.\n\n* The 5G networks will pioneer new architectures like cloud RAN and virtual RAN to facilitate a more centralized network establishment and make the best use of server farms through localized data centers at the network edges.\n\n* 5G will spearhead the use of cognitive radio techniques to allow the infrastructure to automatically decide about the type of channel to be offered, differentiate between mobile and fixed objects, and adapt to conditions at a given time.\n",
+      "dateUpdated": "Aug 29, 2016 4:55:29 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true,
+        "editorHide": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1472115901048_1075907949",
+      "id": "20160825-020501_447542316",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eFrom: http://www.androidauthority.com/4g-and-5g-wireless-how-they-are-alike-and-how-they-differ-615709/\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cp\u003eWireless networks till 4G mostly focused on the availability of raw bandwidth, while 5G is aiming on providing pervasive connectivity to lay grounds for fast and resilient access to the Internet users, whether they are on a top of a skyscraper or down under a subway station. Although LTE standard is incorporating a variant called machine type communications (MTC) for the IoT traffic, 5G technologies are being designed from grounds up to support MTC-like devices.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eThe 5G networks are not going to be a monolithic network entity and will be built around a combination of technologies: 2G, 3G, LTE, LTE-A, Wi-Fi, M2M, etc. In other words, 5G will be designed to support a variety of applications such as the IoT, connected wearables, augmented reality and immersive gaming.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003eThe 5G networks will pioneer new architectures like cloud RAN and virtual RAN to facilitate a more centralized network establishment and make the best use of server farms through localized data centers at the network edges.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cp\u003e5G will spearhead the use of cognitive radio techniques to allow the infrastructure to automatically decide about the type of channel to be offered, differentiate between mobile and fixed objects, and adapt to conditions at a given time.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Aug 25, 2016 2:05:01 AM",
+      "dateStarted": "Aug 27, 2016 7:03:51 PM",
+      "dateFinished": "Aug 27, 2016 7:03:51 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Key Components",
+      "text": "%md \nKey technology components of 5G wireless access include access/backhaul integration, device-to-device communication, flexible duplex, flexible spectrum usage, multi-antenna transmission, ultra-lean design, and user/control separation.",
+      "dateUpdated": "Aug 29, 2016 4:56:27 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1472514946869_-114994342",
+      "id": "20160829-165546_1209115827",
+      "dateCreated": "Aug 29, 2016 4:55:46 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "MegaTrend",
+      "text": "%md \nFrom: \n* Peter Merz, Nokia - 5G Architecture – healthy balance between Evolution and Revolution [video][1], [slide][2]\n* Erik Ekudden, Ericsson - The future 5G eco system - Johannesberg Summit 2015 [video][3], slide  \n  ![underline factors for network transformation][5]\ndimension: digitalization (virtualization: physical -\u003e digital -\u003e data driven), moblization (automation, optization, ML)\n    * Core components:\n        * Virtualization\n        * Network as a Service: slicing\n        * Distributed [computing | storage | cloud | intelligent]\n        * Software Defined Infrastructure\n\n**pattern**: generalize -\u003e virtualize -\u003e pooling -\u003e customizing\n        \n* ![network transformation][6]\n* ![network architecture][7]\n\n[1]:https://www.youtube.com/watch?v\u003dzJVZ-BhM3QI\n[2]:https://johannesbergsummit.com/wp-content/uploads/sites/6/2014/11/Tuesday_2_Peter-Merz.pdf\n[3]:https://www.youtube.com/watch?v\u003d9NwDEzumkUQ\n[5]:https://www.evernote.com/l/AS6SSo9fG69GJ6gv1sLrcAdlGvpsq9OlspA\n[6]:http://www.netmanias.com/en/?m\u003dattach\u0026no\u003d13955\n[7]:http://www.netmanias.com/en/?m\u003dattach\u0026no\u003d13956\n",
+      "dateUpdated": "Aug 30, 2016 2:55:24 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true,
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1472120326097_114622125",
+      "id": "20160825-031846_1980648618",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eFrom:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003ePeter Merz, Nokia - 5G Architecture – healthy balance between Evolution and Revolution \u003ca href\u003d\"https://www.youtube.com/watch?v\u003dzJVZ-BhM3QI\"\u003evideo\u003c/a\u003e, \u003ca href\u003d\"https://johannesbergsummit.com/wp-content/uploads/sites/6/2014/11/Tuesday_2_Peter-Merz.pdf\"\u003eslide\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eErik Ekudden, Ericsson - The future 5G eco system - Johannesberg Summit 2015 \u003ca href\u003d\"https://www.youtube.com/watch?v\u003d9NwDEzumkUQ\"\u003evideo\u003c/a\u003e, slide\n\u003cbr  /\u003e\u003cimg src\u003d\"https://www.evernote.com/l/AS6SSo9fG69GJ6gv1sLrcAdlGvpsq9OlspA\" alt\u003d\"underline factors for network transformation\" /\u003e\n\u003cbr  /\u003edimension: digitalization (virtualization: physical -\u003e digital -\u003e data driven), moblization (automation, optization, ML)\u003cul\u003e\n\u003cli\u003eCore components:\u003cul\u003e\n\u003cli\u003eVirtualization\u003c/li\u003e\n\u003cli\u003eNetwork as a Service: slicing\u003c/li\u003e\n\u003cli\u003eDistributed [computing | storage | cloud | intelligent]\u003c/li\u003e\n\u003cli\u003eSoftware Defined Infrastructure\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cstrong\u003epattern\u003c/strong\u003e: generalize -\u003e virtualize -\u003e pooling -\u003e customizing\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cimg src\u003d\"http://www.netmanias.com/en/?m\u003dattach\u0026amp;no\u003d13955\" alt\u003d\"network transformation\" /\u003e\u003c/li\u003e\n\u003cli\u003e\u003cimg src\u003d\"http://www.netmanias.com/en/?m\u003dattach\u0026amp;no\u003d13956\" alt\u003d\"network architecture\" /\u003e\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Aug 25, 2016 3:18:46 AM",
+      "dateStarted": "Aug 30, 2016 2:55:24 AM",
+      "dateFinished": "Aug 30, 2016 2:55:24 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md \nwhat is [tactile internet(觸覺互聯網)][1]\n\n[1]:https://www.quora.com/What-is-tactile-internet\n[2]:https://arxiv.org/pdf/1510.02826.pdf",
+      "dateUpdated": "Aug 29, 2016 6:51:51 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1472521545781_57902107",
+      "id": "20160829-184545_1237069191",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003ewhat is \u003ca href\u003d\"https://www.quora.com/What-is-tactile-internet\"\u003etactile internet(觸覺互聯網)\u003c/a\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Aug 29, 2016 6:45:45 PM",
+      "dateStarted": "Aug 29, 2016 6:50:39 PM",
+      "dateFinished": "Aug 29, 2016 6:50:39 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Reference",
+      "text": "%md \n[whitepaper list-1][1]\n[1]:http://www.sharetechnote.com/html/5G_Whitepaper_Forum.html",
+      "dateUpdated": "Aug 26, 2016 7:40:02 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1472260215797_-1514780401",
+      "id": "20160826-181015_1382092843",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003ca href\u003d\"http://www.sharetechnote.com/html/5G_Whitepaper_Forum.html\"\u003ewhitepaper list-1\u003c/a\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Aug 26, 2016 6:10:15 PM",
+      "dateStarted": "Aug 26, 2016 7:40:02 PM",
+      "dateFinished": "Aug 26, 2016 7:40:02 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md ",
+      "dateUpdated": "Aug 26, 2016 7:40:02 PM",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1472265602121_-1389031573",
+      "id": "20160826-194002_1666468183",
+      "dateCreated": "Aug 26, 2016 7:40:02 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "5G Network",
+  "id": "2BVKGSUNP",
+  "lastReplName": {
+    "value": "md"
+  },
+  "angularObjects": {
+    "2BRF1PF38:shared_process": [],
+    "2BU45FT2H:shared_process": [],
+    "2BT7C6CEV:shared_process": [],
+    "2BQNRE5XK:shared_process": [],
+    "2BQZ8BGU6:shared_process": [],
+    "2BRAXBUEC:shared_process": [],
+    "2BTRHWQ4N:shared_process": [],
+    "2BS6HGFUV:shared_process": [],
+    "2BTXPZKU7:shared_process": [],
+    "2BU94VQCV:shared_process": [],
+    "2BUH8YZ7D:shared_process": [],
+    "2BRTB2TFV:shared_process": [],
+    "2BUGZV4PT:shared_process": [],
+    "2BS9R3U5X:shared_process": [],
+    "2BTY1T4KT:shared_process": [],
+    "2BT7HQDN3:shared_process": [],
+    "2BTPAKVPQ:shared_process": []
+  },
+  "config": {},
+  "info": {}
+}

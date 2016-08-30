@@ -1,0 +1,216 @@
+{
+  "paragraphs": [
+    {
+      "title": "Resources",
+      "text": "%md \n\n[A Short Introduction to the Eclipse Modeling Framework][1]     \n[Reference card][4]   \n[Design Patterns Used in Eclipse][5]   \n[What every Eclipse developer should know about EMF][5]   \n\n[1]:https://d3s.mff.cuni.cz/~gergic/presentations/emf/zemf1.html\n[2]:http://www.eclipse.org/modeling/emf/docs/#tutorials\n[3]:http://www.slideshare.net/kronat?utm_campaign\u003dprofiletracking\u0026utm_medium\u003dsssite\u0026utm_source\u003dssslideview\n[4]:https://dzone.com/storage/assets/4302-rc039-010d-emf.pdf \n[5]:http://eclipsesource.com/blogs/tutorials/emf-tutorial/",
+      "dateUpdated": "Jul 28, 2016 1:30:22 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1469480038709_1843130728",
+      "id": "20160725-135358_1071312671",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003ca href\u003d\"https://d3s.mff.cuni.cz/~gergic/presentations/emf/zemf1.html\"\u003eA Short Introduction to the Eclipse Modeling Framework\u003c/a\u003e\n\u003cbr  /\u003e\u003ca href\u003d\"https://dzone.com/storage/assets/4302-rc039-010d-emf.pdf\"\u003eReference card\u003c/a\u003e\n\u003cbr  /\u003e\u003ca href\u003d\"http://eclipsesource.com/blogs/tutorials/emf-tutorial/\"\u003eDesign Patterns Used in Eclipse\u003c/a\u003e\n\u003cbr  /\u003e\u003ca href\u003d\"http://eclipsesource.com/blogs/tutorials/emf-tutorial/\"\u003eWhat every Eclipse developer should know about EMF\u003c/a\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jul 25, 2016 1:53:58 AM",
+      "dateStarted": "Jul 28, 2016 1:29:56 PM",
+      "dateFinished": "Jul 28, 2016 1:29:56 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "What is Eclipse Modeling Framework (EMF)?",
+      "text": "%md \nFrom [Eclipse][1]\nThe EMF project is a modeling framework and code generation facility for building tools and other applications based on a structured data model. From a model specification described in XMI, EMF provides tools and runtime support to produce a set of Java classes for the model, along with a set of adapter classes that enable viewing and command-based editing of the model, and a basic editor.\n\n#### EMF (Core)\n\nEMF consists of three fundamental pieces:\n\n* EMF - The core EMF framework includes a meta model (Ecore) for describing models and runtime support for the models including change notification, persistence support with default XMI serialization, and a very efficient reflective API for manipulating EMF objects generically.  \n* EMF.Edit - The EMF.Edit framework includes generic reusable classes for building editors for EMF models. It provides Content and label provider classes, property source support, and other convenience classes that allow EMF models to be displayed using standard desktop (JFace) viewers and property sheets. A command framework, including a set of generic command implementation classes for building editors that support fully automatic undo and redo.\n* EMF.Codegen - The EMF code generation facility is capable of generating everything needed to build a complete editor for an EMF model. It includes a GUI from which generation options can be specified, and generators can be invoked. The generation facility leverages the JDT (Java Development Tooling) component of Eclipse.\n\nThree levels of code generation are supported:\n\n* Model - provides Java interfaces and implementation classes for all the classes in the model, plus a factory and package (meta data) implementation class.\n* Adapters - generates implementation classes (called ItemProviders) that adapt the model classes for editing and display.\n* Editor - produces a properly structured editor that conforms to the recommended style for Eclipse EMF model editors and serves as a starting point from which to start customizing.\n\n#### Metamodel\n\n![EMF metamodel][2] \n\n[Brief Introduction of Eclipse Modeling Framework][3]\n\n#### Meta-metamodel\n\n[1]:https://eclipse.org/modeling/emf/\n[2]:http://assets.devx.com/articlefigs/03emp01.jpg\n[3]:https://sites.google.com/site/zhaochenting2/emf\n[4]:http://people.irisa.fr/Benoit.Combemale/teaching/mde/MetamodelingWithEclipseModelingTutorial-2x2.pdf\n",
+      "dateUpdated": "Jul 28, 2016 1:18:41 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1469295502189_1657262083",
+      "id": "20160723-103822_372539410",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eFrom \u003ca href\u003d\"https://eclipse.org/modeling/emf/\"\u003eEclipse\u003c/a\u003e\n\u003cbr  /\u003eThe EMF project is a modeling framework and code generation facility for building tools and other applications based on a structured data model. From a model specification described in XMI, EMF provides tools and runtime support to produce a set of Java classes for the model, along with a set of adapter classes that enable viewing and command-based editing of the model, and a basic editor.\u003c/p\u003e\n\u003ch4\u003eEMF (Core)\u003c/h4\u003e\n\u003cp\u003eEMF consists of three fundamental pieces:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eEMF - The core EMF framework includes a meta model (Ecore) for describing models and runtime support for the models including change notification, persistence support with default XMI serialization, and a very efficient reflective API for manipulating EMF objects generically.\u003c/li\u003e\n\u003cli\u003eEMF.Edit - The EMF.Edit framework includes generic reusable classes for building editors for EMF models. It provides Content and label provider classes, property source support, and other convenience classes that allow EMF models to be displayed using standard desktop (JFace) viewers and property sheets. A command framework, including a set of generic command implementation classes for building editors that support fully automatic undo and redo.\u003c/li\u003e\n\u003cli\u003eEMF.Codegen - The EMF code generation facility is capable of generating everything needed to build a complete editor for an EMF model. It includes a GUI from which generation options can be specified, and generators can be invoked. The generation facility leverages the JDT (Java Development Tooling) component of Eclipse.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eThree levels of code generation are supported:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eModel - provides Java interfaces and implementation classes for all the classes in the model, plus a factory and package (meta data) implementation class.\u003c/li\u003e\n\u003cli\u003eAdapters - generates implementation classes (called ItemProviders) that adapt the model classes for editing and display.\u003c/li\u003e\n\u003cli\u003eEditor - produces a properly structured editor that conforms to the recommended style for Eclipse EMF model editors and serves as a starting point from which to start customizing.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003eMetamodel\u003c/h4\u003e\n\u003cp\u003e\u003cimg src\u003d\"http://assets.devx.com/articlefigs/03emp01.jpg\" alt\u003d\"EMF metamodel\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href\u003d\"https://sites.google.com/site/zhaochenting2/emf\"\u003eBrief Introduction of Eclipse Modeling Framework\u003c/a\u003e\u003c/p\u003e\n\u003ch4\u003eMeta-metamodel\u003c/h4\u003e\n"
+      },
+      "dateCreated": "Jul 23, 2016 10:38:22 AM",
+      "dateStarted": "Jul 28, 2016 11:29:05 AM",
+      "dateFinished": "Jul 28, 2016 11:29:05 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Meta-metamodel",
+      "text": "%md \n\nSee [4.2.1 Ecore as the UIMA Type System Model in Unstructured Information Management Architecture (UIMA) Version 1.0][2] depicts the relationship of ecore and Common Analysis Structure (CAS)\n\n![Ecore defines schema for CAS][3]\n\n##### type vs class   \nA type is an abstract interface.\n* Types generally represent nouns, such as a person, place or thing, or something nominalized,      \n\nA class represents an implementation of the type.\n* It is a concrete data structure and collection of subroutines\n\n[1]:http://docs.oasis-open.org/uima/v1.0/cd01/uima-spec-cd-01.html\n[2]:http://docs.oasis-open.org/uima/v1.0/cd01/uima-spec-cd-01.html#_Toc205201053\n[3]:http://docs.oasis-open.org/uima/v1.0/cd01/uima-spec-cd-01_files/image007.gif\n",
+      "dateUpdated": "Jul 28, 2016 4:10:14 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1469723262278_-1498997842",
+      "id": "20160728-092742_1255414479",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003eSee \u003ca href\u003d\"http://docs.oasis-open.org/uima/v1.0/cd01/uima-spec-cd-01.html#_Toc205201053\"\u003e4.2.1 Ecore as the UIMA Type System Model in Unstructured Information Management Architecture (UIMA) Version 1.0\u003c/a\u003e depicts the relationship of ecore and Common Analysis Structure (CAS)\u003c/p\u003e\n\u003cp\u003e\u003cimg src\u003d\"http://docs.oasis-open.org/uima/v1.0/cd01/uima-spec-cd-01_files/image007.gif\" alt\u003d\"Ecore defines schema for CAS\" /\u003e\u003c/p\u003e\n\u003ch5\u003etype vs class\u003c/h5\u003e\n\u003cp\u003eA type is an abstract interface.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eTypes generally represent nouns, such as a person, place or thing, or something nominalized,\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eA class represents an implementation of the type.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eIt is a concrete data structure and collection of subroutines\u003c/li\u003e\n\u003c/ul\u003e\n"
+      },
+      "dateCreated": "Jul 28, 2016 9:27:42 AM",
+      "dateStarted": "Jul 28, 2016 4:10:14 PM",
+      "dateFinished": "Jul 28, 2016 4:10:14 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "EMF - Basic Use",
+      "text": "%md \n[Eclipse Modeling Tools tutorial - Creating a Simple Model][1]\n[Huntsville Eclipse Framework Developers Group][2]\n\n[1]:http://edmundo.lopezbobeda.net/content/eclipse-modeling-tools-tutorial-creating-simple-model-screencast\n[2]:https://www.youtube.com/watch?v\u003d34DKvRuTSm4",
+      "dateUpdated": "Jul 28, 2016 4:12:05 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/markdown",
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1469670275758_2038849538",
+      "id": "20160727-184435_1425841740",
+      "result": {
+        "code": "SUCCESS",
+        "type": "HTML",
+        "msg": "\u003cp\u003e\u003ca href\u003d\"http://edmundo.lopezbobeda.net/content/eclipse-modeling-tools-tutorial-creating-simple-model-screencast\"\u003eEclipse Modeling Tools tutorial - Creating a Simple Model\u003c/a\u003e\n\u003cbr  /\u003e\u003ca href\u003d\"https://www.youtube.com/watch?v\u003d34DKvRuTSm4\"\u003eHuntsville Eclipse Framework Developers Group\u003c/a\u003e\u003c/p\u003e\n"
+      },
+      "dateCreated": "Jul 27, 2016 6:44:35 PM",
+      "dateStarted": "Jul 28, 2016 12:08:21 AM",
+      "dateFinished": "Jul 28, 2016 12:08:21 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Building Business UIs with EMF Forms",
+      "text": "%md \n\n[1]:https://www.infoq.com/presentations/emf-forms#downloadPdf",
+      "dateUpdated": "Jul 27, 2016 6:49:06 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "title": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1469295515965_1097067685",
+      "id": "20160723-103835_44320921",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": ""
+      },
+      "dateCreated": "Jul 23, 2016 10:38:35 AM",
+      "dateStarted": "Jul 27, 2016 12:35:19 PM",
+      "dateFinished": "Jul 27, 2016 12:35:19 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "Modeling - Eclipse Modeling Framework",
+  "id": "2BQHXEKEZ",
+  "lastReplName": {
+    "value": "md"
+  },
+  "angularObjects": {
+    "2BRF1PF38:shared_process": [],
+    "2BU45FT2H:shared_process": [],
+    "2BT7C6CEV:shared_process": [],
+    "2BQNRE5XK:shared_process": [],
+    "2BQZ8BGU6:shared_process": [],
+    "2BRAXBUEC:shared_process": [],
+    "2BTRHWQ4N:shared_process": [],
+    "2BS6HGFUV:shared_process": [],
+    "2BTXPZKU7:shared_process": [],
+    "2BU94VQCV:shared_process": [],
+    "2BUH8YZ7D:shared_process": [],
+    "2BRTB2TFV:shared_process": [],
+    "2BUGZV4PT:shared_process": [],
+    "2BS9R3U5X:shared_process": [],
+    "2BTY1T4KT:shared_process": [],
+    "2BT7HQDN3:shared_process": [],
+    "2BTPAKVPQ:shared_process": []
+  },
+  "config": {
+    "looknfeel": "default"
+  },
+  "info": {}
+}
